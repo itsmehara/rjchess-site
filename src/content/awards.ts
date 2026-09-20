@@ -28,6 +28,7 @@ export const awardGroups: { heading: string; items: Award[] }[] = [
         alt: "Gold trophy inscribed SLAN Corporate Sports Meet Season 1 — 3rd Prize",
         title: "SLAN Corporate Sports Meet, Season 1",
         sub: "3rd prize",
+        cutout: "/awards/corporate-sports-meet-third-prize-cutout.webp",
       },
       {
         src: "/awards/tcs-adibatla-chess-winner-gold.jpg",
@@ -65,18 +66,21 @@ export const awardGroups: { heading: string; items: Award[] }[] = [
         alt: "Plaque for the Krishna District Rapid & Blitz Championship 2024, 13 October 2024, Triveni School, Gudivada, organised by SRR Charitable Trust",
         title: "Krishna District Rapid & Blitz Championship 2024",
         sub: "Triveni School, Gudivada · SRR Charitable Trust",
+        cutout: "/awards/krishna-district-rapid-blitz-2024-cutout.webp",
       },
       {
         src: "/awards/krishna-district-open-women-2024-green-school.jpg",
         alt: "Plaque for the Krishna District Open & Women Chess Championship 2024, 12 May 2024, Green School, Penamaluru",
         title: "Krishna District Open & Women Chess Championship 2024",
         sub: "Green School, Penamaluru",
+        cutout: "/awards/krishna-district-open-women-2024-green-school-cutout.webp",
       },
       {
         src: "/awards/krishna-district-open-2024-green-school.jpg",
         alt: "Black king memento for the Krishna District Open Chess Tournament 2024, 24 March 2024, Green School, Poranki",
         title: "Krishna District Open Chess Tournament 2024",
         sub: "Green School, Poranki",
+        cutout: "/awards/krishna-district-open-2024-green-school-cutout.webp",
       },
       {
         src: "/awards/krishna-district-under-25-chess-2019-first-prize-vuyyuru-player.jpg",
@@ -124,6 +128,7 @@ export const awardGroups: { heading: string; items: Award[] }[] = [
         alt: "Shield plaque inscribed Men 2nd Place, organised by A.G. & S.G. Siddhartha Degree College",
         title: "A.G. & S.G. Siddhartha Degree College",
         sub: "Men · 2nd place",
+        cutout: "/awards/ag-sg-siddhartha-degree-college-men-second-place-cutout.webp",
       },
     ],
   },
