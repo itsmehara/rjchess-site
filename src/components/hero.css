@@ -108,8 +108,8 @@
   pointer-events: none;
   transition: opacity var(--fade, 2.2s) ease-in-out;
   background:
-    linear-gradient(94deg, rgba(6, 6, 9, 0.74) 0%, rgba(8, 7, 11, 0.42) 14%, rgba(10, 9, 12, 0.1) 27%, rgba(10, 9, 12, 0) 38%),
-    linear-gradient(180deg, rgba(5, 5, 8, 0.4) 0%, transparent 14%, transparent 80%, rgba(4, 4, 7, 0.42) 100%);
+    linear-gradient(94deg, rgba(var(--scrim-rgb), 0.74) 0%, rgba(var(--scrim-rgb), 0.42) 14%, rgba(var(--scrim-rgb), 0.1) 27%, rgba(var(--scrim-rgb), 0) 38%),
+    linear-gradient(180deg, rgba(var(--scrim-rgb), 0.4) 0%, transparent 14%, transparent 80%, rgba(var(--scrim-rgb), 0.42) 100%);
 }
 
 /* The palace frame is bright marble — the dark-hall grade is not enough to keep
@@ -122,8 +122,8 @@
   pointer-events: none;
   transition: opacity var(--fade, 2.2s) ease-in-out;
   background:
-    linear-gradient(94deg, rgba(6, 5, 9, 0.5) 0%, rgba(7, 6, 10, 0.36) 16%, rgba(9, 8, 12, 0.14) 30%, rgba(9, 8, 12, 0) 42%),
-    linear-gradient(180deg, rgba(5, 4, 8, 0.2) 0%, transparent 14%, transparent 82%, rgba(4, 4, 7, 0.22) 100%);
+    linear-gradient(94deg, rgba(var(--scrim-rgb), 0.5) 0%, rgba(var(--scrim-rgb), 0.36) 16%, rgba(var(--scrim-rgb), 0.14) 30%, rgba(var(--scrim-rgb), 0) 42%),
+    linear-gradient(180deg, rgba(var(--scrim-rgb), 0.2) 0%, transparent 14%, transparent 82%, rgba(var(--scrim-rgb), 0.22) 100%);
 }
 .stage.is-bright .atmosphere-bright { opacity: 1; }
 .atmosphere::after {
@@ -131,7 +131,7 @@
   position: absolute;
   inset: 0;
   opacity: 0.3;
-  background: radial-gradient(circle at 22% 34%, rgba(224, 176, 84, 0.3), transparent 26%);
+  background: radial-gradient(circle at 22% 34%, rgba(var(--gold-rgb), 0.3), transparent 26%);
   animation: light-drift 14s ease-in-out infinite alternate;
 }
 @keyframes light-drift { to { transform: translate3d(5%, 3%, 0) scale(1.1); opacity: 0.44; } }
@@ -151,7 +151,7 @@
   z-index: 8;
   height: 32px;
   overflow: hidden;
-  color: #1a1408;
+  color: var(--on-gold);
   background: linear-gradient(90deg, var(--gold) 0%, var(--gold-bright) 50%, var(--gold) 100%);
   font-size: 11px;
   font-weight: 800;
@@ -164,7 +164,7 @@
 .stage.is-paused .ribbon-track { animation-play-state: paused; }
 .ribbon-group { display: flex; align-items: center; gap: 30px; padding-right: 30px; }
 .ribbon a { color: inherit; text-decoration: none; }
-.ribbon .dot { width: 4px; height: 4px; border-radius: 50%; background: rgba(26, 20, 8, 0.55); }
+.ribbon .dot { width: 4px; height: 4px; border-radius: 50%; background: rgba(var(--on-gold-rgb, 26, 20, 8), 0.55); }
 @keyframes ribbon-scroll { to { transform: translateX(-50%); } }
 
 /* ---------- Nav ---------- */
@@ -179,7 +179,7 @@
   width: min(1360px, calc(100% - 7vw));
   margin: 0 auto;
   padding: 22px 0 18px;
-  border-bottom: 1px solid rgba(245, 239, 227, 0.16);
+  border-bottom: 1px solid rgba(var(--ivory-rgb), 0.16);
 }
 .wordmark { display: flex; align-items: center; gap: 13px; color: var(--ivory); text-decoration: none; }
 .mark {
@@ -187,9 +187,9 @@
   place-items: center;
   width: 42px;
   height: 42px;
-  border: 1px solid rgba(214, 169, 74, 0.6);
+  border: 1px solid rgba(var(--gold-rgb), 0.6);
   border-radius: 3px;
-  background: rgba(214, 169, 74, 0.1);
+  background: rgba(var(--gold-rgb), 0.1);
   color: var(--gold-bright);
   font-family: var(--serif);
   font-size: 25px;
@@ -244,7 +244,7 @@
 .menu a:hover,
 .menu a.is-active {
   color: var(--gold-bright);
-  text-shadow: 0 0 14px rgba(240, 200, 119, 0.55), 0 1px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 14px rgba(var(--gold-rgb), 0.55), 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 .menu a:hover::after,
 .menu a.is-active::after { transform: scaleX(1); }
@@ -260,7 +260,7 @@
   padding: 11px 18px;
   border: 1px solid var(--gold);
   border-radius: 2px;
-  color: #171104;
+  color: var(--on-gold);
   background: var(--gold);
   text-decoration: none;
   font-size: 12px;
@@ -288,7 +288,7 @@
   border: 0;
   border-right: 1px solid var(--line);
   background: transparent;
-  color: rgba(245, 239, 227, 0.66);
+  color: rgba(var(--ivory-rgb), 0.66);
   cursor: pointer;
   font-size: 9.5px;
   font-weight: 800;
@@ -297,8 +297,8 @@
   transition: background 0.2s ease, color 0.2s ease;
 }
 .speed-control button:last-child { border-right: 0; }
-.speed-control button:hover { color: var(--ivory); background: rgba(245, 239, 227, 0.07); }
-.speed-control button.on { color: #171104; background: var(--gold); }
+.speed-control button:hover { color: var(--ivory); background: rgba(var(--ivory-rgb), 0.07); }
+.speed-control button.on { color: var(--on-gold); background: var(--gold); }
 .pause-glyph {
   position: relative;
   width: 9px;
@@ -337,10 +337,10 @@
   width: auto;
   margin: 0;
   padding: 12px max(3.5vw, calc((100vw - 1360px) / 2)) 11px;
-  background: rgba(10, 10, 12, 0.94);
+  background: rgba(var(--scrim-rgb), 0.94);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(245, 239, 227, 0.1);
+  border-bottom: 1px solid rgba(var(--ivory-rgb), 0.1);
 }
 .nav.is-stuck .speed-control { display: none; }
 .nav.is-stuck .mark { width: 34px; height: 34px; font-size: 20px; }
@@ -387,7 +387,7 @@
 }
 .fee-line {
   margin: 16px 0 0;
-  color: rgba(245, 239, 227, 0.7);
+  color: rgba(var(--ivory-rgb), 0.7);
   font-size: 13px;
   letter-spacing: 0.04em;
 }
@@ -399,10 +399,10 @@
   gap: 22px;
   min-width: 196px;
   padding: 15px 18px;
-  border: 1px solid rgba(245, 239, 227, 0.34);
+  border: 1px solid rgba(var(--ivory-rgb), 0.34);
   border-radius: 2px;
   color: var(--ivory);
-  background: rgba(10, 10, 14, 0.34);
+  background: rgba(var(--scrim-rgb), 0.34);
   backdrop-filter: blur(10px);
   text-decoration: none;
   font-size: 12.5px;
@@ -412,7 +412,7 @@
   transition: border-color 0.25s ease, background 0.25s ease, transform 0.25s ease;
 }
 .hero-actions a:hover { border-color: var(--gold); transform: translateY(-2px); }
-.hero-actions a.primary { border-color: var(--gold); color: #171104; background: var(--gold); }
+.hero-actions a.primary { border-color: var(--gold); color: var(--on-gold); background: var(--gold); }
 .hero-actions a.primary:hover { background: var(--gold-bright); }
 
 /* ---------- Scene status ---------- */
@@ -426,7 +426,7 @@
   text-align: right;
 }
 .status .seq { font-family: var(--serif); font-size: 13px; letter-spacing: 0.18em; color: var(--gold); }
-.progress { width: 100%; height: 1px; margin: 10px 0; overflow: hidden; background: rgba(245, 239, 227, 0.22); }
+.progress { width: 100%; height: 1px; margin: 10px 0; overflow: hidden; background: rgba(var(--ivory-rgb), 0.22); }
 .progress i {
   display: block;
   width: 100%;
@@ -438,7 +438,7 @@
 @keyframes progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 .status p {
   margin: 0;
-  color: rgba(245, 239, 227, 0.6);
+  color: rgba(var(--ivory-rgb), 0.6);
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.16em;
@@ -465,11 +465,11 @@
     padding: 10px 2px;
     overflow-x: auto;
     scrollbar-width: none;
-    border-bottom: 1px solid rgba(245, 239, 227, 0.12);
+    border-bottom: 1px solid rgba(var(--ivory-rgb), 0.12);
   }
   .menu::-webkit-scrollbar { display: none; }
   .nav.is-stuck { width: auto; padding: 10px 16px 9px; }
-  .nav.is-stuck .menu { padding: 10px 16px; background: rgba(10, 10, 12, 0.96); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+  .nav.is-stuck .menu { padding: 10px 16px; background: rgba(var(--scrim-rgb), 0.96); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
   .menu a { font-size: 12px; letter-spacing: 0.1em; white-space: nowrap; }
 }
 
@@ -505,11 +505,11 @@
   .shot { background-position: center 26%; }
   .atmosphere {
     background:
-      linear-gradient(180deg, rgba(5, 5, 8, 0.5) 0%, rgba(5, 5, 8, 0.3) 12%, transparent 22%, transparent 40%, rgba(6, 6, 9, 0.56) 62%, rgba(5, 5, 8, 0.68) 100%);
+      linear-gradient(180deg, rgba(var(--scrim-rgb), 0.5) 0%, rgba(var(--scrim-rgb), 0.3) 12%, transparent 22%, transparent 40%, rgba(var(--scrim-rgb), 0.56) 62%, rgba(var(--scrim-rgb), 0.68) 100%);
   }
   .atmosphere-bright {
     background:
-      linear-gradient(180deg, rgba(5, 4, 8, 0.3) 0%, rgba(5, 4, 8, 0.2) 12%, transparent 22%, transparent 30%, rgba(6, 5, 9, 0.46) 50%, rgba(5, 4, 8, 0.52) 100%);
+      linear-gradient(180deg, rgba(var(--scrim-rgb), 0.3) 0%, rgba(var(--scrim-rgb), 0.2) 12%, transparent 22%, transparent 30%, rgba(var(--scrim-rgb), 0.46) 50%, rgba(var(--scrim-rgb), 0.52) 100%);
   }
   .vignette { box-shadow: none; }
 }

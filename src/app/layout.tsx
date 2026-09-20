@@ -23,7 +23,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${serif.variable} ${sans.variable}`}>
+    <html lang="en" className={`${serif.variable} ${sans.variable}`} suppressHydrationWarning>
+      <head>
+        {/* Applies the saved / linked theme before first paint; see ThemePicker. */}
+        {/* eslint-disable-next-line @next/next/no-sync-scripts -- must run before paint (~300 B) */}
+        <script src="/theme-init.js" />
+      </head>
       <body>{children}</body>
     </html>
   );

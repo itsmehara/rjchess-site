@@ -6,6 +6,7 @@ import { Syllabus } from "@/components/Syllabus";
 import { Events } from "@/components/Events";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
+import { ThemePicker } from "@/components/ThemePicker";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <ThemePicker />
     </>
   );
 }
