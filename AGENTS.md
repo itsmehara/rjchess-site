@@ -1,4 +1,4 @@
-# Codex instructions — Jagadeesh Babu Chess Academy site
+# Codex instructions — Jagadeesh Babu (RJChess) coaching site
 
 This file is the Codex-CLI equivalent of this folder's `CLAUDE.md` — keep both in sync if you
 update one.

@@ -1,4 +1,4 @@
-# RJChess Academy
+# RJChess
 
 Single-page site for chess coach Jagadeesh Babu — Next.js (App Router), exported as static HTML so it can be hosted anywhere.
 

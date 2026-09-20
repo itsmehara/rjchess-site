@@ -1,8 +1,8 @@
 // Site-wide facts. Everything here is public on the live site.
 export const site = {
   brand: "RJChess",
-  brandSuffix: "Academy",
-  name: "RJChess Academy",
+  brandSuffix: "Jagadeesh Babu",
+  name: "RJChess",
   coach: "Jagadeesh Babu",
   tagline: "Every master was once a beginner.",
   description:

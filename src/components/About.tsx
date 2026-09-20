@@ -31,7 +31,7 @@ export function About() {
           <img src={profile.photo} alt={profile.photoAlt} width={960} height={1200} />
           <figcaption>
             {site.coach}
-            <small>Founder, {site.name}</small>
+            <small>Chess coach · {site.brand}</small>
           </figcaption>
         </figure>
       </div>

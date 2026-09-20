@@ -1,7 +1,7 @@
 // About section. Source: client's own words, 2026-09-19.
 export const profile = {
-  photo: "/photos/jagadeesh-profile.jpg",
-  photoAlt: "Jagadeesh Babu, seated in front of a chessboard",
+  photo: "/photos/jagadeesh-portrait.jpg",
+  photoAlt: "Jagadeesh Babu — studio portrait",
   intro:
     "I started playing chess professionally in 2015 and earned my FIDE rating in 2018, beginning at 1398. Today I hold a FIDE rating of 1536, and I have spent more than ten years teaching the game to over 300 players — from children making their first moves to adults preparing for rated tournaments.",
   stats: [

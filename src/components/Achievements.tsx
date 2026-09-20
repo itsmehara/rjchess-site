@@ -1,4 +1,9 @@
+"use client";
+
+import { useState } from "react";
 import { corporate, university, coaching, type Achievement } from "@/content/achievements";
+import { awardGroups, teamPhoto, type Award } from "@/content/awards";
+import { TrophyViewer } from "./TrophyViewer";
 
 function List({ items }: { items: Achievement[] }) {
   return (
@@ -16,10 +21,31 @@ function List({ items }: { items: Achievement[] }) {
   );
 }
 
-export function Achievements() {
-  const photos = [...corporate, ...university].flatMap((a) =>
-    (a.photos ?? []).map((p) => ({ ...p, caption: `${a.year} — ${a.title}` })),
+function AwardFigure({ a, onOpen }: { a: Award; onOpen?: (a: Award) => void }) {
+  const img = (
+    // eslint-disable-next-line @next/next/no-img-element -- static export, images pre-sized
+    <img src={a.src} alt={a.alt} loading="lazy" width={960} height={1200} />
   );
+  return (
+    <figure className={a.cutout ? "has-viewer" : undefined}>
+      {a.cutout && onOpen ? (
+        <button type="button" className="award-open" onClick={() => onOpen(a)} aria-label={`View ${a.title} trophy full screen`}>
+          {img}
+          <span className="award-hint" aria-hidden="true">View</span>
+        </button>
+      ) : (
+        img
+      )}
+      <figcaption>
+        <b>{a.title}</b>
+        {a.sub && <span>{a.sub}</span>}
+      </figcaption>
+    </figure>
+  );
+}
+
+export function Achievements() {
+  const [open, setOpen] = useState<Award | null>(null);
   return (
     <section className="section alt" id="achievements">
       <div className="wrap">
@@ -40,23 +66,34 @@ export function Achievements() {
           <div className="ach-group">
             <h3>University championships</h3>
             <List items={university} />
+            <figure className="ach-team">
+              {/* eslint-disable-next-line @next/next/no-img-element -- static export, images pre-sized */}
+              <img src={teamPhoto.src} alt={teamPhoto.alt} loading="lazy" width={1448} height={1086} />
+              <figcaption>{teamPhoto.caption}</figcaption>
+            </figure>
           </div>
         </div>
 
-        {photos.length > 0 && (
-          <div className="ach-photos">
-            {photos.map((p) => (
-              <figure key={p.src} className={p.wide ? "wide" : undefined}>
-                {/* eslint-disable-next-line @next/next/no-img-element -- static export, images pre-sized */}
-                <img src={p.src} alt={p.alt} loading="lazy" />
-                <figcaption>{p.caption}</figcaption>
-              </figure>
-            ))}
-          </div>
-        )}
+        <div className="awards">
+          <h3 className="awards-heading">Trophies &amp; awards</h3>
+          {awardGroups.map((g) => (
+            <div key={g.heading} className="awards-group">
+              <p className="awards-label">{g.heading}</p>
+              <div className="ach-photos">
+                {g.items.map((a) => (
+                  <AwardFigure key={a.src} a={a} onOpen={setOpen} />
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
 
         <p className="coaching-note">{coaching.summary}</p>
       </div>
+
+      {open?.cutout && (
+        <TrophyViewer src={open.cutout} alt={open.alt} title={open.title} sub={open.sub} onClose={() => setOpen(null)} />
+      )}
     </section>
   );
 }
