@@ -21,6 +21,7 @@ export const awardGroups: { heading: string; items: Award[] }[] = [
         alt: "Blue and gold trophy inscribed TCS Adibatla Chess Championship 2025 — Winner",
         title: "TCS Adibatla Chess Championship 2025",
         sub: "Winner",
+        cutout: "/awards/tcs-adibatla-chess-winner-blue-2025-cutout.webp",
       },
       {
         src: "/awards/corporate-sports-meet-third-prize.jpg",
@@ -33,6 +34,7 @@ export const awardGroups: { heading: string; items: Award[] }[] = [
         alt: "Gold trophy with ribbons inscribed TCS Adibatla Chess Championship 2024 — Winner",
         title: "TCS Adibatla Chess Championship 2024",
         sub: "Winner",
+        cutout: "/awards/tcs-adibatla-chess-winner-gold-2024-cutout.webp",
       },
       {
         src: "/awards/tcs-maitree-runner-up-trophy.jpg",
