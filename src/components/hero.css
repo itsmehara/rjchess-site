@@ -1,0 +1,520 @@
+/* Cinematic hero — ported from the approved concept mock (v3). Motion notes
+   and framing rules are kept inline because they are the reason the numbers
+   are what they are. */
+
+/* ---------- Cinematic stage ---------- */
+
+.stage {
+  position: relative;
+  /* The stage is its own stacking context; it must sit above the sections
+     that follow or the pinned nav inside it paints underneath them. */
+  z-index: 10;
+  isolation: isolate;
+  height: 100svh;
+  min-height: 560px;
+  overflow: hidden;
+  background: var(--ink);
+}
+
+/* Framing rule: these frames have a tall subject dead centre, so any crop must
+   come off the floor, never off the crown. background-position keeps the
+   visible window high, and the zoom ceilings below stay low enough that the
+   whole piece survives even on a wide, short window. */
+/* The camera layers are scaled well past the stage, and Safari does not
+   reliably clip a composited, transformed layer with overflow: hidden alone —
+   the frame bled over the section below. clip-path is honoured. The nav sits
+   outside this wrapper so it can still pin to the viewport. */
+.shots {
+  position: absolute;
+  z-index: -4;
+  inset: 0;
+  overflow: hidden;
+  clip-path: inset(0);
+  -webkit-clip-path: inset(0);
+}
+.shot {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  background-position: center 32%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: opacity var(--fade, 2.2s) ease-in-out;
+  will-change: transform, opacity;
+  transform-origin: center;
+  backface-visibility: hidden;
+}
+.shot.is-visible { opacity: 1; }
+
+/* Six camera moves, all approved from the motion lab. Every one is `linear` —
+   a real camera holds its speed; easing reads as a UI slide. The duration comes
+   from --cam-dur, which the speed control rewrites, and is always set a few
+   seconds longer than the scene itself so the frame is still drifting while it
+   dissolves out and the motion never visibly parks. */
+.shot.m1 { animation: cam-long-pass var(--cam-dur, 15.5s) linear both; }
+.shot.m2 { animation: cam-descent var(--cam-dur, 15.5s) linear both; }
+.shot.m3 { animation: cam-bank var(--cam-dur, 15.5s) linear both; }
+.shot.m4 { animation: cam-pullback var(--cam-dur, 15.5s) linear both; }
+.shot.m5 { animation: cam-push var(--cam-dur, 15.5s) linear both; }
+.shot.m6 { animation: cam-flyby var(--cam-dur, 15.5s) linear both; }
+.stage.is-paused .shot,
+.stage.is-paused .progress i,
+.stage.is-paused .atmosphere::after { animation-play-state: paused; }
+
+/* 1 — Long pass. Constant altitude, wide lateral sweep. */
+@keyframes cam-long-pass {
+  0%   { transform: translate3d(20%, -2%, 0) scale(1.55) rotate(0.5deg); }
+  100% { transform: translate3d(-20%, 2%, 0) scale(1.55) rotate(-0.5deg); }
+}
+
+/* 2 — Descent. Drops from high in the room down onto the board. */
+@keyframes cam-descent {
+  0%   { transform: translate3d(-5%, -13%, 0) scale(1.32) rotate(0.35deg); }
+  100% { transform: translate3d(4%, 15%, 0) scale(1.58) rotate(-0.35deg); }
+}
+
+/* 3 — Diagonal bank. Corner to corner with a pronounced roll. */
+@keyframes cam-bank {
+  0%   { transform: translate3d(12%, -7%, 0) scale(1.3) rotate(0.9deg); }
+  100% { transform: translate3d(-14%, 8%, 0) scale(1.58) rotate(-0.9deg); }
+}
+
+/* 4 — Pull-back reveal. Starts close, opens out to the whole hall. */
+@keyframes cam-pullback {
+  0%   { transform: translate3d(-11%, 7%, 0) scale(1.62) rotate(-0.5deg); }
+  100% { transform: translate3d(3%, -4%, 0) scale(1.14) rotate(0.3deg); }
+}
+
+/* 5 — Slow push. Near-static hover with a long push in. */
+@keyframes cam-push {
+  0%   { transform: translate3d(2%, -1.4%, 0) scale(1.06) rotate(0deg); }
+  100% { transform: translate3d(-3%, 2%, 0) scale(1.24) rotate(-0.45deg); }
+}
+
+/* 6 — Wide fly-by. Travels fast, so it has to sit closer than the rest, which
+   means something must be cropped. The positive Y holds the window up around
+   the crowns so the cut lands on the bases and floor, not the heads. */
+@keyframes cam-flyby {
+  0%   { transform: translate3d(38%, 22%, 0) scale(1.95) rotate(0.55deg); }
+  100% { transform: translate3d(-38%, 20%, 0) scale(1.95) rotate(-0.55deg); }
+}
+
+/* ---------- Grade / atmosphere ---------- */
+
+.atmosphere {
+  position: absolute;
+  z-index: -3;
+  inset: 0;
+  pointer-events: none;
+  transition: opacity var(--fade, 2.2s) ease-in-out;
+  background:
+    linear-gradient(94deg, rgba(6, 6, 9, 0.74) 0%, rgba(8, 7, 11, 0.42) 14%, rgba(10, 9, 12, 0.1) 27%, rgba(10, 9, 12, 0) 38%),
+    linear-gradient(180deg, rgba(5, 5, 8, 0.4) 0%, transparent 14%, transparent 80%, rgba(4, 4, 7, 0.42) 100%);
+}
+
+/* The palace frame is bright marble — the dark-hall grade is not enough to keep
+   ivory text legible over it, so bright scenes get a second, heavier scrim. */
+.atmosphere-bright {
+  position: absolute;
+  z-index: -3;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--fade, 2.2s) ease-in-out;
+  background:
+    linear-gradient(94deg, rgba(6, 5, 9, 0.5) 0%, rgba(7, 6, 10, 0.36) 16%, rgba(9, 8, 12, 0.14) 30%, rgba(9, 8, 12, 0) 42%),
+    linear-gradient(180deg, rgba(5, 4, 8, 0.2) 0%, transparent 14%, transparent 82%, rgba(4, 4, 7, 0.22) 100%);
+}
+.stage.is-bright .atmosphere-bright { opacity: 1; }
+.atmosphere::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+  background: radial-gradient(circle at 22% 34%, rgba(224, 176, 84, 0.3), transparent 26%);
+  animation: light-drift 14s ease-in-out infinite alternate;
+}
+@keyframes light-drift { to { transform: translate3d(5%, 3%, 0) scale(1.1); opacity: 0.44; } }
+
+.vignette {
+  position: absolute;
+  z-index: -2;
+  inset: 0;
+  pointer-events: none;
+  box-shadow: inset 0 0 160px rgba(0, 0, 0, 0.36), inset 0 0 40px rgba(0, 0, 0, 0.14);
+}
+
+/* ---------- Ribbon ---------- */
+
+.ribbon {
+  position: relative;
+  z-index: 8;
+  height: 32px;
+  overflow: hidden;
+  color: #1a1408;
+  background: linear-gradient(90deg, var(--gold) 0%, var(--gold-bright) 50%, var(--gold) 100%);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  line-height: 32px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.ribbon-track { display: flex; width: max-content; animation: ribbon-scroll 34s linear infinite; }
+.stage.is-paused .ribbon-track { animation-play-state: paused; }
+.ribbon-group { display: flex; align-items: center; gap: 30px; padding-right: 30px; }
+.ribbon a { color: inherit; text-decoration: none; }
+.ribbon .dot { width: 4px; height: 4px; border-radius: 50%; background: rgba(26, 20, 8, 0.55); }
+@keyframes ribbon-scroll { to { transform: translateX(-50%); } }
+
+/* ---------- Nav ---------- */
+
+.nav {
+  position: relative;
+  z-index: 7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  width: min(1360px, calc(100% - 7vw));
+  margin: 0 auto;
+  padding: 22px 0 18px;
+  border-bottom: 1px solid rgba(245, 239, 227, 0.16);
+}
+.wordmark { display: flex; align-items: center; gap: 13px; color: var(--ivory); text-decoration: none; }
+.mark {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(214, 169, 74, 0.6);
+  border-radius: 3px;
+  background: rgba(214, 169, 74, 0.1);
+  color: var(--gold-bright);
+  font-family: var(--serif);
+  font-size: 25px;
+  line-height: 1;
+  padding-bottom: 4px;
+}
+.wordmark-text b {
+  display: block;
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  line-height: 1.1;
+}
+.wordmark-text span {
+  display: block;
+  margin-top: 3px;
+  color: var(--gold);
+  font-size: 9.5px;
+  font-weight: 800;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+.menu { display: flex; align-items: center; gap: clamp(14px, 2vw, 30px); margin: 0; padding: 0; list-style: none; }
+.menu a {
+  position: relative;
+  display: inline-block;
+  padding: 6px 0;
+  color: var(--ivory);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+/* Underline grows in from the left on hover, and stays for the section the
+   visitor is currently in (scroll-spy sets .is-active). */
+.menu a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: var(--gold-bright);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+.menu a:hover,
+.menu a.is-active {
+  color: var(--gold-bright);
+  text-shadow: 0 0 14px rgba(240, 200, 119, 0.55), 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+.menu a:hover::after,
+.menu a.is-active::after { transform: scaleX(1); }
+.menu a:active { transform: translateY(1px); }
+.menu a:focus-visible { outline: none; color: var(--gold-bright); }
+.menu a:focus-visible::after { transform: scaleX(1); }
+.wa-btn:focus-visible, .hero-actions a:focus-visible, .speed-control button:focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 2px; }
+.nav-actions { display: flex; align-items: center; gap: 18px; }
+.wa-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 18px;
+  border: 1px solid var(--gold);
+  border-radius: 2px;
+  color: #171104;
+  background: var(--gold);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+.wa-btn:hover { background: var(--gold-bright); transform: translateY(-1px); }
+/* Motion speed: two speeds plus pause, as one segmented control. */
+.speed-control {
+  display: flex;
+  align-items: stretch;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.speed-control button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-width: 46px;
+  padding: 8px 11px;
+  border: 0;
+  border-right: 1px solid var(--line);
+  background: transparent;
+  color: rgba(245, 239, 227, 0.66);
+  cursor: pointer;
+  font-size: 9.5px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.speed-control button:last-child { border-right: 0; }
+.speed-control button:hover { color: var(--ivory); background: rgba(245, 239, 227, 0.07); }
+.speed-control button.on { color: #171104; background: var(--gold); }
+.pause-glyph {
+  position: relative;
+  width: 9px;
+  height: 10px;
+}
+.pause-glyph::before, .pause-glyph::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 2.5px;
+  height: 10px;
+  background: currentColor;
+}
+.pause-glyph::before { left: 0; }
+.pause-glyph::after { right: 0; }
+/* While paused the button offers "play", so it shows a triangle instead. */
+.speed-control button.on .pause-glyph::before {
+  left: 1px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid currentColor;
+  background: transparent;
+}
+.speed-control button.on .pause-glyph::after { display: none; }
+
+/* Pinned state: same bar, lifted out of the hero and given a backdrop. The
+   motion control only means something over the hero, so it hides here. */
+.nav.is-stuck {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  width: auto;
+  margin: 0;
+  padding: 12px max(3.5vw, calc((100vw - 1360px) / 2)) 11px;
+  background: rgba(10, 10, 12, 0.94);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(245, 239, 227, 0.1);
+}
+.nav.is-stuck .speed-control { display: none; }
+.nav.is-stuck .mark { width: 34px; height: 34px; font-size: 20px; }
+.nav.is-stuck .wordmark-text b { font-size: 16px; }
+
+/* ---------- Hero ---------- */
+
+.hero {
+  position: absolute;
+  z-index: 4;
+  left: max(3.5vw, calc((100vw - 1360px) / 2));
+  top: 50%;
+  width: min(680px, 62vw);
+  transform: translateY(-44%);
+}
+.kicker {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 22px;
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.kicker span { width: 34px; height: 1px; background: var(--gold); }
+.hero h1 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(42px, 5.6vw, 84px);
+  font-weight: 700;
+  line-height: 1.04;
+  letter-spacing: -0.015em;
+  text-shadow: 0 8px 44px rgba(0, 0, 0, 0.6);
+}
+.hero h1 em { font-style: normal; color: var(--gold-bright); }
+.hero-note {
+  max-width: 500px;
+  margin: 28px 0 0;
+  color: var(--muted);
+  font-size: clamp(15px, 1.2vw, 18px);
+  line-height: 1.62;
+}
+.fee-line {
+  margin: 16px 0 0;
+  color: rgba(245, 239, 227, 0.7);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+.hero-actions { display: flex; flex-wrap: wrap; gap: 13px; margin-top: 34px; }
+.hero-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  min-width: 196px;
+  padding: 15px 18px;
+  border: 1px solid rgba(245, 239, 227, 0.34);
+  border-radius: 2px;
+  color: var(--ivory);
+  background: rgba(10, 10, 14, 0.34);
+  backdrop-filter: blur(10px);
+  text-decoration: none;
+  font-size: 12.5px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: border-color 0.25s ease, background 0.25s ease, transform 0.25s ease;
+}
+.hero-actions a:hover { border-color: var(--gold); transform: translateY(-2px); }
+.hero-actions a.primary { border-color: var(--gold); color: #171104; background: var(--gold); }
+.hero-actions a.primary:hover { background: var(--gold-bright); }
+
+/* ---------- Scene status ---------- */
+
+.status {
+  position: absolute;
+  z-index: 4;
+  right: max(3.5vw, calc((100vw - 1360px) / 2));
+  bottom: 54px;
+  width: min(240px, 30vw);
+  text-align: right;
+}
+.status .seq { font-family: var(--serif); font-size: 13px; letter-spacing: 0.18em; color: var(--gold); }
+.progress { width: 100%; height: 1px; margin: 10px 0; overflow: hidden; background: rgba(245, 239, 227, 0.22); }
+.progress i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--gold-bright);
+  transform-origin: left;
+  animation: progress var(--scene-dur, 12s) linear infinite;
+}
+@keyframes progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.status p {
+  margin: 0;
+  color: rgba(245, 239, 227, 0.6);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 1000px) {
+  .speed-control button { min-width: 40px; padding: 7px 9px; font-size: 9px; letter-spacing: 0.08em; }
+}
+
+/* Below this the nav can't hold a centred menu, so the sections move to a
+   scrollable strip underneath — the client still sees every planned page. */
+@media (max-width: 860px) {
+  .nav { width: calc(100% - 32px); padding: 14px 0 12px; gap: 12px; }
+  .menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    gap: 18px;
+    margin: 0;
+    padding: 10px 2px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    border-bottom: 1px solid rgba(245, 239, 227, 0.12);
+  }
+  .menu::-webkit-scrollbar { display: none; }
+  .nav.is-stuck { width: auto; padding: 10px 16px 9px; }
+  .nav.is-stuck .menu { padding: 10px 16px; background: rgba(10, 10, 12, 0.96); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+  .menu a { font-size: 12px; letter-spacing: 0.1em; white-space: nowrap; }
+}
+
+@media (max-width: 720px) {
+  .ribbon { height: 26px; font-size: 8.5px; line-height: 26px; letter-spacing: 0.08em; }
+  .mark { width: 33px; height: 33px; font-size: 19px; }
+  .wordmark { gap: 9px; }
+  .wordmark-text b { font-size: 13.5px; white-space: nowrap; }
+  .wordmark-text span { font-size: 7px; letter-spacing: 0.16em; }
+  .speed-control button { min-width: 34px; padding: 6px 8px; font-size: 8.5px; letter-spacing: 0.06em; }
+  .wa-btn { padding: 8px 11px; font-size: 9.5px; letter-spacing: 0.07em; }
+  .hero { left: 16px; top: 50%; width: calc(100% - 32px); transform: translateY(-42%); }
+  .kicker { margin-bottom: 14px; font-size: 9px; letter-spacing: 0.14em; }
+  .kicker span { width: 22px; }
+  .hero h1 { font-size: clamp(30px, 8.6vw, 44px); line-height: 1.08; }
+  .hero-note { max-width: 100%; margin-top: 16px; font-size: 13px; line-height: 1.5; }
+  .fee-line { margin-top: 10px; font-size: 11px; }
+  .hero-actions { gap: 9px; margin-top: 20px; }
+  .hero-actions a {
+    min-width: 0;
+    flex: 1 1 140px;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 10px;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+  }
+  .status { right: 16px; bottom: 18px; width: 108px; }
+  .status .seq { font-size: 11px; }
+  .status p { font-size: 8.5px; letter-spacing: 0.1em; }
+  /* A portrait window crops a 16:9 frame hard at the sides, so pull the
+     visible window up to keep the crowns clear of the top edge. */
+  .shot { background-position: center 26%; }
+  .atmosphere {
+    background:
+      linear-gradient(180deg, rgba(5, 5, 8, 0.5) 0%, rgba(5, 5, 8, 0.3) 12%, transparent 22%, transparent 40%, rgba(6, 6, 9, 0.56) 62%, rgba(5, 5, 8, 0.68) 100%);
+  }
+  .atmosphere-bright {
+    background:
+      linear-gradient(180deg, rgba(5, 4, 8, 0.3) 0%, rgba(5, 4, 8, 0.2) 12%, transparent 22%, transparent 30%, rgba(6, 5, 9, 0.46) 50%, rgba(5, 4, 8, 0.52) 100%);
+  }
+  .vignette { box-shadow: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shot, .atmosphere::after, .progress i, .ribbon-track { animation: none !important; }
+  .shot { transition-duration: 0.3s; }
+}

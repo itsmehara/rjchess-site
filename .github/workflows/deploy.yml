@@ -1,0 +1,60 @@
+# Build and publish the site to GitHub Pages, refreshing the events data first.
+#
+# Runs on: every push to main, once a day (events refresh), and by hand.
+# One workflow does both jobs on purpose — a commit pushed by GITHUB_TOKEN does
+# not trigger other workflows, so a separate "refresh" workflow could never
+# start the deploy.
+#
+# One-time setup in the repo: Settings → Pages → Source = "GitHub Actions".
+# With a custom domain (rjchess.com) nothing else is needed. Without one, the
+# site lives at https://<user>.github.io/<repo>/ and needs a basePath — see README.
+name: Deploy
+on:
+  push:
+    branches: [main, master]
+  schedule:
+    - cron: "0 22 * * *"   # 03:30 IST daily — events refresh
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Refresh events data
+        run: node scripts/collect-events.mjs
+      - name: Commit refreshed data (if changed)
+        run: |
+          git config user.name "events-bot"
+          git config user.email "events-bot@users.noreply.github.com"
+          git add src/content/events.generated.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh events data"
+            git push
+          fi
+      - run: npm run build
+        env:
+          NEXT_PUBLIC_ENQUIRY_ENDPOINT: ${{ vars.NEXT_PUBLIC_ENQUIRY_ENDPOINT }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

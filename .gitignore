@@ -26,3 +26,8 @@ npm-debug.log*
 
 # Misc
 .cache/
+
+# next.js extras
+*.tsbuildinfo
+.vercel
+next-env.d.ts
