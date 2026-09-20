@@ -1,4 +1,4 @@
-/* Colour tokens. Four selectable palettes live on html[data-theme]; everything
+/* Colour tokens. Two selectable palettes live on html[data-theme]; everything
    below reads only these tokens, so a theme is one block of overrides. */
 :root {
   --ink: #0a0a0c;
@@ -28,18 +28,6 @@ html[data-theme="forest"] {
   --ink: #0b1f18; --ink-soft: #10281f; --ink-panel: #0e231b;
   --gold: #c9a227; --gold-bright: #e8c452; --gold-rgb: 232, 196, 82; --on-gold: #14120a;
   --ivory: #f0ead8; --ivory-rgb: 240, 234, 216; --scrim-rgb: 5, 18, 14;
-}
-/* Navy + silver — institutional, modern */
-html[data-theme="navy"] {
-  --ink: #0b1526; --ink-soft: #101c31; --ink-panel: #0e192b;
-  --gold: #c8ccd4; --gold-bright: #e6e9ee; --gold-rgb: 230, 233, 238; --on-gold: #0b1526;
-  --ivory: #e9edf3; --ivory-rgb: 233, 237, 243; --scrim-rgb: 6, 12, 24;
-}
-/* Burgundy + gold — matches the maroon trophy bases */
-html[data-theme="burgundy"] {
-  --ink: #240d12; --ink-soft: #2e1218; --ink-panel: #2a1015;
-  --gold: #d9ab4b; --gold-bright: #f2cb78; --gold-rgb: 242, 203, 120; --on-gold: #1a0b0e;
-  --ivory: #f6eee4; --ivory-rgb: 246, 238, 228; --scrim-rgb: 28, 9, 13;
 }
 
 * { box-sizing: border-box; }

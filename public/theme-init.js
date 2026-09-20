@@ -2,7 +2,7 @@
 // flashes the default. Keep the id list in sync with src/content/themes.ts.
 (function () {
   try {
-    var ok = ["ink", "forest", "navy", "burgundy"];
+    var ok = ["ink", "forest"];
     var key = "rjchess-theme";
     var q = new URLSearchParams(location.search).get("theme");
     var t = q || localStorage.getItem(key);

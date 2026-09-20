@@ -6,8 +6,6 @@ export const THEME_KEY = "rjchess-theme";
 export const themes = [
   { id: "ink", label: "Ink black & gold", swatch: ["#0a0a0c", "#d6a94a"] },
   { id: "forest", label: "Forest green & brass", swatch: ["#0b1f18", "#c9a227"] },
-  { id: "navy", label: "Navy & silver", swatch: ["#0b1526", "#c8ccd4"] },
-  { id: "burgundy", label: "Burgundy & gold", swatch: ["#240d12", "#d9ab4b"] },
 ] as const;
 
 export type ThemeId = (typeof themes)[number]["id"];
