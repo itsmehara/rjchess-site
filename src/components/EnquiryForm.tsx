@@ -39,7 +39,6 @@ export function EnquiryForm() {
       data.email ? `Email: ${data.email}` : "",
       isTrial && data.date ? `Preferred date: ${data.date}` : "",
       isTrial && slotLabels.length ? `Preferred slots (IST): ${slotLabels.join("  ")}` : "",
-      isTrial && data.timing ? `Timing notes: ${data.timing}` : "",
       data.message ? `\n${data.message}` : "",
     ].filter(Boolean);
     const wa = waLink(lines.join("\n"));
@@ -113,47 +112,55 @@ export function EnquiryForm() {
 
       {isTrial && (
         <div className="trial">
-          <label className="field">
-            <span>Preferred date</span>
-            <input name="date" type="date" min={isoDate(today)} max={isoDate(maxDate)} required />
-          </label>
+          <div className="prefs">
+            <label className="field">
+              <span>Preferred date</span>
+              <input name="date" type="date" min={isoDate(today)} max={isoDate(maxDate)} required />
+            </label>
+            {booking.prefLabels.map((label, i) => {
+              const id = slots[i];
+              const slot = id ? booking.slots.find((s) => s.id === id) : undefined;
+              return (
+                <div key={label} className={slot ? "pref on" : "pref"}>
+                  <span>{label}</span>
+                  {slot ? (
+                    <button type="button" onClick={() => toggleSlot(slot.id)} aria-label={`Clear ${label}: ${slot.label}`}>
+                      {slot.label} <i aria-hidden="true">&times;</i>
+                    </button>
+                  ) : (
+                    <em>{i === slots.length ? "tap a time ↓" : "—"}</em>
+                  )}
+                </div>
+              );
+            })}
+          </div>
 
-          <fieldset className="field choice">
-            <legend>
-              Preferred time slots — pick {booking.choices}, in order of preference
-              <b className={slotsDone ? "count done" : "count"}>{slots.length} of {booking.choices} chosen</b>
-            </legend>
-            {["Early morning", "Evening"].map((part) => (
-              <div key={part} className="slot-group">
-                <small>{part}</small>
-                <div className="slots">
+          <div className="field choice">
+            <div className="slots" role="group" aria-label={`Time slots (IST) — choose ${booking.choices} in order of preference`}>
+              {["AM", "PM"].map((part) => (
+                <div key={part} className="slot-part">
+                  <small>{part}</small>
                   {booking.slots.filter((s) => s.part === part).map((s) => {
                     const rank = slots.indexOf(s.id);
-                    const locked = rank < 0 && slotsDone;
                     return (
                       <button
                         key={s.id}
                         type="button"
                         className={rank >= 0 ? "slot on" : "slot"}
                         aria-pressed={rank >= 0}
-                        disabled={locked}
+                        disabled={rank < 0 && slotsDone}
                         onClick={() => toggleSlot(s.id)}
                       >
-                        {rank >= 0 && <i aria-hidden="true">{rank + 1}</i>}
+                        {rank >= 0 && <b>{booking.prefLabels[rank]}</b>}
                         {s.label}
                       </button>
                     );
                   })}
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
             <p className="fine">{booking.timezoneNote}</p>
-          </fieldset>
-
-          <label className="field">
-            <span>Anything about timing? (optional)</span>
-            <input name="timing" placeholder="Only weekends, US Eastern time, after school…" />
-          </label>
+          </div>
 
           <div className="notice" role="note">
             <b>Please note</b>
@@ -168,7 +175,7 @@ export function EnquiryForm() {
 
       <label className="field">
         <span>Message</span>
-        <textarea name="message" placeholder="Who is the training for, and what would you like to achieve?" />
+        <textarea name="message" placeholder={isTrial ? "Who is the class for, and anything about timing — only weekends, your time zone, after school…" : "Who is the training for, and what would you like to achieve?"} />
       </label>
 
       {status.kind === "ok" && (
@@ -184,13 +191,16 @@ export function EnquiryForm() {
       )}
 
       <button type="submit" disabled={!canSubmit}>
-        {status.kind === "sending" ? "Sending…" : site.enquiryEndpoint ? "Send enquiry" : "Continue on WhatsApp"}
+        {status.kind === "sending"
+          ? "Sending…"
+          : isTrial && !slotsDone
+            ? `Pick your ${booking.prefLabels[slots.length]}erence to continue`
+            : isTrial && !agreed
+              ? "Tick the box above to continue"
+              : site.enquiryEndpoint
+                ? "Send enquiry"
+                : "Continue on WhatsApp"}
       </button>
-      {isTrial && !canSubmit && status.kind !== "sending" && (
-        <p className="form-note gate">
-          {!slotsDone ? `Choose ${booking.choices - slots.length} more time slot${booking.choices - slots.length === 1 ? "" : "s"}` : "Tick the box above"} to continue.
-        </p>
-      )}
       <p className="form-note">
         Fees are shared on request. Your details are only used to reply to you; the conversation
         continues on WhatsApp.

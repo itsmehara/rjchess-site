@@ -15,16 +15,18 @@ export const booking = {
   /** How many days ahead a preferred date may be. */
   daysAhead: 14,
   slots: [
-    { id: "0500", label: "5:00 – 6:00 am", part: "Early morning" },
-    { id: "0600", label: "6:00 – 7:00 am", part: "Early morning" },
-    { id: "0700", label: "7:00 – 8:00 am", part: "Early morning" },
-    { id: "1900", label: "7:00 – 8:00 pm", part: "Evening" },
-    { id: "2000", label: "8:00 – 9:00 pm", part: "Evening" },
-    { id: "2100", label: "9:00 – 10:00 pm", part: "Evening" },
-    { id: "2200", label: "10:00 – 11:00 pm", part: "Evening" },
+    { id: "0500", label: "5–6 am", part: "AM" },
+    { id: "0600", label: "6–7 am", part: "AM" },
+    { id: "0700", label: "7–8 am", part: "AM" },
+    { id: "1900", label: "7–8 pm", part: "PM" },
+    { id: "2000", label: "8–9 pm", part: "PM" },
+    { id: "2100", label: "9–10 pm", part: "PM" },
+    { id: "2200", label: "10–11 pm", part: "PM" },
   ],
-  timezoneNote: "All times are India Standard Time (IST). Outside India? Mention your time zone below.",
+  /** Shown on the chosen keys and preference tiles. */
+  prefLabels: ["1st pref", "2nd pref", "3rd pref"],
+  timezoneNote: "Times are IST — outside India, say so in your message.",
   disclaimer:
-    "Trial slots depend on the coach's availability around his running batches. If one of your three choices is free, the class is confirmed back to you on WhatsApp; if none is, he will suggest the nearest alternative.",
-  consent: "I understand slots are subject to availability and that confirmation comes via WhatsApp.",
+    "Slots depend on the coach's running batches. One of your three preferences is confirmed on WhatsApp — or he suggests the nearest alternative.",
+  consent: "I understand slots depend on availability and confirmation comes via WhatsApp.",
 };
