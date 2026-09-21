@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useRef, useState, type FormEvent } from "react";
 import { site, waLink } from "@/content/site";
 import { booking, enquiryTypes, type EnquiryType } from "@/content/booking";
 
@@ -14,6 +14,20 @@ export function EnquiryForm() {
   // Chosen slot ids in order of preference (1st, 2nd, 3rd).
   const [slots, setSlots] = useState<string[]>([]);
   const [agreed, setAgreed] = useState(false);
+  // The trial panel animates between its measured height and 0. Height is
+  // set imperatively at click time (auto → px → target) so the transition
+  // has real numbers to run between; after opening it returns to auto.
+  const wrapRef = useRef<HTMLDivElement>(null);
+  const panelRef = useRef<HTMLFieldSetElement>(null);
+  const choose = (t: EnquiryType) => {
+    const w = wrapRef.current, p = panelRef.current;
+    if (w && p) {
+      w.style.setProperty("height", `${t === "trial" ? 0 : p.offsetHeight}px`);
+      void w.offsetHeight; // commit the start value before the target
+      w.style.setProperty("height", `${t === "trial" ? p.offsetHeight : 0}px`);
+    }
+    setType(t);
+  };
 
   const isTrial = type === "trial";
   const slotsDone = slots.length === booking.choices;
@@ -82,7 +96,7 @@ export function EnquiryForm() {
         <div className="pills" role="radiogroup">
           {enquiryTypes.map((t) => (
             <label key={t.value} className={type === t.value ? "pill on" : "pill"}>
-              <input type="radio" name="type" value={t.value} checked={type === t.value} onChange={() => setType(t.value)} />
+              <input type="radio" name="type" value={t.value} checked={type === t.value} onChange={() => choose(t.value)} />
               {t.label}
             </label>
           ))}
@@ -111,8 +125,13 @@ export function EnquiryForm() {
       </div>
 
       {/* Always mounted, so switching type animates the height instead of jumping. */}
-      <div className={isTrial ? "trial-wrap open" : "trial-wrap"} aria-hidden={!isTrial}>
-        <fieldset className="trial" disabled={!isTrial}>
+      <div
+        ref={wrapRef}
+        className={isTrial ? "trial-wrap open" : "trial-wrap"}
+        aria-hidden={!isTrial}
+        onTransitionEnd={(e) => { if (e.target === wrapRef.current && isTrial) wrapRef.current.style.setProperty("height", "auto"); }}
+      >
+        <fieldset className="trial" disabled={!isTrial} ref={panelRef}>
           <div className="prefs">
             <label className="field">
               <span>Preferred date</span>
@@ -174,7 +193,7 @@ export function EnquiryForm() {
         </fieldset>
       </div>
 
-      <label className="field">
+      <label className="field msg">
         <span>Message</span>
         <textarea name="message" placeholder={isTrial ? "Who is the class for, and anything about timing — only weekends, your time zone, after school…" : "Who is the training for, and what would you like to achieve?"} />
       </label>

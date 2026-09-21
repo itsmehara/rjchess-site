@@ -5,9 +5,9 @@ export function Contact() {
   return (
     <section className="section" id="contact">
       <div className="wrap">
-        <p className="eyebrow">Contact</p>
         <div className="contact-grid">
           <div className="contact-side">
+            <p className="eyebrow">Contact</p>
             <h2>
               Ready for the <em>first move</em>?
             </h2>
