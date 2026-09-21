@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Subpage } from "@/components/Subpage";
-import { site, waLink } from "@/content/site";
+import Link from "next/link";
+import { site } from "@/content/site";
 
 export const metadata: Metadata = {
   title: `Co-trainers — ${site.name}`,
@@ -30,10 +31,8 @@ export default function CoTrainersPage() {
             ))}
           </div>
           <p className="lede small">
-            A coach interested in joining?{" "}
-            <a href={waLink("Hi Jagadeesh, I'm a chess coach and would like to talk about co-training.")} target="_blank" rel="noopener">
-              Message on WhatsApp
-            </a>.
+            A coach interested in joining? <Link href="/#contact">Contact us</Link> — pick &ldquo;General enquiry&rdquo; and
+            mention co-training.
           </p>
         </div>
       </section>
