@@ -482,6 +482,15 @@
   .speed-control button { min-width: 34px; padding: 6px 8px; font-size: 8.5px; letter-spacing: 0.06em; }
   .wa-btn { padding: 8px 11px; font-size: 9.5px; letter-spacing: 0.07em; }
   .hero { left: 16px; top: 50%; width: calc(100% - 32px); transform: translateY(-42%); }
+  /* With the full-height scrim gone, keep the copy legible on bright frames
+     with a soft pool of shade behind the text block only. */
+  .hero::before {
+    content: ""; position: absolute; z-index: -1; inset: -32px -20px; pointer-events: none;
+    border-radius: 40px;
+    background: radial-gradient(ellipse at 42% 50%, rgba(var(--scrim-rgb), 0.62), rgba(var(--scrim-rgb), 0.38) 55%, transparent 78%);
+    filter: blur(10px);
+  }
+  .hero h1, .hero p { text-shadow: 0 1px 14px rgba(var(--scrim-rgb), 0.85); }
   .kicker { margin-bottom: 14px; font-size: 9px; letter-spacing: 0.14em; }
   .kicker span { width: 22px; }
   .hero h1 { font-size: clamp(30px, 8.6vw, 44px); line-height: 1.08; }
@@ -501,15 +510,16 @@
   .status .seq { font-size: 11px; }
   .status p { font-size: 8.5px; letter-spacing: 0.1em; }
   /* A portrait window crops a 16:9 frame hard at the sides, so pull the
-     visible window up to keep the crowns clear of the top edge. */
+     visible window up to keep the crowns clear of the top edge. The bottom
+     fade is confined to the last ~25% (owner: half-dark felt heavy). */
   .shot { background-position: center 26%; }
   .atmosphere {
     background:
-      linear-gradient(180deg, rgba(var(--scrim-rgb), 0.5) 0%, rgba(var(--scrim-rgb), 0.3) 12%, transparent 22%, transparent 40%, rgba(var(--scrim-rgb), 0.56) 62%, rgba(var(--scrim-rgb), 0.68) 100%);
+      linear-gradient(180deg, rgba(var(--scrim-rgb), 0.5) 0%, rgba(var(--scrim-rgb), 0.3) 12%, transparent 22%, transparent 72%, rgba(var(--scrim-rgb), 0.5) 88%, rgba(var(--scrim-rgb), 0.68) 100%);
   }
   .atmosphere-bright {
     background:
-      linear-gradient(180deg, rgba(var(--scrim-rgb), 0.3) 0%, rgba(var(--scrim-rgb), 0.2) 12%, transparent 22%, transparent 30%, rgba(var(--scrim-rgb), 0.46) 50%, rgba(var(--scrim-rgb), 0.52) 100%);
+      linear-gradient(180deg, rgba(var(--scrim-rgb), 0.3) 0%, rgba(var(--scrim-rgb), 0.2) 12%, transparent 22%, transparent 72%, rgba(var(--scrim-rgb), 0.4) 88%, rgba(var(--scrim-rgb), 0.52) 100%);
   }
   .vignette { box-shadow: none; }
 }
