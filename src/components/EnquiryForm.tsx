@@ -116,8 +116,9 @@ export function EnquiryForm() {
       </div>
       <div className="form-row">
         <label className="field">
-          <span>Email (optional)</span>
-          <input name="email" type="email" autoComplete="email" inputMode="email" />
+          {/* A general enquiry is answered by email as well as WhatsApp, so it needs one. */}
+          <span>{type === "general" ? "Email" : "Email (optional)"}</span>
+          <input name="email" type="email" autoComplete="email" inputMode="email" required={type === "general"} />
         </label>
         <label className="field">
           <span>Current level (optional)</span>
