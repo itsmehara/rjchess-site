@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Subpage } from "@/components/Subpage";
 import { BoardPreview } from "@/components/BoardPreview";
-import { site, waLink } from "@/content/site";
+import Link from "next/link";
+import { site } from "@/content/site";
 
 export const metadata: Metadata = {
   title: `Play — ${site.name}`,
@@ -24,9 +25,8 @@ export default function PlayPage() {
           <div className="soon-tag">Coming soon</div>
           <BoardPreview />
           <p className="lede small">
-            Want a game today? Message on{" "}
-            <a href={waLink("Hi Jagadeesh, I'd like to play a practice game.")} target="_blank" rel="noopener">WhatsApp</a>{" "}
-            and he will set one up on Lichess or Chess.com.
+            Want a game today? <Link href="/#contact">Contact the trainer</Link> and he will set one up on Lichess or
+            Chess.com.
           </p>
         </div>
       </section>
