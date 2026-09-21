@@ -110,8 +110,9 @@ export function EnquiryForm() {
         </label>
       </div>
 
-      {isTrial && (
-        <div className="trial">
+      {/* Always mounted, so switching type animates the height instead of jumping. */}
+      <div className={isTrial ? "trial-wrap open" : "trial-wrap"} aria-hidden={!isTrial}>
+        <fieldset className="trial" disabled={!isTrial}>
           <div className="prefs">
             <label className="field">
               <span>Preferred date</span>
@@ -170,8 +171,8 @@ export function EnquiryForm() {
             <input type="checkbox" checked={agreed} onChange={(e) => setAgreed(e.target.checked)} />
             <span>{booking.consent}</span>
           </label>
-        </div>
-      )}
+        </fieldset>
+      </div>
 
       <label className="field">
         <span>Message</span>
@@ -194,9 +195,9 @@ export function EnquiryForm() {
         {status.kind === "sending"
           ? "Sending…"
           : isTrial && !slotsDone
-            ? `Pick your ${booking.prefLabels[slots.length]}erence to continue`
+            ? `Pick your ${booking.prefLabels[slots.length]}erence`
             : isTrial && !agreed
-              ? "Tick the box above to continue"
+              ? "Tick the box to continue"
               : site.enquiryEndpoint
                 ? "Send enquiry"
                 : "Continue on WhatsApp"}
