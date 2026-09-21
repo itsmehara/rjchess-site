@@ -31,8 +31,7 @@ export default function CoTrainersPage() {
             ))}
           </div>
           <p className="lede small">
-            A coach interested in joining? <Link href="/#contact">Contact us</Link> — pick &ldquo;General enquiry&rdquo; and
-            mention co-training.
+            A coach interested in joining? <Link href="/?enquiry=general#contact">Contact us</Link> and mention co-training.
           </p>
         </div>
       </section>

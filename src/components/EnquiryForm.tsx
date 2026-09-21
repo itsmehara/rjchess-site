@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState, type FormEvent } from "react";
+import { useCallback, useEffect, useRef, useState, type FormEvent } from "react";
 import { site, waLink } from "@/content/site";
 import { booking, enquiryTypes, type EnquiryType } from "@/content/booking";
 
@@ -19,7 +19,7 @@ export function EnquiryForm() {
   // has real numbers to run between; after opening it returns to auto.
   const wrapRef = useRef<HTMLDivElement>(null);
   const panelRef = useRef<HTMLFieldSetElement>(null);
-  const choose = (t: EnquiryType) => {
+  const choose = useCallback((t: EnquiryType) => {
     const w = wrapRef.current, p = panelRef.current;
     if (w && p) {
       w.style.setProperty("height", `${t === "trial" ? 0 : p.offsetHeight}px`);
@@ -27,7 +27,16 @@ export function EnquiryForm() {
       w.style.setProperty("height", `${t === "trial" ? p.offsetHeight : 0}px`);
     }
     setType(t);
-  };
+  }, []);
+
+  // A link can pre-select the type: /?enquiry=general#contact (used by the
+  // Play and Co-trainers pages). Deferred a tick so hydration sees the default.
+  useEffect(() => {
+    const t = new URLSearchParams(window.location.search).get("enquiry");
+    if (!t || t === "trial" || !enquiryTypes.some((x) => x.value === t)) return;
+    const id = window.setTimeout(() => choose(t as EnquiryType), 0);
+    return () => window.clearTimeout(id);
+  }, [choose]);
 
   const isTrial = type === "trial";
   const slotsDone = slots.length === booking.choices;
