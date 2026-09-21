@@ -12,7 +12,7 @@ export function Syllabus() {
 
         <ol className="path" aria-label="Training levels">
           {syllabus.levels.map((l, i) => (
-            <li className="level" key={`${l.name}-${l.stage}`}>
+            <li className="level" key={`${l.name}-${l.stage}`} tabIndex={0}>
               <p className="for">Step {String(i + 1).padStart(2, "0")}</p>
               <h3>
                 {l.name}
@@ -22,6 +22,7 @@ export function Syllabus() {
             </li>
           ))}
         </ol>
+        <p className="path-hint">Hover or tap a level to enlarge it.</p>
 
         <div className="placement">
           {syllabus.placement.map((p, i) => (
