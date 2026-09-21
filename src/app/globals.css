@@ -481,6 +481,7 @@ img { display: block; max-width: 100%; height: auto; }
 /* Flex column so the Message box can grow and the panel fills the section — no dead band under the form. */
 .form { display: flex; flex-direction: column; gap: 10px; padding: 18px; border: 1px solid var(--panel-border); border-radius: 12px; background: var(--ink-soft); box-shadow: var(--panel-shadow); }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.form-row.city-row { grid-template-columns: 1.6fr 1fr; }
 .field { display: grid; gap: 6px; }
 .field span { font-size: 9.5px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }
 .field input, .field select, .field textarea {
@@ -625,7 +626,7 @@ img { display: block; max-width: 100%; height: auto; }
 }
 @media (max-width: 560px) {
   .form-row { grid-template-columns: 1fr; }
-  .form { padding: 22px 18px; }
+  .form-row.city-row { grid-template-columns: 1.4fr 1fr; gap: 10px; }
   .stats li { padding: 18px 16px 16px; }
 }
 
@@ -648,6 +649,7 @@ img { display: block; max-width: 100%; height: auto; }
 .path .level:nth-child(3) { --lv: 104, 150, 230; }
 .path .level:nth-child(4) { --lv: 168, 122, 236; }
 .path .level:nth-child(5) { --lv: var(--gold-rgb); }
+.path-dots i:nth-child(1) { --lv: 92, 196, 150; } .path-dots i:nth-child(2) { --lv: 78, 186, 196; } .path-dots i:nth-child(3) { --lv: 104, 150, 230; } .path-dots i:nth-child(4) { --lv: 168, 122, 236; } .path-dots i:nth-child(5) { --lv: var(--gold-rgb); }
 .path .level { border-top: 3px solid rgb(var(--lv)); background: linear-gradient(180deg, rgba(var(--lv), 0.14), rgba(var(--lv), 0.03) 55%, transparent) , var(--ink-panel); }
 .path .level .for, .path .level .lvl-stage { color: rgb(var(--lv)); }
 .path .level:hover, .path .level:focus, .path .level:focus-within {
@@ -665,19 +667,29 @@ img { display: block; max-width: 100%; height: auto; }
 .placement article .for { margin: 0 0 8px; color: var(--gold); font-size: 11px; font-weight: 700; letter-spacing: 0.14em; }
 @media (max-width: 1100px) { .path { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 720px) {
-  .path { grid-template-columns: 1fr 1fr; } .placement { grid-template-columns: 1fr; gap: 18px; }
-  /* No scaling on phones — the card's edges would leave the screen. Lift and
-     brighten in place, and grow the text so it reads as "zoomed". */
-  .path .level:hover, .path .level:focus, .path .level:focus-within { transform: translateY(-6px); padding: 22px 18px 20px; }
-  .path .level:hover h3, .path .level:focus h3, .path .level:focus-within h3 { font-size: 24px; }
-  .path .level:hover .blurb, .path .level:focus .blurb, .path .level:focus-within .blurb { font-size: 15.5px; color: var(--ivory); }
+  .placement { grid-template-columns: 1fr; gap: 18px; }
+  /* Phones: the five steps become a swipe-through path — cards side by side,
+     snap scrolling, the next step peeking in. No hover/zoom on touch. */
+  .path {
+    display: flex; gap: 12px; margin-left: calc(-1 * (100vw - var(--wrap)) / 2); margin-right: calc(-1 * (100vw - var(--wrap)) / 2);
+    padding: 12px calc((100vw - var(--wrap)) / 2) 14px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .path::-webkit-scrollbar { display: none; }
+  .path .level { flex: 0 0 76vw; max-width: 340px; scroll-snap-align: center; padding: 20px 18px 18px; }
+  .path .level:hover, .path .level:focus, .path .level:focus-within { transform: none; padding: 20px 18px 18px; box-shadow: none; }
+  .path .level:hover h3, .path .level:focus h3, .path .level:focus-within h3 { font-size: 21px; }
+  .path .level:hover .blurb, .path .level:focus .blurb, .path .level:focus-within .blurb { font-size: 13.5px; color: var(--muted); }
+  .path .level h3 { font-size: 23px; }
+  .path .level .blurb { font-size: 14.5px; line-height: 1.55; }
+  .path-hint { display: none; }
+  .path-dots { display: flex; justify-content: center; gap: 8px; margin: 2px 0 0; }
+  .path-dots i { width: 8px; height: 8px; border-radius: 50%; background: rgb(var(--lv)); opacity: 0.35; transition: opacity .2s, transform .2s; }
+  .path-dots i.on { opacity: 1; transform: scale(1.25); }
+  .path-swipe { margin: 8px 0 0; text-align: center; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--faint); }
 }
-@media (max-width: 480px) {
-  .path { grid-template-columns: 1fr; }
-  .path .level:hover, .path .level:focus, .path .level:focus-within { transform: translateY(-4px); padding: 24px 20px 22px; }
-  .path .level:hover h3, .path .level:focus h3, .path .level:focus-within h3 { font-size: 27px; }
-  .path .level:hover .blurb, .path .level:focus .blurb, .path .level:focus-within .blurb { font-size: 17px; }
-}
+@media (min-width: 721px) { .path-dots, .path-swipe { display: none; } }
+@media (max-width: 480px) { .path .level { flex-basis: 80vw; } }
 
 /* ---------- Events & results: one-screen tabbed widget ---------- */
 .evw {

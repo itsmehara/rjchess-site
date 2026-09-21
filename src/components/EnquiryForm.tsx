@@ -51,6 +51,7 @@ export function EnquiryForm() {
       `Hi Jagadeesh, this is ${data.name}.`,
       typeLabel + (data.level ? ` · Level: ${data.level}` : ""),
       data.email ? `Email: ${data.email}` : "",
+      `City: ${data.city}${data.pincode ? ` ${data.pincode}` : ""}`,
       isTrial && data.date ? `Preferred date: ${data.date}` : "",
       isTrial && slotLabels.length ? `Preferred slots (IST): ${slotLabels.join("  ")}` : "",
       data.message ? `\n${data.message}` : "",
@@ -121,6 +122,16 @@ export function EnquiryForm() {
         <label className="field">
           <span>Current level (optional)</span>
           <input name="level" placeholder="Beginner, 1200 on Lichess, school team…" />
+        </label>
+      </div>
+      <div className="form-row city-row">
+        <label className="field">
+          <span>City</span>
+          <input name="city" required autoComplete="address-level2" placeholder="Vijayawada, Hyderabad, Dallas…" />
+        </label>
+        <label className="field">
+          <span>Pincode (optional)</span>
+          <input name="pincode" autoComplete="postal-code" inputMode="numeric" maxLength={10} />
         </label>
       </div>
 
