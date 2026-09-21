@@ -393,6 +393,9 @@ img { display: block; max-width: 100%; height: auto; }
 /* While there are no student cards the section still holds one full screen,
    so Syllabus never creeps into the same view. */
 #students .wrap { min-height: calc(100svh - var(--nav-h) - var(--section-gap) - clamp(40px, 4.5vw, 64px)); }
+/* Contact is the last section: it keeps a one-screen floor so collapsing the
+   trial panel never shortens the page and forces a scroll jump. */
+#contact .wrap { min-height: calc(100svh - var(--nav-h) - var(--section-gap) - clamp(40px, 4.5vw, 64px)); }
 .student-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
