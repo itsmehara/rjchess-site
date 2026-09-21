@@ -18,11 +18,26 @@ export const site = {
 export const waLink = (text?: string) =>
   `https://wa.me/${site.whatsappNumber}` + (text ? `?text=${encodeURIComponent(text)}` : "");
 
-export const nav = [
+export type NavItem = { href: string; label: string; menu?: { href: string; label: string }[] };
+
+// Menu. "Events & more" groups the special cases: Events is a section of the
+// page; Play and Co-trainers are their own pages (both "coming soon").
+export const nav: NavItem[] = [
   { href: "#about", label: "About" },
   { href: "#achievements", label: "Achievements" },
   { href: "#students", label: "Students" },
   { href: "#syllabus", label: "Syllabus" },
-  { href: "#events", label: "Events" },
+  {
+    href: "#events",
+    label: "Events & more",
+    menu: [
+      { href: "#events", label: "Events & results" },
+      { href: "/play/", label: "Play a friend" },
+      { href: "/co-trainers/", label: "Co-trainers" },
+    ],
+  },
   { href: "#contact", label: "Contact" },
 ];
+
+/** Every link, flattened — for the footer and the scroll-spy. */
+export const navLinks = nav.flatMap((n) => (n.menu ? n.menu : [n]));

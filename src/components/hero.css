@@ -214,7 +214,7 @@
   text-transform: uppercase;
 }
 .menu { display: flex; align-items: center; gap: clamp(14px, 2vw, 30px); margin: 0; padding: 0; list-style: none; }
-.menu a {
+.menu a, .menu .has-menu > button {
   position: relative;
   display: inline-block;
   padding: 6px 0;
@@ -229,7 +229,7 @@
 }
 /* Underline grows in from the left on hover, and stays for the section the
    visitor is currently in (scroll-spy sets .is-active). */
-.menu a::after {
+.menu a::after, .menu .has-menu > button::after {
   content: "";
   position: absolute;
   left: 0;
@@ -241,14 +241,31 @@
   transform-origin: left;
   transition: transform 0.25s ease;
 }
-.menu a:hover,
-.menu a.is-active {
+.menu a:hover, .menu .has-menu > button:hover,
+.menu a.is-active, .menu .has-menu > button.is-active {
   color: var(--gold-bright);
   text-shadow: 0 0 14px rgba(var(--gold-rgb), 0.55), 0 1px 2px rgba(0, 0, 0, 0.5);
 }
-.menu a:hover::after,
-.menu a.is-active::after { transform: scaleX(1); }
+.menu a:hover::after, .menu .has-menu > button:hover::after,
+.menu a.is-active::after, .menu .has-menu > button.is-active::after { transform: scaleX(1); }
 .menu a:active { transform: translateY(1px); }
+/* Group item: a dropdown on wide screens */
+.menu .has-menu { position: relative; }
+.menu .has-menu > button { background: none; border: 0; padding: 0; margin: 0; font: inherit; cursor: pointer; }
+.menu .has-menu > button i { font-style: normal; font-size: 9px; margin-left: 3px; opacity: 0.7; }
+.menu .has-menu .flat { display: none; }
+.menu .submenu {
+  position: absolute; top: calc(100% + 10px); left: -12px; z-index: 60; min-width: 190px; margin: 0; padding: 8px; list-style: none;
+  border: 1px solid rgba(var(--gold-rgb), 0.35); border-radius: 10px; background: rgba(var(--scrim-rgb), 0.96);
+  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.6);
+  opacity: 0; transform: translateY(-6px); pointer-events: none; transition: opacity .18s, transform .18s;
+}
+.menu .has-menu.is-open .submenu, .menu .has-menu:hover .submenu, .menu .has-menu:focus-within .submenu { opacity: 1; transform: none; pointer-events: auto; }
+.menu .submenu li { display: block; }
+.menu .submenu a { display: block; padding: 10px 12px; border-radius: 6px; letter-spacing: 0.06em; }
+.menu .submenu a::after { display: none; }
+.menu .submenu a:hover, .menu .submenu a.is-active { background: rgba(var(--gold-rgb), 0.12); color: var(--gold-bright); }
 .menu a:focus-visible { outline: none; color: var(--gold-bright); }
 .menu a:focus-visible::after { transform: scaleX(1); }
 .wa-btn:focus-visible, .hero-actions a:focus-visible, .speed-control button:focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 2px; }
@@ -471,6 +488,10 @@
   .nav.is-stuck { width: auto; padding: 10px 16px 9px; }
   .nav.is-stuck .menu { padding: 10px 16px; background: rgba(var(--scrim-rgb), 0.96); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
   .menu a { font-size: 12px; letter-spacing: 0.1em; white-space: nowrap; }
+  /* Phone strip: no dropdown — the group's links sit flat in the strip. */
+  .menu .has-menu { display: contents; }
+  .menu .has-menu > button, .menu .submenu { display: none; }
+  .menu .has-menu .flat { display: block; }
 }
 
 @media (max-width: 720px) {

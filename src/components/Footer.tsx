@@ -1,4 +1,4 @@
-import { site, nav } from "@/content/site";
+import { site, navLinks } from "@/content/site";
 
 export function Footer() {
   return (
@@ -6,7 +6,7 @@ export function Footer() {
       <div className="wrap">
         <b>{site.name}</b>
         <ul>
-          {nav.map((n) => (
+          {navLinks.map((n) => (
             <li key={n.href}>
               <a href={n.href}>{n.label}</a>
             </li>

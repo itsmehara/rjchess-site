@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { site, nav, waLink } from "@/content/site";
+import { site, navLinks, waLink } from "@/content/site";
+import { NavMenu } from "./NavMenu";
 import { profile } from "@/content/profile";
 import "./hero.css";
 
@@ -53,7 +54,8 @@ export function Hero() {
   // the viewport; nothing is lit while the hero is on screen. A click lights
   // its item at once, before the smooth scroll lands.
   useEffect(() => {
-    const sections = nav
+    const sections = navLinks
+      .filter((n) => n.href.startsWith("#")) // route links (Play, Co-trainers) aren't sections
       .map((n) => ({ href: n.href, el: document.querySelector<HTMLElement>(n.href) }))
       .filter((x): x is { href: string; el: HTMLElement } => Boolean(x.el));
     const update = () => {
@@ -240,15 +242,7 @@ export function Hero() {
             <span>{site.brandSuffix}</span>
           </span>
         </a>
-        <ul className="menu">
-          {nav.map((n) => (
-            <li key={n.href}>
-              <a href={n.href} className={active === n.href ? "is-active" : undefined} onClick={() => setActive(n.href)}>
-                {n.label}
-              </a>
-            </li>
-          ))}
-        </ul>
+        <NavMenu active={active} onPick={setActive} />
         <div className="nav-actions">
           <div className="speed-control" role="group" aria-label="Background motion">
             <button type="button" className={control === "slow" ? "on" : ""} onClick={() => choose("slow")}>Slow</button>
