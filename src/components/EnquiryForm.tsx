@@ -131,7 +131,7 @@ export function EnquiryForm() {
         </label>
         <label className="field">
           <span>Current level (optional)</span>
-          <input name="level" placeholder="Beginner, 1200 on Lichess, school team…" />
+          <input name="level" placeholder="Beginner, rated 1200, school team…" />
         </label>
       </div>
       <div className="form-row city-row">

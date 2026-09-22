@@ -12,7 +12,7 @@ export function About() {
           </h2>
           <p className="lede">{profile.intro}</p>
           <p className="lede">
-            Lessons run online on {profile.platforms.join(" and ")}, and in person — games played,
+            Lessons run online and in person — games played,
             positions reviewed and mistakes worked through together, so every session ends with
             something concrete to practise.
           </p>

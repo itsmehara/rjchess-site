@@ -25,8 +25,7 @@ export default function PlayPage() {
           <div className="soon-tag">Coming soon</div>
           <BoardPreview />
           <p className="lede small">
-            Want a game today? <Link href="/?enquiry=general#contact">Contact the trainer</Link> and he will set one up on Lichess or
-            Chess.com.
+            Want a game today? <Link href="/?enquiry=general#contact">Contact the trainer</Link> and he will set one up online.
           </p>
         </div>
       </section>

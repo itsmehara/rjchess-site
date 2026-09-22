@@ -10,5 +10,4 @@ export const profile = {
     { value: "300+", label: "Players trained" },
     { value: "1670", label: "Highest student FIDE rating" },
   ],
-  platforms: ["Lichess", "Chess.com"],
 };

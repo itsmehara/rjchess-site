@@ -27,5 +27,5 @@ export const syllabus = {
       text: "When the student and family stay interested and consistent, I take personal interest in the plan and its execution. Long-term wins for the student are the goal — that is what makes the coaching worthwhile for me too.",
     },
   ],
-  formats: ["Online, on Lichess and Chess.com", "In person", "Group batches and one-to-one"],
+  formats: ["Online", "In person", "Group batches and one-to-one"],
 };

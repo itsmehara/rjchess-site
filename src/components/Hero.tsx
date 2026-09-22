@@ -3,7 +3,6 @@
 import { useEffect, useRef, useState } from "react";
 import { site, navLinks, waLink } from "@/content/site";
 import { NavMenu } from "./NavMenu";
-import { profile } from "@/content/profile";
 import "./hero.css";
 
 // ---- The only list to edit when new frames arrive. ----
@@ -225,7 +224,7 @@ export function Hero() {
               <span className="dot" />
               <a href={waLink()}>WhatsApp {site.whatsappDisplay}</a>
               <span className="dot" />
-              <span>Coaching on {profile.platforms.join(" & ")}</span>
+              <span>Online &amp; in person</span>
               <span className="dot" />
               <span>FIDE-rated coach</span>
               <span className="dot" />
