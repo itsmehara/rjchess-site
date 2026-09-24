@@ -7,9 +7,12 @@ export function About() {
       <div className="wrap about-grid">
         <div>
           <p className="eyebrow">About the coach</p>
-          <h2>
-            {site.coach}, <em>FIDE-rated</em> player and coach.
-          </h2>
+          <h2 className="coach-name">{site.coach}</h2>
+          <p className="coach-titles">
+            {profile.titles.map((t) => (
+              <span key={t}>{t}</span>
+            ))}
+          </p>
           <p className="lede">{profile.intro}</p>
           <p className="lede">
             Lessons run online and in person — games played,
@@ -31,7 +34,9 @@ export function About() {
           <img src={profile.photo} alt={profile.photoAlt} width={960} height={1200} />
           <figcaption>
             {site.coach}
-            <small>Chess coach · {site.brand}</small>
+            {profile.titles.map((t) => (
+              <small key={t}>{t}</small>
+            ))}
           </figcaption>
         </figure>
       </div>

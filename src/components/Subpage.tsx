@@ -13,7 +13,6 @@ export function Subpage({ current, children }: { current: string; children: Reac
           <span className="mark" aria-hidden="true">&#9812;</span>
           <span className="wordmark-text">
             <b>{site.brand}</b>
-            <span>{site.brandSuffix}</span>
           </span>
         </Link>
         <NavMenu active={current} base="/" />

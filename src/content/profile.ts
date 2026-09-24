@@ -1,5 +1,7 @@
 // About section. Source: client's own words, 2026-09-19.
 export const profile = {
+  // Shown under his name in About and on the portrait (client's wording, 2026-09-24).
+  titles: ["Chess Coach, Mentor & Trainer", "FIDE-Rated Player"],
   photo: "/photos/jagadeesh-portrait.jpg",
   photoAlt: "Jagadeesh Babu — studio portrait",
   intro:

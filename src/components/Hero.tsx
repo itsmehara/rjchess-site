@@ -226,7 +226,7 @@ export function Hero() {
               <span className="dot" />
               <span>Online &amp; in person</span>
               <span className="dot" />
-              <span>FIDE-rated coach</span>
+              <span>FIDE-rated player</span>
               <span className="dot" />
             </div>
           ))}
@@ -238,7 +238,6 @@ export function Hero() {
           <span className="mark" aria-hidden="true">&#9812;</span>
           <span className="wordmark-text">
             <b>{site.brand}</b>
-            <span>{site.brandSuffix}</span>
           </span>
         </a>
         <NavMenu active={active} onPick={setActive} />

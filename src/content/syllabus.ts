@@ -7,8 +7,8 @@ export const syllabus = {
     "Five levels, one path. Every student is placed by where they stand today — not by age or how long they have played — and moves up as their results show they are ready.",
   levels: [
     { name: "Beginner", stage: "Level 1", blurb: "The rules, the pieces and the first real games." },
-    { name: "Beginner", stage: "Level 2", blurb: "Playing full games with a plan — basic tactics, checkmates and openings." },
-    { name: "Intermediate", stage: "Level 1", blurb: "Regular play with results to improve in school and club events." },
+    { name: "Beginner", stage: "Level 2", blurb: "Playing full games with a plan — basic tactics, key checkmates and opening principles." },
+    { name: "Intermediate", stage: "Level 1", blurb: "Steady improvement through regular play, with results in school and club events." },
     { name: "Intermediate", stage: "Level 2", blurb: "Structured preparation for rated tournaments and a first FIDE rating." },
     { name: "Advanced", stage: "", blurb: "Serious tournament play — pushing the rating and competing for titles." },
   ],

@@ -67,6 +67,9 @@ body {
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
 }
+/* Full-bleed strips (syllabus path on phones) size off 100vw, which includes a
+   classic scrollbar's width — clip so the page never gains a sideways scroll. */
+main { overflow-x: clip; }
 button, a, input, textarea, select { font: inherit; }
 img { display: block; max-width: 100%; height: auto; }
 
@@ -134,14 +137,15 @@ img { display: block; max-width: 100%; height: auto; }
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, transparent 44%, rgba(var(--scrim-rgb), 0.6) 66%, rgba(var(--scrim-rgb), 0.94) 100%);
+  background: linear-gradient(180deg, transparent 38%, rgba(var(--scrim-rgb), 0.6) 60%, rgba(var(--scrim-rgb), 0.94) 100%);
   pointer-events: none;
 }
 .portrait figcaption {
   position: absolute;
   left: 28px;
   right: 28px;
-  bottom: 68px;
+  /* Name + two title lines: sits well clear of the frame's bottom edge. */
+  bottom: clamp(80px, 15%, 104px);
   z-index: 1;
   color: var(--ivory);
   font-family: var(--serif);
@@ -153,6 +157,7 @@ img { display: block; max-width: 100%; height: auto; }
 .portrait figcaption small {
   display: block;
   margin-top: 6px;
+  line-height: 1.5;
   color: var(--gold-bright);
   font-family: var(--sans);
   font-size: 11px;
@@ -160,6 +165,31 @@ img { display: block; max-width: 100%; height: auto; }
   letter-spacing: 0.2em;
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
   text-transform: uppercase;
+}
+.portrait figcaption small + small { margin-top: 2px; }
+/* About: his name as the heading, his titles as a gold line beneath it. */
+.section h2.coach-name { font-size: clamp(38px, 4.4vw, 60px); line-height: 1.05; }
+.coach-titles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 14px;
+  margin: 14px 0 6px;
+  color: var(--gold-bright);
+  font-size: 12.5px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.coach-titles span + span::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 14px;
+  vertical-align: middle;
+  transform: rotate(45deg) translateY(-1px);
+  background: var(--gold);
 }
 .stats {
   display: grid;
@@ -625,6 +655,8 @@ img { display: block; max-width: 100%; height: auto; }
   .about-grid .portrait { order: 0; margin-top: 22px; min-height: 0; aspect-ratio: 4 / 4; }
 }
 @media (max-width: 560px) {
+  .coach-titles { flex-direction: column; align-items: flex-start; }
+  .coach-titles span + span::before { content: none; }
   .form-row { grid-template-columns: 1fr; }
   .form-row.city-row { grid-template-columns: 1.4fr 1fr; gap: 10px; }
   .stats li { padding: 18px 16px 16px; }
