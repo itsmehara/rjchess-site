@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-25T00:15:51.149Z",
+ "generatedAt": "2026-09-26T00:21:25.935Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-09-25T00:15:51.149Z",
+   "checkedAt": "2026-09-26T00:21:25.935Z",
    "ok": true,
    "items": [
     {
@@ -127,7 +127,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-09-25T00:15:51.149Z",
+   "checkedAt": "2026-09-26T00:21:25.935Z",
    "ok": true,
    "items": [
     {
@@ -1158,6 +1158,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "Sivakasi Chess Club FIDE Rated Open Tournament 2026",
+     "code": "499398",
+     "start": "2026-11-12",
+     "end": "2026-11-15",
+     "place": "Tamil Nadu",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/09/Prospectus_Sivakasi-Chess-Club-FIDE-Rated-Open-2026-1.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "UNSTOPPABLE LBHM 2026 25th LBHM, All India Open FIDE Rating Chess Tournament In Loving Memory of Late Prakashji Kunte",
      "code": "495836",
      "start": "2026-11-10",
@@ -1373,6 +1382,7 @@
      "start": "2026-12-24",
      "end": "2026-12-28",
      "place": "Delhi",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/09/2nd-Maharathi-Classical-December-Updated-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1666,7 +1676,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-09-25T00:15:51.149Z",
+   "checkedAt": "2026-09-26T00:21:25.935Z",
    "ok": true,
    "items": [
     {
@@ -1772,9 +1782,24 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-09-25T00:15:51.149Z",
+   "checkedAt": "2026-09-26T00:21:25.935Z",
    "ok": true,
    "items": [
+    {
+     "name": "Olympiad Day 9: Uzbekistan takes a giant step towards gold",
+     "url": "https://www.fide.com/olympiad-day-9-uzbekistan-takes-a-giant-step-towards-gold/",
+     "published": "2026-09-25"
+    },
+    {
+     "name": "ChessMom returns in Samarkand: Supporting mothers on and off the board",
+     "url": "https://www.fide.com/chessmom-returns-in-samarkand-supporting-mothers-on-and-off-the-board/",
+     "published": "2026-09-25"
+    },
+    {
+     "name": "Social Chess Blitz Talks in Samarkand: Stories of freedom, purpose and connection",
+     "url": "https://www.fide.com/social-chess-blitz-talks-in-samarkand-stories-of-freedom-purpose-and-connection/",
+     "published": "2026-09-25"
+    },
     {
      "name": "Olympiad Day 8: Germany shake up the race at the top",
      "url": "https://www.fide.com/olympiad-day-8-germany-shake-up-the-race-at-the-top/",
@@ -1809,21 +1834,6 @@
      "name": "Total Chess World Championship Tour announces six more stars for Budapest pilot",
      "url": "https://www.fide.com/total-chess-world-championship-tour-announces-six-more-stars-for-budapest-pilot/",
      "published": "2026-09-23"
-    },
-    {
-     "name": "FIDE Ethics and Disciplinary Commission ruling on 2026 ACC election activities",
-     "url": "https://www.fide.com/fide-ethics-and-disciplinary-commission-ruling-on-2026-acc-election-activities/",
-     "published": "2026-09-23"
-    },
-    {
-     "name": "Free day in Samarkand: Exploring the heart of the Silk Road",
-     "url": "https://www.fide.com/free-day-in-samarkand-exploring-the-heart-of-the-silk-road/",
-     "published": "2026-09-22"
-    },
-    {
-     "name": "Olympiad Day 6: Uzbekistan make their move in Samarkand",
-     "url": "https://www.fide.com/olympiad-day-6-uzbekistan-make-their-move-in-samarkand/",
-     "published": "2026-09-21"
     }
    ]
   }
