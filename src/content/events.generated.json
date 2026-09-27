@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-26T00:21:25.935Z",
+ "generatedAt": "2026-09-27T00:12:46.754Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-09-26T00:21:25.935Z",
+   "checkedAt": "2026-09-27T00:12:46.754Z",
    "ok": true,
    "items": [
     {
@@ -127,7 +127,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-09-26T00:21:25.935Z",
+   "checkedAt": "2026-09-27T00:12:46.754Z",
    "ok": true,
    "items": [
     {
@@ -988,6 +988,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "KHELO CHESS INDIA 94.0 CLASSICAL FIDE RATING TOURNAMENT 2026",
+     "code": "502133",
+     "start": "2026-10-17",
+     "end": "2026-10-22",
+     "place": "Bhopal, MP",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/09/KHELO-CHESS-INDIA-94.0-CLASSICAL-FIDE-RATING-2026.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "2nd Rotaract RUAS – Children Chess Academy All India Open FIDE Rated Rapid Chess Tournament",
      "code": "493788",
      "start": "2026-10-18",
@@ -1028,6 +1037,14 @@
      "end": "2026-10-21",
      "place": "Coimbatore",
      "brochure": "https://aicf.in/wp-content/uploads/2026/07/Manchester-final.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "AICFB National Team Chess Championship for the Visually Challenged, 2026",
+     "code": "502255",
+     "start": "2026-10-23",
+     "end": "2026-10-25",
+     "place": "Gujarat",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1676,9 +1693,14 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-09-26T00:21:25.935Z",
+   "checkedAt": "2026-09-27T00:12:46.754Z",
    "ok": true,
    "items": [
+    {
+     "name": "61st TELANGANA STATE RANKING CHESS TOURNAMENT",
+     "url": "https://www.chesstelangana.com/event/61st-telangana-state-ranking-chess-tournament/",
+     "published": "2026-09-26"
+    },
     {
      "name": "TELANGANA STATE UNDER-15 CHESS CHAMPIONSHIP – 2026",
      "url": "https://www.chesstelangana.com/event/telangana-state-under-15-chess-championship-2026/",
@@ -1773,18 +1795,33 @@
      "name": "1st DANNE’S INTERNATIONAL FIDE RATED OPEN CHESS TOURNAMENT-2026",
      "url": "https://www.chesstelangana.com/event/1st-dannes-international-fide-rated-open-chess-tournament-2026/",
      "published": "2026-04-24"
-    },
-    {
-     "name": "Telangana Under 7 Boys & Girls Chess Championship – 2026",
-     "url": "https://www.chesstelangana.com/event/telangana-under-7-boys-girls-chess-championship-2026/",
-     "published": "2026-04-21"
     }
    ]
   },
   "fide": {
-   "checkedAt": "2026-09-26T00:21:25.935Z",
+   "checkedAt": "2026-09-27T00:12:46.754Z",
    "ok": true,
    "items": [
+    {
+     "name": "Olympiad Day 10: Uzbekistan in command as medal race goes to the wire",
+     "url": "https://www.fide.com/olympiad-day-10-uzbekistan-in-command-as-medal-race-goes-to-the-wire/",
+     "published": "2026-09-26"
+    },
+    {
+     "name": "Inaugural FIDE Excellence Awards celebrate the people and achievements shaping chess worldwide",
+     "url": "https://www.fide.com/inaugural-fide-excellence-awards-celebrate-the-people-and-achievements-shaping-chess-worldwide/",
+     "published": "2026-09-26"
+    },
+    {
+     "name": "DGT hosts two e-Board Operator Seminars at 46th FIDE Chess Olympiad in Samarkand",
+     "url": "https://www.fide.com/dgt-hosts-two-e-board-operator-seminars-at-46th-fide-chess-olympiad-in-samarkand/",
+     "published": "2026-09-26"
+    },
+    {
+     "name": "Timur Turlov elected President of FIDE",
+     "url": "https://www.fide.com/timur-turlov-elected-president-of-fide/",
+     "published": "2026-09-26"
+    },
     {
      "name": "Olympiad Day 9: Uzbekistan takes a giant step towards gold",
      "url": "https://www.fide.com/olympiad-day-9-uzbekistan-takes-a-giant-step-towards-gold/",
@@ -1814,26 +1851,6 @@
      "name": "José Antonio Carrillo receives broad support to continue at the helm of FIDE Americas",
      "url": "https://www.fide.com/jose-antonio-carrillo-receives-broad-support-to-continue-at-the-helm-of-fide-americas/",
      "published": "2026-09-24"
-    },
-    {
-     "name": "Olympiad Day 7: Two Nodirbeks, one golden mission",
-     "url": "https://www.fide.com/olympiad-day-7-two-nodirbeks-one-golden-mission/",
-     "published": "2026-09-23"
-    },
-    {
-     "name": "Commonwealth Chess Association partners with Chessveda to expand digital chess across Commonwealth nations",
-     "url": "https://www.fide.com/commonwealth-chess-association-partners-with-chessveda-to-expand-digital-chess-across-commonwealth-nations/",
-     "published": "2026-09-23"
-    },
-    {
-     "name": "Beyond the Board: FIDE Women’s Chess Commission maps pathways, progress and the future of women’s chess",
-     "url": "https://www.fide.com/beyond-the-board-fide-womens-chess-commission-maps-pathways-progress-and-the-future-of-womens-chess/",
-     "published": "2026-09-23"
-    },
-    {
-     "name": "Total Chess World Championship Tour announces six more stars for Budapest pilot",
-     "url": "https://www.fide.com/total-chess-world-championship-tour-announces-six-more-stars-for-budapest-pilot/",
-     "published": "2026-09-23"
     }
    ]
   }
