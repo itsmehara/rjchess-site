@@ -1,26 +1,10 @@
 {
- "generatedAt": "2026-09-27T00:12:46.754Z",
+ "generatedAt": "2026-09-28T00:17:32.058Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-09-27T00:12:46.754Z",
+   "checkedAt": "2026-09-28T00:17:32.058Z",
    "ok": true,
    "items": [
-    {
-     "name": "10TH AP STATE RANKING CHESS TOURNAMENT-2026 (KRISHNA)",
-     "start": "2026-09-27",
-     "url": "https://apchess.org/event-details/details/all/1799",
-     "brochure": "https://apchess.org/assets/events/brochures/1788704568_4302.pdf",
-     "register": "https://apchess.org/signin",
-     "completed": false
-    },
-    {
-     "name": "AP STATE OPEN CHESS TOURNAMENT 2026(Limited to Five Districts Visakhapatnam, Anakapalle, Vizianagara",
-     "start": "2026-09-27",
-     "url": "https://apchess.org/event-details/details/all/1802",
-     "brochure": "https://apchess.org/assets/events/brochures/1789536656_115.pdf",
-     "register": "https://apchess.org/signin",
-     "completed": false
-    },
     {
      "name": "IDPS AP STATE RAPID CHESS TOURNAMENT -2026 (KOVVURU)",
      "start": "2026-10-02",
@@ -127,7 +111,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-09-27T00:12:46.754Z",
+   "checkedAt": "2026-09-28T00:17:32.058Z",
    "ok": true,
    "items": [
     {
@@ -1694,7 +1678,7 @@
   },
   "ts": {
    "checkedAt": "2026-09-27T00:12:46.754Z",
-   "ok": true,
+   "ok": false,
    "items": [
     {
      "name": "61st TELANGANA STATE RANKING CHESS TOURNAMENT",
@@ -1796,12 +1780,24 @@
      "url": "https://www.chesstelangana.com/event/1st-dannes-international-fide-rated-open-chess-tournament-2026/",
      "published": "2026-04-24"
     }
-   ]
+   ],
+   "error": "fetch failed",
+   "failedAt": "2026-09-28T00:17:32.058Z"
   },
   "fide": {
-   "checkedAt": "2026-09-27T00:12:46.754Z",
+   "checkedAt": "2026-09-28T00:17:32.058Z",
    "ok": true,
    "items": [
+    {
+     "name": "Fireworks, drones and champions: Samarkand’s grand Olympiad finale",
+     "url": "https://www.fide.com/fireworks-drones-and-champions-samarkands-grand-olympiad-finale/",
+     "published": "2026-09-27"
+    },
+    {
+     "name": "Uzbekistan’s dream finish: Olympiad gold in Samarkand",
+     "url": "https://www.fide.com/uzbekistans-dream-finish-olympiad-gold-in-samarkand/",
+     "published": "2026-09-27"
+    },
     {
      "name": "Olympiad Day 10: Uzbekistan in command as medal race goes to the wire",
      "url": "https://www.fide.com/olympiad-day-10-uzbekistan-in-command-as-medal-race-goes-to-the-wire/",
@@ -1840,16 +1836,6 @@
     {
      "name": "Olympiad Day 8: Germany shake up the race at the top",
      "url": "https://www.fide.com/olympiad-day-8-germany-shake-up-the-race-at-the-top/",
-     "published": "2026-09-24"
-    },
-    {
-     "name": "Every Lesson Counts: FIDE Summit in Samarkand puts chess education at the heart of global development",
-     "url": "https://www.fide.com/every-lesson-counts-fide-summit-in-samarkand-puts-chess-education-at-the-heart-of-global-development/",
-     "published": "2026-09-24"
-    },
-    {
-     "name": "José Antonio Carrillo receives broad support to continue at the helm of FIDE Americas",
-     "url": "https://www.fide.com/jose-antonio-carrillo-receives-broad-support-to-continue-at-the-helm-of-fide-americas/",
      "published": "2026-09-24"
     }
    ]
