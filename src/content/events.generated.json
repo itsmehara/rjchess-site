@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-28T00:17:32.058Z",
+ "generatedAt": "2026-09-29T01:27:43.200Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-09-28T00:17:32.058Z",
+   "checkedAt": "2026-09-29T01:27:43.200Z",
    "ok": true,
    "items": [
     {
@@ -111,7 +111,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-09-28T00:17:32.058Z",
+   "checkedAt": "2026-09-29T01:27:43.200Z",
    "ok": true,
    "items": [
     {
@@ -120,15 +120,6 @@
      "start": "2026-09-27",
      "end": "2026-09-27",
      "place": "Assam",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "PICA’s All India Open FIDE Classical Rating Chess Tournament 2026",
-     "code": "485292",
-     "start": "2026-08-09",
-     "end": "2026-08-14",
-     "place": "Miyapur, Hyderabad",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/4-2-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1144,11 +1135,21 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "3rd T-RERA Open FIDE Rating International Chess Tournament, 2026",
+     "code": "499402",
+     "start": "2026-11-04",
+     "end": "2026-11-10",
+     "place": "Tripura",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/09/3rd-T-RERA-Classical-Prospectus.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "2nd Shefali Memorial International Open FIDE Rating Rapid Chess Tournament 2026",
      "code": "499400",
      "start": "2026-11-07",
      "end": "2026-11-08",
      "place": "Tripura",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/09/2nd-Shafali-Rapid-Prospuctus.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1156,6 +1157,7 @@
      "code": "499401",
      "start": "2026-11-10",
      "place": "Tripura",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/09/T-Rera-Blitz-Prospectus.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1309,6 +1311,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "2nd MVIT King Trophy International Rapid FIDE Rating Chess Tournament 2026",
+     "code": "500404",
+     "start": "2026-11-29",
+     "end": "2026-11-29",
+     "place": "Pondicherry",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/09/MVIT_King_Trophy_2026_HD_300DPI_compressed-1.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "63rd National Chess Championship – 2026",
      "code": "485283",
      "start": "2026-11-29",
@@ -1323,6 +1334,15 @@
      "start": "2026-11-30",
      "end": "2026-12-10",
      "place": "Telangana",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "8th Tarabai Shinde FIDE Rapid Rating Chess Tournament, Nerul, Navi Mumbai",
+     "code": "Navi Mumbai Maharashtra",
+     "start": "2026-12-06",
+     "end": "2026-12-06",
+     "place": "484749",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/09/8th-Tarabai-2-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1782,12 +1802,17 @@
     }
    ],
    "error": "fetch failed",
-   "failedAt": "2026-09-28T00:17:32.058Z"
+   "failedAt": "2026-09-29T01:27:43.200Z"
   },
   "fide": {
-   "checkedAt": "2026-09-28T00:17:32.058Z",
+   "checkedAt": "2026-09-29T01:27:43.200Z",
    "ok": true,
    "items": [
+    {
+     "name": "FIDE Council composition for 2026–2030 announced",
+     "url": "https://www.fide.com/fide-council-composition-for-2026-2030-announced/",
+     "published": "2026-09-28"
+    },
     {
      "name": "Fireworks, drones and champions: Samarkand’s grand Olympiad finale",
      "url": "https://www.fide.com/fireworks-drones-and-champions-samarkands-grand-olympiad-finale/",
@@ -1832,11 +1857,6 @@
      "name": "Social Chess Blitz Talks in Samarkand: Stories of freedom, purpose and connection",
      "url": "https://www.fide.com/social-chess-blitz-talks-in-samarkand-stories-of-freedom-purpose-and-connection/",
      "published": "2026-09-25"
-    },
-    {
-     "name": "Olympiad Day 8: Germany shake up the race at the top",
-     "url": "https://www.fide.com/olympiad-day-8-germany-shake-up-the-race-at-the-top/",
-     "published": "2026-09-24"
     }
    ]
   }
