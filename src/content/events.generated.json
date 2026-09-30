@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-29T01:27:43.200Z",
+ "generatedAt": "2026-09-30T01:02:35.563Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-09-29T01:27:43.200Z",
+   "checkedAt": "2026-09-30T01:02:35.563Z",
    "ok": true,
    "items": [
     {
@@ -111,7 +111,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-09-29T01:27:43.200Z",
+   "checkedAt": "2026-09-30T01:02:35.563Z",
    "ok": true,
    "items": [
     {
@@ -173,33 +173,6 @@
      "start": "2026-08-14",
      "end": "2026-08-16",
      "place": "Bhilai, Raipur",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "6th Check n Mate All India Open FIDE Rated Rapid Chess Tournament",
-     "code": "479936",
-     "start": "2026-08-15",
-     "end": "2026-08-15",
-     "place": "Bengaluru",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/06/6th-Check-N-Mate-Rapid-Tournament_Updated-1.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Runwal Second International FIDE Rapid Rating Chess Tournament 2026",
-     "code": "489107",
-     "start": "2026-08-15",
-     "end": "2026-08-15",
-     "place": "Maharashtra",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/15-August-Runwal-Rapid-2026_20260715_122936_0000.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "PICA’s ALL INDIA OPEN BLITZ FIDE RATING CHESS TOURNAMENT – 2026",
-     "code": "485290",
-     "start": "2026-08-15",
-     "end": "2026-08-15",
-     "place": "Telangana",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/3-3.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1031,6 +1004,14 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "1st Rajesh Pilot Memorial Open FIDE Rated Rapid Chess Tournament 2026",
+     "code": "502618",
+     "start": "2026-10-24",
+     "end": "2026-10-25",
+     "place": "Chandigarh",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "1st Lions Club of Belgaum & Leo Club of Belgaum All India Open FIDE Rating rapid chess tournament",
      "code": "487839",
      "start": "2026-10-24",
@@ -1131,7 +1112,7 @@
      "code": "489381",
      "start": "2026-11-01",
      "end": "2026-11-01",
-     "place": "Tamil Nadu",
+     "place": "Chennai , Tamil Nadu",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1212,6 +1193,15 @@
      "end": "2026-11-15",
      "place": "Pune, Maharashtra",
      "brochure": "https://aicf.in/wp-content/uploads/2026/09/Revised_LBHM-UNSTOPPABLE-NOV-2026_1.9-mb.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "Dr.Ajit Kasliwal Memorial All India Open Fide rapid rating Chess Tournament 2026",
+     "code": "501913",
+     "start": "2026-11-15",
+     "end": "2026-11-15",
+     "place": "MP",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/09/Dr.-Ajit-Kasliwal-Memorial-All-India-Open-Fide-Rapid-Rating-Chess-Tournament-2026.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1308,6 +1298,15 @@
      "end": "2026-11-29",
      "place": "Haveri, Karnataka",
      "brochure": "https://aicf.in/wp-content/uploads/2026/09/SARJI-RENUKA-ALL-INDIA-OPEN-FIDE-RAPID-RATING-CHESS-TOURNAMENT-2-1-1.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "Khannur Rapid Rated Chess Tournament – Bengaluru",
+     "code": "501318",
+     "start": "2026-11-29",
+     "end": "2026-11-29",
+     "place": "Karnataka",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/09/Rapid-Brochure_compressed.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1697,8 +1696,8 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-09-27T00:12:46.754Z",
-   "ok": false,
+   "checkedAt": "2026-09-30T01:02:35.563Z",
+   "ok": true,
    "items": [
     {
      "name": "61st TELANGANA STATE RANKING CHESS TOURNAMENT",
@@ -1800,14 +1799,22 @@
      "url": "https://www.chesstelangana.com/event/1st-dannes-international-fide-rated-open-chess-tournament-2026/",
      "published": "2026-04-24"
     }
-   ],
-   "error": "fetch failed",
-   "failedAt": "2026-09-29T01:27:43.200Z"
+   ]
   },
   "fide": {
-   "checkedAt": "2026-09-29T01:27:43.200Z",
+   "checkedAt": "2026-09-30T01:02:35.563Z",
    "ok": true,
    "items": [
+    {
+     "name": "FIDE Gligorić Trophy 2026 winners announced",
+     "url": "https://www.fide.com/fide-gligoric-trophy-2026-winners-announced/",
+     "published": "2026-09-29"
+    },
+    {
+     "name": "WSTC 2026 European Stage begins in Tsaghkadzor",
+     "url": "https://www.fide.com/wstc-2026-european-stage-begins-in-tsaghkadzor/",
+     "published": "2026-09-29"
+    },
     {
      "name": "FIDE Council composition for 2026–2030 announced",
      "url": "https://www.fide.com/fide-council-composition-for-2026-2030-announced/",
@@ -1846,16 +1853,6 @@
     {
      "name": "Olympiad Day 9: Uzbekistan takes a giant step towards gold",
      "url": "https://www.fide.com/olympiad-day-9-uzbekistan-takes-a-giant-step-towards-gold/",
-     "published": "2026-09-25"
-    },
-    {
-     "name": "ChessMom returns in Samarkand: Supporting mothers on and off the board",
-     "url": "https://www.fide.com/chessmom-returns-in-samarkand-supporting-mothers-on-and-off-the-board/",
-     "published": "2026-09-25"
-    },
-    {
-     "name": "Social Chess Blitz Talks in Samarkand: Stories of freedom, purpose and connection",
-     "url": "https://www.fide.com/social-chess-blitz-talks-in-samarkand-stories-of-freedom-purpose-and-connection/",
      "published": "2026-09-25"
     }
    ]
