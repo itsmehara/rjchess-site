@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-30T01:02:35.563Z",
+ "generatedAt": "2026-10-01T01:03:54.591Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-09-30T01:02:35.563Z",
+   "checkedAt": "2026-10-01T01:03:54.591Z",
    "ok": true,
    "items": [
     {
@@ -111,7 +111,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-09-30T01:02:35.563Z",
+   "checkedAt": "2026-10-01T01:03:54.591Z",
    "ok": true,
    "items": [
     {
@@ -123,110 +123,12 @@
      "url": "https://aicf.in/all-events/"
     },
     {
-     "name": "2nd Siliguri SCGC International FIDE Rated Classical Chess Tournament 2026",
-     "code": "465884",
-     "start": "2026-08-11",
-     "end": "2026-08-16",
-     "place": "Siliguri, West Bengal",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/05/Revised.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Viyugam Chess Academy – INTERNATIONAL FIDE RATED OPEN CHESS TOURNAMENT 2026",
-     "code": "478180",
-     "start": "2026-08-12",
-     "end": "2026-08-16",
-     "place": "Tamil Nadu",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/05/VCA_Open_Aug_2026.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Pudukkottai FIDE Rating Chess Tournament Below 1700 -2026 (CFPD 5th Edition)",
-     "code": "476468",
-     "start": "2026-08-14",
-     "end": "2026-08-16",
-     "place": "Tamil Nadu",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/06/Pudukkottai-Below-1700-August-14-to-16.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "2nd BATTLE FIELD INTERNATIONAL FIDE RATING BELOW 1800 CHESS TOURNAMENT 2026",
-     "code": "480975",
-     "start": "2026-08-14",
-     "end": "2026-08-16",
-     "place": "Tamil Nadu",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/2nd-Battle-Field-International-Fide-Rating-below-1800-chess-tournament-2026-6.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Punjab State Amateur Below 1700 FIDE Rated Chess Championship 2026-27",
-     "code": "486819",
-     "start": "2026-08-14",
-     "end": "2026-08-16",
-     "place": "Punjab",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Punjab-State-Amateur-Below-1700-Fide-Rated.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "CG State JUNIOR FIDE RATED CHESS CHAMPIONSHIP 2026 BHILAI",
-     "code": "488290",
-     "start": "2026-08-14",
-     "end": "2026-08-16",
-     "place": "Bhilai, Raipur",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
      "name": "1st ATCA Challengers Cup Fide Rating International Chess Tournament 2026",
      "code": "491486",
      "start": "2026-08-15",
      "end": "2026-08-19",
      "place": "Tripura",
      "brochure": "https://aicf.in/wp-content/uploads/2026/08/ATCA-Challengers-Cup-2026.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "13th KCA Trophy ALL INDIA OPEN ONE DAY FIDE RATED CHESS TOURNAMENT",
-     "code": "491482",
-     "start": "2026-08-16",
-     "end": "2026-08-16",
-     "place": "Mangalore",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/1000784002-2-1.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Viyugam Chess Academy – International FIDE Rated BLITZ Open Chess Tournament 2026",
-     "code": "483770",
-     "start": "2026-08-16",
-     "end": "2026-08-16",
-     "place": "Chennai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Prospectus_Viyugam_Blitz_2026.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "1st Ashtavinayak Group All India FIDE Rapid Rating Chess Tournament 2026",
-     "code": "488918",
-     "start": "2026-08-16",
-     "end": "2026-08-16",
-     "place": "Maharashtra",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/1st-Ashtavinayak-Group-All-India-FIDE-Rapid-Rating-Chess-Tournament-2026.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "PICA’s ALL INDIA OPEN RAPID FIDE RATING CHESS TOURNAMENT – 2026",
-     "code": "485291",
-     "start": "2026-08-16",
-     "end": "2026-08-16",
-     "place": "Telangana",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/4.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Bengaluru Open FIDE rated Rapid Chess Tournament 2026",
-     "code": "486125",
-     "start": "2026-08-16",
-     "end": "2026-08-16",
-     "place": "Bangalore, Karnataka",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Bengaluru-Open-FIDE-rated-Rapid-Chess-Tournament-2026.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1055,12 +957,29 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "Masters Chess Academy, Kanyakumari 2nd International FIDE Rated Rapid Chess Tournament 2026",
+     "code": "503302",
+     "start": "2026-10-25",
+     "end": "2026-10-25",
+     "place": "Tamil Nadu",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "9th N L Pandiyar Memorial International Open Fide Rating Chess Tournament 2026",
      "code": "485005",
      "start": "2026-10-25",
      "end": "2026-10-29",
      "place": "Udaipur, Rajasthan",
      "brochure": "https://aicf.in/wp-content/uploads/2026/06/16.06.2026-Final-9th-NL-Pandiyar-Lakecity-Open-25-28-Oct-2026-Final.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "Chessinfo & Golden Knights Chess Academy – 1st International FIDE Rating Open Chess Tournament 2026",
+     "code": "494154",
+     "start": "2026-10-28",
+     "end": "2026-11-01",
+     "place": "Tirupattur DT, Tamil Nadu",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/09/Chessinfo-GKCA_FIDE_Open_2026.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1333,6 +1252,14 @@
      "start": "2026-11-30",
      "end": "2026-12-10",
      "place": "Telangana",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "Chessinfo & Golden Knights Chess Academy – 1st International FIDE Rating 2nd Below 1700 Chess Tournament 2026",
+     "code": "494155",
+     "start": "2026-12-04",
+     "end": "2026-12-06",
+     "place": "Tirupattur DT, Tamil Nadu",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1696,7 +1623,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-09-30T01:02:35.563Z",
+   "checkedAt": "2026-10-01T01:03:54.591Z",
    "ok": true,
    "items": [
     {
@@ -1802,9 +1729,14 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-09-30T01:02:35.563Z",
+   "checkedAt": "2026-10-01T01:03:54.591Z",
    "ok": true,
    "items": [
+    {
+     "name": "WSTC Europe Day 2: Bright smiles, brilliant moves, and cultural rhythms in Tsaghkadzor",
+     "url": "https://www.fide.com/wstc-europe-day-2-bright-smiles-brilliant-moves-and-cultural-rhythms-in-tsaghkadzor/",
+     "published": "2026-09-30"
+    },
     {
      "name": "FIDE Gligorić Trophy 2026 winners announced",
      "url": "https://www.fide.com/fide-gligoric-trophy-2026-winners-announced/",
@@ -1849,11 +1781,6 @@
      "name": "Timur Turlov elected President of FIDE",
      "url": "https://www.fide.com/timur-turlov-elected-president-of-fide/",
      "published": "2026-09-26"
-    },
-    {
-     "name": "Olympiad Day 9: Uzbekistan takes a giant step towards gold",
-     "url": "https://www.fide.com/olympiad-day-9-uzbekistan-takes-a-giant-step-towards-gold/",
-     "published": "2026-09-25"
     }
    ]
   }
