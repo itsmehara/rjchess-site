@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-01T01:03:54.591Z",
+ "generatedAt": "2026-10-02T01:16:48.346Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-01T01:03:54.591Z",
+   "checkedAt": "2026-10-02T01:16:48.346Z",
    "ok": true,
    "items": [
     {
@@ -111,7 +111,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-01T01:03:54.591Z",
+   "checkedAt": "2026-10-02T01:16:48.346Z",
    "ok": true,
    "items": [
     {
@@ -145,24 +145,6 @@
      "code": "486700",
      "start": "2026-08-16",
      "end": "2026-08-26",
-     "place": "Mumbai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Asian-Junior.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Asian Junior Blitz Chess Championship 2026",
-     "code": "486703",
-     "start": "2026-08-17",
-     "end": "2026-08-17",
-     "place": "Mumbai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Asian-Junior.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Asian Junior Girls Blitz Chess Championship 2026",
-     "code": "486704",
-     "start": "2026-08-17",
-     "end": "2026-08-17",
      "place": "Mumbai",
      "brochure": "https://aicf.in/wp-content/uploads/2026/07/Asian-Junior.pdf",
      "url": "https://aicf.in/all-events/"
@@ -1032,6 +1014,7 @@
      "start": "2026-11-01",
      "end": "2026-11-01",
      "place": "Chennai , Tamil Nadu",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/The_nest_school_international_rapid_chess_tournament_ten_ten_chess_academy-2.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1217,6 +1200,15 @@
      "end": "2026-11-29",
      "place": "Haveri, Karnataka",
      "brochure": "https://aicf.in/wp-content/uploads/2026/09/SARJI-RENUKA-ALL-INDIA-OPEN-FIDE-RAPID-RATING-CHESS-TOURNAMENT-2-1-1.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "ChessInd Academy’s 2nd International FIDE Rated Open Rapid Chess Tournament",
+     "code": "502180",
+     "start": "2026-11-29",
+     "end": "2026-11-29",
+     "place": "Kerala",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/Chessind-acdemys-2nd-Fide-Rapid-Chess-Tournament-compressed.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1623,7 +1615,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-01T01:03:54.591Z",
+   "checkedAt": "2026-10-02T01:16:48.346Z",
    "ok": true,
    "items": [
     {
@@ -1729,9 +1721,34 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-10-01T01:03:54.591Z",
+   "checkedAt": "2026-10-02T01:16:48.346Z",
    "ok": true,
    "items": [
+    {
+     "name": "“Theory and Practice of Chess Education” conference begins in Tsaghkadzor",
+     "url": "https://www.fide.com/theory-and-practice-of-chess-education-conference-begins-in-tsaghkadzor/",
+     "published": "2026-10-01"
+    },
+    {
+     "name": "WSTC Europe Day 3: Competitions, tactical masterclasses and high-altitude adventures in Tsaghkadzor",
+     "url": "https://www.fide.com/wstc-europe-day-3-competitions-tactical-masterclasses-and-high-altitude-adventures-in-tsaghkadzor/",
+     "published": "2026-10-01"
+    },
+    {
+     "name": "Road to Weissenhaus 2027: Freestyle Friday is back",
+     "url": "https://www.fide.com/road-to-weissenhaus-2027-freestyle-friday-is-back/",
+     "published": "2026-10-01"
+    },
+    {
+     "name": "Main Decisions of the FIDE General Assembly 2026",
+     "url": "https://www.fide.com/main-decisions-of-the-fide-general-assembly-2026/",
+     "published": "2026-10-01"
+    },
+    {
+     "name": "FIDE October 2026 rating list published",
+     "url": "https://www.fide.com/fide-october-2026-rating-list-published/",
+     "published": "2026-10-01"
+    },
     {
      "name": "WSTC Europe Day 2: Bright smiles, brilliant moves, and cultural rhythms in Tsaghkadzor",
      "url": "https://www.fide.com/wstc-europe-day-2-bright-smiles-brilliant-moves-and-cultural-rhythms-in-tsaghkadzor/",
@@ -1756,31 +1773,6 @@
      "name": "Fireworks, drones and champions: Samarkand’s grand Olympiad finale",
      "url": "https://www.fide.com/fireworks-drones-and-champions-samarkands-grand-olympiad-finale/",
      "published": "2026-09-27"
-    },
-    {
-     "name": "Uzbekistan’s dream finish: Olympiad gold in Samarkand",
-     "url": "https://www.fide.com/uzbekistans-dream-finish-olympiad-gold-in-samarkand/",
-     "published": "2026-09-27"
-    },
-    {
-     "name": "Olympiad Day 10: Uzbekistan in command as medal race goes to the wire",
-     "url": "https://www.fide.com/olympiad-day-10-uzbekistan-in-command-as-medal-race-goes-to-the-wire/",
-     "published": "2026-09-26"
-    },
-    {
-     "name": "Inaugural FIDE Excellence Awards celebrate the people and achievements shaping chess worldwide",
-     "url": "https://www.fide.com/inaugural-fide-excellence-awards-celebrate-the-people-and-achievements-shaping-chess-worldwide/",
-     "published": "2026-09-26"
-    },
-    {
-     "name": "DGT hosts two e-Board Operator Seminars at 46th FIDE Chess Olympiad in Samarkand",
-     "url": "https://www.fide.com/dgt-hosts-two-e-board-operator-seminars-at-46th-fide-chess-olympiad-in-samarkand/",
-     "published": "2026-09-26"
-    },
-    {
-     "name": "Timur Turlov elected President of FIDE",
-     "url": "https://www.fide.com/timur-turlov-elected-president-of-fide/",
-     "published": "2026-09-26"
     }
    ]
   }
