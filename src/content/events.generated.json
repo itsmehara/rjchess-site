@@ -1,17 +1,10 @@
 {
- "generatedAt": "2026-10-02T01:16:48.346Z",
+ "generatedAt": "2026-10-03T00:55:00.536Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-02T01:16:48.346Z",
+   "checkedAt": "2026-10-03T00:55:00.536Z",
    "ok": true,
    "items": [
-    {
-     "name": "IDPS AP STATE RAPID CHESS TOURNAMENT -2026 (KOVVURU)",
-     "start": "2026-10-02",
-     "url": "https://apchess.org/event-details/details/all/1806",
-     "register": "https://apchess.org/signin",
-     "completed": false
-    },
     {
      "name": "9 th AP STATE RANKING CHESS TOURNAMENT-2026 (Anakapalli)",
      "start": "2026-10-04",
@@ -111,7 +104,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-02T01:16:48.346Z",
+   "checkedAt": "2026-10-03T00:55:00.536Z",
    "ok": true,
    "items": [
     {
@@ -147,33 +140,6 @@
      "end": "2026-08-26",
      "place": "Mumbai",
      "brochure": "https://aicf.in/wp-content/uploads/2026/07/Asian-Junior.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Asian Junior Rapid Chess Championship 2026",
-     "code": "486701",
-     "start": "2026-08-17",
-     "end": "2026-08-18",
-     "place": "Mumbai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Asian-Junior.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Asian Junior Girls Rapid Chess Championship 2026",
-     "code": "486702",
-     "start": "2026-08-17",
-     "end": "2026-08-18",
-     "place": "Mumbai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Asian-Junior.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Madhya Pradesh State Junior Boys & Girls Fide Rating Championship 2026",
-     "code": "484860",
-     "start": "2026-08-15",
-     "end": "2026-08-18",
-     "place": "MP",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/MP-State-Junior-2026-.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1615,7 +1581,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-02T01:16:48.346Z",
+   "checkedAt": "2026-10-03T00:55:00.536Z",
    "ok": true,
    "items": [
     {
@@ -1721,9 +1687,19 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-10-02T01:16:48.346Z",
+   "checkedAt": "2026-10-03T00:55:00.536Z",
    "ok": true,
    "items": [
+    {
+     "name": "From Tsaghkadzor to Grand Final: European Schools Chess Champions crowned amidst cultural celebration",
+     "url": "https://www.fide.com/from-tsaghkadzor-to-grand-final-european-schools-chess-champions-crowned-amidst-cultural-celebration/",
+     "published": "2026-10-02"
+    },
+    {
+     "name": "Small Nations Chess Association restarts activities and elects new Board",
+     "url": "https://www.fide.com/small-nations-chess-association-restarts-activities-and-elects-new-board/",
+     "published": "2026-10-02"
+    },
     {
      "name": "“Theory and Practice of Chess Education” conference begins in Tsaghkadzor",
      "url": "https://www.fide.com/theory-and-practice-of-chess-education-conference-begins-in-tsaghkadzor/",
@@ -1763,16 +1739,6 @@
      "name": "WSTC 2026 European Stage begins in Tsaghkadzor",
      "url": "https://www.fide.com/wstc-2026-european-stage-begins-in-tsaghkadzor/",
      "published": "2026-09-29"
-    },
-    {
-     "name": "FIDE Council composition for 2026–2030 announced",
-     "url": "https://www.fide.com/fide-council-composition-for-2026-2030-announced/",
-     "published": "2026-09-28"
-    },
-    {
-     "name": "Fireworks, drones and champions: Samarkand’s grand Olympiad finale",
-     "url": "https://www.fide.com/fireworks-drones-and-champions-samarkands-grand-olympiad-finale/",
-     "published": "2026-09-27"
     }
    ]
   }
