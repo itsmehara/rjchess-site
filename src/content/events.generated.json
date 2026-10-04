@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-03T00:55:00.536Z",
+ "generatedAt": "2026-10-04T00:21:00.987Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-03T00:55:00.536Z",
+   "checkedAt": "2026-10-04T00:21:00.987Z",
    "ok": true,
    "items": [
     {
@@ -104,7 +104,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-03T00:55:00.536Z",
+   "checkedAt": "2026-10-04T00:21:00.987Z",
    "ok": true,
    "items": [
     {
@@ -113,15 +113,6 @@
      "start": "2026-09-27",
      "end": "2026-09-27",
      "place": "Assam",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "1st ATCA Challengers Cup Fide Rating International Chess Tournament 2026",
-     "code": "491486",
-     "start": "2026-08-15",
-     "end": "2026-08-19",
-     "place": "Tripura",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/ATCA-Challengers-Cup-2026.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -989,7 +980,7 @@
      "start": "2026-11-04",
      "end": "2026-11-10",
      "place": "Tripura",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/09/3rd-T-RERA-Classical-Prospectus.pdf",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/T-Rera-3rd_2026.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1006,7 +997,7 @@
      "code": "499401",
      "start": "2026-11-10",
      "place": "Tripura",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/09/T-Rera-Blitz-Prospectus.pdf",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/T-Rera-Blitz_2026.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1581,7 +1572,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-03T00:55:00.536Z",
+   "checkedAt": "2026-10-04T00:21:00.987Z",
    "ok": true,
    "items": [
     {
@@ -1687,7 +1678,7 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-10-03T00:55:00.536Z",
+   "checkedAt": "2026-10-04T00:21:00.987Z",
    "ok": true,
    "items": [
     {
