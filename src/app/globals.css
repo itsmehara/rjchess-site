@@ -507,6 +507,8 @@ img { display: block; max-width: 100%; height: auto; }
 }
 .contact-side .wa-big:hover { background: var(--gold-bright); transform: translateY(-1px); }
 .contact-side .num { display: block; margin-top: 16px; color: var(--faint); font-size: 13px; letter-spacing: 0.06em; }
+.contact-side .mail { display: inline-block; margin-top: 6px; color: var(--gold); font-size: 14px; letter-spacing: 0.02em; text-decoration: none; overflow-wrap: anywhere; }
+.contact-side .mail:hover { color: var(--gold-bright); text-decoration: underline; }
 
 /* Flex column so the Message box can grow and the panel fills the section — no dead band under the form. */
 .form { display: flex; flex-direction: column; gap: 10px; padding: 18px; border: 1px solid var(--panel-border); border-radius: 12px; background: var(--ink-soft); box-shadow: var(--panel-shadow); }
@@ -645,6 +647,18 @@ img { display: block; max-width: 100%; height: auto; }
 .footer ul { display: flex; flex-wrap: wrap; gap: 18px; margin: 0; padding: 0; list-style: none; }
 .footer a { color: var(--muted); text-decoration: none; font-size: 12px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
 .footer a:hover { color: var(--gold-bright); }
+.footer .footer-mail { text-transform: none; letter-spacing: 0.02em; font-size: 13px; font-weight: 600; }
+/* Bottom line, full width: RJChess mark + copyright on the left, Nischaya credit badge at the right end. */
+.footer-legal { flex: 1 1 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.footer-credit { flex: none; }
+.footer-copy { display: flex; align-items: center; gap: 10px; margin: 0; }
+.footer .footer-copy .mark { flex: none; width: 28px; height: 28px; font-size: 17px; padding-bottom: 3px; }
+/* Badge at 32px (default 48) so it sits in scale with the 12px copyright line. */
+.footer .nsc-credit-btn { width: 32px; height: 32px; }
+.footer .nsc-credit-mark { width: 20px; }
+/* Nischaya credit badge (next to the copyright): keep the footer's link/name styles out of its popup. */
+.footer .nsc-credit-pop a, .footer .nsc-credit-pop b { font: inherit; font-weight: 600; letter-spacing: normal; text-transform: none; }
+.footer .nsc-credit-pop b { color: #F5F1E9; }
 
 /* ---------- Responsive ---------- */
 

@@ -8,6 +8,7 @@ export const site = {
     "Personal chess coaching by Jagadeesh Babu — FIDE-rated player, 10+ years of teaching, 300+ students trained. Online and in-person, from first moves to tournament play.",
   whatsappNumber: "918187092749",
   whatsappDisplay: "+91 81870 92749",
+  email: "rjchesslearnings@gmail.com",
   // Set to the deployed Google Apps Script web-app URL (ends in /exec) to have
   // enquiries land in the client's Google Sheet. Left empty, the enquiry form
   // opens WhatsApp with the message pre-filled instead.

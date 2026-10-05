@@ -19,6 +19,7 @@ export function Contact() {
               Message on WhatsApp <span aria-hidden="true">&#8599;</span>
             </a>
             <span className="num">{site.whatsappDisplay}</span>
+            <a className="mail" href={`mailto:${site.email}`}>{site.email}</a>
           </div>
           <EnquiryForm />
         </div>
