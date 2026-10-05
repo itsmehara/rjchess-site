@@ -1,5 +1,6 @@
 import Script from "next/script";
 import { site, navLinks } from "@/content/site";
+import { VisitCounter } from "./VisitCounter";
 
 export function Footer() {
   return (
@@ -22,6 +23,7 @@ export function Footer() {
           {/* Nischaya Creative Soft credit badge — filled by /nsc-credit-badge.js */}
           <div className="footer-credit" data-nsc-credit />
         </div>
+        <VisitCounter />
       </div>
       <Script src="/nsc-credit-badge.js" strategy="afterInteractive" />
     </footer>

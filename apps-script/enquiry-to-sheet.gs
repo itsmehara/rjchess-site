@@ -1,0 +1,149 @@
+/**
+ * RJChess website → Google Sheet: enquiries, email alerts and the visit counter.
+ *
+ * Paste this into the Sheet's Apps Script editor (Extensions → Apps Script), then
+ * Deploy → New deployment → Web app, Execute as: Me, Who has access: Anyone.
+ * The /exec URL it gives you goes in NEXT_PUBLIC_ENQUIRY_ENDPOINT (see README.md here).
+ *
+ * - POST (the enquiry form, src/components/EnquiryForm.tsx): one row on the "Enquiries" tab
+ *   per enquiry, then an email to NOTIFY_TO. Keep COLUMNS in step with the form's fields.
+ * - GET ?action=visit (the footer counter, src/components/VisitCounter.tsx): adds one visit
+ *   to today's row on the "Visits" tab and returns the all-time total. ?action=count only reads.
+ *   No cookies, IPs or visitor details are stored — just a number per day.
+ */
+
+var NOTIFY_TO = "rjchesslearnings@gmail.com"; // comma-separate to add more addresses
+var ENQUIRIES = "Enquiries";
+var VISITS = "Visits";
+var TZ = "Asia/Kolkata";
+var MAX_LEN = 2000; // per field — a pasted essay or junk payload can't flood the sheet
+
+var TYPES = { trial: "Book a trial class", general: "General enquiry", callback: "Request a call back" };
+
+// [header, how to read it from the posted JSON]
+var COLUMNS = [
+  ["Received (IST)", function (d) { return Utilities.formatDate(new Date(), TZ, "yyyy-MM-dd HH:mm"); }],
+  ["Type",           function (d) { return TYPES[d.type] || d.type; }],
+  ["Name",           function (d) { return d.name; }],
+  ["Phone",          function (d) { return d.phone; }],
+  ["Email",          function (d) { return d.email; }],
+  ["City",           function (d) { return d.city; }],
+  ["Pincode",        function (d) { return d.pincode; }],
+  ["Level",          function (d) { return d.level; }],
+  ["Preferred date", function (d) { return d.date; }],
+  ["1st pref",       function (d) { return slot(d, 0); }],
+  ["2nd pref",       function (d) { return slot(d, 1); }],
+  ["3rd pref",       function (d) { return slot(d, 2); }],
+  ["Consent",        function (d) { return d.consent === true ? "Yes" : ""; }],
+  ["Message",        function (d) { return d.message; }],
+  ["Source",         function (d) { return d.source; }],
+  ["Sent at (browser, UTC)", function (d) { return d.submittedAt; }],
+  ["Status",         function (d) { return "New"; }] // for the coach to update: Contacted, Booked…
+];
+
+// "2. 6–7 am" → "6–7 am"
+function slot(d, i) {
+  var s = (d.slots || [])[i];
+  return s ? String(s).replace(/^\d+\.\s*/, "") : "";
+}
+
+function text(v) { return v === undefined || v === null ? "" : String(v).slice(0, MAX_LEN); }
+
+// A leading apostrophe stores the value as plain text (Sheets hides the apostrophe): keeps
+// "+91…" and leading-zero pincodes intact, and a value starting with = + - @ never runs as a formula.
+function cell(v) { var s = text(v); return s ? "'" + s : ""; }
+
+function tab(name, headers) {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sh = ss.getSheetByName(name) || ss.insertSheet(name);
+  if (sh.getLastRow() === 0) {
+    sh.appendRow(headers);
+    sh.getRange(1, 1, 1, headers.length).setFontWeight("bold");
+    sh.setFrozenRows(1);
+  }
+  return sh;
+}
+
+// ---------- enquiries ----------
+
+function doPost(e) {
+  var lock = LockService.getScriptLock();
+  var d, values;
+  try {
+    d = JSON.parse((e && e.postData && e.postData.contents) || "{}");
+    if (!d.name || !d.phone) return reply({ ok: false, error: "missing name or phone" });
+    values = COLUMNS.map(function (c) { return text(c[1](d)); });
+    lock.waitLock(10000); // two enquiries at once must not land on the same row
+    var sh = tab(ENQUIRIES, COLUMNS.map(function (c) { return c[0]; }));
+    sh.getRange(sh.getLastRow() + 1, 1, 1, COLUMNS.length).setValues([values.map(cell)]);
+  } catch (err) {
+    return reply({ ok: false, error: String(err) });
+  } finally {
+    try { lock.releaseLock(); } catch (ignore) {}
+  }
+  notify(d, values); // after the row is saved — a mail hiccup never loses an enquiry
+  return reply({ ok: true });
+}
+
+function notify(d, values) {
+  try {
+    var lines = COLUMNS.map(function (c, i) { return values[i] && c[0] !== "Status" ? c[0] + ": " + values[i] : ""; }).filter(String);
+    var digits = String(d.phone || "").replace(/\D/g, "");
+    if (digits.length === 10) digits = "91" + digits; // Indian number typed without the country code
+    var body = lines.join("\n") +
+      (digits ? "\n\nReply on WhatsApp: https://wa.me/" + digits : "") +
+      "\nAll enquiries: " + SpreadsheetApp.getActiveSpreadsheet().getUrl();
+    var mail = { to: NOTIFY_TO, subject: "New enquiry: " + (TYPES[d.type] || "Website") + " — " + text(d.name).slice(0, 80), body: body, name: "RJChess website" };
+    if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(text(d.email))) mail.replyTo = text(d.email); // Reply goes to the enquirer
+    MailApp.sendEmail(mail);
+  } catch (err) {
+    console.error("notify failed: " + err);
+  }
+}
+
+// ---------- visit counter ----------
+
+function doGet(e) {
+  var action = e && e.parameter && e.parameter.action;
+  if (action === "visit" || action === "count") return reply({ ok: true, visits: visits(action === "visit") });
+  return reply({ ok: true, service: "RJChess enquiries" }); // opening /exec in a browser: "is it deployed?"
+}
+
+// Total lives in Script Properties (fast); the Visits tab keeps one row per day for the owner.
+function visits(add) {
+  var props = PropertiesService.getScriptProperties();
+  if (!add) return Number(props.getProperty("visits") || 0);
+  var lock = LockService.getScriptLock();
+  lock.waitLock(10000);
+  try {
+    var total = Number(props.getProperty("visits") || 0) + 1;
+    props.setProperty("visits", String(total));
+    var sh = tab(VISITS, ["Date (IST)", "Visits"]);
+    var today = Utilities.formatDate(new Date(), TZ, "yyyy-MM-dd"), last = sh.getLastRow();
+    if (last > 1 && sh.getRange(last, 1).getDisplayValue() === today) sh.getRange(last, 2).setValue(Number(sh.getRange(last, 2).getValue()) + 1);
+    else sh.appendRow(["'" + today, 1]);
+    return total;
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function reply(o) {
+  return ContentService.createTextOutput(JSON.stringify(o)).setMimeType(ContentService.MimeType.JSON);
+}
+
+// Run once from the editor (select testRow → Run): grants permissions, adds a sample row and
+// sends a sample email to NOTIFY_TO. Delete the row afterwards.
+function testRow() {
+  doPost({ postData: { contents: JSON.stringify({
+    type: "trial", name: "Test Parent", phone: "+91 90000 00000", email: "", city: "Vijayawada", pincode: "520001",
+    level: "Beginner", date: "2026-10-12", slots: ["1. 5–6 am", "2. 6–7 am", "3. 7–8 am"], consent: true,
+    message: "Test row from the script editor — delete me.", source: "script-test", submittedAt: new Date().toISOString()
+  }) } });
+}
+
+// Optional: run to reset the footer total (e.g. after testing). Change "0" to start from another number.
+// The Visits tab rows are separate — clear them by hand if wanted.
+function resetVisitTotal() {
+  PropertiesService.getScriptProperties().setProperty("visits", "0");
+}

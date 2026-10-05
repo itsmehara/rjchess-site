@@ -653,6 +653,9 @@ img { display: block; max-width: 100%; height: auto; }
 .footer-credit { flex: none; }
 .footer-copy { display: flex; align-items: center; gap: 10px; margin: 0; }
 .footer .footer-copy .mark { flex: none; width: 28px; height: 28px; font-size: 17px; padding-bottom: 3px; }
+/* Visit counter: its own line under the © line (renders only once the Sheet endpoint answers). */
+.footer-visits { flex: 1 1 100%; margin: -6px 0 0; color: var(--faint); font-size: 12px; letter-spacing: 0.04em; }
+.footer-visits span { color: var(--gold); margin-right: 4px; }
 /* Badge at 32px (default 48) so it sits in scale with the 12px copyright line. */
 .footer .nsc-credit-btn { width: 32px; height: 32px; }
 .footer .nsc-credit-mark { width: 20px; }
