@@ -1,18 +1,10 @@
 {
- "generatedAt": "2026-10-05T00:25:32.257Z",
+ "generatedAt": "2026-10-05T17:37:33.231Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-05T00:25:32.257Z",
+   "checkedAt": "2026-10-05T17:37:33.231Z",
    "ok": true,
    "items": [
-    {
-     "name": "9 th AP STATE RANKING CHESS TOURNAMENT-2026 (Anakapalli)",
-     "start": "2026-10-04",
-     "url": "https://apchess.org/event-details/details/all/1800",
-     "brochure": "https://apchess.org/assets/events/brochures/1790057077_9413.pdf",
-     "register": "https://apchess.org/signin",
-     "completed": false
-    },
     {
      "name": "FIRE CHESS SCHOOL'S AP STATE CLASSICAL OPEN CHESS TOURNAMENT-2026(3 days - 45 + 30 time control form",
      "start": "2026-10-10",
@@ -28,6 +20,18 @@
      "brochure": "https://apchess.org/assets/events/brochures/1789038757_3867.pdf",
      "register": "https://apchess.org/event-details/register/all/1801",
      "completed": false
+    },
+    {
+     "name": "AP STATE OPEN CHESS TOURNAMENT 2026(Limited to Five Districts Visakhapatnam, Anakapalle, Vizianagara",
+     "start": "2026-09-27",
+     "url": "https://apchess.org/event-details/details/all/1802",
+     "completed": true
+    },
+    {
+     "name": "10TH AP STATE RANKING CHESS TOURNAMENT-2026 (KRISHNA)",
+     "start": "2026-09-27",
+     "url": "https://apchess.org/event-details/details/all/1799",
+     "completed": true
     },
     {
      "name": "7 th AP STATE RANKING CHESS TOURNAMENT-2026 (BHIMAVARAM)",
@@ -88,23 +92,11 @@
      "start": "2026-08-30",
      "url": "https://apchess.org/event-details/details/all/1756",
      "completed": true
-    },
-    {
-     "name": "2 ND AP STATE RANKING CHESS TOURNAMENT-2026",
-     "start": "2026-08-23",
-     "url": "https://apchess.org/event-details/details/all/1786",
-     "completed": true
-    },
-    {
-     "name": "1 ST AP STATE RANKING CHESS TOURNAMENT-2026",
-     "start": "2026-08-23",
-     "url": "https://apchess.org/event-details/details/all/1785",
-     "completed": true
     }
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-05T00:25:32.257Z",
+   "checkedAt": "2026-10-05T17:37:33.231Z",
    "ok": true,
    "items": [
     {
@@ -975,6 +967,14 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "4th NATIONAL SCHOOLS TEAM UNDER-12 & UNDER-18 CHESS CHAMPIONSHIPS – 2026",
+     "code": "499113/499114",
+     "start": "2026-11-01",
+     "end": "2026-11-03",
+     "place": "Visakhapatnam",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "3rd T-RERA Open FIDE Rating International Chess Tournament, 2026",
      "code": "499402",
      "start": "2026-11-04",
@@ -1124,6 +1124,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "Deva 3 iInternational open fide rated rapid chess, 2026",
+     "code": "503692",
+     "start": "2026-11-22",
+     "end": "2026-11-22",
+     "place": "Kerala",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/Deva-Chess-2026-poster.jpeg",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "International FIDE Rated Above 1800 Open Chess Tournament 2026",
      "code": "487788",
      "start": "2026-11-26",
@@ -1226,6 +1235,7 @@
      "start": "2026-12-10",
      "end": "2026-12-13",
      "place": "Visakhapatnam",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/VYBEN-FIDE-INTERNATIONAL-OPENCHESS-TOURNAMENT.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1572,7 +1582,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-05T00:25:32.257Z",
+   "checkedAt": "2026-10-05T17:37:33.231Z",
    "ok": true,
    "items": [
     {
@@ -1678,9 +1688,14 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-10-05T00:25:32.257Z",
+   "checkedAt": "2026-10-05T17:37:33.231Z",
    "ok": true,
    "items": [
+    {
+     "name": "FIDE Announces Open Call for Commission Nominations",
+     "url": "https://www.fide.com/fide-announces-open-call-for-commission-nominations/",
+     "published": "2026-10-05"
+    },
     {
      "name": "From Tsaghkadzor to Grand Final: European Schools Chess Champions crowned amidst cultural celebration",
      "url": "https://www.fide.com/from-tsaghkadzor-to-grand-final-european-schools-chess-champions-crowned-amidst-cultural-celebration/",
@@ -1724,11 +1739,6 @@
     {
      "name": "FIDE Gligorić Trophy 2026 winners announced",
      "url": "https://www.fide.com/fide-gligoric-trophy-2026-winners-announced/",
-     "published": "2026-09-29"
-    },
-    {
-     "name": "WSTC 2026 European Stage begins in Tsaghkadzor",
-     "url": "https://www.fide.com/wstc-2026-european-stage-begins-in-tsaghkadzor/",
      "published": "2026-09-29"
     }
    ]

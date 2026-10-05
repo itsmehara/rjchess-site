@@ -785,6 +785,8 @@ img { display: block; max-width: 100%; height: auto; }
 .ev-sub { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 0; margin: 4px 0 0; font-size: 12.5px; color: var(--faint); }
 .ev-sub span + span::before { content: "·"; margin: 0 7px; color: var(--line-soft); }
 .ev-sub .ev-tag + span::before { content: none; margin-left: 8px; }
+/* the screen-reader date is invisible, so the first visible item gets no separator */
+.ev-sub .sr-only + span::before { content: none; margin: 0; }
 .ev-sub .ev-tag { margin-right: 8px; }
 .ev-links { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px 14px; margin: 0; font-size: 12px; font-weight: 700; }
 .ev-links a { color: var(--ivory); text-decoration: none; border-bottom: 1px solid rgba(245,239,227,.25); padding-bottom: 1px; white-space: nowrap; }
@@ -815,8 +817,8 @@ img { display: block; max-width: 100%; height: auto; }
   /* region rail becomes a horizontally scrolling tab strip */
   .ev-regions { flex-direction: row; overflow-x: auto; padding: 8px 10px; border-right: 0; border-bottom: 1px solid var(--line-soft); scrollbar-width: none; -webkit-overflow-scrolling: touch; }
   .ev-regions::-webkit-scrollbar { display: none; }
-  .ev-regions button { width: auto; flex: 0 0 auto; padding: 8px 12px; border-left: 0; border-bottom: 2px solid transparent; border-radius: 6px 6px 0 0; font-size: 13px; }
-  .ev-regions button.on { border-bottom-color: var(--gold); background: transparent; }
+  /* same raised keys as the desktop rail, just in a row — the lit (gold) key keeps its dark text readable */
+  .ev-regions button { width: auto; flex: 0 0 auto; margin: 0 8px 4px 0; padding: 8px 12px; font-size: 13px; }
   .evw-pane { height: min(62vh, 520px); padding: 0 14px; }
   .ev-row { grid-template-columns: 52px minmax(0, 1fr); align-items: start; gap: 6px 12px; }
   .ev-date { width: 52px; height: 46px; }

@@ -30,6 +30,9 @@ const fmt = (d?: string) => (d ? `${+d.slice(8, 10)} ${MONTHS[+d.slice(5, 7) - 1
 const range = (a?: string, b?: string) => (!b || b === a ? fmt(a) : `${fmt(a)} – ${fmt(b)}`);
 const STALE_DAYS = 3;
 
+// Brochures are usually PDFs but some organisers upload a poster image instead.
+const docType = (u: string) => (/\.(jpe?g|png|webp|gif)(\?|$)/i.test(u) ? "Image" : "PDF");
+
 function todayIST() {
   return new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
 }
@@ -59,14 +62,26 @@ function items(data: Feed): Item[] {
 }
 
 const SMALL = new Set(["of", "and", "the", "for", "in", "on", "to", "a", "an", "&"]);
+// Short capitals words are usually abbreviations (IDPS, SSS, KCA, MP) and stay in capitals —
+// except these ordinary words and names that turn up in event titles.
+const WORDS = new Set(["one", "day", "all", "sri", "shri", "smt", "rai", "sub", "open", "fire", "late", "men", "new", "age", "cup", "city", "club", "team", "zone", "boys", "girl", "star", "king", "best", "east", "west", "gold", "grand", "under", "below", "above", "cash", "prize", "year", "held", "vs", "cum", "de"]);
 // Organisers often publish names in capitals; make them readable, keep acronyms.
-function title(name: string) {
-  name = name.replace(/(\d+)\s+(st|nd|rd|th)\b/gi, "$1$2"); // "9 th" → "9th"
+function title(name: string): string {
+  name = name.replace(/(\d+)\s+(st|nd|rd|th)\b/gi, "$1$2") // "9 th" → "9th"
+    .replace(/(\S)\(/g, "$1 ("); // "2026(Limited" → "2026 (Limited"
+  // A capitals name with a normal-case note in brackets: tidy the two parts separately.
+  const i = name.indexOf(" (");
+  if (i > 0) {
+    const note = name.slice(i + 1); // "(KRISHNA)" → "(Krishna)"; mixed case and short acronyms are left as published
+    const tidy = /[a-z]/.test(note) || note.replace(/[^A-Z]/g, "").length <= 3 ? note : note.toLowerCase().replace(/\b[a-z]/g, (c) => c.toUpperCase());
+    return title(name.slice(0, i)) + " " + tidy;
+  }
   const letters = name.replace(/[^a-z]/gi, "");
   const upper = letters.replace(/[^A-Z]/g, "").length;
   if (letters.length < 8 || upper / letters.length < 0.7) return name;
   return name.toLowerCase().replace(/[a-z0-9]+(?:[’'][a-z]+)?/g, (w, i) =>
-    (i && SMALL.has(w)) ? w : /^(fide|ap|tcs|u\d+|\d+(st|nd|rd|th))$/.test(w) ? (w.startsWith("u") ? w.toUpperCase() : w.replace(/^(\d+)(st|nd|rd|th)$/, "$1$2").toUpperCase()) : w[0].toUpperCase() + w.slice(1),
+    (i && SMALL.has(w)) ? w :
+    /^[a-z]{2,4}(?:[’'][a-z]+)?$/.test(w) && !WORDS.has(w.replace(/[’'].*/, "")) && !SMALL.has(w) ? w.replace(/^[a-z]+/, (b) => b.toUpperCase()) : /^(fide|ap|tcs|u\d+|\d+(st|nd|rd|th))$/.test(w) ? (w.startsWith("u") ? w.toUpperCase() : w.replace(/^(\d+)(st|nd|rd|th)$/, "$1$2").toUpperCase()) : w[0].toUpperCase() + w.slice(1),
   ).replace(/\b(\d+)(ST|ND|RD|TH)\b/g, (m, n, sfx) => n + sfx.toLowerCase());
 }
 const ext = { target: "_blank", rel: "noopener noreferrer" } as const;
@@ -243,7 +258,7 @@ export function Events() {
                             <a href={it.register} {...ext} aria-label={`Register for ${it.name} on the official site (opens in new tab)`}>Register <i>↗</i></a>
                           )}
                           {it.brochure && (
-                            <a href={it.brochure} {...ext} aria-label={`Prospectus for ${it.name} (PDF, opens in new tab)`}>Prospectus <i>PDF</i></a>
+                            <a href={it.brochure} {...ext} aria-label={`Prospectus for ${it.name} (${docType(it.brochure)}, opens in new tab)`}>Prospectus <i>{docType(it.brochure)}</i></a>
                           )}
                           <a href={it.url} {...ext} aria-label={`${it.kind === "news" ? "Read" : "Official page for"} ${it.name} (opens in new tab)`}>
                             {it.kind === "news" ? "Read" : "Official page"} <i>↗</i>
