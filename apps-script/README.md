@@ -43,3 +43,21 @@ Edit the script, then **Deploy → Manage deployments → ✏️ → Version: Ne
 That keeps the same `/exec` URL. If an update needs a new permission (e.g. sending email),
 run **testRow** once more and approve it. A brand-new deployment gives a new URL, which would then need
 updating in the variable above.
+
+## Spam protection
+
+The script drops (silently, logged under **Executions**) any enquiry that: fills the hidden
+trap field, has a name/city that isn't letters, a phone that isn't a real number, a bad
+pincode, repeats within 2 minutes, or arrives after 20 in 10 minutes. The website shows real
+visitors a message for the same field rules, so they never hit these.
+
+### Cloudflare Turnstile (human check) — in this order
+
+1. Cloudflare dashboard → **Turnstile → Add widget**: hostname `rjchess.com`, mode **Managed**.
+   Copy the **Site key** and **Secret key**.
+2. GitHub repo variable `NEXT_PUBLIC_TURNSTILE_SITE_KEY` = site key → run the Deploy workflow.
+3. In the script: paste the latest `enquiry-to-sheet.gs`, **Deploy → Manage deployments → ✏️ →
+   New version**, then run **testRow** once and approve the new permission (it now contacts
+   Cloudflare). Delete the test row.
+4. Only then: **Project Settings → Script properties → Add**: `TURNSTILE_SECRET` = secret key.
+   (Adding it before step 2 is live would drop real enquiries — they'd have no token.)
