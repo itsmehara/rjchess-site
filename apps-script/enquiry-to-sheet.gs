@@ -110,9 +110,10 @@ var MAX_PER_10_MIN = 20;
 
 function spamReason(d) {
   if (text(d.company)) return "honeypot filled";                       // hidden field people never see
+  var bad = checkFields(d);
+  if (bad) return bad;
+  if (!humanOk(d.turnstile)) return "failed the Cloudflare human check";
   var digits = String(d.phone).replace(/\D/g, "");
-  if (digits.length < 7 || digits.length > 15) return "phone not a number";
-  if (/https?:\/\//i.test(text(d.name) + text(d.city))) return "link in name/city";
   var cache = CacheService.getScriptCache();
   var same = "dup:" + digits + ":" + text(d.type) + ":" + text(d.message).length;
   if (cache.get(same)) return "duplicate within 2 min";                 // double-click / resubmit
@@ -122,6 +123,51 @@ function spamReason(d) {
   cache.put(win, String(n), 660);
   cache.put(same, "1", 120);
   return "";
+}
+
+// Same rules as the website's src/content/validate.ts — change both together. Real visitors are
+// stopped in the browser with a message; anything reaching here that fails is a bot or a hand-made post.
+function checkFields(d) {
+  var name = text(d.name).trim(), city = text(d.city).trim(), pin = text(d.pincode).trim();
+  var letters = function (v) { return (v.match(/\p{L}/gu) || []).length; };
+  var word = /^[\p{L}\p{M}][\p{L}\p{M} .'’-]{1,59}$/u;
+  if (!word.test(name) || letters(name) < 2) return "name not letters";
+  if (!word.test(city) || letters(city) < 2) return "city not letters";
+  if (!phoneOk(text(d.phone))) return "phone not valid";
+  var indian = !/^\s*(\+|00)(?!91)/.test(text(d.phone));
+  if (pin && !(/^\d+$/.test(pin) ? /^[1-9]\d{5}$/.test(pin) || (!indian && /^\d{4,5}$/.test(pin)) : /^[A-Za-z0-9][A-Za-z0-9 -]{2,9}$/.test(pin) && /\d/.test(pin))) return "pincode not valid";
+  return "";
+}
+
+function phoneOk(raw) {
+  var v = raw.trim(), same = function (s) { return /^(\d)\1+$/.test(s); };
+  if (/[^\d+\s().-]/.test(v)) return false;
+  var d = v.replace(/[\s().-]/g, "");
+  if (d.indexOf("00") === 0) d = "+" + d.slice(2);
+  if (d.charAt(0) === "+") {
+    var n = d.slice(1);
+    if (!/^\d+$/.test(n) || n.charAt(0) === "0" || n.length < 8 || n.length > 15 || same(n)) return false;
+    return n.indexOf("91") !== 0 || /^91[6-9]\d{9}$/.test(n);
+  }
+  var local = d.replace(/^(0|91)(?=\d{10}$)/, "");
+  return /^[6-9]\d{9}$/.test(local) && !same(local.slice(1));
+}
+
+// Cloudflare Turnstile. Off until the secret key is saved in Project Settings → Script properties
+// as TURNSTILE_SECRET (add the site key to the website first, or real enquiries would be dropped).
+function humanOk(token) {
+  var secret = PropertiesService.getScriptProperties().getProperty("TURNSTILE_SECRET");
+  if (!secret) return true;
+  if (!token) return false;
+  try {
+    var r = JSON.parse(UrlFetchApp.fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
+      method: "post", payload: { secret: secret, response: String(token).slice(0, 2048) }, muteHttpExceptions: true
+    }).getContentText());
+    return r.success === true;
+  } catch (err) {
+    console.error("turnstile verify failed: " + err);
+    return true; // Cloudflare unreachable: don't lose a real enquiry; the other checks still apply
+  }
 }
 
 // ---------- visit counter ----------

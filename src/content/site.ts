@@ -15,6 +15,8 @@ export const site = {
   enquiryEndpoint: process.env.NEXT_PUBLIC_ENQUIRY_ENDPOINT ?? "",
   // Google Analytics 4 measurement ID (G-…). Empty = no analytics and no consent banner.
   analyticsId: process.env.NEXT_PUBLIC_GA_ID ?? "",
+  // Cloudflare Turnstile site key (public). Empty = no human check on the enquiry form.
+  turnstileSiteKey: process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? "",
 };
 
 export const waLink = (text?: string) =>

@@ -50,6 +50,7 @@ jobs:
         env:
           NEXT_PUBLIC_ENQUIRY_ENDPOINT: ${{ vars.NEXT_PUBLIC_ENQUIRY_ENDPOINT }}
           NEXT_PUBLIC_GA_ID: ${{ vars.NEXT_PUBLIC_GA_ID }}
+          NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${{ vars.NEXT_PUBLIC_TURNSTILE_SITE_KEY }}
       - uses: actions/upload-pages-artifact@v5
         with:
           path: out

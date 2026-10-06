@@ -3,6 +3,8 @@
 import { useCallback, useEffect, useRef, useState, type FormEvent } from "react";
 import { site, waLink } from "@/content/site";
 import { booking, enquiryTypes, type EnquiryType } from "@/content/booking";
+import { fieldChecks } from "@/content/validate";
+import { Turnstile } from "./Turnstile";
 
 type Status = { kind: "idle" } | { kind: "sending" } | { kind: "ok"; wa: string } | { kind: "err"; wa: string };
 
@@ -14,6 +16,10 @@ export function EnquiryForm() {
   // Chosen slot ids in order of preference (1st, 2nd, 3rd).
   const [slots, setSlots] = useState<string[]>([]);
   const [agreed, setAgreed] = useState(false);
+  // Human check (Cloudflare Turnstile) — only when enquiries are saved and a site key is set.
+  const needsCheck = !!site.enquiryEndpoint && !!site.turnstileSiteKey;
+  const [humanToken, setHumanToken] = useState<string | null>(null);
+  const [checkReset, setCheckReset] = useState(0);
   // The trial panel animates between its measured height and 0. Height is
   // set imperatively at click time (auto → px → target) so the transition
   // has real numbers to run between; after opening it returns to auto.
@@ -40,7 +46,7 @@ export function EnquiryForm() {
 
   const isTrial = type === "trial";
   const slotsDone = slots.length === booking.choices;
-  const canSubmit = status.kind !== "sending" && (!isTrial || (slotsDone && agreed));
+  const canSubmit = status.kind !== "sending" && (!isTrial || (slotsDone && agreed)) && (!needsCheck || !!humanToken);
 
   const today = new Date();
   const maxDate = new Date(today.getTime() + booking.daysAhead * 86400000);
@@ -53,6 +59,17 @@ export function EnquiryForm() {
     if (!canSubmit) return;
     const form = e.currentTarget;
     const data = Object.fromEntries(new FormData(form).entries()) as Record<string, string>;
+    // Same checks as the Apps Script: show the first problem on its field and stop.
+    for (const [name, check] of Object.entries(fieldChecks)) {
+      const input = form.elements.namedItem(name) as HTMLInputElement | null;
+      const msg = check(data[name] ?? "", data);
+      if (input && msg) {
+        input.setCustomValidity(msg);
+        input.reportValidity();
+        input.addEventListener("input", () => input.setCustomValidity(""), { once: true });
+        return;
+      }
+    }
     const typeLabel = enquiryTypes.find((t) => t.value === type)?.label ?? type;
     const slotLabels = slots.map((id, i) => `${i + 1}. ${booking.slots.find((s) => s.id === id)?.label ?? id}`);
 
@@ -86,16 +103,19 @@ export function EnquiryForm() {
           type,
           slots: isTrial ? slotLabels : [],
           consent: isTrial ? agreed : undefined,
+          turnstile: humanToken ?? undefined,
           source: "website",
           submittedAt: new Date().toISOString(),
         }),
       });
       setStatus({ kind: "ok", wa });
+      setCheckReset((n) => n + 1);
       form.reset();
       setSlots([]);
       setAgreed(false);
     } catch {
       setStatus({ kind: "err", wa });
+      setCheckReset((n) => n + 1);
     }
   }
 
@@ -121,11 +141,11 @@ export function EnquiryForm() {
       <div className="form-row">
         <label className="field">
           <span>Your name</span>
-          <input name="name" required autoComplete="name" />
+          <input name="name" required autoComplete="name" maxLength={60} />
         </label>
         <label className="field">
           <span>Phone / WhatsApp</span>
-          <input name="phone" required type="tel" autoComplete="tel" inputMode="tel" />
+          <input name="phone" required type="tel" autoComplete="tel" inputMode="tel" maxLength={20} placeholder="98765 43210 · outside India +1 …" />
         </label>
       </div>
       <div className="form-row">
@@ -142,11 +162,11 @@ export function EnquiryForm() {
       <div className="form-row city-row">
         <label className="field">
           <span>City</span>
-          <input name="city" required autoComplete="address-level2" placeholder="Vijayawada, Hyderabad, Dallas…" />
+          <input name="city" required autoComplete="address-level2" maxLength={60} placeholder="Vijayawada, Hyderabad, Dallas…" />
         </label>
         <label className="field">
           <span>Pincode (optional)</span>
-          <input name="pincode" autoComplete="postal-code" inputMode="numeric" maxLength={10} />
+          <input name="pincode" autoComplete="postal-code" maxLength={10} placeholder="520001 · or postcode" />
         </label>
       </div>
 
@@ -221,7 +241,7 @@ export function EnquiryForm() {
 
       <label className="field msg">
         <span>Message</span>
-        <textarea name="message" placeholder={isTrial ? "Who is the class for, and anything about timing — only weekends, your time zone, after school…" : "Who is the training for, and what would you like to achieve?"} />
+        <textarea name="message" maxLength={1500} placeholder={isTrial ? "Who is the class for, and anything about timing — only weekends, your time zone, after school…" : "Who is the training for, and what would you like to achieve?"} />
       </label>
 
       {status.kind === "ok" && (
@@ -236,9 +256,13 @@ export function EnquiryForm() {
         </p>
       )}
 
+      {needsCheck && <Turnstile siteKey={site.turnstileSiteKey} onToken={setHumanToken} resetKey={checkReset} />}
+
       <button type="submit" disabled={!canSubmit}>
         {status.kind === "sending"
           ? "Sending…"
+          : needsCheck && !humanToken && (!isTrial || (slotsDone && agreed))
+            ? "Checking you're human…"
           : isTrial && !slotsDone
             ? `Pick your ${booking.prefLabels[slots.length]}erence`
             : isTrial && !agreed
