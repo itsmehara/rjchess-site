@@ -31,3 +31,7 @@ npm-debug.log*
 *.tsbuildinfo
 .vercel
 next-env.d.ts
+
+# AI-tool instruction files: kept locally, not published
+CLAUDE.md
+AGENTS.md
