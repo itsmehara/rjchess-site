@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-05T22:12:05.137Z",
+ "generatedAt": "2026-10-06T02:03:08.963Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-05T22:12:05.137Z",
+   "checkedAt": "2026-10-06T02:03:08.963Z",
    "ok": true,
    "items": [
     {
@@ -96,7 +96,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-05T22:12:05.137Z",
+   "checkedAt": "2026-10-06T02:03:08.963Z",
    "ok": true,
    "items": [
     {
@@ -1582,7 +1582,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-05T22:12:05.137Z",
+   "checkedAt": "2026-10-06T02:03:08.963Z",
    "ok": true,
    "items": [
     {
@@ -1688,9 +1688,14 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-10-05T22:12:05.137Z",
+   "checkedAt": "2026-10-06T02:03:08.963Z",
    "ok": true,
    "items": [
+    {
+     "name": "FIDE World U7-U17 Rapid and Blitz Championships 2026 Egypt: Registration continues",
+     "url": "https://www.fide.com/fide-world-u7-u17-rapid-and-blitz-championships-2026-egypt-registration-continues/",
+     "published": "2026-10-05"
+    },
     {
      "name": "FIDE Announces Open Call for Commission Nominations",
      "url": "https://www.fide.com/fide-announces-open-call-for-commission-nominations/",
@@ -1735,11 +1740,6 @@
      "name": "WSTC Europe Day 2: Bright smiles, brilliant moves, and cultural rhythms in Tsaghkadzor",
      "url": "https://www.fide.com/wstc-europe-day-2-bright-smiles-brilliant-moves-and-cultural-rhythms-in-tsaghkadzor/",
      "published": "2026-09-30"
-    },
-    {
-     "name": "FIDE Gligorić Trophy 2026 winners announced",
-     "url": "https://www.fide.com/fide-gligoric-trophy-2026-winners-announced/",
-     "published": "2026-09-29"
     }
    ]
   }
