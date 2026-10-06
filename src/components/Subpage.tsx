@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { site, waLink } from "@/content/site";
 import { NavMenu } from "./NavMenu";
+import { Footer } from "./Footer";
+import { ThemePicker } from "./ThemePicker";
 import "./hero.css";
 
 // Shared frame for the standalone pages (Play, Co-trainers): the same wordmark
@@ -21,6 +23,8 @@ export function Subpage({ current, children }: { current: string; children: Reac
         </div>
       </header>
       <main className="subpage">{children}</main>
+      <Footer base="/" visits={false} />
+      <ThemePicker />
     </>
   );
 }

@@ -14,9 +14,9 @@ export default function CoTrainersPage() {
       <section className="section" id="co-trainers">
         <div className="wrap">
           <p className="eyebrow">Co-trainers</p>
-          <h2>
+          <h1>
             Coaches who train <em>alongside</em> Jagadeesh.
-          </h2>
+          </h1>
           <p className="lede">
             Profiles, ratings and the levels each coach takes will appear here as they join.
           </p>

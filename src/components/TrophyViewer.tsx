@@ -24,7 +24,11 @@ export function TrophyViewer({ src, alt, title, sub, onClose }: Props) {
     const opener = document.activeElement as HTMLElement | null;
     document.body.style.overflow = "hidden";
     closeRef.current?.focus();
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+      // Modal: Tab / Shift+Tab stay inside — the close button is the viewer's only control.
+      if (e.key === "Tab") { e.preventDefault(); closeRef.current?.focus(); }
+    };
     window.addEventListener("keydown", onKey);
     return () => {
       document.body.style.overflow = prev;

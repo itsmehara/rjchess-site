@@ -96,7 +96,7 @@ img { display: block; max-width: 100%; height: auto; }
   text-transform: uppercase;
 }
 .eyebrow::before { content: ""; width: 34px; height: 1px; background: var(--gold); }
-.section h2 {
+.section h1, .section h2 {
   margin: 0;
   text-wrap: balance;
   font-family: var(--serif);
@@ -105,7 +105,7 @@ img { display: block; max-width: 100%; height: auto; }
   line-height: 1.12;
   letter-spacing: -0.01em;
 }
-.section h2 em { font-style: normal; color: var(--gold-bright); }
+.section h1 em, .section h2 em { font-style: normal; color: var(--gold-bright); }
 .lede {
   max-width: 720px;
   text-wrap: pretty;

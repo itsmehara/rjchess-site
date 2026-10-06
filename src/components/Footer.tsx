@@ -2,7 +2,8 @@ import Script from "next/script";
 import { site, navLinks } from "@/content/site";
 import { VisitCounter } from "./VisitCounter";
 
-export function Footer() {
+/** `base` is "/" on the standalone pages so section links go back to Home; the visit count shows on Home only. */
+export function Footer({ base = "", visits = true }: { base?: string; visits?: boolean }) {
   return (
     <footer className="footer">
       <div className="wrap">
@@ -10,7 +11,7 @@ export function Footer() {
         <ul>
           {navLinks.map((n) => (
             <li key={n.href}>
-              <a href={n.href}>{n.label}</a>
+              <a href={n.href.startsWith("#") ? base + n.href : n.href}>{n.label}</a>
             </li>
           ))}
         </ul>
@@ -27,7 +28,7 @@ export function Footer() {
             <li>
               <a className="footer-mail" href="/privacy/">Privacy</a>
             </li>
-            <VisitCounter />
+            {visits && <VisitCounter />}
           </ul>
           {/* Nischaya Creative Soft credit badge — filled by /nsc-credit-badge.js */}
           <div className="footer-credit" data-nsc-credit />

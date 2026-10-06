@@ -16,9 +16,9 @@ export default function PrivacyPage() {
       <section className="section prose" id="privacy">
         <div className="wrap">
           <p className="eyebrow">Privacy</p>
-          <h2>
+          <h1>
             Your details, <em>kept simple</em>.
-          </h2>
+          </h1>
           <p className="lede">
             {site.name} is run by {site.coach}. This page explains what the website collects, why, and how to
             ask for it to be changed or deleted. Last updated {UPDATED}.

@@ -6,7 +6,20 @@ import { booking, enquiryTypes, type EnquiryType } from "@/content/booking";
 import { fieldChecks } from "@/content/validate";
 import { Turnstile } from "./Turnstile";
 
-type Status = { kind: "idle" } | { kind: "sending" } | { kind: "ok"; wa: string } | { kind: "err"; wa: string };
+type Status = { kind: "idle" } | { kind: "sending" } | { kind: "ok"; wa: string } | { kind: "err"; wa: string; why: string };
+
+// What the visitor sees for each Apps Script error code (see apps-script/enquiry-to-sheet.gs).
+const FIELD_LABEL: Record<string, string> = {
+  name: "your name", phone: "the phone number", city: "the city", pincode: "the pincode", email: "the email",
+  date: "the preferred date", slots: "the three time slots", consent: "the confirmation tick box", type: "the enquiry type",
+};
+function why(error: string): string {
+  if (error.startsWith("invalid:")) return `Please check ${FIELD_LABEL[error.slice(8)] ?? "the form"} and try again.`;
+  if (error === "human-check") return "We couldn't confirm the check that you're human — please try again in a moment.";
+  if (error === "busy") return "We're receiving a lot of enquiries right now.";
+  return "That didn't go through.";
+}
+const newId = () => (typeof crypto !== "undefined" && "randomUUID" in crypto ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(36).slice(2)}`);
 
 const isoDate = (d: Date) => d.toISOString().slice(0, 10);
 
@@ -20,6 +33,8 @@ export function EnquiryForm() {
   const needsCheck = !!site.enquiryEndpoint && !!site.turnstileSiteKey;
   const [humanToken, setHumanToken] = useState<string | null>(null);
   const [checkReset, setCheckReset] = useState(0);
+  // One id per enquiry: a retry after a network blip is recognised by the script, never saved twice.
+  const requestId = useRef<string>("");
   // The trial panel animates between its measured height and 0. Height is
   // set imperatively at click time (auto → px → target) so the transition
   // has real numbers to run between; after opening it returns to auto.
@@ -92,29 +107,36 @@ export function EnquiryForm() {
 
     setStatus({ kind: "sending" });
     try {
-      // Apps Script web apps don't send CORS headers, so the response is
-      // opaque; a resolved fetch is the best signal we get that it landed.
-      await fetch(site.enquiryEndpoint, {
+      // The script answers with CORS, so its reply is readable: "saved" is shown only when
+      // it confirms. Anything else keeps what the visitor typed and offers WhatsApp.
+      requestId.current ||= newId();
+      const res = await fetch(site.enquiryEndpoint, {
         method: "POST",
-        mode: "no-cors",
-        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        headers: { "Content-Type": "text/plain;charset=utf-8" }, // a "simple" request: no CORS preflight
         body: JSON.stringify({
           ...data,
           type,
           slots: isTrial ? slotLabels : [],
           consent: isTrial ? agreed : undefined,
           turnstile: humanToken ?? undefined,
+          requestId: requestId.current,
           source: "website",
           submittedAt: new Date().toISOString(),
         }),
       });
+      const reply = (await res.json().catch(() => ({}))) as { ok?: boolean; error?: string };
+      setCheckReset((n) => n + 1); // a Turnstile token is single-use
+      if (reply.ok !== true) {
+        setStatus({ kind: "err", wa, why: why(reply.error ?? "") });
+        return;
+      }
+      requestId.current = "";
       setStatus({ kind: "ok", wa });
-      setCheckReset((n) => n + 1);
       form.reset();
       setSlots([]);
       setAgreed(false);
     } catch {
-      setStatus({ kind: "err", wa });
+      setStatus({ kind: "err", wa, why: why("") });
       setCheckReset((n) => n + 1);
     }
   }
@@ -251,8 +273,8 @@ export function EnquiryForm() {
         </p>
       )}
       {status.kind === "err" && (
-        <p className="form-status err">
-          That didn&apos;t go through. <a href={status.wa} target="_blank" rel="noopener">Send it on WhatsApp</a> instead.
+        <p className="form-status err" role="alert">
+          {status.why} Your details are still here — try again, or <a href={status.wa} target="_blank" rel="noopener">send it on WhatsApp</a> instead.
         </p>
       )}
 

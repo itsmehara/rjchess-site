@@ -15,9 +15,9 @@ export default function PlayPage() {
       <section className="section" id="play">
         <div className="wrap">
           <p className="eyebrow">Play</p>
-          <h2>
+          <h1>
             Play a friend, <em>right here</em>.
-          </h2>
+          </h1>
           <p className="lede">
             Two players, one shared code, two clocks and the move list on the side. The board resets
             after checkmate. It is being built — for now, here is what it will look like.
