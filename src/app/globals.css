@@ -652,7 +652,7 @@ img { display: block; max-width: 100%; height: auto; }
 .footer-legal { flex: 1 1 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .footer-credit { flex: none; }
 .footer .footer-meta { display: flex; flex-wrap: nowrap; align-items: center; gap: 0; color: var(--faint); font-size: 12px; letter-spacing: 0.02em; }
-.footer-meta li + li::before { content: "|"; margin: 0 12px; color: var(--line-soft); }
+.footer-meta li + li::before { content: "|"; margin: 0 12px; color: var(--faint); }
 .footer-copy { display: flex; align-items: center; gap: 10px; }
 .footer .footer-copy .mark { flex: none; width: 28px; height: 28px; font-size: 17px; padding-bottom: 3px; }
 .footer .footer-meta .footer-mail { font-size: 12px; font-weight: 600; }
