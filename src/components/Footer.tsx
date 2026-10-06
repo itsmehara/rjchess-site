@@ -14,16 +14,21 @@ export function Footer() {
             </li>
           ))}
         </ul>
-        <a className="footer-mail" href={`mailto:${site.email}`}>{site.email}</a>
+        {/* Bottom line: small print on the left (pipe-separated; stacked on phones), credit badge on the right */}
         <div className="footer-legal">
-          <p className="footer-copy">
-            <span className="mark" aria-hidden="true">&#9812;</span>
-            <span>© {new Date().getFullYear()} {site.name} · {site.coach}. All rights reserved.</span>
-          </p>
+          <ul className="footer-meta">
+            <li className="footer-copy">
+              <span className="mark" aria-hidden="true">&#9812;</span>
+              <span>© {new Date().getFullYear()} {site.name} · {site.coach}. All rights reserved.</span>
+            </li>
+            <li>
+              <a className="footer-mail" href={`mailto:${site.email}`}>{site.email}</a>
+            </li>
+            <VisitCounter />
+          </ul>
           {/* Nischaya Creative Soft credit badge — filled by /nsc-credit-badge.js */}
           <div className="footer-credit" data-nsc-credit />
         </div>
-        <VisitCounter />
       </div>
       <Script src="/nsc-credit-badge.js" strategy="afterInteractive" />
     </footer>

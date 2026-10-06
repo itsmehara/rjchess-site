@@ -648,14 +648,22 @@ img { display: block; max-width: 100%; height: auto; }
 .footer a { color: var(--muted); text-decoration: none; font-size: 12px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
 .footer a:hover { color: var(--gold-bright); }
 .footer .footer-mail { text-transform: none; letter-spacing: 0.02em; font-size: 13px; font-weight: 600; }
-/* Bottom line, full width: RJChess mark + copyright on the left, Nischaya credit badge at the right end. */
+/* Bottom line, full width: small print (© · email · visits, pipe-separated) left, credit badge right. */
 .footer-legal { flex: 1 1 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .footer-credit { flex: none; }
-.footer-copy { display: flex; align-items: center; gap: 10px; margin: 0; }
+.footer .footer-meta { display: flex; flex-wrap: nowrap; align-items: center; gap: 0; color: var(--faint); font-size: 12px; letter-spacing: 0.02em; }
+.footer-meta li + li::before { content: "|"; margin: 0 12px; color: var(--line-soft); }
+.footer-copy { display: flex; align-items: center; gap: 10px; }
 .footer .footer-copy .mark { flex: none; width: 28px; height: 28px; font-size: 17px; padding-bottom: 3px; }
-/* Visit counter: its own line under the © line (renders only once the Sheet endpoint answers). */
-.footer-visits { flex: 1 1 100%; margin: -6px 0 0; color: var(--faint); font-size: 12px; letter-spacing: 0.04em; }
+.footer .footer-meta .footer-mail { font-size: 12px; font-weight: 600; }
 .footer-visits span { color: var(--gold); margin-right: 4px; }
+/* Phones/tablets: pipes look broken where a line wraps, so stack the items instead. */
+@media (max-width: 860px) {
+  .footer .footer-meta { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .footer-meta li + li::before { content: none; }
+  .footer-meta li:not(.footer-copy) { padding-left: 38px; } /* line up under the text, past the ♔ tile */
+  .footer-legal { align-items: flex-end; } /* badge level with the last line, clear of the floating theme switcher */
+}
 /* Badge at 32px (default 48) so it sits in scale with the 12px copyright line. */
 .footer .nsc-credit-btn { width: 32px; height: 32px; }
 .footer .nsc-credit-mark { width: 20px; }

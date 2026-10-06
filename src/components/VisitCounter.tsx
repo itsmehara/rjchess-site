@@ -6,7 +6,7 @@ import { site } from "@/content/site";
 // Footer visit counter, kept by the same Apps Script as the enquiry form
 // (apps-script/enquiry-to-sheet.gs). One visit per browser tab session, so
 // reloads and section jumps don't inflate it. Renders nothing until the
-// endpoint is configured and has answered.
+// endpoint is configured and has answered. Renders an <li> for the footer's meta line.
 const SEEN = "rjchess-visit-counted";
 
 export function VisitCounter() {
@@ -30,8 +30,8 @@ export function VisitCounter() {
 
   if (visits === null) return null;
   return (
-    <p className="footer-visits">
+    <li className="footer-visits">
       <span aria-hidden="true">&#9823;</span> {visits.toLocaleString("en-IN")} {visits === 1 ? "visit" : "visits"}
-    </p>
+    </li>
   );
 }
