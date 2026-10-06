@@ -36,6 +36,18 @@ export default function PrivacyPage() {
             Enquiries are kept while we are in touch about classes. Email <a href={`mailto:${site.email}`}>{site.email}</a> any
             time to see, correct or delete what you sent.
           </p>
+          {site.turnstileSiteKey && (
+            <p>
+              To keep out spam, the form uses Cloudflare Turnstile, a check that you are a person and not a bot.
+              It is invisible for most visitors; a few may be asked to tick a box. To do this, Cloudflare looks at
+              technical details from your browser, such as your IP address and browser type, only for this
+              check and not for advertising. See Cloudflare&apos;s{" "}
+              <a href="https://www.cloudflare.com/turnstile-privacy-policy/" target="_blank" rel="noopener noreferrer">
+                Turnstile privacy notice
+              </a>
+              .
+            </p>
+          )}
 
           <h3>Visit counter</h3>
           <p>
@@ -54,7 +66,7 @@ export default function PrivacyPage() {
 
           <h3>Other small things</h3>
           <p>
-            Your colour-theme choice and your analytics choice are remembered in your own browser only. Event
+            Your colour-theme choice, your analytics choice and the last visit count you saw are remembered in your own browser only. Event
             listings link to the official sites of chess organisations, which have their own privacy policies.
           </p>
         </div>
