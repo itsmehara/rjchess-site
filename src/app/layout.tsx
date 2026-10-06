@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Manrope } from "next/font/google";
 import { site } from "@/content/site";
+import { Analytics } from "@/components/Analytics";
 import "./globals.css";
 
 const serif = Playfair_Display({
@@ -29,7 +30,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* eslint-disable-next-line @next/next/no-sync-scripts -- must run before paint (~300 B) */}
         <script src="/theme-init.js" />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }

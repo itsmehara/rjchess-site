@@ -26,8 +26,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -41,12 +41,16 @@ jobs:
           git add src/content/events.generated.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh events data"
-            git push
+            # Another push may have landed while this ran: rebase and retry. If it still
+            # can't push, carry on — the site still builds with the fresh data, and the
+            # next run commits it.
+            for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done || true
           fi
       - run: npm run build
         env:
           NEXT_PUBLIC_ENQUIRY_ENDPOINT: ${{ vars.NEXT_PUBLIC_ENQUIRY_ENDPOINT }}
-      - uses: actions/upload-pages-artifact@v3
+          NEXT_PUBLIC_GA_ID: ${{ vars.NEXT_PUBLIC_GA_ID }}
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: out
   deploy:
@@ -57,4 +61,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

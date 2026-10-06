@@ -13,6 +13,8 @@ export const site = {
   // enquiries land in the client's Google Sheet. Left empty, the enquiry form
   // opens WhatsApp with the message pre-filled instead.
   enquiryEndpoint: process.env.NEXT_PUBLIC_ENQUIRY_ENDPOINT ?? "",
+  // Google Analytics 4 measurement ID (G-…). Empty = no analytics and no consent banner.
+  analyticsId: process.env.NEXT_PUBLIC_GA_ID ?? "",
 };
 
 export const waLink = (text?: string) =>

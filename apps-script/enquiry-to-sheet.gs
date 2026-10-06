@@ -72,6 +72,8 @@ function doPost(e) {
   try {
     d = JSON.parse((e && e.postData && e.postData.contents) || "{}");
     if (!d.name || !d.phone) return reply({ ok: false, error: "missing name or phone" });
+    var spam = spamReason(d);
+    if (spam) { console.warn("dropped enquiry: " + spam); return reply({ ok: true }); } // look normal to a bot
     values = COLUMNS.map(function (c) { return text(c[1](d)); });
     lock.waitLock(10000); // two enquiries at once must not land on the same row
     var sh = tab(ENQUIRIES, COLUMNS.map(function (c) { return c[0]; }));
@@ -99,6 +101,27 @@ function notify(d, values) {
   } catch (err) {
     console.error("notify failed: " + err);
   }
+}
+
+// ---------- spam guard ----------
+// The /exec URL is public (it's in the site's code), so anyone could post to it. Real
+// enquiries pass all of these; a dropped one is logged under Executions, not saved or mailed.
+var MAX_PER_10_MIN = 20;
+
+function spamReason(d) {
+  if (text(d.company)) return "honeypot filled";                       // hidden field people never see
+  var digits = String(d.phone).replace(/\D/g, "");
+  if (digits.length < 7 || digits.length > 15) return "phone not a number";
+  if (/https?:\/\//i.test(text(d.name) + text(d.city))) return "link in name/city";
+  var cache = CacheService.getScriptCache();
+  var same = "dup:" + digits + ":" + text(d.type) + ":" + text(d.message).length;
+  if (cache.get(same)) return "duplicate within 2 min";                 // double-click / resubmit
+  var win = "burst:" + Math.floor(Date.now() / 600000);                // fixed 10-minute windows
+  var n = Number(cache.get(win) || 0) + 1;
+  if (n > MAX_PER_10_MIN) return "more than " + MAX_PER_10_MIN + " in 10 min";
+  cache.put(win, String(n), 660);
+  cache.put(same, "1", 120);
+  return "";
 }
 
 // ---------- visit counter ----------

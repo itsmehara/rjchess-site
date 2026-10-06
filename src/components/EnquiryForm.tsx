@@ -101,6 +101,11 @@ export function EnquiryForm() {
 
   return (
     <form className="form" onSubmit={onSubmit}>
+      {/* Spam trap: hidden from people, but bots fill every field. The Apps Script drops
+          any enquiry where it has a value. */}
+      <label className="hp" aria-hidden="true">
+        Company <input name="company" tabIndex={-1} autoComplete="off" />
+      </label>
       <fieldset className="field choice">
         <legend>What is this about?</legend>
         <div className="pills" role="radiogroup">
@@ -244,7 +249,7 @@ export function EnquiryForm() {
       </button>
       <p className="form-note">
         Fees are shared on request. Your details are only used to reply to you; the conversation
-        continues on WhatsApp.
+        continues on WhatsApp. <a href="/privacy/">Privacy</a>
       </p>
     </form>
   );

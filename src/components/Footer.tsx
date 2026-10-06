@@ -24,6 +24,9 @@ export function Footer() {
             <li>
               <a className="footer-mail" href={`mailto:${site.email}`}>{site.email}</a>
             </li>
+            <li>
+              <a className="footer-mail" href="/privacy/">Privacy</a>
+            </li>
             <VisitCounter />
           </ul>
           {/* Nischaya Creative Soft credit badge — filled by /nsc-credit-badge.js */}
