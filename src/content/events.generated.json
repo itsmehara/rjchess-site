@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-06T02:36:12.790Z",
+ "generatedAt": "2026-10-06T02:38:33.313Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-06T02:36:12.790Z",
+   "checkedAt": "2026-10-06T02:38:33.313Z",
    "ok": true,
    "items": [
     {
@@ -20,6 +20,18 @@
      "brochure": "https://apchess.org/assets/events/brochures/1789038757_3867.pdf",
      "register": "https://apchess.org/event-details/register/all/1801",
      "completed": false
+    },
+    {
+     "name": "9 th AP STATE RANKING CHESS TOURNAMENT-2026 (Anakapalli)",
+     "start": "2026-10-04",
+     "url": "https://apchess.org/event-details/details/all/1800",
+     "completed": true
+    },
+    {
+     "name": "IDPS AP STATE RAPID CHESS TOURNAMENT -2026 (KOVVURU)",
+     "start": "2026-10-02",
+     "url": "https://apchess.org/event-details/details/all/1806",
+     "completed": true
     },
     {
      "name": "AP STATE OPEN CHESS TOURNAMENT 2026(Limited to Five Districts Visakhapatnam, Anakapalle, Vizianagara",
@@ -80,23 +92,11 @@
      "start": "2026-09-04",
      "url": "https://apchess.org/event-details/details/all/1792",
      "completed": true
-    },
-    {
-     "name": "3RD AP STATE RANKING CHESS TOURNAMENT-2026",
-     "start": "2026-08-30",
-     "url": "https://apchess.org/event-details/details/all/1787",
-     "completed": true
-    },
-    {
-     "name": "1ST NARASIMHA MURTHY MEMORIAL AP STATE OPEN CHESS TOURNAMENT",
-     "start": "2026-08-30",
-     "url": "https://apchess.org/event-details/details/all/1756",
-     "completed": true
     }
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-06T02:36:12.790Z",
+   "checkedAt": "2026-10-06T02:38:33.313Z",
    "ok": true,
    "items": [
     {
@@ -1582,8 +1582,8 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-06T02:16:44.320Z",
-   "ok": false,
+   "checkedAt": "2026-10-06T02:38:33.313Z",
+   "ok": true,
    "items": [
     {
      "name": "61st TELANGANA STATE RANKING CHESS TOURNAMENT",
@@ -1685,12 +1685,10 @@
      "url": "https://www.chesstelangana.com/event/1st-dannes-international-fide-rated-open-chess-tournament-2026/",
      "published": "2026-04-24"
     }
-   ],
-   "error": "fetch failed",
-   "failedAt": "2026-10-06T02:36:12.790Z"
+   ]
   },
   "fide": {
-   "checkedAt": "2026-10-06T02:36:12.790Z",
+   "checkedAt": "2026-10-06T02:38:33.313Z",
    "ok": true,
    "items": [
     {
