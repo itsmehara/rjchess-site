@@ -652,17 +652,24 @@ img { display: block; max-width: 100%; height: auto; }
 .footer-legal { flex: 1 1 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .footer-credit { flex: none; }
 .footer .footer-meta { display: flex; flex-wrap: nowrap; align-items: center; gap: 0; color: var(--faint); font-size: 12px; letter-spacing: 0.02em; }
-.footer-meta li + li::before { content: "|"; margin: 0 12px; color: var(--faint); }
+.footer-meta li + li::before { content: "|"; margin: 0 12px; color: var(--gold); opacity: 0.8; }
 .footer-copy { display: flex; align-items: center; gap: 10px; }
 .footer .footer-copy .mark { flex: none; width: 28px; height: 28px; font-size: 17px; padding-bottom: 3px; }
 .footer .footer-meta .footer-mail { font-size: 12px; font-weight: 600; }
 .footer-visits span { color: var(--gold); margin-right: 4px; }
-/* Phones/tablets: pipes look broken where a line wraps, so stack the items instead. */
+/* Tablets: © on its own line, then "email | visits" (a pipe never starts a wrapped line). */
 @media (max-width: 860px) {
-  .footer .footer-meta { flex-direction: column; align-items: flex-start; gap: 8px; }
-  .footer-meta li + li::before { content: none; }
-  .footer-meta li:not(.footer-copy) { padding-left: 38px; } /* line up under the text, past the ♔ tile */
+  .footer .footer-meta { flex-wrap: wrap; row-gap: 8px; }
+  .footer-copy { flex-basis: 100%; }
+  .footer-meta .footer-copy + li::before { content: none; }
+  .footer-copy + li { padding-left: 38px; } /* under the text, past the ♔ tile */
   .footer-legal { align-items: flex-end; } /* badge level with the last line, clear of the floating theme switcher */
+}
+/* Phones: everything stacked, no pipes. */
+@media (max-width: 560px) {
+  .footer .footer-meta { flex-direction: column; align-items: flex-start; }
+  .footer-meta li + li::before { content: none; }
+  .footer-meta li:not(.footer-copy) { padding-left: 38px; }
 }
 /* Badge at 32px (default 48) so it sits in scale with the 12px copyright line. */
 .footer .nsc-credit-btn { width: 32px; height: 32px; }
