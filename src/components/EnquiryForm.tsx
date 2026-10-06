@@ -110,21 +110,28 @@ export function EnquiryForm() {
       // The script answers with CORS, so its reply is readable: "saved" is shown only when
       // it confirms. Anything else keeps what the visitor typed and offers WhatsApp.
       requestId.current ||= newId();
-      const res = await fetch(site.enquiryEndpoint, {
-        method: "POST",
-        headers: { "Content-Type": "text/plain;charset=utf-8" }, // a "simple" request: no CORS preflight
-        body: JSON.stringify({
-          ...data,
-          type,
-          slots: isTrial ? slotLabels : [],
-          consent: isTrial ? agreed : undefined,
-          turnstile: humanToken ?? undefined,
-          requestId: requestId.current,
-          source: "website",
-          submittedAt: new Date().toISOString(),
-        }),
+      const body = JSON.stringify({
+        ...data,
+        type,
+        slots: isTrial ? slotLabels : [],
+        consent: isTrial ? agreed : undefined,
+        turnstile: humanToken ?? undefined,
+        requestId: requestId.current,
+        source: "website",
+        submittedAt: new Date().toISOString(),
       });
-      const reply = (await res.json().catch(() => ({}))) as { ok?: boolean; error?: string };
+      // On a slow (cold) run Google sometimes loses the reply page (404) after the row is
+      // already saved. Ask once more with the same requestId: the script recognises it and
+      // answers "ok" without saving twice.
+      let reply: { ok?: boolean; error?: string } = {};
+      for (let attempt = 0; attempt < 2 && typeof reply.ok !== "boolean"; attempt++) {
+        const res = await fetch(site.enquiryEndpoint, {
+          method: "POST",
+          headers: { "Content-Type": "text/plain;charset=utf-8" }, // a "simple" request: no CORS preflight
+          body,
+        }).catch(() => null);
+        reply = ((await res?.json().catch(() => null)) ?? {}) as typeof reply;
+      }
       setCheckReset((n) => n + 1); // a Turnstile token is single-use
       if (reply.ok !== true) {
         setStatus({ kind: "err", wa, why: why(reply.error ?? "") });

@@ -83,11 +83,14 @@ function doPost(e) {
     if (text(d.company)) { console.warn("dropped: honeypot"); return reply({ ok: true }); } // hidden field people never see
     var bad = checkFields(d);
     if (bad) { console.warn("rejected: " + bad); return reply({ ok: false, error: "invalid:" + bad }); }
+    var cache = CacheService.getScriptCache();
+    var req = text(d.requestId).slice(0, 64), reqKey = req && "req:" + req;
+    // The site re-asks with the same requestId when Google lost the first reply. Its Turnstile
+    // token is already used up, so answer before the human check — nothing new is saved.
+    if (reqKey && cache.get(reqKey)) { console.warn("repeat of a saved enquiry"); return reply({ ok: true }); }
     if (!humanOk(d.turnstile)) { console.warn("rejected: human check"); return reply({ ok: false, error: "human-check" }); }
 
     lock.waitLock(10000); locked = true; // counters, duplicate checks and the write happen as one step
-    var cache = CacheService.getScriptCache();
-    var req = text(d.requestId).slice(0, 64), reqKey = req && "req:" + req;
     var dupKey = "dup:" + fingerprint(d);
     if ((reqKey && cache.get(reqKey)) || cache.get(dupKey)) { console.warn("duplicate, already saved"); return reply({ ok: true }); }
     var win = "burst:" + Math.floor(Date.now() / 600000); // fixed 10-minute windows
