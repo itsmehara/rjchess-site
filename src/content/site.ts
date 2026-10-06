@@ -13,8 +13,9 @@ export const site = {
   // enquiries land in the client's Google Sheet. Left empty, the enquiry form
   // opens WhatsApp with the message pre-filled instead.
   enquiryEndpoint: process.env.NEXT_PUBLIC_ENQUIRY_ENDPOINT ?? "",
-  // Google Analytics 4 measurement ID (G-…). Empty = no analytics and no consent banner.
-  analyticsId: process.env.NEXT_PUBLIC_GA_ID ?? "",
+  // Google Analytics 4 measurement ID — RJChess property in the client's Google account (public, not a secret).
+  // The banner asks first; nothing from Google loads until a visitor taps Allow.
+  analyticsId: process.env.NEXT_PUBLIC_GA_ID || "G-52FNH37YE2",
   // Cloudflare Turnstile site key (public). Empty = no human check on the enquiry form.
   turnstileSiteKey: process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? "",
 };

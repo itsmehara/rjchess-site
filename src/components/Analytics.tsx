@@ -23,6 +23,7 @@ function save(c: Exclude<Choice, null>) {
 }
 
 function load(id: string) {
+  (window as unknown as Record<string, boolean>)[`ga-disable-${id}`] = false; // undo an earlier "No thanks"
   if (window.gtag) { window.gtag("consent", "update", { analytics_storage: "granted" }); return; }
   window.dataLayer = window.dataLayer || [];
   // gtag must push the real `arguments` object, as Google's snippet does.
