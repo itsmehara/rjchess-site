@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-06T12:26:38.519Z",
+ "generatedAt": "2026-10-06T14:36:48.682Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-06T12:26:38.519Z",
+   "checkedAt": "2026-10-06T14:36:48.682Z",
    "ok": true,
    "items": [
     {
@@ -104,7 +104,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-06T12:26:38.519Z",
+   "checkedAt": "2026-10-06T14:36:48.682Z",
    "ok": true,
    "items": [
     {
@@ -1590,8 +1590,8 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-06T10:27:12.831Z",
-   "ok": false,
+   "checkedAt": "2026-10-06T14:36:48.682Z",
+   "ok": true,
    "items": [
     {
      "name": "61st TELANGANA STATE RANKING CHESS TOURNAMENT",
@@ -1693,12 +1693,10 @@
      "url": "https://www.chesstelangana.com/event/1st-dannes-international-fide-rated-open-chess-tournament-2026/",
      "published": "2026-04-24"
     }
-   ],
-   "error": "fetch failed",
-   "failedAt": "2026-10-06T12:26:38.519Z"
+   ]
   },
   "fide": {
-   "checkedAt": "2026-10-06T12:26:38.519Z",
+   "checkedAt": "2026-10-06T14:36:48.682Z",
    "ok": true,
    "items": [
     {
