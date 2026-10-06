@@ -862,8 +862,8 @@ img { display: block; max-width: 100%; height: auto; }
 
 /* ---------- Theme picker ---------- */
 .theme-picker {
-  /* Bottom-right, lifted clear of the hero's frame caption ("01 / 12 · The empty hall"). */
-  position: fixed; right: max(14px, env(safe-area-inset-right)); bottom: calc(max(14px, env(safe-area-inset-bottom)) + 88px); z-index: 900;
+  /* Bottom-right, lifted clear of the hero caption ("01 / 12 · The empty hall") and the footer badge. */
+  position: fixed; right: max(14px, env(safe-area-inset-right)); bottom: calc(max(14px, env(safe-area-inset-bottom)) + 140px); z-index: 900;
   display: flex; flex-direction: column; align-items: center; gap: 8px; margin: 0; padding: 8px 6px;
   border: 1px solid var(--line-soft); border-radius: 999px;
   background: rgba(var(--scrim-rgb), 0.72); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
@@ -880,7 +880,7 @@ img { display: block; max-width: 100%; height: auto; }
 }
 .theme-picker input:checked + .swatch { border-color: var(--ivory); transform: scale(1.12); }
 .theme-picker input:focus-visible + .swatch { outline: 2px solid var(--gold); outline-offset: 2px; }
-@media (max-width: 560px) { .theme-picker { right: max(10px, env(safe-area-inset-right)); bottom: calc(max(10px, env(safe-area-inset-bottom)) + 76px); padding: 6px 5px; } .theme-picker label { width: 20px; height: 20px; } }
+@media (max-width: 560px) { .theme-picker { right: max(10px, env(safe-area-inset-right)); bottom: calc(max(10px, env(safe-area-inset-bottom)) + 128px); padding: 6px 5px; } .theme-picker label { width: 20px; height: 20px; } }
 @media print { .theme-picker { display: none; } }
 
 /* ---------- Standalone pages (Play, Co-trainers) ---------- */
