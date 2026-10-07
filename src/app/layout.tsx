@@ -17,9 +17,19 @@ const sans = Manrope({
   display: "swap",
 });
 
+// Site-wide defaults. Each page sets its own title, description and canonical URL.
 export const metadata: Metadata = {
+  metadataBase: new URL(site.url),
   title: `${site.name} — Chess coaching with ${site.coach}`,
   description: site.description,
+  applicationName: site.name,
+  openGraph: {
+    type: "website",
+    siteName: site.name,
+    locale: "en_IN",
+    images: [{ url: "/hero/hall-king.jpg", width: 1672, height: 941, alt: `${site.name} — chess coaching with ${site.coach}` }],
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

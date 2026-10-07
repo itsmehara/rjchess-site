@@ -1,12 +1,13 @@
-import type { Metadata } from "next";
 import { Subpage } from "@/components/Subpage";
 import { AnalyticsChoice } from "@/components/Analytics";
 import { site } from "@/content/site";
+import { pageMeta } from "@/content/seo";
 
-export const metadata: Metadata = {
+export const metadata = pageMeta({
   title: `Privacy — ${site.name}`,
   description: "How RJChess uses the details you share and what this website measures.",
-};
+  path: "/privacy/",
+});
 
 const UPDATED = "6 October 2026";
 

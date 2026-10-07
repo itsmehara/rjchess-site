@@ -2,6 +2,8 @@
 export const site = {
   brand: "RJChess",
   name: "RJChess",
+  /** Canonical address (https, no www) — used for canonical links, the sitemap and structured data. */
+  url: "https://rjchess.com",
   coach: "Jagadeesh Babu",
   tagline: "Every master was once a beginner.",
   description:

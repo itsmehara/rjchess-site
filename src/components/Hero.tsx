@@ -263,7 +263,7 @@ export function Hero() {
         <p className="kicker"><span />Online &amp; personal coaching</p>
         <h1>Every master<br />was once a <em>beginner</em>.</h1>
         <p className="hero-note">
-          Personal chess training with {site.coach} — FIDE-rated player, ten years of coaching and
+          {site.name} is personal chess training with {site.coach} — FIDE-rated player, ten years of coaching and
           more than 300 students taught, from first moves to rated tournament play.
         </p>
         <p className="fee-line">Fee structure shared on request — message to discuss a batch.</p>

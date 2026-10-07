@@ -1,13 +1,15 @@
-import type { Metadata } from "next";
 import { Subpage } from "@/components/Subpage";
 import { BoardPreview } from "@/components/BoardPreview";
 import Link from "next/link";
 import { site } from "@/content/site";
+import { pageMeta } from "@/content/seo";
 
-export const metadata: Metadata = {
+export const metadata = pageMeta({
   title: `Play — ${site.name}`,
   description: "Play a friend on the RJChess board — coming soon.",
-};
+  path: "/play/",
+  index: false,
+});
 
 export default function PlayPage() {
   return (

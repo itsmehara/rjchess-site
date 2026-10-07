@@ -1,12 +1,14 @@
-import type { Metadata } from "next";
 import { Subpage } from "@/components/Subpage";
 import Link from "next/link";
 import { site } from "@/content/site";
+import { pageMeta } from "@/content/seo";
 
-export const metadata: Metadata = {
+export const metadata = pageMeta({
   title: `Co-trainers — ${site.name}`,
   description: "Trainers who coach alongside Jagadeesh Babu — coming soon.",
-};
+  path: "/co-trainers/",
+  index: false,
+});
 
 export default function CoTrainersPage() {
   return (
