@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-07T01:12:37.773Z",
+ "generatedAt": "2026-10-07T08:40:51.806Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-07T01:12:37.773Z",
+   "checkedAt": "2026-10-07T08:40:51.806Z",
    "ok": true,
    "items": [
     {
@@ -27,6 +27,14 @@
      "url": "https://apchess.org/event-details/details/all/1808",
      "brochure": "https://apchess.org/assets/events/brochures/1791270402_9254.pdf",
      "register": "https://apchess.org/signin",
+     "completed": false
+    },
+    {
+     "name": "4 th NATIONAL SCHOOLS TEAM U12, U18 CHESS CHAMPIONSHIOP - 2026 (VISAKHAPATNAM)",
+     "start": "2026-11-01",
+     "url": "https://apchess.org/event-details/details/all/1809",
+     "brochure": "https://apchess.org/assets/events/brochures/1791354805_5421.pdf",
+     "register": "https://apchess.org/event-details/register/all/1809",
      "completed": false
     },
     {
@@ -104,7 +112,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-07T01:12:37.773Z",
+   "checkedAt": "2026-10-07T08:40:51.806Z",
    "ok": true,
    "items": [
     {
@@ -1591,7 +1599,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-07T01:12:37.773Z",
+   "checkedAt": "2026-10-07T08:40:51.806Z",
    "ok": true,
    "items": [
     {
@@ -1697,7 +1705,7 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-10-07T01:12:37.773Z",
+   "checkedAt": "2026-10-07T08:40:51.806Z",
    "ok": true,
    "items": [
     {
