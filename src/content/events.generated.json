@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-07T08:40:51.806Z",
+ "generatedAt": "2026-10-08T01:33:00.850Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-07T08:40:51.806Z",
+   "checkedAt": "2026-10-08T01:33:00.850Z",
    "ok": true,
    "items": [
     {
@@ -35,6 +35,14 @@
      "url": "https://apchess.org/event-details/details/all/1809",
      "brochure": "https://apchess.org/assets/events/brochures/1791354805_5421.pdf",
      "register": "https://apchess.org/event-details/register/all/1809",
+     "completed": false
+    },
+    {
+     "name": "VYBEN INTERNATIONAL OPEN FIDE RATING CHESS TOURNAMENT 2026",
+     "start": "2026-12-10",
+     "url": "https://apchess.org/event-details/details/all/1810",
+     "brochure": "https://apchess.org/assets/events/brochures/1791377347_9526.pdf",
+     "register": "https://apchess.org/event-details/register/all/1810",
      "completed": false
     },
     {
@@ -112,7 +120,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-07T08:40:51.806Z",
+   "checkedAt": "2026-10-08T01:33:00.850Z",
    "ok": true,
    "items": [
     {
@@ -139,49 +147,6 @@
      "end": "2026-08-26",
      "place": "Mumbai",
      "brochure": "https://aicf.in/wp-content/uploads/2026/07/Asian-Junior.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Classical FIDE Rated Tournament ( Chess for Everyone) August 2026",
-     "code": "486716",
-     "start": "2026-08-20",
-     "end": "2026-08-23",
-     "place": "Kerala",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Forking Knights International FIDE Rated Below 1650 Open Chess Tournament 2026",
-     "code": "483683",
-     "start": "2026-08-21",
-     "end": "2026-08-23",
-     "place": "Chennai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Forking-Knights-FIDE-Rated-Below-1650-Chess-Tournament.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "6th Atal Talant Hunt All India Open Fide Rapid Rating Chess Tournament – 2026",
-     "code": "489604",
-     "start": "2026-08-22",
-     "end": "2026-08-23",
-     "place": "Jharkhand",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/6th-Atal-Talent-Hunt-All-India-Rapid-Open-Fide-Rating-Chess-Tournament-2026-1.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "1st Little Star Chess Academy All India Open FIDE Rapid Rating Chess Tournament 2026 Pune",
-     "code": "486821",
-     "start": "2026-08-23",
-     "end": "2026-08-23",
-     "place": "Pune",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/1st-Little-Star-Chess-Academy-All-India-Open-FIDE-Rapid-Rating-Chess-Tournament-2026-Pune.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Thiruvarur – SS Rapid Fide Rating International Open Chess Tournament 2026",
-     "code": "491469",
-     "start": "2026-08-23",
-     "end": "2026-08-23",
-     "place": "Thiruvarur",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1600,7 +1565,7 @@
   },
   "ts": {
    "checkedAt": "2026-10-07T08:40:51.806Z",
-   "ok": true,
+   "ok": false,
    "items": [
     {
      "name": "61st TELANGANA STATE RANKING CHESS TOURNAMENT",
@@ -1702,12 +1667,19 @@
      "url": "https://www.chesstelangana.com/event/1st-dannes-international-fide-rated-open-chess-tournament-2026/",
      "published": "2026-04-24"
     }
-   ]
+   ],
+   "error": "fetch failed",
+   "failedAt": "2026-10-08T01:33:00.850Z"
   },
   "fide": {
-   "checkedAt": "2026-10-07T08:40:51.806Z",
+   "checkedAt": "2026-10-08T01:33:00.850Z",
    "ok": true,
    "items": [
+    {
+     "name": "President of Kazakhstan Kassym-Jomart Tokayev receives FIDE President Timur Turlov",
+     "url": "https://www.fide.com/president-of-kazakhstan-kassym-jomart-tokayev-receives-fide-president-timur-turlov/",
+     "published": "2026-10-07"
+    },
     {
      "name": "FIDE World Senior Team Championships 2027: Registration opens",
      "url": "https://www.fide.com/fide-world-senior-team-championships-2027-registration-opens/",
@@ -1751,11 +1723,6 @@
     {
      "name": "Main Decisions of the FIDE General Assembly 2026",
      "url": "https://www.fide.com/main-decisions-of-the-fide-general-assembly-2026/",
-     "published": "2026-10-01"
-    },
-    {
-     "name": "FIDE October 2026 rating list published",
-     "url": "https://www.fide.com/fide-october-2026-rating-list-published/",
      "published": "2026-10-01"
     }
    ]
