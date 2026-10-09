@@ -1,6 +1,6 @@
-import Script from "next/script";
 import { site, navLinks } from "@/content/site";
 import { VisitCounter } from "./VisitCounter";
+import { CreditBadge } from "./CreditBadge";
 
 /** `base` is "/" on the standalone pages so section links go back to Home; the visit count shows on Home only. */
 export function Footer({ base = "", visits = true }: { base?: string; visits?: boolean }) {
@@ -31,10 +31,9 @@ export function Footer({ base = "", visits = true }: { base?: string; visits?: b
             {visits && <VisitCounter />}
           </ul>
           {/* Nischaya Creative Soft credit badge — filled by /nsc-credit-badge.js */}
-          <div className="footer-credit" data-nsc-credit />
+          <CreditBadge />
         </div>
       </div>
-      <Script src="/nsc-credit-badge.js" strategy="afterInteractive" />
     </footer>
   );
 }

@@ -673,9 +673,6 @@ img { display: block; max-width: 100%; height: auto; }
   .footer-meta li + li::before { content: none; }
   .footer-meta li:not(.footer-copy) { padding-left: 38px; }
 }
-/* Badge at 32px (default 48) so it sits in scale with the 12px copyright line. */
-.footer .nsc-credit-btn { width: 32px; height: 32px; }
-.footer .nsc-credit-mark { width: 20px; }
 /* Nischaya credit badge (next to the copyright): keep the footer's link/name styles out of its popup. */
 .footer .nsc-credit-pop a, .footer .nsc-credit-pop b { font: inherit; font-weight: 600; letter-spacing: normal; text-transform: none; }
 .footer .nsc-credit-pop b { color: #F5F1E9; }
