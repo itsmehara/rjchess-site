@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-09T08:13:34.629Z",
+ "generatedAt": "2026-10-09T17:08:44.287Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-09T08:13:34.629Z",
+   "checkedAt": "2026-10-09T17:08:44.287Z",
    "ok": true,
    "items": [
     {
@@ -120,7 +120,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-09T08:13:34.629Z",
+   "checkedAt": "2026-10-09T17:08:44.287Z",
    "ok": true,
    "items": [
     {
@@ -844,15 +844,6 @@
      "url": "https://aicf.in/all-events/"
     },
     {
-     "name": "2nd Little Star Chess Academy All India Open FIDE Rapid Rating Chess Tournament 2026",
-     "code": "496019",
-     "start": "2026-10-25",
-     "end": "2026-10-25",
-     "place": "Maharashtra",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/09/2nd-Little-Star-Chess-Academy-All-India-Open-FIDE-Rapid-Rating-Chess-Tournament-2026.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
      "name": "1st Lions Club of Belgaum & Leo Club of Belgaum all India Open fIDE Rating Blitz Chess Tournament",
      "code": "487840",
      "start": "2026-10-25",
@@ -867,6 +858,15 @@
      "start": "2026-10-25",
      "end": "2026-10-25",
      "place": "Tamil Nadu",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "SportsCentric FIDE Rated Chess Tournament",
+     "code": "503923",
+     "start": "2026-10-25",
+     "end": "2026-10-25",
+     "place": "Bengaluru, Karnataka",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/SportsCentric.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1248,6 +1248,14 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "2nd Little Star Chess Academy All India Open FIDE Rapid Rating Chess Tournament 2026",
+     "code": "496019",
+     "start": "2026-12-06",
+     "end": "2026-12-06",
+     "place": "Maharashtra",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "International FIDE open RATING CHESS TOURNAMENT- 2026",
      "code": "484348",
      "start": "2026-12-10",
@@ -1397,6 +1405,15 @@
      "end": "2026-12-27",
      "place": "Pune",
      "brochure": "https://aicf.in/wp-content/uploads/2026/08/PUNE-GRANDSLAM-Chess-Tournament-2026-Revised.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "5th Late Shri. Shankar Shet Memorial 1st Open FIDE Rated Rapid Chess Tournament 2026",
+     "code": "501321",
+     "start": "2026-12-27",
+     "end": "2026-12-27",
+     "place": "Karnataka",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/5th-Late-Shankar-Shet-Memorial-Rapid-Rating-Tournament-2026.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1627,7 +1644,7 @@
   },
   "ts": {
    "checkedAt": "2026-10-09T08:13:34.629Z",
-   "ok": true,
+   "ok": false,
    "items": [
     {
      "name": "61st TELANGANA STATE RANKING CHESS TOURNAMENT",
@@ -1729,12 +1746,19 @@
      "url": "https://www.chesstelangana.com/event/1st-dannes-international-fide-rated-open-chess-tournament-2026/",
      "published": "2026-04-24"
     }
-   ]
+   ],
+   "error": "fetch failed",
+   "failedAt": "2026-10-09T17:08:44.287Z"
   },
   "fide": {
-   "checkedAt": "2026-10-09T08:13:34.629Z",
+   "checkedAt": "2026-10-09T17:08:44.287Z",
    "ok": true,
    "items": [
+    {
+     "name": "FIDE World Amateur Chess Championships 2026: Registration deadline extended",
+     "url": "https://www.fide.com/fide-world-amateur-chess-championships-2026-registration-deadline-extended/",
+     "published": "2026-10-09"
+    },
     {
      "name": "President of Kazakhstan Kassym-Jomart Tokayev receives FIDE President Timur Turlov",
      "url": "https://www.fide.com/president-of-kazakhstan-kassym-jomart-tokayev-receives-fide-president-timur-turlov/",
@@ -1778,11 +1802,6 @@
     {
      "name": "Road to Weissenhaus 2027: Freestyle Friday is back",
      "url": "https://www.fide.com/road-to-weissenhaus-2027-freestyle-friday-is-back/",
-     "published": "2026-10-01"
-    },
-    {
-     "name": "Main Decisions of the FIDE General Assembly 2026",
-     "url": "https://www.fide.com/main-decisions-of-the-fide-general-assembly-2026/",
      "published": "2026-10-01"
     }
    ]
