@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Manrope } from "next/font/google";
 import { site } from "@/content/site";
+import { DEFAULT_THEME } from "@/content/themes";
 import { Analytics } from "@/components/Analytics";
 import "./globals.css";
 
@@ -34,7 +35,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${serif.variable} ${sans.variable}`} suppressHydrationWarning>
+    <html lang="en" data-theme={DEFAULT_THEME} className={`${serif.variable} ${sans.variable}`} suppressHydrationWarning>
       <head>
         {/* Applies the saved / linked theme before first paint; see ThemePicker. */}
         {/* eslint-disable-next-line @next/next/no-sync-scripts -- must run before paint (~300 B) */}

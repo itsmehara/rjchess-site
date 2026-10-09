@@ -1,7 +1,7 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
-import { themes, type ThemeId, THEME_KEY } from "@/content/themes";
+import { themes, type ThemeId, THEME_KEY, DEFAULT_THEME } from "@/content/themes";
 
 // Small fixed palette switch so the owner can compare looks before choosing.
 // The theme is the `data-theme` attribute on <html>; it persists in
@@ -12,7 +12,7 @@ const ids = themes.map((t) => t.id) as string[];
 
 function read(): ThemeId {
   const t = document.documentElement.getAttribute("data-theme");
-  return t && ids.includes(t) ? (t as ThemeId) : "ink";
+  return t && ids.includes(t) ? (t as ThemeId) : DEFAULT_THEME;
 }
 function subscribe(cb: () => void) {
   const mo = new MutationObserver(cb);
@@ -27,7 +27,7 @@ function apply(id: ThemeId) {
 }
 
 export function ThemePicker() {
-  const theme = useSyncExternalStore(subscribe, read, () => "ink" as ThemeId);
+  const theme = useSyncExternalStore(subscribe, read, () => DEFAULT_THEME as ThemeId);
 
   return (
     <fieldset className="theme-picker">

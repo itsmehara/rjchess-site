@@ -7,6 +7,7 @@
     var q = new URLSearchParams(location.search).get("theme");
     var t = q || localStorage.getItem(key);
     if (q && ok.indexOf(q) > -1) localStorage.setItem(key, q);
-    if (t && ok.indexOf(t) > -1 && t !== "ink") document.documentElement.setAttribute("data-theme", t);
+    // No saved choice: keep the default on <html data-theme> (forest, set in layout.tsx).
+    if (t && ok.indexOf(t) > -1) document.documentElement.setAttribute("data-theme", t);
   } catch (e) {}
 })();

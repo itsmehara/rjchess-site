@@ -21,7 +21,8 @@ export function CreditBadge() {
   return (
     <>
       <div ref={ref} className="footer-credit" data-nsc-credit />
-      <Script src="/nsc-credit-badge.js" strategy="afterInteractive" />
+      {/* ?v= busts the 10-minute browser cache — bump it whenever public/nsc-credit-badge.js changes. */}
+      <Script src="/nsc-credit-badge.js?v=2026-10-09" strategy="afterInteractive" />
     </>
   );
 }
