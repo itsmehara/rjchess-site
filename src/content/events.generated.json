@@ -1,24 +1,24 @@
 {
- "generatedAt": "2026-10-09T01:44:10.084Z",
+ "generatedAt": "2026-10-09T08:10:11.452Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-09T01:44:10.084Z",
+   "checkedAt": "2026-10-09T08:10:11.452Z",
    "ok": true,
    "items": [
-    {
-     "name": "FIRE CHESS SCHOOL'S AP STATE CLASSICAL OPEN CHESS TOURNAMENT-2026(3 days - 45 + 30 time control form",
-     "start": "2026-10-10",
-     "url": "https://apchess.org/event-details/details/all/1803",
-     "brochure": "https://apchess.org/assets/events/brochures/1789562658_3395.jpeg",
-     "register": "https://apchess.org/signin",
-     "completed": false
-    },
     {
      "name": "LATE SRI D RAJAVARDHAN REDDY 4TH MEMORIAL INTERNATIONAL OPEN FIDE RAPID RATING CHESS TOURNAMENT-2026",
      "start": "2026-10-17",
      "url": "https://apchess.org/event-details/details/all/1801",
      "brochure": "https://apchess.org/assets/events/brochures/1789038757_3867.pdf",
      "register": "https://apchess.org/event-details/register/all/1801",
+     "completed": false
+    },
+    {
+     "name": "FIRE CHESS SCHOOL'S AP STATE CLASSICAL OPEN CHESS TOURNAMENT-2026(3 days - 45 + 30 time control form",
+     "start": "2026-10-17",
+     "url": "https://apchess.org/event-details/details/all/1803",
+     "brochure": "https://apchess.org/assets/events/brochures/1789562658_3395.jpeg",
+     "register": "https://apchess.org/signin",
      "completed": false
     },
     {
@@ -120,7 +120,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-09T01:44:10.084Z",
+   "checkedAt": "2026-10-09T08:10:11.452Z",
    "ok": true,
    "items": [
     {
@@ -875,6 +875,7 @@
      "start": "2026-10-25",
      "end": "2026-10-25",
      "place": "Tamil Nadu",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/Prospectus-503302TNR2026.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -971,6 +972,15 @@
      "start": "2026-11-01",
      "end": "2026-11-03",
      "place": "Visakhapatnam",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "The Resurrection Race III Open Standard FIDE Rated Chess Tournament 2026",
+     "code": "505082",
+     "start": "2026-11-02",
+     "end": "2026-11-07",
+     "place": "West Bengal",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/The-Resurrection-Race-III-2026-FIDE-RATED.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1220,6 +1230,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "INVENTIVE 2.0 FIDE-rated Rapid Chess Tournament",
+     "code": "503301",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "place": "Bangalore, Karnataka",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/INVENTIVE-2.0-FIDE-Rapid-Rated-Chess-Tournament-Dec-5th-2026._compressed.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "8th Tarabai Shinde FIDE Rapid Rating Chess Tournament, Nerul, Navi Mumbai",
      "code": "Navi Mumbai Maharashtra",
      "start": "2026-12-06",
@@ -1261,6 +1280,15 @@
      "end": "2026-12-24",
      "place": "Udaipur, Rajasthan",
      "brochure": "https://aicf.in/wp-content/uploads/2026/06/16.06.2026-Final-Winter-Below-1700-Lakecity-22-24-Dec-2026-Final.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "24th North East Fide Rating Chess Championship",
+     "code": "503517",
+     "start": "2026-12-15",
+     "end": "2026-12-19",
+     "place": "Nagaland",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/24th-North-East-Fide-Rating-Chess-Championship-2026.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1598,7 +1626,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-09T01:44:10.084Z",
+   "checkedAt": "2026-10-09T08:10:11.452Z",
    "ok": true,
    "items": [
     {
@@ -1704,7 +1732,7 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-10-09T01:44:10.084Z",
+   "checkedAt": "2026-10-09T08:10:11.452Z",
    "ok": true,
    "items": [
     {
