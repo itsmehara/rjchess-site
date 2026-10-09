@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-08T01:33:00.850Z",
+ "generatedAt": "2026-10-09T01:44:10.084Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-08T01:33:00.850Z",
+   "checkedAt": "2026-10-09T01:44:10.084Z",
    "ok": true,
    "items": [
     {
@@ -120,7 +120,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-08T01:33:00.850Z",
+   "checkedAt": "2026-10-09T01:44:10.084Z",
    "ok": true,
    "items": [
     {
@@ -940,6 +940,23 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "2nd G H Raisoni Memorial Solapur International FIDE Rapid Rating Chess Tournament 2026",
+     "code": "504056",
+     "start": "2026-11-01",
+     "end": "2026-11-01",
+     "place": "Solapur, Maharashtra",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "2nd Nihar seva Foundation international rapid Rating chess Tournament",
+     "code": "504551",
+     "start": "2026-11-01",
+     "end": "2026-11-01",
+     "place": "Gujarat",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/2nd_Nihar_Seva_Foundation_International_Open_2026_Brochure_FINAL_HD.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "The NEST School 1st International FIDE Rated Rapid Chess Tournament – 2026",
      "code": "489381",
      "start": "2026-11-01",
@@ -1226,6 +1243,15 @@
      "start": "2026-12-12",
      "end": "2026-12-13",
      "place": "Goa",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "1st late Shriram Kute Guruji Memorial All India Open Fide Rating Rapid Chess Tournament",
+     "code": "504550",
+     "start": "2026-12-13",
+     "end": "2026-12-13",
+     "place": "Maharashtra",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/13th-December.SHEGAON-RATING-2026-1-compressed.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1530,6 +1556,14 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "National Team Chess Championship",
+     "code": "504954/504955",
+     "start": "2027-02-09",
+     "end": "2027-02-15",
+     "place": "Haryana",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "9th Tarabai Shinde FIDE Rapid Rating Chess Tournament, Nerul, Navi Mumbai",
      "code": "500571",
      "start": "2027-02-14",
@@ -1564,8 +1598,8 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-07T08:40:51.806Z",
-   "ok": false,
+   "checkedAt": "2026-10-09T01:44:10.084Z",
+   "ok": true,
    "items": [
     {
      "name": "61st TELANGANA STATE RANKING CHESS TOURNAMENT",
@@ -1667,12 +1701,10 @@
      "url": "https://www.chesstelangana.com/event/1st-dannes-international-fide-rated-open-chess-tournament-2026/",
      "published": "2026-04-24"
     }
-   ],
-   "error": "fetch failed",
-   "failedAt": "2026-10-08T01:33:00.850Z"
+   ]
   },
   "fide": {
-   "checkedAt": "2026-10-08T01:33:00.850Z",
+   "checkedAt": "2026-10-09T01:44:10.084Z",
    "ok": true,
    "items": [
     {
