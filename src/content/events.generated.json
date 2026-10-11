@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-10T01:30:49.660Z",
+ "generatedAt": "2026-10-11T00:40:00.275Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-10T01:30:49.660Z",
+   "checkedAt": "2026-10-11T00:40:00.275Z",
    "ok": true,
    "items": [
     {
@@ -120,7 +120,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-10T01:30:49.660Z",
+   "checkedAt": "2026-10-11T00:40:00.275Z",
    "ok": true,
    "items": [
     {
@@ -129,33 +129,6 @@
      "start": "2026-09-27",
      "end": "2026-09-27",
      "place": "Assam",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Asian Junior Chess Championship 2026",
-     "code": "486699",
-     "start": "2026-08-16",
-     "end": "2026-08-26",
-     "place": "Mumbai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Asian-Junior.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Asian Junior Girls Chess Championship 2026",
-     "code": "486700",
-     "start": "2026-08-16",
-     "end": "2026-08-26",
-     "place": "Mumbai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Asian-Junior.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Grand Open Rapid FIDE Rated Chess Tournament",
-     "code": "493824",
-     "start": "2026-08-26",
-     "end": "2026-08-26",
-     "place": "Karnataka",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/CC-GCL-Fide-Rated-tournament-1-2.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -858,6 +831,7 @@
      "start": "2026-10-25",
      "end": "2026-10-25",
      "place": "Tamil Nadu",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/REF-12.CHE_.26-27-Updated.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1046,6 +1020,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "24th BRDCA ALL INDIA OPEN FIDE RATED RAPID CHESS TOURNAMENT 2026",
+     "code": "504949",
+     "start": "2026-11-14",
+     "end": "2026-11-14",
+     "place": "Bangalore",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/24TH-BRDCA-FIDE-RAPID-A-B.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "UNSTOPPABLE LBHM 2026 27th Late Bharatbai Halkude Memorial, All India Open FIDE Blitz Rating Chess Tournament",
      "code": "495841",
      "start": "2026-11-14",
@@ -1193,6 +1176,15 @@
      "end": "2026-11-29",
      "place": "Karnataka",
      "brochure": "https://aicf.in/wp-content/uploads/2026/09/Rapid-Brochure_compressed.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "1st RAYDIANCE International Open Fide Rapid Rating Chess Tournament 2026",
+     "code": "504058",
+     "start": "2026-11-29",
+     "end": "2026-11-29",
+     "place": "Maharashtra",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/1st-RAYDIANCE-RATING-CHESS-2026_compressed-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1462,6 +1454,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "KAPIL DEV KHARE MEMORIAL FIDE RATED OPEN CLASSICAL CHESS TOURNAMENT",
+     "code": "505328",
+     "start": "2027-01-05",
+     "end": "2027-01-10",
+     "place": "UP",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/Kapil-Dev-Khare-Memorial-Chess-Tournament-2027.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "4th Jabalpur International Open Fide Rapid Rating Chess Tournament 2027",
      "code": "490886",
      "start": "2027-01-09",
@@ -1643,7 +1644,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-10T01:30:49.660Z",
+   "checkedAt": "2026-10-11T00:40:00.275Z",
    "ok": true,
    "items": [
     {
@@ -1749,9 +1750,14 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-10-10T01:30:49.660Z",
+   "checkedAt": "2026-10-11T00:40:00.275Z",
    "ok": true,
    "items": [
+    {
+     "name": "Record field set for 6th Intercontinental Chess Championship for Prisoners",
+     "url": "https://www.fide.com/record-field-set-for-6th-intercontinental-chess-championship-for-prisoners/",
+     "published": "2026-10-10"
+    },
     {
      "name": "FIDE World Amateur Chess Championships 2026: Registration deadline extended",
      "url": "https://www.fide.com/fide-world-amateur-chess-championships-2026-registration-deadline-extended/",
@@ -1795,11 +1801,6 @@
     {
      "name": "WSTC Europe Day 3: Competitions, tactical masterclasses and high-altitude adventures in Tsaghkadzor",
      "url": "https://www.fide.com/wstc-europe-day-3-competitions-tactical-masterclasses-and-high-altitude-adventures-in-tsaghkadzor/",
-     "published": "2026-10-01"
-    },
-    {
-     "name": "Road to Weissenhaus 2027: Freestyle Friday is back",
-     "url": "https://www.fide.com/road-to-weissenhaus-2027-freestyle-friday-is-back/",
      "published": "2026-10-01"
     }
    ]
