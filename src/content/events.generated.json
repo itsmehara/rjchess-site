@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-11T00:40:00.275Z",
+ "generatedAt": "2026-10-12T00:57:15.996Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-11T00:40:00.275Z",
+   "checkedAt": "2026-10-12T00:57:15.996Z",
    "ok": true,
    "items": [
     {
@@ -35,6 +35,14 @@
      "url": "https://apchess.org/event-details/details/all/1809",
      "brochure": "https://apchess.org/assets/events/brochures/1791354805_5421.pdf",
      "register": "https://apchess.org/event-details/register/all/1809",
+     "completed": false
+    },
+    {
+     "name": "YUVA's 1ST FIDE RATING RAPID CHESS Tournament- 2026",
+     "start": "2026-11-14",
+     "url": "https://apchess.org/event-details/details/all/1812",
+     "brochure": "https://apchess.org/assets/events/brochures/1791740490_1902.pdf",
+     "register": "https://apchess.org/event-details/register/all/1812",
      "completed": false
     },
     {
@@ -120,7 +128,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-11T00:40:00.275Z",
+   "checkedAt": "2026-10-12T00:57:15.996Z",
    "ok": true,
    "items": [
     {
@@ -589,24 +597,6 @@
      "end": "2026-10-04",
      "place": "Kota, Rajasthan",
      "brochure": "https://aicf.in/wp-content/uploads/2026/08/1st-Kota-International-Open-Fide-Rapid-Rating-Chess-Tournament-2026-2.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "1st Late Bharatji Budhmalji Kunkulol Memorial Rapid Chess tournament 2026",
-     "code": "484619",
-     "start": "2026-10-03",
-     "end": "2026-10-04",
-     "place": "Maharashtra",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/SHRIRAMPUR-RATING-CHESS-TOURNAMENT-BROCHURE.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "2nd Late Bharatji Budhmalji Kunkulol Memorial Blitz Chess tournament 2026",
-     "code": "484620",
-     "start": "2026-10-04",
-     "end": "2026-10-04",
-     "place": "Maharashtra",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/SHRIRAMPUR-RATING-CHESS-TOURNAMENT-BROCHURE.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1472,6 +1462,22 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "1st Late Bharatji Budhmalji Kunkulol Memorial Rapid Chess tournament 2026",
+     "code": "484619",
+     "start": "2027-01-09",
+     "end": "2027-01-10",
+     "place": "Maharashtra",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "2nd Late Bharatji Budhmalji Kunkulol Memorial Blitz Chess tournament 2026",
+     "code": "484620",
+     "start": "2027-01-10",
+     "end": "2027-01-10",
+     "place": "Maharashtra",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "1st Akshaya International Grandmaster Open Chess Tournament – 2027 (Category A) above 2000 rating players only",
      "code": "482202",
      "start": "2027-01-11",
@@ -1644,7 +1650,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-11T00:40:00.275Z",
+   "checkedAt": "2026-10-12T00:57:15.996Z",
    "ok": true,
    "items": [
     {
@@ -1750,7 +1756,7 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-10-11T00:40:00.275Z",
+   "checkedAt": "2026-10-12T00:57:15.996Z",
    "ok": true,
    "items": [
     {
