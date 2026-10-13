@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-12T00:57:15.996Z",
+ "generatedAt": "2026-10-13T02:49:58.923Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-12T00:57:15.996Z",
+   "checkedAt": "2026-10-13T02:49:58.923Z",
    "ok": true,
    "items": [
     {
@@ -128,7 +128,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-12T00:57:15.996Z",
+   "checkedAt": "2026-10-13T02:49:58.923Z",
    "ok": true,
    "items": [
     {
@@ -887,6 +887,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "8th SHAASTRA Rapid FIDE Rated Chess Tournament 2026",
+     "code": "501271",
+     "start": "2026-10-31",
+     "end": "2026-10-31",
+     "place": "Tamil Nadu",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/8th-Shaastra-Rapid-FIDE-Chess-Tournament-2026.pdf-1_compressed.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "Lambardar Gaya Prasad Memorial FIDE rated Open Rapid Tournament",
      "code": "496209",
      "start": "2026-10-31",
@@ -1025,6 +1034,15 @@
      "end": "2026-11-14",
      "place": "Pune, Maharashtra",
      "brochure": "https://aicf.in/wp-content/uploads/2026/09/Revised_LBHM-UNSTOPPABLE-NOV-2026_1.9-mb.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "Yuva’s 1st Global Chess Fest All India Open FIDE Rapid Chess Tournament 2026",
+     "code": "504571",
+     "start": "2026-11-14",
+     "end": "2026-11-15",
+     "place": "Andhra Pradesh",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/1.1-3.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1252,6 +1270,7 @@
      "start": "2026-12-12",
      "end": "2026-12-13",
      "place": "Goa",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/SCC-All-India-Tournament-Brochure_compressed.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1650,7 +1669,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-12T00:57:15.996Z",
+   "checkedAt": "2026-10-13T02:49:58.923Z",
    "ok": true,
    "items": [
     {
@@ -1756,9 +1775,29 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-10-12T00:57:15.996Z",
+   "checkedAt": "2026-10-13T02:49:58.923Z",
    "ok": true,
    "items": [
+    {
+     "name": "FIDE General Assembly adopts resolution on shorter time controls: What it means",
+     "url": "https://www.fide.com/fide-general-assembly-adopts-resolution-on-shorter-time-controls-what-it-means/",
+     "published": "2026-10-12"
+    },
+    {
+     "name": "FIDE General Assembly 2026: List of decisions",
+     "url": "https://www.fide.com/fide-general-assembly-2026-list-of-decisions/",
+     "published": "2026-10-12"
+    },
+    {
+     "name": "3rd FIDE Council Meeting 2026: List of decisions",
+     "url": "https://www.fide.com/3rd-fide-council-meeting-2026-list-of-decisions/",
+     "published": "2026-10-12"
+    },
+    {
+     "name": "Media accreditation for the Salesforce FIDE World Championship is now open",
+     "url": "https://www.fide.com/media-accreditation-for-the-salesforce-fide-world-championship-is-now-open/",
+     "published": "2026-10-12"
+    },
     {
      "name": "Record field set for 6th Intercontinental Chess Championship for Prisoners",
      "url": "https://www.fide.com/record-field-set-for-6th-intercontinental-chess-championship-for-prisoners/",
@@ -1788,26 +1827,6 @@
      "name": "FIDE Announces Open Call for Commission Nominations",
      "url": "https://www.fide.com/fide-announces-open-call-for-commission-nominations/",
      "published": "2026-10-05"
-    },
-    {
-     "name": "From Tsaghkadzor to Grand Final: European Schools Chess Champions crowned amidst cultural celebration",
-     "url": "https://www.fide.com/from-tsaghkadzor-to-grand-final-european-schools-chess-champions-crowned-amidst-cultural-celebration/",
-     "published": "2026-10-02"
-    },
-    {
-     "name": "Small Nations Chess Association restarts activities and elects new Board",
-     "url": "https://www.fide.com/small-nations-chess-association-restarts-activities-and-elects-new-board/",
-     "published": "2026-10-02"
-    },
-    {
-     "name": "“Theory and Practice of Chess Education” conference begins in Tsaghkadzor",
-     "url": "https://www.fide.com/theory-and-practice-of-chess-education-conference-begins-in-tsaghkadzor/",
-     "published": "2026-10-01"
-    },
-    {
-     "name": "WSTC Europe Day 3: Competitions, tactical masterclasses and high-altitude adventures in Tsaghkadzor",
-     "url": "https://www.fide.com/wstc-europe-day-3-competitions-tactical-masterclasses-and-high-altitude-adventures-in-tsaghkadzor/",
-     "published": "2026-10-01"
     }
    ]
   }
