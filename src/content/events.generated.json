@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-13T02:49:58.923Z",
+ "generatedAt": "2026-10-14T00:51:10.867Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-13T02:49:58.923Z",
+   "checkedAt": "2026-10-14T00:51:10.867Z",
    "ok": true,
    "items": [
     {
@@ -128,7 +128,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-13T02:49:58.923Z",
+   "checkedAt": "2026-10-14T00:51:10.867Z",
    "ok": true,
    "items": [
     {
@@ -146,14 +146,6 @@
      "end": "2026-08-30",
      "place": "Chennai",
      "brochure": "https://aicf.in/wp-content/uploads/2026/07/CAPA-TMT-2.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "h2e Power Systems Maharashtra State Women’s FIDE Rating Selection Chess Championship 2026",
-     "code": "482477",
-     "start": "2026-08-27",
-     "end": "2026-08-29",
-     "place": "Maharashtra",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -220,12 +212,30 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "4th National School Team Chess (Under 12 & 18)",
+     "code": "499113/499114",
+     "start": "2026-09-01",
+     "end": "2026-09-03",
+     "place": "Andhra Pradesh",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/NST-2026_final_with_arbiters_aligned-1.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "2nd CFPD Open FIDE Rating Chess Tournament 2026",
      "code": "471847",
      "start": "2026-09-02",
      "end": "2026-09-06",
      "place": "Virudhachalam.Cuddalore, Tamil Nadu",
      "brochure": "https://aicf.in/wp-content/uploads/2026/08/Cuddalore-Open-Rating-2026.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "National Under 13 Chess Championship 2026",
+     "code": "489376",
+     "start": "2026-09-03",
+     "end": "2026-09-09",
+     "place": "Pondicherry",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/07/u-13-pdf.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -927,7 +937,7 @@
      "start": "2026-11-01",
      "end": "2026-11-01",
      "place": "Gujarat",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/10/2nd_Nihar_Seva_Foundation_International_Open_2026_Brochure_FINAL_HD.pdf",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/2nd_Nihar_Seva_Foundation_International_Open_2026_Brochure_FINAL_HD-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1222,6 +1232,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "DRAGON CHESS ACADEMY 1ST INTERNATIONAL OPEN FIDE CHESS TOURNAMENT 2026",
+     "code": "503296",
+     "start": "2026-12-02",
+     "end": "2026-12-06",
+     "place": "Kanyakumari , Tamil Nadu",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/DCA-Open-Fide-02-to-05-Dec-prospectus-1.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "Chessinfo & Golden Knights Chess Academy – 1st International FIDE Rating 2nd Below 1700 Chess Tournament 2026",
      "code": "494155",
      "start": "2026-12-04",
@@ -1262,6 +1281,14 @@
      "end": "2026-12-13",
      "place": "Visakhapatnam",
      "brochure": "https://aicf.in/wp-content/uploads/2026/10/VYBEN-FIDE-INTERNATIONAL-OPENCHESS-TOURNAMENT.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "National U19 (Junior )Chess Championship 2026",
+     "code": "494716/494717",
+     "start": "2026-12-11",
+     "end": "2026-12-19",
+     "place": "Kolkata",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1529,6 +1556,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "2nd Kota International Open Fide Rapid Rating Chess Tournament 2027",
+     "code": "504951",
+     "start": "2027-01-16",
+     "end": "2027-01-17",
+     "place": "Kota, Rajasthan",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/2-nd-Kota-International-Open-Fide-Rapid-Rating-Chess-Tournament-2027-1.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "FIDE Rated Chess Tournament",
      "code": "496728",
      "start": "2027-01-17",
@@ -1643,6 +1679,14 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "DRAGON CHESS ACADEMY 2ND INTERNATIONAL BELOW 1700 FIDE CHESS TOURNAMENT",
+     "code": "503298",
+     "start": "2027-02-26",
+     "end": "2027-02-28",
+     "place": "Kanyakumari",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "SIVASAGAR OPEN 2027",
      "code": "481938",
      "start": "2027-03-23",
@@ -1669,9 +1713,14 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-13T02:49:58.923Z",
+   "checkedAt": "2026-10-14T00:51:10.867Z",
    "ok": true,
    "items": [
+    {
+     "name": "THE HYDERABAD BOAT CLUB TELANGANA STATE WOMEN CHESS CHAMPIONSHIP – 2026",
+     "url": "https://www.chesstelangana.com/event/the-hyderabad-boat-club-telangana-state-women-chess-championship-2026/",
+     "published": "2026-10-13"
+    },
     {
      "name": "61st TELANGANA STATE RANKING CHESS TOURNAMENT",
      "url": "https://www.chesstelangana.com/event/61st-telangana-state-ranking-chess-tournament/",
@@ -1766,18 +1815,23 @@
      "name": "United Rangareddy District Under 17 Boys & Girls Chess Championship – 2026",
      "url": "https://www.chesstelangana.com/event/united-rangareddy-district-under-17-boys-girls-chess-championship-2026/",
      "published": "2026-05-08"
-    },
-    {
-     "name": "1st DANNE’S INTERNATIONAL FIDE RATED OPEN CHESS TOURNAMENT-2026",
-     "url": "https://www.chesstelangana.com/event/1st-dannes-international-fide-rated-open-chess-tournament-2026/",
-     "published": "2026-04-24"
     }
    ]
   },
   "fide": {
-   "checkedAt": "2026-10-13T02:49:58.923Z",
+   "checkedAt": "2026-10-14T00:51:10.867Z",
    "ok": true,
    "items": [
+    {
+     "name": "6th Intercontinental Online Chess Championship for Prisoners kicks off with record 140 teams",
+     "url": "https://www.fide.com/6th-intercontinental-online-chess-championship-for-prisoners-kicks-off-with-record-140-teams/",
+     "published": "2026-10-13"
+    },
+    {
+     "name": "Greek Championship 2026: Evgenios Ioannidis and Stavroula Tsolakidou win titles",
+     "url": "https://www.fide.com/greek-championship-2026-evgenios-ioannidis-wins-maiden-title/",
+     "published": "2026-10-13"
+    },
     {
      "name": "FIDE General Assembly adopts resolution on shorter time controls: What it means",
      "url": "https://www.fide.com/fide-general-assembly-adopts-resolution-on-shorter-time-controls-what-it-means/",
@@ -1817,16 +1871,6 @@
      "name": "FIDE World Senior Team Championships 2027: Registration opens",
      "url": "https://www.fide.com/fide-world-senior-team-championships-2027-registration-opens/",
      "published": "2026-10-06"
-    },
-    {
-     "name": "FIDE World U7-U17 Rapid and Blitz Championships 2026 Egypt: Registration continues",
-     "url": "https://www.fide.com/fide-world-u7-u17-rapid-and-blitz-championships-2026-egypt-registration-continues/",
-     "published": "2026-10-05"
-    },
-    {
-     "name": "FIDE Announces Open Call for Commission Nominations",
-     "url": "https://www.fide.com/fide-announces-open-call-for-commission-nominations/",
-     "published": "2026-10-05"
     }
    ]
   }
