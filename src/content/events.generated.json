@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-14T00:51:10.867Z",
+ "generatedAt": "2026-10-15T00:16:56.515Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-14T00:51:10.867Z",
+   "checkedAt": "2026-10-15T00:16:56.515Z",
    "ok": true,
    "items": [
     {
@@ -128,7 +128,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-14T00:51:10.867Z",
+   "checkedAt": "2026-10-15T00:16:56.515Z",
    "ok": true,
    "items": [
     {
@@ -137,24 +137,6 @@
      "start": "2026-09-27",
      "end": "2026-09-27",
      "place": "Assam",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Capa Chess Academy – 6th International FIDE Rated Open Chess Tournament 2026",
-     "code": "473596",
-     "start": "2026-08-26",
-     "end": "2026-08-30",
-     "place": "Chennai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/CAPA-TMT-2.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "SOORIYA CHESS ACADEMY’S 1st International FIDE Rated Open Chess Tournament for Below 1800",
-     "code": "465888",
-     "start": "2026-08-28",
-     "end": "2026-08-30",
-     "place": "Tamil Nadu",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/Below1800_Aug-282930_Sooriya-Chess-Academy.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -173,33 +155,6 @@
      "end": "2026-09-01",
      "place": "Chhattisgarh",
      "brochure": "https://aicf.in/wp-content/uploads/2026/08/Jashpur-All-India-Open-FIDE-Rated-Chess-Tournament-2026.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "2nd Power Chess Academy All lndia Open FIDE Rapid Rating Chess Tournament 2026",
-     "code": "483686",
-     "start": "2026-08-30",
-     "end": "2026-08-30",
-     "place": "Washim, Maharashtra",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/06/2nd-Power-Chess-Academy-30Aug-Washim-tmt-Brochure-1.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Mepco Sports Academy Rapid rating tournament",
-     "code": "492185",
-     "start": "2026-08-30",
-     "end": "2026-08-30",
-     "place": "Virudhunagar, Tamil Nadu",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/Prospectus_Mepco-Rapid-2026.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "1st MindPetal Rising Minds Mumbai Open FIDE Rapid Rating Chess Tournament",
-     "code": "472280",
-     "start": "2026-08-30",
-     "end": "2026-08-30",
-     "place": "Maharashtra",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/06/Brochure1stMindPetal.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -715,15 +670,6 @@
      "url": "https://aicf.in/all-events/"
     },
     {
-     "name": "SHRI SANJAY AGARWAL MEMORIAL INTERNATIONAL FIDE RATED RAPID CHESS TOURNAMENT",
-     "code": "495857",
-     "start": "2026-10-17",
-     "end": "2026-10-18",
-     "place": "Bareilly , UP",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/09/Tournament-Catlogue.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
      "name": "KHELO CHESS INDIA 94.0 CLASSICAL FIDE RATING TOURNAMENT 2026",
      "code": "502133",
      "start": "2026-10-17",
@@ -850,6 +796,15 @@
      "end": "2026-10-25",
      "place": "Tamil Nadu",
      "brochure": "https://aicf.in/wp-content/uploads/2026/10/Prospectus-503302TNR2026.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "SBI GIC presents 2nd FIDE Rated Open Rapid Chess Tournament",
+     "code": "505736",
+     "start": "2026-10-25",
+     "end": "2026-10-25",
+     "place": "UP",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/IIT-Tournament-Brochure-Kanpur-25-Oct-2026.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1289,6 +1244,7 @@
      "start": "2026-12-11",
      "end": "2026-12-19",
      "place": "Kolkata",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/NJ-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1469,6 +1425,14 @@
      "end": "2026-12-31",
      "place": "Madurai",
      "brochure": "https://aicf.in/wp-content/uploads/2026/08/Athens-of-the-east-6th-GM.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "Shri Sanjay Agarwal Memorial International FIDE Rated Rapid Chess Tournament",
+     "code": "495857",
+     "start": "2027-01-02",
+     "end": "2027-01-03",
+     "place": "UP",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1713,7 +1677,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-14T00:51:10.867Z",
+   "checkedAt": "2026-10-15T00:16:56.515Z",
    "ok": true,
    "items": [
     {
@@ -1819,9 +1783,24 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-10-14T00:51:10.867Z",
+   "checkedAt": "2026-10-15T00:16:56.515Z",
    "ok": true,
    "items": [
+    {
+     "name": "World Championships U7–U17 2026: Young talents make their mark in Spain",
+     "url": "https://www.fide.com/world-championships-u7-u17-2026-young-talents-make-their-mark-in-spain/",
+     "published": "2026-10-14"
+    },
+    {
+     "name": "FIDE World Junior U20 Championship in Venezuela: Registration deadline extended",
+     "url": "https://www.fide.com/fide-world-junior-u20-championship-in-venezuela-registration-deadline-extended/",
+     "published": "2026-10-14"
+    },
+    {
+     "name": "Ticket sales for the Salesforce FIDE World Championship are now open",
+     "url": "https://www.fide.com/ticket-sales-for-the-salesforce-fide-world-championship-are-now-open/",
+     "published": "2026-10-14"
+    },
     {
      "name": "6th Intercontinental Online Chess Championship for Prisoners kicks off with record 140 teams",
      "url": "https://www.fide.com/6th-intercontinental-online-chess-championship-for-prisoners-kicks-off-with-record-140-teams/",
@@ -1838,12 +1817,12 @@
      "published": "2026-10-12"
     },
     {
-     "name": "FIDE General Assembly 2026: List of decisions",
+     "name": "2026 FIDE General Assembly: List of decisions",
      "url": "https://www.fide.com/fide-general-assembly-2026-list-of-decisions/",
      "published": "2026-10-12"
     },
     {
-     "name": "3rd FIDE Council Meeting 2026: List of decisions",
+     "name": "2026 3rd FIDE Council Meeting: List of decisions",
      "url": "https://www.fide.com/3rd-fide-council-meeting-2026-list-of-decisions/",
      "published": "2026-10-12"
     },
@@ -1856,21 +1835,6 @@
      "name": "Record field set for 6th Intercontinental Chess Championship for Prisoners",
      "url": "https://www.fide.com/record-field-set-for-6th-intercontinental-chess-championship-for-prisoners/",
      "published": "2026-10-10"
-    },
-    {
-     "name": "FIDE World Amateur Chess Championships 2026: Registration deadline extended",
-     "url": "https://www.fide.com/fide-world-amateur-chess-championships-2026-registration-deadline-extended/",
-     "published": "2026-10-09"
-    },
-    {
-     "name": "President of Kazakhstan Kassym-Jomart Tokayev receives FIDE President Timur Turlov",
-     "url": "https://www.fide.com/president-of-kazakhstan-kassym-jomart-tokayev-receives-fide-president-timur-turlov/",
-     "published": "2026-10-07"
-    },
-    {
-     "name": "FIDE World Senior Team Championships 2027: Registration opens",
-     "url": "https://www.fide.com/fide-world-senior-team-championships-2027-registration-opens/",
-     "published": "2026-10-06"
     }
    ]
   }
