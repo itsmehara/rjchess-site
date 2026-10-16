@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-15T00:16:56.515Z",
+ "generatedAt": "2026-10-16T00:04:20.136Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-15T00:16:56.515Z",
+   "checkedAt": "2026-10-16T00:04:20.136Z",
    "ok": true,
    "items": [
     {
@@ -128,7 +128,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-15T00:16:56.515Z",
+   "checkedAt": "2026-10-16T00:04:20.136Z",
    "ok": true,
    "items": [
     {
@@ -137,15 +137,6 @@
      "start": "2026-09-27",
      "end": "2026-09-27",
      "place": "Assam",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "V V Balaram Memorial Open FIDE Rated Chess Tournament",
-     "code": "462255",
-     "start": "2026-08-28",
-     "end": "2026-08-31",
-     "place": "Kerala",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/06/New-Brochure-Balaram.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -679,6 +670,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "1st Manchester City International open fide Rated Tournament :",
+     "code": "486239",
+     "start": "2026-10-17",
+     "end": "2026-10-21",
+     "place": "Coimbatore",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Manchester-final.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "2nd Rotaract RUAS – Children Chess Academy All India Open FIDE Rated Rapid Chess Tournament",
      "code": "493788",
      "start": "2026-10-18",
@@ -690,8 +690,8 @@
     {
      "name": "All Assam Inter District Open FIDE Rating Chess Tournament 2026",
      "code": "491153",
-     "start": "2026-10-18",
-     "end": "2026-10-22",
+     "start": "2026-10-21",
+     "end": "2026-10-25",
      "place": "Guwahati, Assam",
      "url": "https://aicf.in/all-events/"
     },
@@ -702,23 +702,6 @@
      "end": "2026-10-25",
      "place": "Ambikapur, Chhattisgarh",
      "brochure": "https://aicf.in/wp-content/uploads/2026/09/2nd-Suseema-Trophy-2026-Brochure.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "All Assam Inter District Open Blitz FIDE Rating Chess Tournament 2026",
-     "code": "491156",
-     "start": "2026-10-23",
-     "end": "2026-10-23",
-     "place": "Guwahati, Assam",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "1st Manchester City International open fide Rated Tournament :",
-     "code": "486239",
-     "start": "2026-10-17",
-     "end": "2026-10-21",
-     "place": "Coimbatore",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Manchester-final.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -760,6 +743,14 @@
      "start": "2026-10-24",
      "end": "2026-10-25",
      "place": "Shivamogga, Karnataka",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "All Assam Inter District Open Blitz FIDE Rating Chess Tournament 2026",
+     "code": "491156",
+     "start": "2026-10-25",
+     "end": "2026-10-25",
+     "place": "Guwahati, Assam",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -884,6 +875,7 @@
      "start": "2026-11-01",
      "end": "2026-11-01",
      "place": "Solapur, Maharashtra",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/2nd-G-H-Raisoni-Memorial-Solapur-International-FIDE-Rapid-Rating-Chess-Tournament-20261-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1678,7 +1670,7 @@
   },
   "ts": {
    "checkedAt": "2026-10-15T00:16:56.515Z",
-   "ok": true,
+   "ok": false,
    "items": [
     {
      "name": "THE HYDERABAD BOAT CLUB TELANGANA STATE WOMEN CHESS CHAMPIONSHIP – 2026",
@@ -1780,12 +1772,39 @@
      "url": "https://www.chesstelangana.com/event/united-rangareddy-district-under-17-boys-girls-chess-championship-2026/",
      "published": "2026-05-08"
     }
-   ]
+   ],
+   "error": "fetch failed",
+   "failedAt": "2026-10-16T00:04:20.136Z"
   },
   "fide": {
-   "checkedAt": "2026-10-15T00:16:56.515Z",
+   "checkedAt": "2026-10-16T00:04:20.136Z",
    "ok": true,
    "items": [
+    {
+     "name": "FIDE World Junior U20 Rapid and Blitz Championships: Registration deadline extended",
+     "url": "https://www.fide.com/fide-world-junior-u20-rapid-and-blitz-championships-registration-deadline-extended/",
+     "published": "2026-10-15"
+    },
+    {
+     "name": "6th Intercontinental Online Chess Championship for Prisoners: India wins double gold, Mexico triumphs in men’s section",
+     "url": "https://www.fide.com/6th-intercontinental-online-chess-championship-for-prisoners-india-wins-double-gold-mexico-triumphs-in-mens-section/",
+     "published": "2026-10-15"
+    },
+    {
+     "name": "Three Chess Houses open simultaneously in Shymkent, Kazakhstan",
+     "url": "https://www.fide.com/three-chess-houses-open-simultaneously-in-shymkent-kazakhstan/",
+     "published": "2026-10-15"
+    },
+    {
+     "name": "Chess in Schools Worldwide: Reach, Structure and Evidence in 100 countries",
+     "url": "https://www.fide.com/chess-in-schools-worldwide-reach-structure-and-evidence-in-100-countries/",
+     "published": "2026-10-15"
+    },
+    {
+     "name": "Finals set at the 6th Intercontinental Online Chess Championship for Prisoners",
+     "url": "https://www.fide.com/finals-set-at-the-6th-intercontinental-online-chess-championship-for-prisoners/",
+     "published": "2026-10-15"
+    },
     {
      "name": "World Championships U7–U17 2026: Young talents make their mark in Spain",
      "url": "https://www.fide.com/world-championships-u7-u17-2026-young-talents-make-their-mark-in-spain/",
@@ -1810,31 +1829,6 @@
      "name": "Greek Championship 2026: Evgenios Ioannidis and Stavroula Tsolakidou win titles",
      "url": "https://www.fide.com/greek-championship-2026-evgenios-ioannidis-wins-maiden-title/",
      "published": "2026-10-13"
-    },
-    {
-     "name": "FIDE General Assembly adopts resolution on shorter time controls: What it means",
-     "url": "https://www.fide.com/fide-general-assembly-adopts-resolution-on-shorter-time-controls-what-it-means/",
-     "published": "2026-10-12"
-    },
-    {
-     "name": "2026 FIDE General Assembly: List of decisions",
-     "url": "https://www.fide.com/fide-general-assembly-2026-list-of-decisions/",
-     "published": "2026-10-12"
-    },
-    {
-     "name": "2026 3rd FIDE Council Meeting: List of decisions",
-     "url": "https://www.fide.com/3rd-fide-council-meeting-2026-list-of-decisions/",
-     "published": "2026-10-12"
-    },
-    {
-     "name": "Media accreditation for the Salesforce FIDE World Championship is now open",
-     "url": "https://www.fide.com/media-accreditation-for-the-salesforce-fide-world-championship-is-now-open/",
-     "published": "2026-10-12"
-    },
-    {
-     "name": "Record field set for 6th Intercontinental Chess Championship for Prisoners",
-     "url": "https://www.fide.com/record-field-set-for-6th-intercontinental-chess-championship-for-prisoners/",
-     "published": "2026-10-10"
     }
    ]
   }
