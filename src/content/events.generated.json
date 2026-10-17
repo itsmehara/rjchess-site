@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-16T00:04:20.136Z",
+ "generatedAt": "2026-10-17T00:08:50.435Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-16T00:04:20.136Z",
+   "checkedAt": "2026-10-17T00:08:50.435Z",
    "ok": true,
    "items": [
     {
@@ -128,7 +128,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-16T00:04:20.136Z",
+   "checkedAt": "2026-10-17T00:08:50.435Z",
    "ok": true,
    "items": [
     {
@@ -137,15 +137,6 @@
      "start": "2026-09-27",
      "end": "2026-09-27",
      "place": "Assam",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "All India Open FIDE Rated Chess Tournament – 2026 Jashpur CG",
-     "code": "492660",
-     "start": "2026-08-29",
-     "end": "2026-09-01",
-     "place": "Chhattisgarh",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/Jashpur-All-India-Open-FIDE-Rated-Chess-Tournament-2026.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1659,6 +1650,22 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "8th Holi Cup International Open Fide Rating Chess Tournament 2027",
+     "code": "506145",
+     "start": "2027-03-30",
+     "end": "2027-04-03",
+     "place": "Udaipur",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "Summer Cup Below 1800 International Fide Rating Chess Tournament 2026",
+     "code": "506146",
+     "start": "2027-06-18",
+     "end": "2027-07-20",
+     "place": "Udaipur",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "th Ayodhana International Fide Rating Chess Tournament,2027",
      "code": "487637",
      "start": "2027-07-07",
@@ -1774,12 +1781,17 @@
     }
    ],
    "error": "fetch failed",
-   "failedAt": "2026-10-16T00:04:20.136Z"
+   "failedAt": "2026-10-17T00:08:50.435Z"
   },
   "fide": {
-   "checkedAt": "2026-10-16T00:04:20.136Z",
+   "checkedAt": "2026-10-17T00:08:50.435Z",
    "ok": true,
    "items": [
+    {
+     "name": "One move can change everything in the World Championships U7-U17",
+     "url": "https://www.fide.com/one-move-can-change-everything-in-the-world-championships-u7-u17/",
+     "published": "2026-10-16"
+    },
     {
      "name": "FIDE World Junior U20 Rapid and Blitz Championships: Registration deadline extended",
      "url": "https://www.fide.com/fide-world-junior-u20-rapid-and-blitz-championships-registration-deadline-extended/",
@@ -1823,11 +1835,6 @@
     {
      "name": "6th Intercontinental Online Chess Championship for Prisoners kicks off with record 140 teams",
      "url": "https://www.fide.com/6th-intercontinental-online-chess-championship-for-prisoners-kicks-off-with-record-140-teams/",
-     "published": "2026-10-13"
-    },
-    {
-     "name": "Greek Championship 2026: Evgenios Ioannidis and Stavroula Tsolakidou win titles",
-     "url": "https://www.fide.com/greek-championship-2026-evgenios-ioannidis-wins-maiden-title/",
      "published": "2026-10-13"
     }
    ]
