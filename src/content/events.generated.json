@@ -1,26 +1,10 @@
 {
- "generatedAt": "2026-10-17T00:08:50.435Z",
+ "generatedAt": "2026-10-17T23:44:27.394Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-17T00:08:50.435Z",
+   "checkedAt": "2026-10-17T23:44:27.394Z",
    "ok": true,
    "items": [
-    {
-     "name": "LATE SRI D RAJAVARDHAN REDDY 4TH MEMORIAL INTERNATIONAL OPEN FIDE RAPID RATING CHESS TOURNAMENT-2026",
-     "start": "2026-10-17",
-     "url": "https://apchess.org/event-details/details/all/1801",
-     "brochure": "https://apchess.org/assets/events/brochures/1789038757_3867.pdf",
-     "register": "https://apchess.org/event-details/register/all/1801",
-     "completed": false
-    },
-    {
-     "name": "FIRE CHESS SCHOOL'S AP STATE CLASSICAL OPEN CHESS TOURNAMENT-2026(3 days - 45 + 30 time control form",
-     "start": "2026-10-17",
-     "url": "https://apchess.org/event-details/details/all/1803",
-     "brochure": "https://apchess.org/assets/events/brochures/1789562658_3395.jpeg",
-     "register": "https://apchess.org/signin",
-     "completed": false
-    },
     {
      "name": "VYBEN INTERNATIONAL OPEN FIDE RATING SELECTION – 2026 (VISAKHAPATNAM)",
      "start": "2026-10-25",
@@ -35,14 +19,6 @@
      "url": "https://apchess.org/event-details/details/all/1809",
      "brochure": "https://apchess.org/assets/events/brochures/1791354805_5421.pdf",
      "register": "https://apchess.org/event-details/register/all/1809",
-     "completed": false
-    },
-    {
-     "name": "YUVA's 1ST FIDE RATING RAPID CHESS Tournament- 2026",
-     "start": "2026-11-14",
-     "url": "https://apchess.org/event-details/details/all/1812",
-     "brochure": "https://apchess.org/assets/events/brochures/1791740490_1902.pdf",
-     "register": "https://apchess.org/event-details/register/all/1812",
      "completed": false
     },
     {
@@ -128,7 +104,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-17T00:08:50.435Z",
+   "checkedAt": "2026-10-17T23:44:27.394Z",
    "ok": true,
    "items": [
     {
@@ -1781,15 +1757,20 @@
     }
    ],
    "error": "fetch failed",
-   "failedAt": "2026-10-17T00:08:50.435Z"
+   "failedAt": "2026-10-17T23:44:27.394Z"
   },
   "fide": {
-   "checkedAt": "2026-10-17T00:08:50.435Z",
+   "checkedAt": "2026-10-17T23:44:27.394Z",
    "ok": true,
    "items": [
     {
      "name": "One move can change everything in the World Championships U7-U17",
      "url": "https://www.fide.com/one-move-can-change-everything-in-the-world-championships-u7-u17/",
+     "published": "2026-10-16"
+    },
+    {
+     "name": "Olympiad qualification spots for 2027 World Cup and Women’s World Cup announced",
+     "url": "https://www.fide.com/olympiad-qualification-spots-for-2027-world-cup-and-womens-world-cup-announced/",
      "published": "2026-10-16"
     },
     {
@@ -1831,11 +1812,6 @@
      "name": "Ticket sales for the Salesforce FIDE World Championship are now open",
      "url": "https://www.fide.com/ticket-sales-for-the-salesforce-fide-world-championship-are-now-open/",
      "published": "2026-10-14"
-    },
-    {
-     "name": "6th Intercontinental Online Chess Championship for Prisoners kicks off with record 140 teams",
-     "url": "https://www.fide.com/6th-intercontinental-online-chess-championship-for-prisoners-kicks-off-with-record-140-teams/",
-     "published": "2026-10-13"
     }
    ]
   }
