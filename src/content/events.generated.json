@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-17T23:44:27.394Z",
+ "generatedAt": "2026-10-18T23:54:10.960Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-17T23:44:27.394Z",
+   "checkedAt": "2026-10-18T23:54:10.960Z",
    "ok": true,
    "items": [
     {
@@ -19,6 +19,14 @@
      "url": "https://apchess.org/event-details/details/all/1809",
      "brochure": "https://apchess.org/assets/events/brochures/1791354805_5421.pdf",
      "register": "https://apchess.org/event-details/register/all/1809",
+     "completed": false
+    },
+    {
+     "name": "YUVA's 1ST FIDE RATING RAPID CHESS Tournament- 2026",
+     "start": "2026-11-14",
+     "url": "https://apchess.org/event-details/details/all/1812",
+     "brochure": "https://apchess.org/assets/events/brochures/1791740490_1902.pdf",
+     "register": "https://apchess.org/event-details/register/all/1812",
      "completed": false
     },
     {
@@ -104,7 +112,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-17T23:44:27.394Z",
+   "checkedAt": "2026-10-18T23:54:10.960Z",
    "ok": true,
    "items": [
     {
@@ -1594,6 +1602,14 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "1st ChessBinder.com open FIDE Rated Rapid tournament powered by BKCC",
+     "code": "50642",
+     "start": "2027-02-13",
+     "end": "2027-02-13",
+     "place": "Karnataka",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "9th Tarabai Shinde FIDE Rapid Rating Chess Tournament, Nerul, Navi Mumbai",
      "code": "500571",
      "start": "2027-02-14",
@@ -1652,8 +1668,8 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-15T00:16:56.515Z",
-   "ok": false,
+   "checkedAt": "2026-10-18T23:54:10.960Z",
+   "ok": true,
    "items": [
     {
      "name": "THE HYDERABAD BOAT CLUB TELANGANA STATE WOMEN CHESS CHAMPIONSHIP – 2026",
@@ -1755,12 +1771,10 @@
      "url": "https://www.chesstelangana.com/event/united-rangareddy-district-under-17-boys-girls-chess-championship-2026/",
      "published": "2026-05-08"
     }
-   ],
-   "error": "fetch failed",
-   "failedAt": "2026-10-17T23:44:27.394Z"
+   ]
   },
   "fide": {
-   "checkedAt": "2026-10-17T23:44:27.394Z",
+   "checkedAt": "2026-10-18T23:54:10.960Z",
    "ok": true,
    "items": [
     {
