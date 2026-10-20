@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-18T23:54:10.960Z",
+ "generatedAt": "2026-10-20T00:54:13.892Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-18T23:54:10.960Z",
+   "checkedAt": "2026-10-20T00:54:13.892Z",
    "ok": true,
    "items": [
     {
@@ -112,7 +112,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-18T23:54:10.960Z",
+   "checkedAt": "2026-10-20T00:54:13.892Z",
    "ok": true,
    "items": [
     {
@@ -121,24 +121,6 @@
      "start": "2026-09-27",
      "end": "2026-09-27",
      "place": "Assam",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "MP STATE SELECTION FIDE RATING WOMEN CHESS CHAMPIONSHIP 2026",
-     "code": "484999",
-     "start": "2026-09-01",
-     "end": "2026-09-03",
-     "place": "Jabalpur, MP",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/DOC-20260815-WA0004.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "4th National School Team Chess (Under 12 & 18)",
-     "code": "499113/499114",
-     "start": "2026-09-01",
-     "end": "2026-09-03",
-     "place": "Andhra Pradesh",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/10/NST-2026_final_with_arbiters_aligned-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -701,6 +683,7 @@
      "start": "2026-10-24",
      "end": "2026-10-25",
      "place": "Chandigarh",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/1st-Rajesh-Pilot-Memorial-Open-FIDE-Rated-Rapid-Chess-Tournament-2026-BROCHURE.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -833,6 +816,14 @@
      "end": "2026-11-01",
      "place": "UP",
      "brochure": "https://aicf.in/wp-content/uploads/2026/09/LGM_-Fide-rated-Rapid-and-Blitz-2026-tournament_Bah_flyer.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "BIHAR STATE SENIOR FIDE RATING CHESS CHAMPIONSHIP -2026",
+     "code": "506119",
+     "start": "2026-10-31",
+     "end": "2026-11-04",
+     "place": "Bihar",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1047,6 +1038,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "7th Check n Mate All India Open FIDE Rated Chess Tournament",
+     "code": "503290",
+     "start": "2026-11-21",
+     "end": "2026-11-22",
+     "place": "Karnataka",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/7th-Check-N-Mate-tournament-Broucher-Updated.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "3rd Power Chess Academy All India Open FIDE Rapid Rating Chess Tournament 2026.",
      "code": "498898",
      "start": "2026-11-22",
@@ -1151,6 +1151,7 @@
      "start": "2026-11-30",
      "end": "2026-12-10",
      "place": "Telangana",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/Women.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1668,7 +1669,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-18T23:54:10.960Z",
+   "checkedAt": "2026-10-20T00:54:13.892Z",
    "ok": true,
    "items": [
     {
@@ -1774,9 +1775,24 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-10-18T23:54:10.960Z",
+   "checkedAt": "2026-10-20T00:54:13.892Z",
    "ok": true,
    "items": [
+    {
+     "name": "Vahap Şanal and Team Türkiye Trimph at 36th NATO Chess Championship",
+     "url": "https://www.fide.com/vahap-sanal-and-team-turkiye-trimph-at-36th-nato-chess-championship/",
+     "published": "2026-10-19"
+    },
+    {
+     "name": "FIDE President Timur Turlov meets Cyprus President Nikos Christodoulides in Nicosia",
+     "url": "https://www.fide.com/fide-president-timur-turlov-meets-cyprus-president-nikos-christodoulides-in-nicosia/",
+     "published": "2026-10-19"
+    },
+    {
+     "name": "FIDE Chess in Education Commission (EDU) announces October–December 2026 courses",
+     "url": "https://www.fide.com/fide-chess-in-education-commission-edu-announces-october-december-2026-courses/",
+     "published": "2026-10-19"
+    },
     {
      "name": "One move can change everything in the World Championships U7-U17",
      "url": "https://www.fide.com/one-move-can-change-everything-in-the-world-championships-u7-u17/",
@@ -1811,21 +1827,6 @@
      "name": "Finals set at the 6th Intercontinental Online Chess Championship for Prisoners",
      "url": "https://www.fide.com/finals-set-at-the-6th-intercontinental-online-chess-championship-for-prisoners/",
      "published": "2026-10-15"
-    },
-    {
-     "name": "World Championships U7–U17 2026: Young talents make their mark in Spain",
-     "url": "https://www.fide.com/world-championships-u7-u17-2026-young-talents-make-their-mark-in-spain/",
-     "published": "2026-10-14"
-    },
-    {
-     "name": "FIDE World Junior U20 Championship in Venezuela: Registration deadline extended",
-     "url": "https://www.fide.com/fide-world-junior-u20-championship-in-venezuela-registration-deadline-extended/",
-     "published": "2026-10-14"
-    },
-    {
-     "name": "Ticket sales for the Salesforce FIDE World Championship are now open",
-     "url": "https://www.fide.com/ticket-sales-for-the-salesforce-fide-world-championship-are-now-open/",
-     "published": "2026-10-14"
     }
    ]
   }
