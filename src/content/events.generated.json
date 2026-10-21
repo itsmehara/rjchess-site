@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-20T00:54:13.892Z",
+ "generatedAt": "2026-10-21T00:22:42.746Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-20T00:54:13.892Z",
+   "checkedAt": "2026-10-21T00:22:42.746Z",
    "ok": true,
    "items": [
     {
@@ -112,7 +112,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-20T00:54:13.892Z",
+   "checkedAt": "2026-10-21T00:22:42.746Z",
    "ok": true,
    "items": [
     {
@@ -1670,7 +1670,7 @@
   },
   "ts": {
    "checkedAt": "2026-10-20T00:54:13.892Z",
-   "ok": true,
+   "ok": false,
    "items": [
     {
      "name": "THE HYDERABAD BOAT CLUB TELANGANA STATE WOMEN CHESS CHAMPIONSHIP – 2026",
@@ -1772,12 +1772,19 @@
      "url": "https://www.chesstelangana.com/event/united-rangareddy-district-under-17-boys-girls-chess-championship-2026/",
      "published": "2026-05-08"
     }
-   ]
+   ],
+   "error": "fetch failed",
+   "failedAt": "2026-10-21T00:22:42.746Z"
   },
   "fide": {
-   "checkedAt": "2026-10-20T00:54:13.892Z",
+   "checkedAt": "2026-10-21T00:22:42.746Z",
    "ok": true,
    "items": [
+    {
+     "name": "Where chess meets its fans: Join side activities of the Salesforce FIDE World Championship Match",
+     "url": "https://www.fide.com/where-chess-meets-its-fans-join-side-activities-of-the-world-championship-match/",
+     "published": "2026-10-20"
+    },
     {
      "name": "Vahap Şanal and Team Türkiye Trimph at 36th NATO Chess Championship",
      "url": "https://www.fide.com/vahap-sanal-and-team-turkiye-trimph-at-36th-nato-chess-championship/",
@@ -1821,11 +1828,6 @@
     {
      "name": "Chess in Schools Worldwide: Reach, Structure and Evidence in 100 countries",
      "url": "https://www.fide.com/chess-in-schools-worldwide-reach-structure-and-evidence-in-100-countries/",
-     "published": "2026-10-15"
-    },
-    {
-     "name": "Finals set at the 6th Intercontinental Online Chess Championship for Prisoners",
-     "url": "https://www.fide.com/finals-set-at-the-6th-intercontinental-online-chess-championship-for-prisoners/",
      "published": "2026-10-15"
     }
    ]
