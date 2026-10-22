@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-21T00:22:42.746Z",
+ "generatedAt": "2026-10-22T00:25:54.947Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-21T00:22:42.746Z",
+   "checkedAt": "2026-10-22T00:25:54.947Z",
    "ok": true,
    "items": [
     {
@@ -112,7 +112,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-21T00:22:42.746Z",
+   "checkedAt": "2026-10-22T00:25:54.947Z",
    "ok": true,
    "items": [
     {
@@ -121,15 +121,6 @@
      "start": "2026-09-27",
      "end": "2026-09-27",
      "place": "Assam",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "2nd CFPD Open FIDE Rating Chess Tournament 2026",
-     "code": "471847",
-     "start": "2026-09-02",
-     "end": "2026-09-06",
-     "place": "Virudhachalam.Cuddalore, Tamil Nadu",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/Cuddalore-Open-Rating-2026.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -151,24 +142,6 @@
      "url": "https://aicf.in/all-events/"
     },
     {
-     "name": "Viyugam Chess Academy – INTERNATIONAL FIDE RATED BELOW 1700 CHESS TOURNAMENT 2026",
-     "code": "478181",
-     "start": "2026-09-04",
-     "end": "2026-09-06",
-     "place": "Tamil Nadu",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/VCA_Below1700_September.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "6th GH Raisoni Memorial Nagpur Below 1700 International Open FIDE Rating Chess Tournament 2026",
-     "code": "471285",
-     "start": "2026-09-04",
-     "end": "2026-09-06",
-     "place": "Maharashtra",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/06/Nagpur-Below-1700-2026-1.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
      "name": "Masters Chess Academy, Kanyakumari 1st International FIDE Rated Open Chess Tournament 2026",
      "code": "490515",
      "start": "2026-09-04",
@@ -183,23 +156,6 @@
      "start": "2026-09-05",
      "end": "2026-09-12",
      "place": "Bengaluru",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "The Chembur Gymkhana 4th All India FIDE Rapid Rating Open Chess Tournament, 2026",
-     "code": "483633",
-     "start": "2026-09-06",
-     "end": "2026-09-06",
-     "place": "Maharashtra",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "CHESSIND ACADEMY INTERNATIONAL FIDE RATED OPEN RAPID CHESS TOURNAMENT",
-     "code": "492567",
-     "start": "2026-09-06",
-     "end": "2026-09-06",
-     "place": "Kerala",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/CHESSIND_FIDE-Rated-Open-Rapid-Chess-Tournament.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -836,6 +792,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "Friends chess club 2nd International Rapid Rating chess tournament 2026",
+     "code": "505735",
+     "start": "2026-11-01",
+     "end": "2026-11-01",
+     "place": "Tamil Nadu",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/FRIENDS-RAOID-RATING-1.11.2026-2.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "2nd G H Raisoni Memorial Solapur International FIDE Rapid Rating Chess Tournament 2026",
      "code": "504056",
      "start": "2026-11-01",
@@ -969,6 +934,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "Smart Chess Academy 4th International Open FIDE RAPID Rating Chess Tournament Karur 2026",
+     "code": "506279",
+     "start": "2026-11-15",
+     "end": "2026-11-15",
+     "place": "Tamil Nadu",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/RFR-24.KAR_.26-27_CORRECTED.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "UNSTOPPABLE LBHM 2026 28TH Late Bharatbai Halkude Memorial, All India Open FIDE Rapid Rating Chess Tournament",
      "code": "495845",
      "start": "2026-11-15",
@@ -1092,6 +1066,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "South Open FIDE Rapid Chess Tournament 2026",
+     "code": "507029",
+     "start": "2026-11-28",
+     "end": "2026-11-28",
+     "place": "Karnataka",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/South-Open-FIDE-Rapid-Chess-Tournamnet-2026.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "SARJI RENUKA DEVADHAR ALL INDIA FIDE RAPID RATING OPEN CHESS TOURNAMENT",
      "code": "499268",
      "start": "2026-11-29",
@@ -1182,11 +1165,19 @@
     },
     {
      "name": "8th Tarabai Shinde FIDE Rapid Rating Chess Tournament, Nerul, Navi Mumbai",
-     "code": "Navi Mumbai Maharashtra",
+     "code": "484749",
      "start": "2026-12-06",
      "end": "2026-12-06",
-     "place": "484749",
+     "place": "Navi Mumbai Maharashtra",
      "brochure": "https://aicf.in/wp-content/uploads/2026/09/8th-Tarabai-2-1.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "1st Adhiraj Gadchiroli International Open FIDE Rapid Rating Chess Tournament – 2026",
+     "code": "506787",
+     "start": "2026-12-06",
+     "end": "2026-12-06",
+     "place": "Maharashtra",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1774,12 +1765,17 @@
     }
    ],
    "error": "fetch failed",
-   "failedAt": "2026-10-21T00:22:42.746Z"
+   "failedAt": "2026-10-22T00:25:54.947Z"
   },
   "fide": {
-   "checkedAt": "2026-10-21T00:22:42.746Z",
+   "checkedAt": "2026-10-22T00:25:54.947Z",
    "ok": true,
    "items": [
+    {
+     "name": "Kazakhstan dominates World U7–U17 Championships in Roquetas de Mar",
+     "url": "https://www.fide.com/kazakhstan-dominates-world-u7-u17-championships-in-roquetas-de-mar/",
+     "published": "2026-10-21"
+    },
     {
      "name": "Where chess meets its fans: Join side activities of the Salesforce FIDE World Championship Match",
      "url": "https://www.fide.com/where-chess-meets-its-fans-join-side-activities-of-the-world-championship-match/",
@@ -1823,11 +1819,6 @@
     {
      "name": "Three Chess Houses open simultaneously in Shymkent, Kazakhstan",
      "url": "https://www.fide.com/three-chess-houses-open-simultaneously-in-shymkent-kazakhstan/",
-     "published": "2026-10-15"
-    },
-    {
-     "name": "Chess in Schools Worldwide: Reach, Structure and Evidence in 100 countries",
-     "url": "https://www.fide.com/chess-in-schools-worldwide-reach-structure-and-evidence-in-100-countries/",
      "published": "2026-10-15"
     }
    ]
