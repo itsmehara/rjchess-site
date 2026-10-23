@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-22T00:25:54.947Z",
+ "generatedAt": "2026-10-23T00:22:59.617Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-22T00:25:54.947Z",
+   "checkedAt": "2026-10-23T00:22:59.617Z",
    "ok": true,
    "items": [
     {
@@ -113,7 +113,7 @@
   },
   "aicf": {
    "checkedAt": "2026-10-22T00:25:54.947Z",
-   "ok": true,
+   "ok": false,
    "items": [
     {
      "name": "6th WMA Invitational Rapid Rating Chess Tournament 2026",
@@ -1657,7 +1657,9 @@
      "place": "Assam",
      "url": "https://aicf.in/all-events/"
     }
-   ]
+   ],
+   "error": "fetch failed",
+   "failedAt": "2026-10-23T00:22:59.617Z"
   },
   "ts": {
    "checkedAt": "2026-10-20T00:54:13.892Z",
@@ -1765,12 +1767,17 @@
     }
    ],
    "error": "fetch failed",
-   "failedAt": "2026-10-22T00:25:54.947Z"
+   "failedAt": "2026-10-23T00:22:59.617Z"
   },
   "fide": {
-   "checkedAt": "2026-10-22T00:25:54.947Z",
+   "checkedAt": "2026-10-23T00:22:59.617Z",
    "ok": true,
    "items": [
+    {
+     "name": "Moving forward: The global impact of the Intercontinental Online Chess Championship for Prisoners",
+     "url": "https://www.fide.com/moving-forward-the-global-impact-of-the-intercontinental-online-chess-championship-for-prisoners/",
+     "published": "2026-10-22"
+    },
     {
      "name": "Kazakhstan dominates World U7–U17 Championships in Roquetas de Mar",
      "url": "https://www.fide.com/kazakhstan-dominates-world-u7-u17-championships-in-roquetas-de-mar/",
@@ -1814,11 +1821,6 @@
     {
      "name": "6th Intercontinental Online Chess Championship for Prisoners: India wins double gold, Mexico triumphs in men’s section",
      "url": "https://www.fide.com/6th-intercontinental-online-chess-championship-for-prisoners-india-wins-double-gold-mexico-triumphs-in-mens-section/",
-     "published": "2026-10-15"
-    },
-    {
-     "name": "Three Chess Houses open simultaneously in Shymkent, Kazakhstan",
-     "url": "https://www.fide.com/three-chess-houses-open-simultaneously-in-shymkent-kazakhstan/",
      "published": "2026-10-15"
     }
    ]
