@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-23T00:22:59.617Z",
+ "generatedAt": "2026-10-24T00:15:04.144Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-23T00:22:59.617Z",
+   "checkedAt": "2026-10-24T00:15:04.144Z",
    "ok": true,
    "items": [
     {
@@ -112,8 +112,8 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-22T00:25:54.947Z",
-   "ok": false,
+   "checkedAt": "2026-10-24T00:15:04.144Z",
+   "ok": true,
    "items": [
     {
      "name": "6th WMA Invitational Rapid Rating Chess Tournament 2026",
@@ -139,15 +139,6 @@
      "end": "2026-09-09",
      "place": "Pondicherry",
      "brochure": "https://aicf.in/wp-content/uploads/2026/07/u-13-pdf.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Masters Chess Academy, Kanyakumari 1st International FIDE Rated Open Chess Tournament 2026",
-     "code": "490515",
-     "start": "2026-09-04",
-     "end": "2026-09-07",
-     "place": "Nagercoil",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/Prospectus.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -626,14 +617,6 @@
      "url": "https://aicf.in/all-events/"
     },
     {
-     "name": "5TH SAKATAM INTERNATIONAL OPEN FIDE RATING CHESS TOURNAMENT 2026",
-     "code": "490157",
-     "start": "2026-10-24",
-     "end": "2026-10-25",
-     "place": "Assam",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
      "name": "1st Rajesh Pilot Memorial Open FIDE Rated Rapid Chess Tournament 2026",
      "code": "502618",
      "start": "2026-10-24",
@@ -686,15 +669,6 @@
      "url": "https://aicf.in/all-events/"
     },
     {
-     "name": "SportsCentric FIDE Rated Chess Tournament",
-     "code": "503923",
-     "start": "2026-10-25",
-     "end": "2026-10-25",
-     "place": "Bengaluru, Karnataka",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/10/SportsCentric.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
      "name": "Masters Chess Academy, Kanyakumari 2nd International FIDE Rated Rapid Chess Tournament 2026",
      "code": "503302",
      "start": "2026-10-25",
@@ -719,6 +693,14 @@
      "end": "2026-10-29",
      "place": "Udaipur, Rajasthan",
      "brochure": "https://aicf.in/wp-content/uploads/2026/06/16.06.2026-Final-9th-NL-Pandiyar-Lakecity-Open-25-28-Oct-2026-Final.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "3rd SF International Rapid Rating Chess Tournament 2026",
+     "code": "490157",
+     "start": "2026-10-26",
+     "end": "2026-10-26",
+     "place": "Assam",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -987,6 +969,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "TTCA Blitz Fide Rating Chess Tournament 2026",
+     "code": "505327",
+     "start": "2026-11-18",
+     "end": "2026-11-19",
+     "place": "Goa",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/TTCA-BLITZ-NOV-2026.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "Khannur FIDE Rated Blitz Chess Tournament",
      "code": "499273",
      "start": "2026-11-20",
@@ -1009,6 +1000,15 @@
      "end": "2026-11-22",
      "place": "Haryana",
      "brochure": "https://aicf.in/wp-content/uploads/2026/09/Final04_1st_CastleMasters_FIDE_Tournament.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "Late lt Cdr Gopal Sukhtankar Memorial Open Rapid Fide Rating Chess Tournament 202",
+     "code": "497678",
+     "start": "2026-11-21",
+     "end": "2026-11-22",
+     "place": "Goa",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-05-at-5.58.22-PM.jpeg",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1075,6 +1075,24 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "3rd Pune International Speed Festival 2026 – RAPID Rating Chess Tournament",
+     "code": "504554",
+     "start": "2026-11-28",
+     "end": "2026-11-29",
+     "place": "Pune, Maharashtra",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/3rd-Speed-Chess-Festival-Main-28-29-nov.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "3rd Pune International Speed Festival 2026 – BLITZ Rating Chess Tournament",
+     "code": "504557",
+     "start": "2026-11-29",
+     "end": "2026-11-29",
+     "place": "Pune, Maharashtra",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/3rd-Speed-Chess-Festival-Main-28-29-nov.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "SARJI RENUKA DEVADHAR ALL INDIA FIDE RAPID RATING OPEN CHESS TOURNAMENT",
      "code": "499268",
      "start": "2026-11-29",
@@ -1125,7 +1143,7 @@
      "start": "2026-11-29",
      "end": "2026-12-09",
      "place": "Varanasi, UP",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/09/63rd-NATIONAL-CHESS-CHAMPIONSHIP%E2%80%932026_09th-Sep.pdf",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/63rd-NATIONAL-CHESS-CHAMPIONSHIP%E2%80%932026_-REVISED-22-OCTOBER-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1178,6 +1196,7 @@
      "start": "2026-12-06",
      "end": "2026-12-06",
      "place": "Maharashtra",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/Adhiraaj-2-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1186,6 +1205,7 @@
      "start": "2026-12-06",
      "end": "2026-12-06",
      "place": "Maharashtra",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/2nd-Little-Star-Chess-Academy-All-India-Open-FIDE-Rapid-Rating-Chess-Tournament-2026-Updated-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1447,6 +1467,14 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "Late Kisanrao & Kausalyabai Chavan Memorial 4th Power Chess Academy All lndia Open FIDE Rapid Rating Chess Tournament 2027",
+     "code": "506426",
+     "start": "2027-01-10",
+     "end": "2027-01-10",
+     "place": "Maharashtra",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "1st Akshaya International Grandmaster Open Chess Tournament – 2027 (Category A) above 2000 rating players only",
      "code": "482202",
      "start": "2027-01-11",
@@ -1512,6 +1540,15 @@
      "end": "2027-01-24",
      "place": "Delhi",
      "brochure": "https://aicf.in/wp-content/uploads/2026/07/Regulations-Delhi-Open-2027.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "1st Pixel All India Open FIDE rated Rapid Tournament",
+     "code": "506782",
+     "start": "2027-01-24",
+     "end": "2027-01-24",
+     "place": "Karnataka",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/1st-pixel-brochure-final.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1586,6 +1623,14 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "SportsCentric FIDE Rated Chess Tournament",
+     "code": "503923",
+     "start": "2027-01-31",
+     "end": "2027-01-31",
+     "place": "Karnataka",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "National Team Chess Championship",
      "code": "504954/504955",
      "start": "2027-02-09",
@@ -1595,10 +1640,11 @@
     },
     {
      "name": "1st ChessBinder.com open FIDE Rated Rapid tournament powered by BKCC",
-     "code": "50642",
+     "code": "506423",
      "start": "2027-02-13",
      "end": "2027-02-13",
      "place": "Karnataka",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/1st-Chessbinder.com-Open-FIDE-Rated-Rapid-Tournament-13th-Feb-2027.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1657,13 +1703,11 @@
      "place": "Assam",
      "url": "https://aicf.in/all-events/"
     }
-   ],
-   "error": "fetch failed",
-   "failedAt": "2026-10-23T00:22:59.617Z"
+   ]
   },
   "ts": {
-   "checkedAt": "2026-10-20T00:54:13.892Z",
-   "ok": false,
+   "checkedAt": "2026-10-24T00:15:04.144Z",
+   "ok": true,
    "items": [
     {
      "name": "THE HYDERABAD BOAT CLUB TELANGANA STATE WOMEN CHESS CHAMPIONSHIP – 2026",
@@ -1765,14 +1809,22 @@
      "url": "https://www.chesstelangana.com/event/united-rangareddy-district-under-17-boys-girls-chess-championship-2026/",
      "published": "2026-05-08"
     }
-   ],
-   "error": "fetch failed",
-   "failedAt": "2026-10-23T00:22:59.617Z"
+   ]
   },
   "fide": {
-   "checkedAt": "2026-10-23T00:22:59.617Z",
+   "checkedAt": "2026-10-24T00:15:04.144Z",
    "ok": true,
    "items": [
+    {
+     "name": "2026 U.S. Championship: Wesley So and Rachael Li claim titles",
+     "url": "https://www.fide.com/2026-u-s-championship-wesley-so-and-rachael-li-claim-titles/",
+     "published": "2026-10-23"
+    },
+    {
+     "name": "FIDE extends fee waiver for Rapid and Blitz through 2027",
+     "url": "https://www.fide.com/fide-extends-fee-waiver-for-rapid-and-blitz-through-2027/",
+     "published": "2026-10-23"
+    },
     {
      "name": "Moving forward: The global impact of the Intercontinental Online Chess Championship for Prisoners",
      "url": "https://www.fide.com/moving-forward-the-global-impact-of-the-intercontinental-online-chess-championship-for-prisoners/",
@@ -1812,16 +1864,6 @@
      "name": "Olympiad qualification spots for 2027 World Cup and Women’s World Cup announced",
      "url": "https://www.fide.com/olympiad-qualification-spots-for-2027-world-cup-and-womens-world-cup-announced/",
      "published": "2026-10-16"
-    },
-    {
-     "name": "FIDE World Junior U20 Rapid and Blitz Championships: Registration deadline extended",
-     "url": "https://www.fide.com/fide-world-junior-u20-rapid-and-blitz-championships-registration-deadline-extended/",
-     "published": "2026-10-15"
-    },
-    {
-     "name": "6th Intercontinental Online Chess Championship for Prisoners: India wins double gold, Mexico triumphs in men’s section",
-     "url": "https://www.fide.com/6th-intercontinental-online-chess-championship-for-prisoners-india-wins-double-gold-mexico-triumphs-in-mens-section/",
-     "published": "2026-10-15"
     }
    ]
   }
