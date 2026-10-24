@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-24T00:15:04.144Z",
+ "generatedAt": "2026-10-24T23:58:54.422Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-24T00:15:04.144Z",
+   "checkedAt": "2026-10-24T23:58:54.422Z",
    "ok": true,
    "items": [
     {
@@ -112,7 +112,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-24T00:15:04.144Z",
+   "checkedAt": "2026-10-24T23:58:54.422Z",
    "ok": true,
    "items": [
     {
@@ -1707,7 +1707,7 @@
   },
   "ts": {
    "checkedAt": "2026-10-24T00:15:04.144Z",
-   "ok": true,
+   "ok": false,
    "items": [
     {
      "name": "THE HYDERABAD BOAT CLUB TELANGANA STATE WOMEN CHESS CHAMPIONSHIP – 2026",
@@ -1809,12 +1809,19 @@
      "url": "https://www.chesstelangana.com/event/united-rangareddy-district-under-17-boys-girls-chess-championship-2026/",
      "published": "2026-05-08"
     }
-   ]
+   ],
+   "error": "fetch failed",
+   "failedAt": "2026-10-24T23:58:54.422Z"
   },
   "fide": {
-   "checkedAt": "2026-10-24T00:15:04.144Z",
+   "checkedAt": "2026-10-24T23:58:54.422Z",
    "ok": true,
    "items": [
+    {
+     "name": "European Chess Club Cup winners crowned in Budva, Montenegro",
+     "url": "https://www.fide.com/european-chess-club-cup-winners-crowned-in-budva-montenegro/",
+     "published": "2026-10-24"
+    },
     {
      "name": "2026 U.S. Championship: Wesley So and Rachael Li claim titles",
      "url": "https://www.fide.com/2026-u-s-championship-wesley-so-and-rachael-li-claim-titles/",
@@ -1858,11 +1865,6 @@
     {
      "name": "One move can change everything in the World Championships U7-U17",
      "url": "https://www.fide.com/one-move-can-change-everything-in-the-world-championships-u7-u17/",
-     "published": "2026-10-16"
-    },
-    {
-     "name": "Olympiad qualification spots for 2027 World Cup and Women’s World Cup announced",
-     "url": "https://www.fide.com/olympiad-qualification-spots-for-2027-world-cup-and-womens-world-cup-announced/",
      "published": "2026-10-16"
     }
    ]
