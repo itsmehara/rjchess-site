@@ -1,26 +1,10 @@
 {
- "generatedAt": "2026-10-24T23:58:54.422Z",
+ "generatedAt": "2026-10-25T23:47:24.659Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-24T23:58:54.422Z",
+   "checkedAt": "2026-10-25T23:47:24.659Z",
    "ok": true,
    "items": [
-    {
-     "name": "VYBEN INTERNATIONAL OPEN FIDE RATING SELECTION – 2026 (VISAKHAPATNAM)",
-     "start": "2026-10-25",
-     "url": "https://apchess.org/event-details/details/all/1808",
-     "brochure": "https://apchess.org/assets/events/brochures/1791270402_9254.pdf",
-     "register": "https://apchess.org/signin",
-     "completed": false
-    },
-    {
-     "name": "4 th NATIONAL SCHOOLS TEAM U12, U18 CHESS CHAMPIONSHIOP - 2026 (VISAKHAPATNAM)",
-     "start": "2026-11-01",
-     "url": "https://apchess.org/event-details/details/all/1809",
-     "brochure": "https://apchess.org/assets/events/brochures/1791354805_5421.pdf",
-     "register": "https://apchess.org/event-details/register/all/1809",
-     "completed": false
-    },
     {
      "name": "YUVA's 1ST FIDE RATING RAPID CHESS Tournament- 2026",
      "start": "2026-11-14",
@@ -112,7 +96,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-24T23:58:54.422Z",
+   "checkedAt": "2026-10-25T23:47:24.659Z",
    "ok": true,
    "items": [
     {
@@ -121,24 +105,6 @@
      "start": "2026-09-27",
      "end": "2026-09-27",
      "place": "Assam",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "National Under 13 Chess Championship 2026",
-     "code": "489376",
-     "start": "2026-09-03",
-     "end": "2026-09-09",
-     "place": "Pondicherry",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/u-13-pdf.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "National Under 13 Girls Chess Championship 2026",
-     "code": "489377",
-     "start": "2026-09-03",
-     "end": "2026-09-09",
-     "place": "Pondicherry",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/u-13-pdf.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1811,10 +1777,10 @@
     }
    ],
    "error": "fetch failed",
-   "failedAt": "2026-10-24T23:58:54.422Z"
+   "failedAt": "2026-10-25T23:47:24.659Z"
   },
   "fide": {
-   "checkedAt": "2026-10-24T23:58:54.422Z",
+   "checkedAt": "2026-10-25T23:47:24.659Z",
    "ok": true,
    "items": [
     {
