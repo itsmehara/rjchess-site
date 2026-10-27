@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-25T23:47:24.659Z",
+ "generatedAt": "2026-10-27T01:06:23.253Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-25T23:47:24.659Z",
+   "checkedAt": "2026-10-27T01:06:23.253Z",
    "ok": true,
    "items": [
     {
@@ -96,7 +96,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-25T23:47:24.659Z",
+   "checkedAt": "2026-10-27T01:06:23.253Z",
    "ok": true,
    "items": [
     {
@@ -784,6 +784,14 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "Odisha State Women FIDE Rated Chess Championship 2026",
+     "code": "505918",
+     "start": "2026-11-02",
+     "end": "2026-11-05",
+     "place": "Odisha",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "The Resurrection Race III Open Standard FIDE Rated Chess Tournament 2026",
      "code": "505082",
      "start": "2026-11-02",
@@ -1229,6 +1237,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "National School Chess Championship 2026",
+     "code": "502253 | 502251 | 502249 | 502247 | 502245 | 502243I 502254 | 502252 | 502250 | 502248 | 502246 | 502244",
+     "start": "2026-12-16",
+     "end": "2026-12-20",
+     "place": "Gujarat",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/National-School-2026.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "Athens of the East 6 th International Grandmaster Chess Tournaments – (Category – A Above 2100)",
      "code": "482567",
      "start": "2026-12-22",
@@ -1378,6 +1395,7 @@
      "start": "2027-01-02",
      "end": "2027-01-03",
      "place": "UP",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/Tournament-Catlogue-Revised.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1672,9 +1690,14 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-24T00:15:04.144Z",
-   "ok": false,
+   "checkedAt": "2026-10-27T01:06:23.253Z",
+   "ok": true,
    "items": [
+    {
+     "name": "62nd TELANGANA STATE RANKING CHESS TOURNAMENT",
+     "url": "https://www.chesstelangana.com/event/62nd-telangana-state-ranking-chess-tournament/",
+     "published": "2026-10-26"
+    },
     {
      "name": "THE HYDERABAD BOAT CLUB TELANGANA STATE WOMEN CHESS CHAMPIONSHIP – 2026",
      "url": "https://www.chesstelangana.com/event/the-hyderabad-boat-club-telangana-state-women-chess-championship-2026/",
@@ -1769,20 +1792,23 @@
      "name": "United Rangareddy District Under 9 Boys & Girls Chess Championship – 2026",
      "url": "https://www.chesstelangana.com/event/united-rangareddy-district-under-9-boys-girls-chess-championship-2026/",
      "published": "2026-05-08"
-    },
-    {
-     "name": "United Rangareddy District Under 17 Boys & Girls Chess Championship – 2026",
-     "url": "https://www.chesstelangana.com/event/united-rangareddy-district-under-17-boys-girls-chess-championship-2026/",
-     "published": "2026-05-08"
     }
-   ],
-   "error": "fetch failed",
-   "failedAt": "2026-10-25T23:47:24.659Z"
+   ]
   },
   "fide": {
-   "checkedAt": "2026-10-25T23:47:24.659Z",
+   "checkedAt": "2026-10-27T01:06:23.253Z",
    "ok": true,
    "items": [
+    {
+     "name": "Invitation: FIDE Extraordinary General Assembly 2026",
+     "url": "https://www.fide.com/invitation-fide-extraordinary-general-assembly-2026/",
+     "published": "2026-10-26"
+    },
+    {
+     "name": "FIDE: The Next Stage of Development",
+     "url": "https://www.fide.com/fide-the-next-stage-of-development/",
+     "published": "2026-10-26"
+    },
     {
      "name": "European Chess Club Cup winners crowned in Budva, Montenegro",
      "url": "https://www.fide.com/european-chess-club-cup-winners-crowned-in-budva-montenegro/",
@@ -1822,16 +1848,6 @@
      "name": "FIDE President Timur Turlov meets Cyprus President Nikos Christodoulides in Nicosia",
      "url": "https://www.fide.com/fide-president-timur-turlov-meets-cyprus-president-nikos-christodoulides-in-nicosia/",
      "published": "2026-10-19"
-    },
-    {
-     "name": "FIDE Chess in Education Commission (EDU) announces October–December 2026 courses",
-     "url": "https://www.fide.com/fide-chess-in-education-commission-edu-announces-october-december-2026-courses/",
-     "published": "2026-10-19"
-    },
-    {
-     "name": "One move can change everything in the World Championships U7-U17",
-     "url": "https://www.fide.com/one-move-can-change-everything-in-the-world-championships-u7-u17/",
-     "published": "2026-10-16"
     }
    ]
   }
