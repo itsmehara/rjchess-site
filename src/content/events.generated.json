@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-27T01:06:23.253Z",
+ "generatedAt": "2026-10-28T00:57:59.810Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-27T01:06:23.253Z",
+   "checkedAt": "2026-10-28T00:57:59.810Z",
    "ok": true,
    "items": [
     {
@@ -96,7 +96,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-27T01:06:23.253Z",
+   "checkedAt": "2026-10-28T00:57:59.810Z",
    "ok": true,
    "items": [
     {
@@ -105,14 +105,6 @@
      "start": "2026-09-27",
      "end": "2026-09-27",
      "place": "Assam",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Tech Mahindra Global Chess League 2026 – League",
-     "code": "488923",
-     "start": "2026-09-05",
-     "end": "2026-09-12",
-     "place": "Bengaluru",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1690,7 +1682,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-27T01:06:23.253Z",
+   "checkedAt": "2026-10-28T00:57:59.810Z",
    "ok": true,
    "items": [
     {
@@ -1796,9 +1788,14 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-10-27T01:06:23.253Z",
+   "checkedAt": "2026-10-28T00:57:59.810Z",
    "ok": true,
    "items": [
+    {
+     "name": "International conference “Chess in Education” to b­­e held in Almaty",
+     "url": "https://www.fide.com/international-conference-chess-in-education-to-be-held-in-almaty/",
+     "published": "2026-10-27"
+    },
     {
      "name": "Invitation: FIDE Extraordinary General Assembly 2026",
      "url": "https://www.fide.com/invitation-fide-extraordinary-general-assembly-2026/",
@@ -1842,11 +1839,6 @@
     {
      "name": "Vahap Şanal and Team Türkiye Trimph at 36th NATO Chess Championship",
      "url": "https://www.fide.com/vahap-sanal-and-team-turkiye-trimph-at-36th-nato-chess-championship/",
-     "published": "2026-10-19"
-    },
-    {
-     "name": "FIDE President Timur Turlov meets Cyprus President Nikos Christodoulides in Nicosia",
-     "url": "https://www.fide.com/fide-president-timur-turlov-meets-cyprus-president-nikos-christodoulides-in-nicosia/",
      "published": "2026-10-19"
     }
    ]
