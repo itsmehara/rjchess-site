@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-28T00:57:59.810Z",
+ "generatedAt": "2026-10-29T01:31:30.607Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-28T00:57:59.810Z",
+   "checkedAt": "2026-10-29T01:31:30.607Z",
    "ok": true,
    "items": [
     {
@@ -96,7 +96,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-28T00:57:59.810Z",
+   "checkedAt": "2026-10-29T01:31:30.607Z",
    "ok": true,
    "items": [
     {
@@ -126,37 +126,12 @@
      "url": "https://aicf.in/all-events/"
     },
     {
-     "name": "PICA’s All India Open Below 1800 FIDE Rating Chess Tournament 2026",
-     "code": "485293",
-     "start": "2026-09-11",
-     "end": "2026-09-13",
-     "place": "Hyderabad",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/PICA-Below-1800.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
      "name": "1st Masters Cup FIDE Rated Chess Tournament (Below 1600)",
      "code": "484461",
      "start": "2026-09-12",
      "end": "2026-09-14",
      "place": "Tirunelveli, Tamil Nadu",
      "brochure": "https://aicf.in/wp-content/uploads/2026/08/brourcher-.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Tech Mahindra Global Chess League 2026 – Play off (3rd & 4th)",
-     "code": "488926",
-     "start": "2026-09-13",
-     "end": "2026-09-13",
-     "place": "Bengaluru",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Tech Mahindra Global Chess League- Final",
-     "code": "488928",
-     "start": "2026-09-13",
-     "end": "2026-09-13",
-     "place": "Bengaluru",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -944,11 +919,29 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "15th BBCF International FIDE Open Rated Chess Tournament",
+     "code": "507610",
+     "start": "2026-11-18",
+     "end": "2026-11-22",
+     "place": "Tamil Nadu",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/BBCF-Open-Blitz-Nov-18-to-22.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "Khannur FIDE Rated Blitz Chess Tournament",
      "code": "499273",
      "start": "2026-11-20",
      "end": "2026-11-20",
      "place": "Mumbai, Maharashtra",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "16th BBCF International FIDE Blitz Rated Chess Tournament",
+     "code": "507610",
+     "start": "2026-11-21",
+     "end": "2026-11-21",
+     "place": "Tamil Nadu",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/BBCF-Open-Blitz-Nov-18-to-22.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -965,7 +958,7 @@
      "start": "2026-11-21",
      "end": "2026-11-22",
      "place": "Haryana",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/09/Final04_1st_CastleMasters_FIDE_Tournament.pdf",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/Final05_1st_CastleMasters_FIDE_Tournament.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1607,6 +1600,14 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "17th BBCF International FIDE Below 1650 Rated Chess Tournament",
+     "code": "507612",
+     "start": "2027-02-06",
+     "end": "2027-02-07",
+     "place": "Tamil Nadu",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "National Team Chess Championship",
      "code": "504954/504955",
      "start": "2027-02-09",
@@ -1664,6 +1665,22 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "SHRI DHANPAT RAI SACHDEVA MEMORIAL INTERNATIONAL OPEN FIDE RATED RAPID CHESS TOURNAMENT 2027",
+     "code": "507843",
+     "start": "2027-04-17",
+     "end": "2027-04-18",
+     "place": "Delhi",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "SHRI DHANPAT RAI SACHDEVA MEMORIAL INTERNATIONAL OPEN FIDE RATED BLITZ CHESS TOURNAMENT 2027",
+     "code": "507844",
+     "start": "2027-04-18",
+     "end": "2027-04-18",
+     "place": "Delhi",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "Summer Cup Below 1800 International Fide Rating Chess Tournament 2026",
      "code": "506146",
      "start": "2027-06-18",
@@ -1683,7 +1700,7 @@
   },
   "ts": {
    "checkedAt": "2026-10-28T00:57:59.810Z",
-   "ok": true,
+   "ok": false,
    "items": [
     {
      "name": "62nd TELANGANA STATE RANKING CHESS TOURNAMENT",
@@ -1785,10 +1802,12 @@
      "url": "https://www.chesstelangana.com/event/united-rangareddy-district-under-9-boys-girls-chess-championship-2026/",
      "published": "2026-05-08"
     }
-   ]
+   ],
+   "error": "fetch failed",
+   "failedAt": "2026-10-29T01:31:30.607Z"
   },
   "fide": {
-   "checkedAt": "2026-10-28T00:57:59.810Z",
+   "checkedAt": "2026-10-29T01:31:30.607Z",
    "ok": true,
    "items": [
     {
