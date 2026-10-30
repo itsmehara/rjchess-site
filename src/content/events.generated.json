@@ -1,16 +1,32 @@
 {
- "generatedAt": "2026-10-29T01:31:30.607Z",
+ "generatedAt": "2026-10-30T01:31:54.108Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-29T01:31:30.607Z",
+   "checkedAt": "2026-10-30T01:31:54.108Z",
    "ok": true,
    "items": [
+    {
+     "name": "4 th NATIONAL SCHOOLS TEAM U12, U18 CHESS CHAMPIONSHIOP - 2026 (VISAKHAPATNAM)",
+     "start": "2026-11-01",
+     "url": "https://apchess.org/event-details/details/all/1809",
+     "brochure": "https://apchess.org/assets/events/brochures/1791354805_5421.pdf",
+     "register": "https://apchess.org/event-details/register/all/1809",
+     "completed": false
+    },
     {
      "name": "YUVA's 1ST FIDE RATING RAPID CHESS Tournament- 2026",
      "start": "2026-11-14",
      "url": "https://apchess.org/event-details/details/all/1812",
      "brochure": "https://apchess.org/assets/events/brochures/1791740490_1902.pdf",
      "register": "https://apchess.org/event-details/register/all/1812",
+     "completed": false
+    },
+    {
+     "name": "SMT JANAKAMMALU 7TH MEMORIAL STATE OPEN CHESS TOURNAMENT 2026",
+     "start": "2026-11-22",
+     "url": "https://apchess.org/event-details/details/all/1816",
+     "brochure": "https://apchess.org/assets/events/brochures/1793295341_9369.pdf",
+     "register": "https://apchess.org/signin",
      "completed": false
     },
     {
@@ -96,7 +112,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-29T01:31:30.607Z",
+   "checkedAt": "2026-10-30T01:31:54.108Z",
    "ok": true,
    "items": [
     {
@@ -105,33 +121,6 @@
      "start": "2026-09-27",
      "end": "2026-09-27",
      "place": "Assam",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Playu – 2nd International FIDE Rated Classical Open Chess Tournament",
-     "code": "471845",
-     "start": "2026-09-10",
-     "end": "2026-09-14",
-     "place": "Tamil Nadu",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/Playu-2nd-International-FIDE-Rated-Classical-Open-Chess-Tournament.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "6th SSS INTERNATIONAL OPEN FIDE RATED CHESS TOURNAMENT",
-     "code": "490386",
-     "start": "2026-09-10",
-     "end": "2026-09-14",
-     "place": "Pudukkottai, Tamil Nadu",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/6th-SSS-international-4_11zon.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "1st Masters Cup FIDE Rated Chess Tournament (Below 1600)",
-     "code": "484461",
-     "start": "2026-09-12",
-     "end": "2026-09-14",
-     "place": "Tirunelveli, Tamil Nadu",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/brourcher-.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1538,60 +1527,6 @@
      "url": "https://aicf.in/all-events/"
     },
     {
-     "name": "45th Tamil Nadu IM Norm Closed Circuit Chess Tournament",
-     "code": "488283",
-     "start": "2027-01-30",
-     "end": "2027-02-04",
-     "place": "Chennai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/5th_SakthiGroup_IMNorm_aug_20.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "46th Tamil Nadu IM Norm Closed Circuit Chess Tournament",
-     "code": "488284",
-     "start": "2027-01-30",
-     "end": "2027-02-04",
-     "place": "Chennai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/5th_SakthiGroup_IMNorm_aug_20.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "47th Tamil Nadu IM Norm Closed Circuit Chess Tournament",
-     "code": "488285",
-     "start": "2027-01-30",
-     "end": "2027-02-04",
-     "place": "Chennai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/5th_SakthiGroup_IMNorm_aug_20.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "48th Tamil Nadu IM Norm Closed Circuit Chess Tournament",
-     "code": "488286",
-     "start": "2027-01-30",
-     "end": "2027-02-04",
-     "place": "Chennai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/5th_SakthiGroup_IMNorm_aug_20.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "49th Tamil Nadu IM Norm Closed Circuit Chess Tournament",
-     "code": "488287",
-     "start": "2027-01-30",
-     "end": "2027-02-04",
-     "place": "Chennai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/5th_SakthiGroup_IMNorm_aug_20.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "50th Tamil Nadu IM Norm Closed Circuit Chess Tournament",
-     "code": "488288",
-     "start": "2027-01-30",
-     "end": "2027-02-04",
-     "place": "Chennai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/5th_SakthiGroup_IMNorm_aug_20.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
      "name": "SportsCentric FIDE Rated Chess Tournament",
      "code": "503923",
      "start": "2027-01-31",
@@ -1605,6 +1540,54 @@
      "start": "2027-02-06",
      "end": "2027-02-07",
      "place": "Tamil Nadu",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "45th Tamil Nadu IM Norm Closed Circuit Chess Tournament",
+     "code": "488283",
+     "start": "2027-02-08",
+     "end": "2027-02-13",
+     "place": "Chennai",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "46th Tamil Nadu IM Norm Closed Circuit Chess Tournament",
+     "code": "488284",
+     "start": "2027-02-08",
+     "end": "2027-02-13",
+     "place": "Chennai",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "47th Tamil Nadu IM Norm Closed Circuit Chess Tournament",
+     "code": "488285",
+     "start": "2027-02-08",
+     "end": "2027-02-13",
+     "place": "Chennai",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "48th Tamil Nadu IM Norm Closed Circuit Chess Tournament",
+     "code": "488286",
+     "start": "2027-02-08",
+     "end": "2027-02-13",
+     "place": "Chennai",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "49th Tamil Nadu IM Norm Closed Circuit Chess Tournament",
+     "code": "488287",
+     "start": "2027-02-08",
+     "end": "2027-02-13",
+     "place": "Chennai",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "50th Tamil Nadu IM Norm Closed Circuit Chess Tournament",
+     "code": "488288",
+     "start": "2027-02-08",
+     "end": "2027-02-13",
+     "place": "Chennai",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1699,8 +1682,8 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-28T00:57:59.810Z",
-   "ok": false,
+   "checkedAt": "2026-10-30T01:31:54.108Z",
+   "ok": true,
    "items": [
     {
      "name": "62nd TELANGANA STATE RANKING CHESS TOURNAMENT",
@@ -1802,14 +1785,22 @@
      "url": "https://www.chesstelangana.com/event/united-rangareddy-district-under-9-boys-girls-chess-championship-2026/",
      "published": "2026-05-08"
     }
-   ],
-   "error": "fetch failed",
-   "failedAt": "2026-10-29T01:31:30.607Z"
+   ]
   },
   "fide": {
-   "checkedAt": "2026-10-29T01:31:30.607Z",
+   "checkedAt": "2026-10-30T01:31:54.108Z",
    "ok": true,
    "items": [
+    {
+     "name": "Istanbul to host FIDE World Rapid and Blitz Championships 2026",
+     "url": "https://www.fide.com/istanbul-to-host-fide-world-rapid-and-blitz-championships-2026/",
+     "published": "2026-10-29"
+    },
+    {
+     "name": "FIDE announces new appointments to the President’s Office",
+     "url": "https://www.fide.com/fide-announces-new-appointments-to-the-presidents-office/",
+     "published": "2026-10-29"
+    },
     {
      "name": "International conference “Chess in Education” to b­­e held in Almaty",
      "url": "https://www.fide.com/international-conference-chess-in-education-to-be-held-in-almaty/",
@@ -1849,16 +1840,6 @@
      "name": "Kazakhstan dominates World U7–U17 Championships in Roquetas de Mar",
      "url": "https://www.fide.com/kazakhstan-dominates-world-u7-u17-championships-in-roquetas-de-mar/",
      "published": "2026-10-21"
-    },
-    {
-     "name": "Where chess meets its fans: Join side activities of the Salesforce FIDE World Championship Match",
-     "url": "https://www.fide.com/where-chess-meets-its-fans-join-side-activities-of-the-world-championship-match/",
-     "published": "2026-10-20"
-    },
-    {
-     "name": "Vahap Şanal and Team Türkiye Trimph at 36th NATO Chess Championship",
-     "url": "https://www.fide.com/vahap-sanal-and-team-turkiye-trimph-at-36th-nato-chess-championship/",
-     "published": "2026-10-19"
     }
    ]
   }
