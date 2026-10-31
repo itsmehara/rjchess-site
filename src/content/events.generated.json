@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-30T01:31:54.108Z",
+ "generatedAt": "2026-10-31T01:26:01.981Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-10-30T01:31:54.108Z",
+   "checkedAt": "2026-10-31T01:26:01.981Z",
    "ok": true,
    "items": [
     {
@@ -112,7 +112,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-10-30T01:31:54.108Z",
+   "checkedAt": "2026-10-31T01:26:01.981Z",
    "ok": true,
    "items": [
     {
@@ -934,6 +934,14 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "All India Open FIDE Rapid Rating Chess Tournament 2026",
+     "code": "507845",
+     "start": "2026-11-21",
+     "end": "2026-11-22",
+     "place": "West Bengal",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "Khannur FIDE Rated Rapid Chess Tournament",
      "code": "499272",
      "start": "2026-11-21",
@@ -975,6 +983,15 @@
      "end": "2026-11-22",
      "place": "Washim, Maharashtra",
      "brochure": "https://aicf.in/wp-content/uploads/2026/09/Washim-Chess-NOV-Brochure.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "All India Open FIDE Blitz Rating Chess Tournament 2026",
+     "code": "507846",
+     "start": "2026-11-22",
+     "end": "2026-11-22",
+     "place": "West Bengal",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/SUNSHINE-ALL-INDIA-OPEN-RAPID-BLITZ-RATING-CHESS-TOURNAMENT-2026.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1127,6 +1144,24 @@
      "end": "2026-12-05",
      "place": "Bangalore, Karnataka",
      "brochure": "https://aicf.in/wp-content/uploads/2026/10/INVENTIVE-2.0-FIDE-Rapid-Rated-Chess-Tournament-Dec-5th-2026._compressed.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "Mahaguru Chashak: 1st Joseph D’Souza Memorial Open Fide Rapid Rating Chess Tournament, Pune 2026",
+     "code": "506267",
+     "start": "2026-12-05",
+     "end": "2026-12-06",
+     "place": "Maharashtra",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/Mahaguru-Chashak-MCA_compressed.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "Mahaguru Chashak: 2nd Joseph D’Souza Memorial Open Fide Blitz Rating Chess Tournament 2026",
+     "code": "506268",
+     "start": "2026-12-06",
+     "end": "2026-12-06",
+     "place": "Maharashtra",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/10/Mahaguru-Chashak-MCA_compressed.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1682,7 +1717,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-10-30T01:31:54.108Z",
+   "checkedAt": "2026-10-31T01:26:01.981Z",
    "ok": true,
    "items": [
     {
@@ -1788,9 +1823,24 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-10-30T01:31:54.108Z",
+   "checkedAt": "2026-10-31T01:26:01.981Z",
    "ok": true,
    "items": [
+    {
+     "name": "FIDE World U7-U17 Rapid and Blitz Championships 2026 Egypt: Registration deadline extended",
+     "url": "https://www.fide.com/fide-world-u7-u17-rapid-and-blitz-championships-2026-egypt-registration-deadline-extended/",
+     "published": "2026-10-30"
+    },
+    {
+     "name": "FIDE introduces the first members of its administrative team",
+     "url": "https://www.fide.com/fide-introduces-the-first-members-of-its-administrative-team/",
+     "published": "2026-10-30"
+    },
+    {
+     "name": "Fujairah to host WFCC Grand Prix Final: World’s best solvers and composers to compete for €30,000",
+     "url": "https://www.fide.com/fujairah-to-host-wfcc-grand-prix-final-worlds-best-solvers-and-composers-to-compete-for-e30000/",
+     "published": "2026-10-30"
+    },
     {
      "name": "Istanbul to host FIDE World Rapid and Blitz Championships 2026",
      "url": "https://www.fide.com/istanbul-to-host-fide-world-rapid-and-blitz-championships-2026/",
@@ -1825,21 +1875,6 @@
      "name": "2026 U.S. Championship: Wesley So and Rachael Li claim titles",
      "url": "https://www.fide.com/2026-u-s-championship-wesley-so-and-rachael-li-claim-titles/",
      "published": "2026-10-23"
-    },
-    {
-     "name": "FIDE extends fee waiver for Rapid and Blitz through 2027",
-     "url": "https://www.fide.com/fide-extends-fee-waiver-for-rapid-and-blitz-through-2027/",
-     "published": "2026-10-23"
-    },
-    {
-     "name": "Moving forward: The global impact of the Intercontinental Online Chess Championship for Prisoners",
-     "url": "https://www.fide.com/moving-forward-the-global-impact-of-the-intercontinental-online-chess-championship-for-prisoners/",
-     "published": "2026-10-22"
-    },
-    {
-     "name": "Kazakhstan dominates World U7–U17 Championships in Roquetas de Mar",
-     "url": "https://www.fide.com/kazakhstan-dominates-world-u7-u17-championships-in-roquetas-de-mar/",
-     "published": "2026-10-21"
     }
    ]
   }
