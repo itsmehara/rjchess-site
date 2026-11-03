@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-02T01:15:28.433Z",
+ "generatedAt": "2026-11-03T03:18:33.562Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-02T01:15:28.433Z",
+   "checkedAt": "2026-11-03T03:18:33.562Z",
    "ok": true,
    "items": [
     {
@@ -112,7 +112,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-02T01:15:28.433Z",
+   "checkedAt": "2026-11-03T03:18:33.562Z",
    "ok": true,
    "items": [
     {
@@ -121,14 +121,6 @@
      "start": "2026-09-27",
      "end": "2026-09-27",
      "place": "Assam",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Capa Chess Academy 7th International FIDE Rated Chess Tournament below 1700",
-     "code": "473597",
-     "start": "2026-09-18",
-     "place": "Chennai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/7th-Capa-FIDE-Rated-Below-1700-Chess-Tournament.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -986,6 +978,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "Rani Devi International Rapid Rating Chess Tournament",
+     "code": "509333",
+     "start": "2026-11-22",
+     "end": "2026-11-22",
+     "place": "Jammu",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/THE-RANI-DEVI-MEMORIAL-OPEN-RAPID-RATING-CHESS-TOURNAMENT-2026.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "All India Open FIDE Blitz Rating Chess Tournament 2026",
      "code": "507846",
      "start": "2026-11-22",
@@ -1117,7 +1118,7 @@
      "start": "2026-11-30",
      "end": "2026-12-10",
      "place": "Telangana",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/10/Women.pdf",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/WO.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1135,6 +1136,7 @@
      "start": "2026-12-04",
      "end": "2026-12-06",
      "place": "Tirupattur DT, Tamil Nadu",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/Tirupattur_Prospectus.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1251,7 +1253,7 @@
      "start": "2026-12-16",
      "end": "2026-12-20",
      "place": "Gujarat",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/10/National-School-2026.pdf",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/SCHOOL.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1726,7 +1728,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-02T01:15:28.433Z",
+   "checkedAt": "2026-11-03T03:18:33.562Z",
    "ok": true,
    "items": [
     {
@@ -1832,9 +1834,19 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-02T01:15:28.433Z",
+   "checkedAt": "2026-11-03T03:18:33.562Z",
    "ok": true,
    "items": [
+    {
+     "name": "FIDE World Junior U20 Championship 2026: Registration deadline extended",
+     "url": "https://www.fide.com/fide-world-junior-u20-championship-2026-registration-deadline-extended/",
+     "published": "2026-11-02"
+    },
+    {
+     "name": "Champions crowned at Asian Seniors Chess Championships 2026",
+     "url": "https://www.fide.com/champions-crowned-at-asian-seniors-chess-championships-2026/",
+     "published": "2026-11-01"
+    },
     {
      "name": "FIDE World U7-U17 Rapid and Blitz Championships 2026 Egypt: Registration deadline extended",
      "url": "https://www.fide.com/fide-world-u7-u17-rapid-and-blitz-championships-2026-egypt-registration-deadline-extended/",
@@ -1874,16 +1886,6 @@
      "name": "FIDE: The Next Stage of Development",
      "url": "https://www.fide.com/fide-the-next-stage-of-development/",
      "published": "2026-10-26"
-    },
-    {
-     "name": "European Chess Club Cup winners crowned in Budva, Montenegro",
-     "url": "https://www.fide.com/european-chess-club-cup-winners-crowned-in-budva-montenegro/",
-     "published": "2026-10-24"
-    },
-    {
-     "name": "2026 U.S. Championship: Wesley So and Rachael Li claim titles",
-     "url": "https://www.fide.com/2026-u-s-championship-wesley-so-and-rachael-li-claim-titles/",
-     "published": "2026-10-23"
     }
    ]
   }
