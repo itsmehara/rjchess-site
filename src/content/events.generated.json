@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-03T03:18:33.562Z",
+ "generatedAt": "2026-11-04T01:53:18.845Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-03T03:18:33.562Z",
+   "checkedAt": "2026-11-04T01:53:18.845Z",
    "ok": true,
    "items": [
     {
@@ -112,7 +112,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-03T03:18:33.562Z",
+   "checkedAt": "2026-11-04T01:53:18.845Z",
    "ok": true,
    "items": [
     {
@@ -931,6 +931,7 @@
      "start": "2026-11-21",
      "end": "2026-11-22",
      "place": "West Bengal",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/SUNSHINE-ALL-INDIA-OPEN-RAPID-BLITZ-RATING-CHESS-TOURNAMENT-2026-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -992,7 +993,7 @@
      "start": "2026-11-22",
      "end": "2026-11-22",
      "place": "West Bengal",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/10/SUNSHINE-ALL-INDIA-OPEN-RAPID-BLITZ-RATING-CHESS-TOURNAMENT-2026.pdf",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/SUNSHINE-ALL-INDIA-OPEN-RAPID-BLITZ-RATING-CHESS-TOURNAMENT-2026-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1001,7 +1002,7 @@
      "start": "2026-11-22",
      "end": "2026-11-22",
      "place": "Kerala",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/10/Deva-Chess-2026-poster.jpeg",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/Deva-Chess-Rapid-Poster-under-2mb-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1728,7 +1729,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-03T03:18:33.562Z",
+   "checkedAt": "2026-11-04T01:53:18.845Z",
    "ok": true,
    "items": [
     {
@@ -1834,9 +1835,29 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-03T03:18:33.562Z",
+   "checkedAt": "2026-11-04T01:53:18.845Z",
    "ok": true,
    "items": [
+    {
+     "name": "FIDE President Timur Turlov meets Akaki Iashvili to discuss future events and chess development",
+     "url": "https://www.fide.com/fide-president-timur-turlov-meets-akaki-iashvili-to-discuss-future-events-and-chess-development/",
+     "published": "2026-11-03"
+    },
+    {
+     "name": "FIDE World Senior Chess Championship 2026 begins in Vrnjačka Banja, Serbia",
+     "url": "https://www.fide.com/fide-world-senior-chess-championship-2026-begins-in-vrnjacka-banja-serbia/",
+     "published": "2026-11-03"
+    },
+    {
+     "name": "Total Chess unveils star-studded broadcast team and new highlight show for Budapest Pilot",
+     "url": "https://www.fide.com/total-chess-unveils-star-studded-broadcast-team-and-new-highlight-show-for-budapest-pilot/",
+     "published": "2026-11-03"
+    },
+    {
+     "name": "Continental Chess Presidents Inaugurate World Junior Rapid & Blitz Championships in Al Ain",
+     "url": "https://www.fide.com/continental-chess-presidents-inaugurate-world-junior-rapid-blitz-championships-in-al-ain/",
+     "published": "2026-11-03"
+    },
     {
      "name": "FIDE World Junior U20 Championship 2026: Registration deadline extended",
      "url": "https://www.fide.com/fide-world-junior-u20-championship-2026-registration-deadline-extended/",
@@ -1866,26 +1887,6 @@
      "name": "Istanbul to host FIDE World Rapid and Blitz Championships 2026",
      "url": "https://www.fide.com/istanbul-to-host-fide-world-rapid-and-blitz-championships-2026/",
      "published": "2026-10-29"
-    },
-    {
-     "name": "FIDE announces new appointments to the President’s Office",
-     "url": "https://www.fide.com/fide-announces-new-appointments-to-the-presidents-office/",
-     "published": "2026-10-29"
-    },
-    {
-     "name": "International conference “Chess in Education” to b­­e held in Almaty",
-     "url": "https://www.fide.com/international-conference-chess-in-education-to-be-held-in-almaty/",
-     "published": "2026-10-27"
-    },
-    {
-     "name": "Invitation: FIDE Extraordinary General Assembly 2026",
-     "url": "https://www.fide.com/invitation-fide-extraordinary-general-assembly-2026/",
-     "published": "2026-10-26"
-    },
-    {
-     "name": "FIDE: The Next Stage of Development",
-     "url": "https://www.fide.com/fide-the-next-stage-of-development/",
-     "published": "2026-10-26"
     }
    ]
   }
