@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-04T01:53:18.845Z",
+ "generatedAt": "2026-11-05T01:59:38.104Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-04T01:53:18.845Z",
+   "checkedAt": "2026-11-05T01:59:38.104Z",
    "ok": true,
    "items": [
     {
@@ -112,7 +112,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-04T01:53:18.845Z",
+   "checkedAt": "2026-11-05T01:59:38.104Z",
    "ok": true,
    "items": [
     {
@@ -124,48 +124,12 @@
      "url": "https://aicf.in/all-events/"
     },
     {
-     "name": "1st Eklavya International Open FIDE Rapid Rating Chess Tournament 2026",
-     "code": "489379",
-     "start": "2026-09-19",
-     "end": "2026-09-20",
-     "place": "MP",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Eklavya-Unicorn-Chess-Tournament-1_compressed.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "QGCA Open Rapid Rating Chess Tournament-2026",
-     "code": "492704",
-     "start": "2026-09-19",
-     "end": "2026-09-20",
-     "place": "Patna Bihar",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/09/Updated-QGCA-OPEN-RAPID-RATING-CHESS-TOURNAMENT-2026.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
      "name": "10th CHESSMII INTERNATIONAL OPEN FIDE RATED CHESS TOURNAMENT",
      "code": "486516",
      "start": "2026-09-19",
      "end": "2026-09-23",
      "place": "Kerala",
      "brochure": "https://aicf.in/wp-content/uploads/2026/09/10-th-Chessmii-International-Fide-rated-Chess-tournament-1.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "SSM Cup open rapid FIDE rating chess tournament",
-     "code": "495549",
-     "start": "2026-09-20",
-     "end": "2026-09-20",
-     "place": "Davangere, Karnataka",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/1002618219.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "1st Rotaract RUAS – Children Chess Academy All India Open FIDE Rated Rapid Chess Tournament 202",
-     "code": "490593",
-     "start": "2026-09-20",
-     "end": "2026-09-20",
-     "place": "Karnataka",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/BROUCHER-2025.pdf-5-3-1-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -888,6 +852,7 @@
      "start": "2026-11-17",
      "end": "2026-11-22",
      "place": "Mumbai, Maharashtra",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/7th-Khannur-3.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -914,6 +879,7 @@
      "start": "2026-11-20",
      "end": "2026-11-20",
      "place": "Mumbai, Maharashtra",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/7th-Khannur-3.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -940,6 +906,7 @@
      "start": "2026-11-21",
      "end": "2026-11-22",
      "place": "Mumbai, Maharashtra",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/7th-Khannur-3.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1003,6 +970,15 @@
      "end": "2026-11-22",
      "place": "Kerala",
      "brochure": "https://aicf.in/wp-content/uploads/2026/11/Deva-Chess-Rapid-Poster-under-2mb-1.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "2nd UDCA trophy All India Open Fide Rated Rapid Chess Tournaments",
+     "code": "507790",
+     "start": "2026-11-22",
+     "end": "2026-11-22",
+     "place": "Karnataka",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/2nd-UDCA-Trophy-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1729,7 +1705,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-04T01:53:18.845Z",
+   "checkedAt": "2026-11-05T01:59:38.104Z",
    "ok": true,
    "items": [
     {
@@ -1835,7 +1811,7 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-04T01:53:18.845Z",
+   "checkedAt": "2026-11-05T01:59:38.104Z",
    "ok": true,
    "items": [
     {
