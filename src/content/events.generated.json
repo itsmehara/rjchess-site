@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-05T01:59:38.104Z",
+ "generatedAt": "2026-11-06T01:59:40.419Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-05T01:59:38.104Z",
+   "checkedAt": "2026-11-06T01:59:40.419Z",
    "ok": true,
    "items": [
     {
@@ -112,7 +112,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-05T01:59:38.104Z",
+   "checkedAt": "2026-11-06T01:59:40.419Z",
    "ok": true,
    "items": [
     {
@@ -1687,10 +1687,10 @@
      "url": "https://aicf.in/all-events/"
     },
     {
-     "name": "Summer Cup Below 1800 International Fide Rating Chess Tournament 2026",
+     "name": "Summer Cup Below 1800 International Fide Rating Chess Tournament 2027",
      "code": "506146",
      "start": "2027-06-18",
-     "end": "2027-07-20",
+     "end": "2027-06-20",
      "place": "Udaipur",
      "url": "https://aicf.in/all-events/"
     },
@@ -1705,7 +1705,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-05T01:59:38.104Z",
+   "checkedAt": "2026-11-06T01:59:40.419Z",
    "ok": true,
    "items": [
     {
@@ -1811,9 +1811,19 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-05T01:59:38.104Z",
+   "checkedAt": "2026-11-06T01:59:40.419Z",
    "ok": true,
    "items": [
+    {
+     "name": "FIDE appoints Emil Sutovsky CEO of FIDE Enterprises",
+     "url": "https://www.fide.com/fide-appoints-emil-sutovsky-ceo-of-fide-enterprises/",
+     "published": "2026-11-05"
+    },
+    {
+     "name": "FIDE strengthens its presidential representation and advisory team",
+     "url": "https://www.fide.com/fide-strengthens-its-presidential-representation-and-advisory-team/",
+     "published": "2026-11-05"
+    },
     {
      "name": "FIDE President Timur Turlov meets Akaki Iashvili to discuss future events and chess development",
      "url": "https://www.fide.com/fide-president-timur-turlov-meets-akaki-iashvili-to-discuss-future-events-and-chess-development/",
@@ -1853,16 +1863,6 @@
      "name": "FIDE introduces the first members of its administrative team",
      "url": "https://www.fide.com/fide-introduces-the-first-members-of-its-administrative-team/",
      "published": "2026-10-30"
-    },
-    {
-     "name": "Fujairah to host WFCC Grand Prix Final: World’s best solvers and composers to compete for €30,000",
-     "url": "https://www.fide.com/fujairah-to-host-wfcc-grand-prix-final-worlds-best-solvers-and-composers-to-compete-for-e30000/",
-     "published": "2026-10-30"
-    },
-    {
-     "name": "Istanbul to host FIDE World Rapid and Blitz Championships 2026",
-     "url": "https://www.fide.com/istanbul-to-host-fide-world-rapid-and-blitz-championships-2026/",
-     "published": "2026-10-29"
     }
    ]
   }
