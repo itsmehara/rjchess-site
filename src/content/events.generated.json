@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-06T01:59:40.419Z",
+ "generatedAt": "2026-11-07T01:36:30.476Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-06T01:59:40.419Z",
+   "checkedAt": "2026-11-07T01:36:30.476Z",
    "ok": true,
    "items": [
     {
@@ -112,7 +112,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-06T01:59:40.419Z",
+   "checkedAt": "2026-11-07T01:36:30.476Z",
    "ok": true,
    "items": [
     {
@@ -1550,6 +1550,33 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "“ Late Shri Manohar Parrikar” Goa International Open Grand Master Chess Tournament 2027 (Cat “A”)",
+     "code": "505083",
+     "start": "2027-01-30",
+     "end": "2027-02-06",
+     "place": "Goa",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/2027-Goa-GM.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "Late Shri Manohar Parrikar” Goa Below 2000 Chess Tournament 2027 (Cat “B”)",
+     "code": "505084",
+     "start": "2027-01-30",
+     "end": "2027-02-02",
+     "place": "Goa",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/2027-Goa-GM.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "Late Shri Manohar Parrikar” Goa Below 1700 Chess Tournament 2027 (Cat “C”)",
+     "code": "505086",
+     "start": "2027-02-03",
+     "end": "2027-02-06",
+     "place": "Goa",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/2027-Goa-GM.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "SportsCentric FIDE Rated Chess Tournament",
      "code": "503923",
      "start": "2027-01-31",
@@ -1705,7 +1732,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-06T01:59:40.419Z",
+   "checkedAt": "2026-11-07T01:36:30.476Z",
    "ok": true,
    "items": [
     {
@@ -1811,9 +1838,19 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-06T01:59:40.419Z",
+   "checkedAt": "2026-11-07T01:36:30.476Z",
    "ok": true,
    "items": [
+    {
+     "name": "World Junior Rapid Championship 2026: Khumoyun Begmuratov and Eline Roebers capture titles",
+     "url": "https://www.fide.com/world-junior-rapid-championship-2026-khumoyun-begmuratov-and-eline-roebers-capture-titles/",
+     "published": "2026-11-06"
+    },
+    {
+     "name": "Crown Prince of Selangor opens FIDE World Amateur Chess Championships in Klang, Malaysia",
+     "url": "https://www.fide.com/crown-prince-of-selangor-opens-fide-world-amateur-chess-championships-in-klang-malaysia/",
+     "published": "2026-11-06"
+    },
     {
      "name": "FIDE appoints Emil Sutovsky CEO of FIDE Enterprises",
      "url": "https://www.fide.com/fide-appoints-emil-sutovsky-ceo-of-fide-enterprises/",
@@ -1853,16 +1890,6 @@
      "name": "Champions crowned at Asian Seniors Chess Championships 2026",
      "url": "https://www.fide.com/champions-crowned-at-asian-seniors-chess-championships-2026/",
      "published": "2026-11-01"
-    },
-    {
-     "name": "FIDE World U7-U17 Rapid and Blitz Championships 2026 Egypt: Registration deadline extended",
-     "url": "https://www.fide.com/fide-world-u7-u17-rapid-and-blitz-championships-2026-egypt-registration-deadline-extended/",
-     "published": "2026-10-30"
-    },
-    {
-     "name": "FIDE introduces the first members of its administrative team",
-     "url": "https://www.fide.com/fide-introduces-the-first-members-of-its-administrative-team/",
-     "published": "2026-10-30"
     }
    ]
   }
