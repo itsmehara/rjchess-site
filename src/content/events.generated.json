@@ -1,18 +1,10 @@
 {
- "generatedAt": "2026-11-07T01:36:30.476Z",
+ "generatedAt": "2026-11-08T01:04:24.905Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-07T01:36:30.476Z",
+   "checkedAt": "2026-11-08T01:04:24.905Z",
    "ok": true,
    "items": [
-    {
-     "name": "4 th NATIONAL SCHOOLS TEAM U12, U18 CHESS CHAMPIONSHIOP - 2026 (VISAKHAPATNAM)",
-     "start": "2026-11-01",
-     "url": "https://apchess.org/event-details/details/all/1809",
-     "brochure": "https://apchess.org/assets/events/brochures/1791354805_5421.pdf",
-     "register": "https://apchess.org/event-details/register/all/1809",
-     "completed": false
-    },
     {
      "name": "YUVA's 1ST FIDE RATING RAPID CHESS Tournament- 2026",
      "start": "2026-11-14",
@@ -112,7 +104,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-07T01:36:30.476Z",
+   "checkedAt": "2026-11-08T01:04:24.905Z",
    "ok": true,
    "items": [
     {
@@ -121,15 +113,6 @@
      "start": "2026-09-27",
      "end": "2026-09-27",
      "place": "Assam",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "10th CHESSMII INTERNATIONAL OPEN FIDE RATED CHESS TOURNAMENT",
-     "code": "486516",
-     "start": "2026-09-19",
-     "end": "2026-09-23",
-     "place": "Kerala",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/09/10-th-Chessmii-International-Fide-rated-Chess-tournament-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1511,7 +1494,7 @@
      "start": "2027-01-21",
      "end": "2027-01-28",
      "place": "Delhi",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Regulations-Delhi-Open-2027.pdf",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/Venue-Updtaed-Regulations-Delhi-Open-2027.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1520,7 +1503,7 @@
      "start": "2027-01-21",
      "end": "2027-01-24",
      "place": "Delhi",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Regulations-Delhi-Open-2027.pdf",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/Venue-Updtaed-Regulations-Delhi-Open-2027.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1546,7 +1529,7 @@
      "start": "2027-01-25",
      "end": "2027-01-28",
      "place": "Delhi",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Regulations-Delhi-Open-2027.pdf",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/Venue-Updtaed-Regulations-Delhi-Open-2027.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1732,7 +1715,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-07T01:36:30.476Z",
+   "checkedAt": "2026-11-08T01:04:24.905Z",
    "ok": true,
    "items": [
     {
@@ -1838,9 +1821,19 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-07T01:36:30.476Z",
+   "checkedAt": "2026-11-08T01:04:24.905Z",
    "ok": true,
    "items": [
+    {
+     "name": "The young king faces his toughest challenge",
+     "url": "https://www.fide.com/the-young-king-faces-his-toughest-challenge/",
+     "published": "2026-11-07"
+    },
+    {
+     "name": "Sahel Chess Festival: Bringing the world of chess to Africa",
+     "url": "https://www.fide.com/sahel-chess-festival-bringing-the-world-of-chess-to-africa/",
+     "published": "2026-11-06"
+    },
     {
      "name": "World Junior Rapid Championship 2026: Khumoyun Begmuratov and Eline Roebers capture titles",
      "url": "https://www.fide.com/world-junior-rapid-championship-2026-khumoyun-begmuratov-and-eline-roebers-capture-titles/",
@@ -1880,16 +1873,6 @@
      "name": "Continental Chess Presidents Inaugurate World Junior Rapid & Blitz Championships in Al Ain",
      "url": "https://www.fide.com/continental-chess-presidents-inaugurate-world-junior-rapid-blitz-championships-in-al-ain/",
      "published": "2026-11-03"
-    },
-    {
-     "name": "FIDE World Junior U20 Championship 2026: Registration deadline extended",
-     "url": "https://www.fide.com/fide-world-junior-u20-championship-2026-registration-deadline-extended/",
-     "published": "2026-11-02"
-    },
-    {
-     "name": "Champions crowned at Asian Seniors Chess Championships 2026",
-     "url": "https://www.fide.com/champions-crowned-at-asian-seniors-chess-championships-2026/",
-     "published": "2026-11-01"
     }
    ]
   }
