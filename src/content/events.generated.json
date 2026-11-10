@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-09T01:25:25.790Z",
+ "generatedAt": "2026-11-10T03:57:46.997Z",
  "sources": {
   "ap": {
    "checkedAt": "2026-11-09T01:25:25.790Z",
-   "ok": true,
+   "ok": false,
    "items": [
     {
      "name": "YUVA's 1ST FIDE RATING RAPID CHESS Tournament- 2026",
@@ -101,10 +101,12 @@
      "url": "https://apchess.org/event-details/details/all/1792",
      "completed": true
     }
-   ]
+   ],
+   "error": "fetch failed",
+   "failedAt": "2026-11-10T03:57:46.997Z"
   },
   "aicf": {
-   "checkedAt": "2026-11-09T01:25:25.790Z",
+   "checkedAt": "2026-11-10T03:57:46.997Z",
    "ok": true,
    "items": [
     {
@@ -1678,6 +1680,7 @@
      "start": "2027-03-30",
      "end": "2027-04-03",
      "place": "Udaipur",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/Final-8th-Holi-Cup-Open-Lakecity-Fide-Rating-2027.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1702,6 +1705,7 @@
      "start": "2027-06-18",
      "end": "2027-06-20",
      "place": "Udaipur",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/Final-Summer-Below-1800-Classical-Lakecity-Fide-Rating-2027.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1715,7 +1719,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-09T01:25:25.790Z",
+   "checkedAt": "2026-11-10T03:57:46.997Z",
    "ok": true,
    "items": [
     {
@@ -1821,9 +1825,14 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-09T01:25:25.790Z",
+   "checkedAt": "2026-11-10T03:57:46.997Z",
    "ok": true,
    "items": [
+    {
+     "name": "FIDE President Timur Turlov visits World Senior Chess Championship",
+     "url": "https://www.fide.com/fide-president-timur-turlov-visits-world-senior-chess-championship/",
+     "published": "2026-11-09"
+    },
     {
      "name": "FIDE World Senior Championships 2026: Six rounds left, four titles at stake",
      "url": "https://www.fide.com/fide-world-senior-championships-2026-six-rounds-left-four-titles-at-stake/",
@@ -1867,11 +1876,6 @@
     {
      "name": "FIDE President Timur Turlov meets Akaki Iashvili to discuss future events and chess development",
      "url": "https://www.fide.com/fide-president-timur-turlov-meets-akaki-iashvili-to-discuss-future-events-and-chess-development/",
-     "published": "2026-11-03"
-    },
-    {
-     "name": "FIDE World Senior Chess Championship 2026 begins in Vrnjačka Banja, Serbia",
-     "url": "https://www.fide.com/fide-world-senior-chess-championship-2026-begins-in-vrnjacka-banja-serbia/",
      "published": "2026-11-03"
     }
    ]
