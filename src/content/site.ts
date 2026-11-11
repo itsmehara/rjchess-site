@@ -28,7 +28,8 @@ export const waLink = (text?: string) =>
 export type NavItem = { href: string; label: string; menu?: { href: string; label: string }[] };
 
 // Menu. "Events & more" groups the special cases: Events is a section of the
-// page; Play and Co-trainers are their own pages (both "coming soon").
+// page; Co-trainers is its own page ("coming soon"). The Play a friend page
+// (src/app/play) is kept but hidden: not linked here or in the footer.
 export const nav: NavItem[] = [
   { href: "#about", label: "About" },
   { href: "#achievements", label: "Achievements" },
@@ -39,7 +40,6 @@ export const nav: NavItem[] = [
     label: "Events & more",
     menu: [
       { href: "#events", label: "Events & results" },
-      { href: "/play/", label: "Play a friend" },
       { href: "/co-trainers/", label: "Co-trainers" },
     ],
   },
