@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-11T01:42:34.616Z",
+ "generatedAt": "2026-11-11T12:10:11.620Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-11T01:42:34.616Z",
+   "checkedAt": "2026-11-11T12:10:11.620Z",
    "ok": true,
    "items": [
     {
@@ -36,6 +36,30 @@
      "brochure": "https://apchess.org/assets/events/brochures/1791377347_9526.pdf",
      "register": "https://apchess.org/event-details/register/all/1810",
      "completed": false
+    },
+    {
+     "name": "4 th NATIONAL SCHOOLS TEAM U12, U18 CHESS CHAMPIONSHIOP - 2026 (VISAKHAPATNAM)",
+     "start": "2026-11-01",
+     "url": "https://apchess.org/event-details/details/all/1809",
+     "completed": true
+    },
+    {
+     "name": "VYBEN INTERNATIONAL OPEN FIDE RATING SELECTION – 2026 (VISAKHAPATNAM)",
+     "start": "2026-10-25",
+     "url": "https://apchess.org/event-details/details/all/1808",
+     "completed": true
+    },
+    {
+     "name": "FIRE CHESS SCHOOL'S AP STATE CLASSICAL OPEN CHESS TOURNAMENT-2026(3 days - 45 + 30 time control form",
+     "start": "2026-10-17",
+     "url": "https://apchess.org/event-details/details/all/1803",
+     "completed": true
+    },
+    {
+     "name": "LATE SRI D RAJAVARDHAN REDDY 4TH MEMORIAL INTERNATIONAL OPEN FIDE RAPID RATING CHESS TOURNAMENT-2026",
+     "start": "2026-10-17",
+     "url": "https://apchess.org/event-details/details/all/1801",
+     "completed": true
     },
     {
      "name": "9 th AP STATE RANKING CHESS TOURNAMENT-2026 (Anakapalli)",
@@ -84,35 +108,11 @@
      "start": "2026-09-06",
      "url": "https://apchess.org/event-details/details/all/1794",
      "completed": true
-    },
-    {
-     "name": "5 th AP STATE RANKING CHESS TOURNAMENT-2026 (TIRUPATI)",
-     "start": "2026-09-06",
-     "url": "https://apchess.org/event-details/details/all/1793",
-     "completed": true
-    },
-    {
-     "name": "SAMASTRA SPORTS AP STATE OPEN CHESS TOURNAMENT (NAIDUPETA, TIRUPATI)",
-     "start": "2026-09-04",
-     "url": "https://apchess.org/event-details/details/all/1790",
-     "completed": true
-    },
-    {
-     "name": "SAMASTRA SPORTS AP STATE OPEN CHESS TOURNAMENT",
-     "start": "2026-09-04",
-     "url": "https://apchess.org/event-details/details/all/1789",
-     "completed": true
-    },
-    {
-     "name": "DE PAUL AP State Rapid Chess Tournament – 2026 ( ELURU )",
-     "start": "2026-09-04",
-     "url": "https://apchess.org/event-details/details/all/1792",
-     "completed": true
     }
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-11T01:42:34.616Z",
+   "checkedAt": "2026-11-11T12:10:11.620Z",
    "ok": true,
    "items": [
     {
@@ -1054,6 +1054,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "3S INSTITUTE RAPID RATING FIESTA 2026 BY CHESS AT SCHOOL",
+     "code": "510558",
+     "start": "2026-11-29",
+     "end": "2026-11-29",
+     "place": "Maharashtra",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/3S_Rapid_Rating_Fiesta_2026_Revised_Entry_Fee_Brochure.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "2nd MVIT King Trophy International Rapid FIDE Rating Chess Tournament 2026",
      "code": "500404",
      "start": "2026-11-29",
@@ -1114,6 +1123,14 @@
      "end": "2026-12-06",
      "place": "Maharashtra",
      "brochure": "https://aicf.in/wp-content/uploads/2026/10/Mahaguru-Chashak-MCA_compressed.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "Chadurangotsava All India Open Rapid Rated Tournament 2026",
+     "code": "511064",
+     "start": "2026-12-06",
+     "end": "2026-12-06",
+     "place": "Karnataka",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1213,6 +1230,22 @@
      "end": "2026-12-20",
      "place": "Gujarat",
      "brochure": "https://aicf.in/wp-content/uploads/2026/11/SCHOOL.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "1st Late Sunil Swarup Barse Memorial All India Open Fide Rapid Rating Chess Tournament",
+     "code": "508734",
+     "start": "2026-12-20",
+     "end": "2026-12-20",
+     "place": "Maharashtra",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "2nd All India under 18 Open FIDE Rated Rapid Chess Tournament – 2026",
+     "code": "510446",
+     "start": "2026-12-21",
+     "end": "2026-12-21",
+     "place": "Ahmedabad",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1550,6 +1583,14 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "ICC – CHESSFEE International FIDE RAPID Rating OPEN Chess Tournament 2027 – 6th Edition",
+     "code": "510448",
+     "start": "2027-01-31",
+     "end": "2027-07-31",
+     "place": "Coimbatore, Tamil Nadu",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "Late Shri Manohar Parrikar” Goa Below 1700 Chess Tournament 2027 (Cat “C”)",
      "code": "505086",
      "start": "2027-02-03",
@@ -1716,7 +1757,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-11T01:42:34.616Z",
+   "checkedAt": "2026-11-11T12:10:11.620Z",
    "ok": true,
    "items": [
     {
@@ -1822,7 +1863,7 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-11T01:42:34.616Z",
+   "checkedAt": "2026-11-11T12:10:11.620Z",
    "ok": true,
    "items": [
     {
