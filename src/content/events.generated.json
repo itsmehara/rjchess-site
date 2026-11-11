@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-10T03:57:46.997Z",
+ "generatedAt": "2026-11-11T01:42:34.616Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-09T01:25:25.790Z",
-   "ok": false,
+   "checkedAt": "2026-11-11T01:42:34.616Z",
+   "ok": true,
    "items": [
     {
      "name": "YUVA's 1ST FIDE RATING RAPID CHESS Tournament- 2026",
@@ -18,6 +18,14 @@
      "start": "2026-11-22",
      "url": "https://apchess.org/event-details/details/all/1816",
      "brochure": "https://apchess.org/assets/events/brochures/1793295341_9369.pdf",
+     "register": "https://apchess.org/signin",
+     "completed": false
+    },
+    {
+     "name": "SCOTSPINE'S ANDHRA PRADESH STATE OPEN RAPID CHESS TOURNAMENT - 2026",
+     "start": "2026-11-29",
+     "url": "https://apchess.org/event-details/details/all/1819",
+     "brochure": "https://apchess.org/assets/events/brochures/1794239738_8850.pdf",
      "register": "https://apchess.org/signin",
      "completed": false
     },
@@ -101,12 +109,10 @@
      "url": "https://apchess.org/event-details/details/all/1792",
      "completed": true
     }
-   ],
-   "error": "fetch failed",
-   "failedAt": "2026-11-10T03:57:46.997Z"
+   ]
   },
   "aicf": {
-   "checkedAt": "2026-11-10T03:57:46.997Z",
+   "checkedAt": "2026-11-11T01:42:34.616Z",
    "ok": true,
    "items": [
     {
@@ -115,15 +121,6 @@
      "start": "2026-09-27",
      "end": "2026-09-27",
      "place": "Assam",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "6th Kashmir: International Open Fide Rapid Rating Chess Tournament, Srinagar 2026",
-     "code": "490388",
-     "start": "2026-09-25",
-     "end": "2026-09-26",
-     "place": "Kashmir",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/6th-Kashmir-Rapid-Rating-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1719,9 +1716,19 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-10T03:57:46.997Z",
+   "checkedAt": "2026-11-11T01:42:34.616Z",
    "ok": true,
    "items": [
+    {
+     "name": "TELANGANA STATE UNDER-19 JUNIOR CHESS CHAMPIONSHIP – 2026",
+     "url": "https://www.chesstelangana.com/event/telangana-state-under-19-junior-chess-championship-2026/",
+     "published": "2026-11-10"
+    },
+    {
+     "name": "52nd NATIONAL WOMEN CHESS CHAMPIONSHIP 2026",
+     "url": "https://www.chesstelangana.com/event/52nd-national-women-chess-championship-2026/",
+     "published": "2026-11-10"
+    },
     {
      "name": "62nd TELANGANA STATE RANKING CHESS TOURNAMENT",
      "url": "https://www.chesstelangana.com/event/62nd-telangana-state-ranking-chess-tournament/",
@@ -1811,23 +1818,23 @@
      "name": "Hyderabad District Under 17 Boys & Girls Chess Championship – 2026",
      "url": "https://www.chesstelangana.com/event/hyderabad-district-under-17-boys-girls-chess-championship-2026/",
      "published": "2026-05-08"
-    },
-    {
-     "name": "Hyderabad District Under 9 Boys & Girls Chess Championship – 2026",
-     "url": "https://www.chesstelangana.com/event/hyderabad-district-under-9-boys-girls-chess-championship-2026/",
-     "published": "2026-05-08"
-    },
-    {
-     "name": "United Rangareddy District Under 9 Boys & Girls Chess Championship – 2026",
-     "url": "https://www.chesstelangana.com/event/united-rangareddy-district-under-9-boys-girls-chess-championship-2026/",
-     "published": "2026-05-08"
     }
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-10T03:57:46.997Z",
+   "checkedAt": "2026-11-11T01:42:34.616Z",
    "ok": true,
    "items": [
+    {
+     "name": "Unbeaten Carlsen wins opening blitz as Total Chess Pilot gets underway in Budapest",
+     "url": "https://www.fide.com/unbeaten-carlsen-wins-opening-blitz-as-total-chess-pilot-gets-underway-in-budapest/",
+     "published": "2026-11-10"
+    },
+    {
+     "name": "WACC 2026: Aqil reaches 6/6 as Tulegenov regains sole lead in Klang",
+     "url": "https://www.fide.com/wacc-2026-aqil-reaches-6-6-as-tulegenov-regains-sole-lead-in-klang/",
+     "published": "2026-11-10"
+    },
     {
      "name": "FIDE President Timur Turlov visits World Senior Chess Championship",
      "url": "https://www.fide.com/fide-president-timur-turlov-visits-world-senior-chess-championship/",
@@ -1867,16 +1874,6 @@
      "name": "FIDE appoints Emil Sutovsky CEO of FIDE Enterprises",
      "url": "https://www.fide.com/fide-appoints-emil-sutovsky-ceo-of-fide-enterprises/",
      "published": "2026-11-05"
-    },
-    {
-     "name": "FIDE strengthens its presidential representation and advisory team",
-     "url": "https://www.fide.com/fide-strengthens-its-presidential-representation-and-advisory-team/",
-     "published": "2026-11-05"
-    },
-    {
-     "name": "FIDE President Timur Turlov meets Akaki Iashvili to discuss future events and chess development",
-     "url": "https://www.fide.com/fide-president-timur-turlov-meets-akaki-iashvili-to-discuss-future-events-and-chess-development/",
-     "published": "2026-11-03"
     }
    ]
   }
