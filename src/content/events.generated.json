@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-11T12:13:10.348Z",
+ "generatedAt": "2026-11-11T17:16:31.645Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-11T12:13:10.348Z",
+   "checkedAt": "2026-11-11T17:16:31.645Z",
    "ok": true,
    "items": [
     {
@@ -112,7 +112,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-11T12:13:10.348Z",
+   "checkedAt": "2026-11-11T17:16:31.645Z",
    "ok": true,
    "items": [
     {
@@ -1757,7 +1757,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-11T12:13:10.348Z",
+   "checkedAt": "2026-11-11T17:16:31.645Z",
    "ok": true,
    "items": [
     {
@@ -1863,9 +1863,14 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-11T12:13:10.348Z",
+   "checkedAt": "2026-11-11T17:16:31.645Z",
    "ok": true,
    "items": [
+    {
+     "name": "FIDE President Timur Turlov holds meetings in Budapest",
+     "url": "https://www.fide.com/fide-president-timur-turlov-holds-meetings-in-budapest/",
+     "published": "2026-11-11"
+    },
     {
      "name": "Unbeaten Carlsen wins opening blitz as Total Chess Pilot gets underway in Budapest",
      "url": "https://www.fide.com/unbeaten-carlsen-wins-opening-blitz-as-total-chess-pilot-gets-underway-in-budapest/",
@@ -1910,11 +1915,6 @@
      "name": "Crown Prince of Selangor opens FIDE World Amateur Chess Championships in Klang, Malaysia",
      "url": "https://www.fide.com/crown-prince-of-selangor-opens-fide-world-amateur-chess-championships-in-klang-malaysia/",
      "published": "2026-11-06"
-    },
-    {
-     "name": "FIDE appoints Emil Sutovsky CEO of FIDE Enterprises",
-     "url": "https://www.fide.com/fide-appoints-emil-sutovsky-ceo-of-fide-enterprises/",
-     "published": "2026-11-05"
     }
    ]
   }
