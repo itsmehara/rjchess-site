@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-11T17:16:31.645Z",
+ "generatedAt": "2026-11-12T02:41:28.307Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-11T17:16:31.645Z",
+   "checkedAt": "2026-11-12T02:41:28.307Z",
    "ok": true,
    "items": [
     {
@@ -112,26 +112,9 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-11T17:16:31.645Z",
+   "checkedAt": "2026-11-12T02:41:28.307Z",
    "ok": true,
    "items": [
-    {
-     "name": "6th WMA Invitational Rapid Rating Chess Tournament 2026",
-     "code": "499443",
-     "start": "2026-09-27",
-     "end": "2026-09-27",
-     "place": "Assam",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "MP STATE SELECTION FIDE RATING SUB JUNIOR CHESS CHAMPIONSHIP 2026",
-     "code": "497668",
-     "start": "2026-09-25",
-     "end": "2026-09-27",
-     "place": "MP",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/09/Circular-2.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
     {
      "name": "Velammal Nexus–1st International FIDE Rated Open Chess Tournament",
      "code": "412460",
@@ -141,48 +124,12 @@
      "url": "https://aicf.in/all-events/"
     },
     {
-     "name": "SHRI DHANPAT RAI SACHDEVA MEMORIAL INTERNATIONAL OPEN RAPID FIDE RATED CHESS TOURNAMENT 2026",
-     "code": "476741",
-     "start": "2026-09-26",
-     "end": "2026-09-27",
-     "place": "Delhi",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Rapid-Shri-Dhanpat-Rai-Sachdeva-Memorial-2026.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "SHRI DHANPAT RAI SACHDEVA MEMORIAL INTERNATIONAL OPEN BLITZ FIDE RATED CHESS TOURNAMENT 2026",
-     "code": "476742",
-     "start": "2026-09-27",
-     "end": "2026-09-27",
-     "place": "Delhi",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Blitz-Shri-Dhanpat-Rai-Sachdeva-Memorial-2026.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
      "name": "Vimana City 2nd International Below 1700 FIDE-Rated Chess Tournament at Thanjavur",
      "code": "480152",
      "start": "2026-09-27",
      "end": "2026-09-29",
      "place": "Thanjavur",
      "brochure": "https://aicf.in/wp-content/uploads/2026/08/2nd-vimana-city-below-1700-1_compressed.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "1st Vijay Anand Chess Academy Fide Rapid Rating Chess Tournament",
-     "code": "489895",
-     "start": "2026-09-27",
-     "end": "2026-09-27",
-     "place": "Chennai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/1st-Vijayanand-Chess-Academy-International-FIDE-ra_260819_101912.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "5th Pinnacle FIDE Rated Rapid Chess Tournament",
-     "code": "495351",
-     "start": "2026-09-27",
-     "end": "2026-09-27",
-     "place": "Thane, Maharashtra",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/09/5th-PINNACLE-FIDE-Rapid-Rating-Chess-Tournament-2026.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1757,7 +1704,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-11T17:16:31.645Z",
+   "checkedAt": "2026-11-12T02:41:28.307Z",
    "ok": true,
    "items": [
     {
@@ -1863,9 +1810,14 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-11T17:16:31.645Z",
+   "checkedAt": "2026-11-12T02:41:28.307Z",
    "ok": true,
    "items": [
+    {
+     "name": "Firouzja, Caruana, Nepomniachtchi and Vachier-Lagrave lead after opening Fast Classic day in Budapest",
+     "url": "https://www.fide.com/firouzja-caruana-nepomniachtchi-and-vachier-lagrave-lead-after-opening-fast-classic-day-in-budapest/",
+     "published": "2026-11-11"
+    },
     {
      "name": "FIDE President Timur Turlov holds meetings in Budapest",
      "url": "https://www.fide.com/fide-president-timur-turlov-holds-meetings-in-budapest/",
@@ -1909,11 +1861,6 @@
     {
      "name": "World Junior Rapid Championship 2026: Khumoyun Begmuratov and Eline Roebers capture titles",
      "url": "https://www.fide.com/world-junior-rapid-championship-2026-khumoyun-begmuratov-and-eline-roebers-capture-titles/",
-     "published": "2026-11-06"
-    },
-    {
-     "name": "Crown Prince of Selangor opens FIDE World Amateur Chess Championships in Klang, Malaysia",
-     "url": "https://www.fide.com/crown-prince-of-selangor-opens-fide-world-amateur-chess-championships-in-klang-malaysia/",
      "published": "2026-11-06"
     }
    ]
