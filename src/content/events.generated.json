@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-12T02:41:28.307Z",
+ "generatedAt": "2026-11-13T02:22:35.730Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-12T02:41:28.307Z",
+   "checkedAt": "2026-11-13T02:22:35.730Z",
    "ok": true,
    "items": [
     {
@@ -112,17 +112,9 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-12T02:41:28.307Z",
+   "checkedAt": "2026-11-13T02:22:35.730Z",
    "ok": true,
    "items": [
-    {
-     "name": "Velammal Nexus–1st International FIDE Rated Open Chess Tournament",
-     "code": "412460",
-     "start": "2026-09-25",
-     "end": "2026-09-28",
-     "place": "Tamil Nadu",
-     "url": "https://aicf.in/all-events/"
-    },
     {
      "name": "Vimana City 2nd International Below 1700 FIDE-Rated Chess Tournament at Thanjavur",
      "code": "480152",
@@ -1704,7 +1696,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-12T02:41:28.307Z",
+   "checkedAt": "2026-11-13T02:22:35.730Z",
    "ok": true,
    "items": [
     {
@@ -1810,9 +1802,14 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-12T02:41:28.307Z",
+   "checkedAt": "2026-11-13T02:22:35.730Z",
    "ok": true,
    "items": [
+    {
+     "name": "Caruana and Niemann score double wins on Day 2 in Budapest",
+     "url": "https://www.fide.com/caruana-and-niemann-score-double-wins-on-day-2-in-budapest/",
+     "published": "2026-11-12"
+    },
     {
      "name": "Firouzja, Caruana, Nepomniachtchi and Vachier-Lagrave lead after opening Fast Classic day in Budapest",
      "url": "https://www.fide.com/firouzja-caruana-nepomniachtchi-and-vachier-lagrave-lead-after-opening-fast-classic-day-in-budapest/",
@@ -1856,11 +1853,6 @@
     {
      "name": "Sahel Chess Festival: Bringing the world of chess to Africa",
      "url": "https://www.fide.com/sahel-chess-festival-bringing-the-world-of-chess-to-africa/",
-     "published": "2026-11-06"
-    },
-    {
-     "name": "World Junior Rapid Championship 2026: Khumoyun Begmuratov and Eline Roebers capture titles",
-     "url": "https://www.fide.com/world-junior-rapid-championship-2026-khumoyun-begmuratov-and-eline-roebers-capture-titles/",
      "published": "2026-11-06"
     }
    ]
