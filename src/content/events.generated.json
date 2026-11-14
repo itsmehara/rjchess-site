@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-13T02:22:35.730Z",
+ "generatedAt": "2026-11-14T01:58:20.518Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-13T02:22:35.730Z",
+   "checkedAt": "2026-11-14T01:58:20.518Z",
    "ok": true,
    "items": [
     {
@@ -112,18 +112,9 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-13T02:22:35.730Z",
+   "checkedAt": "2026-11-14T01:58:20.518Z",
    "ok": true,
    "items": [
-    {
-     "name": "Vimana City 2nd International Below 1700 FIDE-Rated Chess Tournament at Thanjavur",
-     "code": "480152",
-     "start": "2026-09-27",
-     "end": "2026-09-29",
-     "place": "Thanjavur",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/2nd-vimana-city-below-1700-1_compressed.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
     {
      "name": "4th Resha International Open FIDE Rating Chess Tournament 2026",
      "code": "494143",
@@ -1109,6 +1100,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "3rd Battle Field International FIDE Rapid Rating Chess Tournament 2026",
+     "code": "510562",
+     "start": "2026-12-06",
+     "end": "2026-12-06",
+     "place": "Salem, Tamil Nadu",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/3rd-Battle-Field-International-Open-FIDE-Rapid-Rating-Chess-Tournament-2026.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "International FIDE open RATING CHESS TOURNAMENT- 2026",
      "code": "484348",
      "start": "2026-12-10",
@@ -1177,6 +1177,7 @@
      "start": "2026-12-20",
      "end": "2026-12-20",
      "place": "Maharashtra",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/CHESS-TOURNAMENT-2026-3.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1696,7 +1697,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-13T02:22:35.730Z",
+   "checkedAt": "2026-11-14T01:58:20.518Z",
    "ok": true,
    "items": [
     {
@@ -1802,9 +1803,29 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-13T02:22:35.730Z",
+   "checkedAt": "2026-11-14T01:58:20.518Z",
    "ok": true,
    "items": [
+    {
+     "name": "Martirosyan defeats Carlsen on Day 3 in Budapest",
+     "url": "https://www.fide.com/martirosyan-defeats-carlsen-on-day-3-in-budapest/",
+     "published": "2026-11-13"
+    },
+    {
+     "name": "Javokhir Sindarov is writing a new page in chess history",
+     "url": "https://www.fide.com/javokhir-sindarov-is-writing-a-new-page-in-chess-history/",
+     "published": "2026-11-13"
+    },
+    {
+     "name": "Six World Amateur Chess Champions crowned in Klang, Malaysia",
+     "url": "https://www.fide.com/six-world-amateur-chess-champions-crowned-in-klang-malaysia/",
+     "published": "2026-11-13"
+    },
+    {
+     "name": "Faster 60- and 45-minute time controls now eligible for ratings and norms, federations to review changes",
+     "url": "https://www.fide.com/faster-60-and-45-minute-time-controls-now-eligible-for-ratings-and-norms-federations-to-review-changes/",
+     "published": "2026-11-13"
+    },
     {
      "name": "Caruana and Niemann score double wins on Day 2 in Budapest",
      "url": "https://www.fide.com/caruana-and-niemann-score-double-wins-on-day-2-in-budapest/",
@@ -1834,26 +1855,6 @@
      "name": "FIDE President Timur Turlov visits World Senior Chess Championship",
      "url": "https://www.fide.com/fide-president-timur-turlov-visits-world-senior-chess-championship/",
      "published": "2026-11-09"
-    },
-    {
-     "name": "FIDE World Senior Championships 2026: Six rounds left, four titles at stake",
-     "url": "https://www.fide.com/fide-world-senior-championships-2026-six-rounds-left-four-titles-at-stake/",
-     "published": "2026-11-08"
-    },
-    {
-     "name": "World Junior Blitz Championship 2026: Pranav V and Kleymenova claim titles in Al Ain",
-     "url": "https://www.fide.com/world-junior-blitz-championship-2026-pranav-v-and-kleymenova-claim-titles-in-al-ain/",
-     "published": "2026-11-08"
-    },
-    {
-     "name": "The young king faces his toughest challenge",
-     "url": "https://www.fide.com/the-young-king-faces-his-toughest-challenge/",
-     "published": "2026-11-07"
-    },
-    {
-     "name": "Sahel Chess Festival: Bringing the world of chess to Africa",
-     "url": "https://www.fide.com/sahel-chess-festival-bringing-the-world-of-chess-to-africa/",
-     "published": "2026-11-06"
     }
    ]
   }
