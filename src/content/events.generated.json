@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-14T01:58:20.518Z",
+ "generatedAt": "2026-11-15T01:30:30.967Z",
  "sources": {
   "ap": {
    "checkedAt": "2026-11-14T01:58:20.518Z",
-   "ok": true,
+   "ok": false,
    "items": [
     {
      "name": "YUVA's 1ST FIDE RATING RAPID CHESS Tournament- 2026",
@@ -109,10 +109,12 @@
      "url": "https://apchess.org/event-details/details/all/1794",
      "completed": true
     }
-   ]
+   ],
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "failedAt": "2026-11-15T01:30:30.967Z"
   },
   "aicf": {
-   "checkedAt": "2026-11-14T01:58:20.518Z",
+   "checkedAt": "2026-11-15T01:30:30.967Z",
    "ok": true,
    "items": [
     {
@@ -1697,7 +1699,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-14T01:58:20.518Z",
+   "checkedAt": "2026-11-15T01:30:30.967Z",
    "ok": true,
    "items": [
     {
@@ -1803,9 +1805,19 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-14T01:58:20.518Z",
+   "checkedAt": "2026-11-15T01:30:30.967Z",
    "ok": true,
    "items": [
+    {
+     "name": "World Senior Chess Champions 2026 crowned in Vrnjačka Banja, Serbia",
+     "url": "https://www.fide.com/world-senior-chess-champions-2026-crowned-in-vrnjacka-banja-serbia/",
+     "published": "2026-11-15"
+    },
+    {
+     "name": "Giri takes Group C lead as So wins twice on Day 4 in Budapest",
+     "url": "https://www.fide.com/giri-takes-group-c-lead-as-so-wins-twice-on-day-4-in-budapest/",
+     "published": "2026-11-14"
+    },
     {
      "name": "Martirosyan defeats Carlsen on Day 3 in Budapest",
      "url": "https://www.fide.com/martirosyan-defeats-carlsen-on-day-3-in-budapest/",
@@ -1845,16 +1857,6 @@
      "name": "Unbeaten Carlsen wins opening blitz as Total Chess Pilot gets underway in Budapest",
      "url": "https://www.fide.com/unbeaten-carlsen-wins-opening-blitz-as-total-chess-pilot-gets-underway-in-budapest/",
      "published": "2026-11-10"
-    },
-    {
-     "name": "WACC 2026: Aqil reaches 6/6 as Tulegenov regains sole lead in Klang",
-     "url": "https://www.fide.com/wacc-2026-aqil-reaches-6-6-as-tulegenov-regains-sole-lead-in-klang/",
-     "published": "2026-11-10"
-    },
-    {
-     "name": "FIDE President Timur Turlov visits World Senior Chess Championship",
-     "url": "https://www.fide.com/fide-president-timur-turlov-visits-world-senior-chess-championship/",
-     "published": "2026-11-09"
     }
    ]
   }
