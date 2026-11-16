@@ -1,18 +1,10 @@
 {
- "generatedAt": "2026-11-15T01:30:30.967Z",
+ "generatedAt": "2026-11-16T01:33:36.132Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-14T01:58:20.518Z",
-   "ok": false,
+   "checkedAt": "2026-11-16T01:33:36.132Z",
+   "ok": true,
    "items": [
-    {
-     "name": "YUVA's 1ST FIDE RATING RAPID CHESS Tournament- 2026",
-     "start": "2026-11-14",
-     "url": "https://apchess.org/event-details/details/all/1812",
-     "brochure": "https://apchess.org/assets/events/brochures/1791740490_1902.pdf",
-     "register": "https://apchess.org/event-details/register/all/1812",
-     "completed": false
-    },
     {
      "name": "SMT JANAKAMMALU 7TH MEMORIAL STATE OPEN CHESS TOURNAMENT 2026",
      "start": "2026-11-22",
@@ -109,12 +101,10 @@
      "url": "https://apchess.org/event-details/details/all/1794",
      "completed": true
     }
-   ],
-   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-   "failedAt": "2026-11-15T01:30:30.967Z"
+   ]
   },
   "aicf": {
-   "checkedAt": "2026-11-15T01:30:30.967Z",
+   "checkedAt": "2026-11-16T01:33:36.132Z",
    "ok": true,
    "items": [
     {
@@ -142,15 +132,6 @@
      "end": "2026-10-04",
      "place": "Birbhum, West Bengal",
      "brochure": "https://aicf.in/wp-content/uploads/2026/07/The-Heritage-School-Classical-League-Brochure-1.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "5th Resha International Open FIDE Rapid Rating Chess Tournament 2026",
-     "code": "494342",
-     "start": "2026-09-30",
-     "end": "2026-10-01",
-     "place": "Nashik, Maharashtra",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/Resha-International-Open-Nashik-Sep-2026.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1699,7 +1680,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-15T01:30:30.967Z",
+   "checkedAt": "2026-11-16T01:33:36.132Z",
    "ok": true,
    "items": [
     {
@@ -1805,9 +1786,14 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-15T01:30:30.967Z",
+   "checkedAt": "2026-11-16T01:33:36.132Z",
    "ok": true,
    "items": [
+    {
+     "name": "Firouzja, Caruana, Giri and Vachier-Lagrave win groups in Budapest",
+     "url": "https://www.fide.com/firouzja-caruana-giri-and-vachier-lagrave-win-groups-in-budapest/",
+     "published": "2026-11-15"
+    },
     {
      "name": "World Senior Chess Champions 2026 crowned in Vrnjačka Banja, Serbia",
      "url": "https://www.fide.com/world-senior-chess-champions-2026-crowned-in-vrnjacka-banja-serbia/",
@@ -1852,11 +1838,6 @@
      "name": "FIDE President Timur Turlov holds meetings in Budapest",
      "url": "https://www.fide.com/fide-president-timur-turlov-holds-meetings-in-budapest/",
      "published": "2026-11-11"
-    },
-    {
-     "name": "Unbeaten Carlsen wins opening blitz as Total Chess Pilot gets underway in Budapest",
-     "url": "https://www.fide.com/unbeaten-carlsen-wins-opening-blitz-as-total-chess-pilot-gets-underway-in-budapest/",
-     "published": "2026-11-10"
     }
    ]
   }
