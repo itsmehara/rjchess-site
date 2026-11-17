@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-16T01:33:36.132Z",
+ "generatedAt": "2026-11-17T04:19:28.642Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-16T01:33:36.132Z",
+   "checkedAt": "2026-11-17T04:19:28.642Z",
    "ok": true,
    "items": [
     {
@@ -104,18 +104,9 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-16T01:33:36.132Z",
+   "checkedAt": "2026-11-17T04:19:28.642Z",
    "ok": true,
    "items": [
-    {
-     "name": "4th Resha International Open FIDE Rating Chess Tournament 2026",
-     "code": "494143",
-     "start": "2026-09-27",
-     "end": "2026-10-02",
-     "place": "Nashik, Maharashtra",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/Resha-International-Open-Nashik-Sep-2026.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
     {
      "name": "National Under 17 Chess Championship 2026",
      "code": "481304 / 481305",
@@ -177,24 +168,6 @@
      "end": "2026-10-04",
      "place": "Tamil Nadu",
      "brochure": "https://aicf.in/wp-content/uploads/2026/08/ICC-%E2%80%93-CHESSFEE-International-FIDE-Rated-OPEN-Chess-Tournament-2026-%E2%80%93-3rd-Edition.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "6th Resha International Open FIDE Blitz Rating Chess Tournament 2026",
-     "code": "494343",
-     "start": "2026-10-02",
-     "end": "2026-10-02",
-     "place": "Nashik, Maharashtra",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/Resha-International-Open-Nashik-Sep-2026.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "First Move Open FIDE Rapid Rated Chess Tournament",
-     "code": "494719",
-     "start": "2026-10-02",
-     "end": "2026-10-02",
-     "place": "Mysuru, Karnataka",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/09/First-Move-Open-2026.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1399,6 +1372,7 @@
      "start": "2027-01-11",
      "end": "2027-01-18",
      "place": "Coimbatore",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/AKSHAYA-GM-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1407,6 +1381,7 @@
      "start": "2027-01-11",
      "end": "2027-01-14",
      "place": "Coimbatore",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/AKSHAYA-GM-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1415,6 +1390,7 @@
      "start": "2027-01-14",
      "end": "2027-01-14",
      "place": "Coimbatore",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/AKSHAYA-GM-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1423,6 +1399,7 @@
      "start": "2027-01-15",
      "end": "2027-01-18",
      "place": "Coimbatore",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/AKSHAYA-GM-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1680,7 +1657,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-16T01:33:36.132Z",
+   "checkedAt": "2026-11-17T04:19:28.642Z",
    "ok": true,
    "items": [
     {
@@ -1786,7 +1763,7 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-16T01:33:36.132Z",
+   "checkedAt": "2026-11-17T04:19:28.642Z",
    "ok": true,
    "items": [
     {
