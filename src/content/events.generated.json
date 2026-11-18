@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-17T04:19:28.642Z",
+ "generatedAt": "2026-11-18T03:19:01.988Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-17T04:19:28.642Z",
+   "checkedAt": "2026-11-18T03:19:01.988Z",
    "ok": true,
    "items": [
     {
@@ -104,7 +104,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-17T04:19:28.642Z",
+   "checkedAt": "2026-11-18T03:19:01.988Z",
    "ok": true,
    "items": [
     {
@@ -126,15 +126,6 @@
      "url": "https://aicf.in/all-events/"
     },
     {
-     "name": "Smart Chess Academy 2nd International Open FIDE Classical Rating Chess Tournament Karur 2026",
-     "code": "497673",
-     "start": "2026-09-30",
-     "end": "2026-10-03",
-     "place": "Tamil Nadu",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/09/RO-29.KAR_.26-27_CORRECTED-1.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
      "name": "2nd Rungta Cement International Fide Rating Chess Tournament",
      "code": "477896",
      "start": "2026-09-30",
@@ -150,15 +141,6 @@
      "end": "2026-10-04",
      "place": "Tamil Nadu",
      "brochure": "https://aicf.in/wp-content/uploads/2026/08/KING-CHESS-ACADEMY-2.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "26th Mizoram Open – 2026 (FIDE Rated Rapid Chess Tournament)",
-     "code": "485576",
-     "start": "2026-10-01",
-     "end": "2026-10-03",
-     "place": "Mizoram",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/09/26th-Mizoram-Open-prospectus.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1034,7 +1016,7 @@
      "start": "2026-12-06",
      "end": "2026-12-06",
      "place": "Navi Mumbai Maharashtra",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/09/8th-Tarabai-2-1.pdf",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/8th-Tarabai-3.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1125,6 +1107,15 @@
      "end": "2026-12-20",
      "place": "Gujarat",
      "brochure": "https://aicf.in/wp-content/uploads/2026/11/SCHOOL.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "GH Raisoni Memorial Bilaspur International FIDE Rapid Rating Chess Tournament – 2026",
+     "code": "511065",
+     "start": "2026-12-19",
+     "end": "2026-12-20",
+     "place": "Bilaspur",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/GH-Raisoni-Memorial-Bilaspur-International-FIDE-Rapid-Rating-Chess-Tournament-2026-2-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1657,7 +1648,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-17T04:19:28.642Z",
+   "checkedAt": "2026-11-18T03:19:01.988Z",
    "ok": true,
    "items": [
     {
@@ -1763,9 +1754,19 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-17T04:19:28.642Z",
+   "checkedAt": "2026-11-18T03:19:01.988Z",
    "ok": true,
    "items": [
+    {
+     "name": "Giri and Firouzja take first-day leads in Total Chess Semifinals",
+     "url": "https://www.fide.com/giri-and-firouzja-take-first-day-leads-in-total-chess-semifinals/",
+     "published": "2026-11-17"
+    },
+    {
+     "name": "FIDE Council approves FIDE Athletes Commission composition for the 2026–2028 term",
+     "url": "https://www.fide.com/fide-council-approves-fide-athletes-commission-composition-for-the-2026-2028-term/",
+     "published": "2026-11-17"
+    },
     {
      "name": "Firouzja, Caruana, Giri and Vachier-Lagrave win groups in Budapest",
      "url": "https://www.fide.com/firouzja-caruana-giri-and-vachier-lagrave-win-groups-in-budapest/",
@@ -1805,16 +1806,6 @@
      "name": "Caruana and Niemann score double wins on Day 2 in Budapest",
      "url": "https://www.fide.com/caruana-and-niemann-score-double-wins-on-day-2-in-budapest/",
      "published": "2026-11-12"
-    },
-    {
-     "name": "Firouzja, Caruana, Nepomniachtchi and Vachier-Lagrave lead after opening Fast Classic day in Budapest",
-     "url": "https://www.fide.com/firouzja-caruana-nepomniachtchi-and-vachier-lagrave-lead-after-opening-fast-classic-day-in-budapest/",
-     "published": "2026-11-11"
-    },
-    {
-     "name": "FIDE President Timur Turlov holds meetings in Budapest",
-     "url": "https://www.fide.com/fide-president-timur-turlov-holds-meetings-in-budapest/",
-     "published": "2026-11-11"
     }
    ]
   }
