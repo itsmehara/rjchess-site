@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-18T03:19:01.988Z",
+ "generatedAt": "2026-11-19T02:56:05.791Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-18T03:19:01.988Z",
+   "checkedAt": "2026-11-19T02:56:05.791Z",
    "ok": true,
    "items": [
     {
@@ -104,7 +104,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-18T03:19:01.988Z",
+   "checkedAt": "2026-11-19T02:56:05.791Z",
    "ok": true,
    "items": [
     {
@@ -114,94 +114,6 @@
      "end": "2026-10-06",
      "place": "Jammu",
      "brochure": "https://aicf.in/wp-content/uploads/2026/06/36th-National-Under-17-open-and-girls-1.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "The Heritage School Classical League",
-     "code": "488807",
-     "start": "2026-09-29",
-     "end": "2026-10-04",
-     "place": "Birbhum, West Bengal",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/The-Heritage-School-Classical-League-Brochure-1.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "2nd Rungta Cement International Fide Rating Chess Tournament",
-     "code": "477896",
-     "start": "2026-09-30",
-     "end": "2026-10-04",
-     "place": "Jharkhand",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/06/2nd-Rungta-Cement-International-Fide-Rating-Tournament-2026.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "6th International Open FIDE Rating chess Tournament 2026",
-     "code": "489225",
-     "start": "2026-09-30",
-     "end": "2026-10-04",
-     "place": "Tamil Nadu",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/KING-CHESS-ACADEMY-2.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "ICC – CHESSFEE International FIDE Rated OPEN Chess Tournament 2026 – 3rd Edition",
-     "code": "437623",
-     "start": "2026-10-01",
-     "end": "2026-10-04",
-     "place": "Tamil Nadu",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/ICC-%E2%80%93-CHESSFEE-International-FIDE-Rated-OPEN-Chess-Tournament-2026-%E2%80%93-3rd-Edition.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Playu – Below 1800 International FIDE Rated Open Chess Tournament",
-     "code": "471846",
-     "start": "2026-10-02",
-     "end": "2026-10-04",
-     "place": "Tamil Nadu",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/Playu-Below-1800-International-FIDE-Rated-Open-Chess-Tournament-01.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Madhya Pradesh State Senior Fide Rating Chess Championship 2026",
-     "code": "484858",
-     "start": "2026-10-02",
-     "end": "2026-10-04",
-     "place": "Indore, MP",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/Madhya-Pradesh-Senior-State-Chess-Championship-2026-by-UICC.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "9th Late Shri Chandrakant Naik Memorial All India FIDE Rapid Rating Chess Tournament 2026",
-     "code": "489380",
-     "start": "2026-10-03",
-     "end": "2026-10-04",
-     "place": "Goa",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "1st Kota International Open Fide Rapid Rating Chess Tournament 2026",
-     "code": "494569",
-     "start": "2026-10-03",
-     "end": "2026-10-04",
-     "place": "Kota, Rajasthan",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/1st-Kota-International-Open-Fide-Rapid-Rating-Chess-Tournament-2026-2.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "1st G H Raisoni Memorial Wardha International FIDE Rapid Rating Chess Tournament 2026",
-     "code": "500998",
-     "start": "2026-10-04",
-     "end": "2026-10-04",
-     "place": "Wardha, Maharashtra",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "1st Saakar Foundation All India Open Fide Rapid Rating Chess Tournament 2026",
-     "code": "488808",
-     "start": "2026-10-04",
-     "end": "2026-10-04",
-     "place": "Maharashtra",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/Final-Brochure-SAAKAR.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -999,6 +911,7 @@
      "start": "2026-12-06",
      "end": "2026-12-06",
      "place": "Karnataka",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/Chadurangotsava-rapid-rating.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1286,6 +1199,15 @@
      "end": "2027-01-03",
      "place": "UP",
      "brochure": "https://aicf.in/wp-content/uploads/2026/10/Tournament-Catlogue-Revised.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "Category A: MCT International FIDE Rapid Rating Chess Tournament 2027",
+     "code": "511169",
+     "start": "2027-01-02",
+     "end": "2027-01-04",
+     "place": "West Bengal",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/MCT-RAPID-CHESS-CIRCULAR-2027.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1648,7 +1570,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-18T03:19:01.988Z",
+   "checkedAt": "2026-11-19T02:56:05.791Z",
    "ok": true,
    "items": [
     {
@@ -1754,9 +1676,14 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-18T03:19:01.988Z",
+   "checkedAt": "2026-11-19T02:56:05.791Z",
    "ok": true,
    "items": [
+    {
+     "name": "Anish Giri and Alireza Firouzja reach Total Chess Final",
+     "url": "https://www.fide.com/anish-giri-and-alireza-firouzja-reach-total-chess-final/",
+     "published": "2026-11-18"
+    },
     {
      "name": "Giri and Firouzja take first-day leads in Total Chess Semifinals",
      "url": "https://www.fide.com/giri-and-firouzja-take-first-day-leads-in-total-chess-semifinals/",
@@ -1765,6 +1692,11 @@
     {
      "name": "FIDE Council approves FIDE Athletes Commission composition for the 2026–2028 term",
      "url": "https://www.fide.com/fide-council-approves-fide-athletes-commission-composition-for-the-2026-2028-term/",
+     "published": "2026-11-17"
+    },
+    {
+     "name": "FIDE World Rapid & Blitz Championships 2026: Registration now open",
+     "url": "https://www.fide.com/registration-for-the-fide-world-rapid-blitz-championships-2026-now-open/",
      "published": "2026-11-17"
     },
     {
@@ -1796,16 +1728,6 @@
      "name": "Six World Amateur Chess Champions crowned in Klang, Malaysia",
      "url": "https://www.fide.com/six-world-amateur-chess-champions-crowned-in-klang-malaysia/",
      "published": "2026-11-13"
-    },
-    {
-     "name": "Faster 60- and 45-minute time controls now eligible for ratings and norms, federations to review changes",
-     "url": "https://www.fide.com/faster-60-and-45-minute-time-controls-now-eligible-for-ratings-and-norms-federations-to-review-changes/",
-     "published": "2026-11-13"
-    },
-    {
-     "name": "Caruana and Niemann score double wins on Day 2 in Budapest",
-     "url": "https://www.fide.com/caruana-and-niemann-score-double-wins-on-day-2-in-budapest/",
-     "published": "2026-11-12"
     }
    ]
   }
