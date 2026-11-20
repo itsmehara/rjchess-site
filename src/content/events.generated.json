@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-19T02:56:05.791Z",
+ "generatedAt": "2026-11-20T02:49:51.696Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-19T02:56:05.791Z",
+   "checkedAt": "2026-11-20T02:49:51.696Z",
    "ok": true,
    "items": [
     {
@@ -104,7 +104,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-19T02:56:05.791Z",
+   "checkedAt": "2026-11-20T02:49:51.696Z",
    "ok": true,
    "items": [
     {
@@ -933,6 +933,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "Under 18 Open Rapid Rating Chess Tournament 2026",
+     "code": "511857",
+     "start": "2026-12-06",
+     "end": "2026-12-06",
+     "place": "Karnataka",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/childrenday_2026_revised-1.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "1st Adhiraj Gadchiroli International Open FIDE Rapid Rating Chess Tournament – 2026",
      "code": "506787",
      "start": "2026-12-06",
@@ -1277,6 +1286,7 @@
      "start": "2027-01-10",
      "end": "2027-01-10",
      "place": "Maharashtra",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/Shegaon-Brochure.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1352,6 +1362,14 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "8th Khannur Below 1700 FIDE Rated Classical Chess Tournament",
+     "code": "499274",
+     "start": "2027-01-22",
+     "end": "2027-01-24",
+     "place": "Mumbai, Maharashtra",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "1st Pixel All India Open FIDE rated Rapid Tournament",
      "code": "506782",
      "start": "2027-01-24",
@@ -1361,20 +1379,21 @@
      "url": "https://aicf.in/all-events/"
     },
     {
-     "name": "8th Khannur Below 1700 FIDE Rated Classical Chess Tournament",
-     "code": "499274",
-     "start": "2027-01-24",
-     "end": "2027-01-26",
-     "place": "Mumbai, Maharashtra",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
      "name": "22nd Delhi International Open Grandmasters Chess Tournament – 2027 (Category ‘C’)",
      "code": "484273",
      "start": "2027-01-25",
      "end": "2027-01-28",
      "place": "Delhi",
      "brochure": "https://aicf.in/wp-content/uploads/2026/11/Venue-Updtaed-Regulations-Delhi-Open-2027.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "Sushruta Reddy – Zenith Rapid FIDE Rating Chess Tournament",
+     "code": "511686",
+     "start": "2027-01-30",
+     "end": "2027-01-30",
+     "place": "Karnataka",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/Zenith_Brochure.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1434,6 +1453,7 @@
      "start": "2027-02-08",
      "end": "2027-02-13",
      "place": "Chennai",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/45_50_TMT_Tamil-Nadu-IM-Norm-Closed-Circuit-Chess-Tournament.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1442,6 +1462,7 @@
      "start": "2027-02-08",
      "end": "2027-02-13",
      "place": "Chennai",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/45_50_TMT_Tamil-Nadu-IM-Norm-Closed-Circuit-Chess-Tournament.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1450,6 +1471,7 @@
      "start": "2027-02-08",
      "end": "2027-02-13",
      "place": "Chennai",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/45_50_TMT_Tamil-Nadu-IM-Norm-Closed-Circuit-Chess-Tournament.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1458,6 +1480,7 @@
      "start": "2027-02-08",
      "end": "2027-02-13",
      "place": "Chennai",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/45_50_TMT_Tamil-Nadu-IM-Norm-Closed-Circuit-Chess-Tournament.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1466,6 +1489,7 @@
      "start": "2027-02-08",
      "end": "2027-02-13",
      "place": "Chennai",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/45_50_TMT_Tamil-Nadu-IM-Norm-Closed-Circuit-Chess-Tournament.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1474,6 +1498,7 @@
      "start": "2027-02-08",
      "end": "2027-02-13",
      "place": "Chennai",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/45_50_TMT_Tamil-Nadu-IM-Norm-Closed-Circuit-Chess-Tournament.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1570,7 +1595,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-19T02:56:05.791Z",
+   "checkedAt": "2026-11-20T02:49:51.696Z",
    "ok": true,
    "items": [
     {
@@ -1676,9 +1701,29 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-19T02:56:05.791Z",
+   "checkedAt": "2026-11-20T02:49:51.696Z",
    "ok": true,
    "items": [
+    {
+     "name": "Giri takes the lead in Total Chess Final",
+     "url": "https://www.fide.com/giri-takes-the-lead-in-total-chess-final/",
+     "published": "2026-11-19"
+    },
+    {
+     "name": "World Junior U20 Chess Championship 2026 begins in Caracas, Venezuela",
+     "url": "https://www.fide.com/world-junior-u20-chess-championship-2026-begins-in-caracas-venezuela/",
+     "published": "2026-11-19"
+    },
+    {
+     "name": "Gukesh and Sindarov set for World Championship showdown",
+     "url": "https://www.fide.com/gukesh-and-sindarov-set-for-world-championship-showdown/",
+     "published": "2026-11-19"
+    },
+    {
+     "name": "Chess by the Numbers: Explore a Decade of FIDE Data, powered by Salesforce Agentforce",
+     "url": "https://www.fide.com/chess-by-the-numbers-explore-a-decade-of-fide-data-powered-by-salesforce-agentforce/",
+     "published": "2026-11-19"
+    },
     {
      "name": "Anish Giri and Alireza Firouzja reach Total Chess Final",
      "url": "https://www.fide.com/anish-giri-and-alireza-firouzja-reach-total-chess-final/",
@@ -1708,26 +1753,6 @@
      "name": "World Senior Chess Champions 2026 crowned in Vrnjačka Banja, Serbia",
      "url": "https://www.fide.com/world-senior-chess-champions-2026-crowned-in-vrnjacka-banja-serbia/",
      "published": "2026-11-15"
-    },
-    {
-     "name": "Giri takes Group C lead as So wins twice on Day 4 in Budapest",
-     "url": "https://www.fide.com/giri-takes-group-c-lead-as-so-wins-twice-on-day-4-in-budapest/",
-     "published": "2026-11-14"
-    },
-    {
-     "name": "Martirosyan defeats Carlsen on Day 3 in Budapest",
-     "url": "https://www.fide.com/martirosyan-defeats-carlsen-on-day-3-in-budapest/",
-     "published": "2026-11-13"
-    },
-    {
-     "name": "Javokhir Sindarov is writing a new page in chess history",
-     "url": "https://www.fide.com/javokhir-sindarov-is-writing-a-new-page-in-chess-history/",
-     "published": "2026-11-13"
-    },
-    {
-     "name": "Six World Amateur Chess Champions crowned in Klang, Malaysia",
-     "url": "https://www.fide.com/six-world-amateur-chess-champions-crowned-in-klang-malaysia/",
-     "published": "2026-11-13"
     }
    ]
   }
