@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-20T02:49:51.696Z",
+ "generatedAt": "2026-11-21T02:59:19.122Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-20T02:49:51.696Z",
+   "checkedAt": "2026-11-21T02:59:19.122Z",
    "ok": true,
    "items": [
     {
@@ -104,18 +104,9 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-20T02:49:51.696Z",
+   "checkedAt": "2026-11-21T02:59:19.122Z",
    "ok": true,
    "items": [
-    {
-     "name": "National Under 17 Chess Championship 2026",
-     "code": "481304 / 481305",
-     "start": "2026-09-28",
-     "end": "2026-10-06",
-     "place": "Jammu",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/06/36th-National-Under-17-open-and-girls-1.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
     {
      "name": "Eight Square Chess Academy – 3rd International FIDE Rated Open Chess Tournament – 2026",
      "code": "485051",
@@ -915,6 +906,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "1st INTERNATIONAL RAPID RATING CHESS TOURNAMENT",
+     "code": "511467",
+     "start": "2026-12-06",
+     "end": "2026-12-06",
+     "place": "Coimbatore",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/CDCA-1st-Rapid-Fide-Prospectus-1_compressed.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "Mahaguru Chashak: 2nd Joseph D’Souza Memorial Open Fide Blitz Rating Chess Tournament 2026",
      "code": "506268",
      "start": "2026-12-06",
@@ -1595,7 +1595,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-20T02:49:51.696Z",
+   "checkedAt": "2026-11-21T02:59:19.122Z",
    "ok": true,
    "items": [
     {
@@ -1701,9 +1701,14 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-20T02:49:51.696Z",
+   "checkedAt": "2026-11-21T02:59:19.122Z",
    "ok": true,
    "items": [
+    {
+     "name": "Alireza Firouzja wins Total Chess Budapest Pilot",
+     "url": "https://www.fide.com/alireza-firouzja-wins-total-chess-budapest-pilot/",
+     "published": "2026-11-20"
+    },
     {
      "name": "Giri takes the lead in Total Chess Final",
      "url": "https://www.fide.com/giri-takes-the-lead-in-total-chess-final/",
@@ -1747,11 +1752,6 @@
     {
      "name": "Firouzja, Caruana, Giri and Vachier-Lagrave win groups in Budapest",
      "url": "https://www.fide.com/firouzja-caruana-giri-and-vachier-lagrave-win-groups-in-budapest/",
-     "published": "2026-11-15"
-    },
-    {
-     "name": "World Senior Chess Champions 2026 crowned in Vrnjačka Banja, Serbia",
-     "url": "https://www.fide.com/world-senior-chess-champions-2026-crowned-in-vrnjacka-banja-serbia/",
      "published": "2026-11-15"
     }
    ]
