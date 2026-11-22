@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-21T02:59:19.122Z",
+ "generatedAt": "2026-11-22T01:54:06.807Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-21T02:59:19.122Z",
+   "checkedAt": "2026-11-22T01:54:06.807Z",
    "ok": true,
    "items": [
     {
@@ -104,7 +104,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-21T02:59:19.122Z",
+   "checkedAt": "2026-11-22T01:54:06.807Z",
    "ok": true,
    "items": [
     {
@@ -1595,7 +1595,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-21T02:59:19.122Z",
+   "checkedAt": "2026-11-22T01:54:06.807Z",
    "ok": true,
    "items": [
     {
@@ -1701,9 +1701,19 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-21T02:59:19.122Z",
+   "checkedAt": "2026-11-22T01:54:06.807Z",
    "ok": true,
    "items": [
+    {
+     "name": "Asian Amateur Championships 2026: Bekbol and Borisova claim blitz titles in Bangkok",
+     "url": "https://www.fide.com/asian-amateur-chess-championships-2026-bekbol-and-borisova-claim-blitz-titles-in-bangkok/",
+     "published": "2026-11-21"
+    },
+    {
+     "name": "FIDE Statement on the Conclusion of the Total Chess World Championship Tour Pilot 2026",
+     "url": "https://www.fide.com/fide-statement-on-the-conclusion-of-the-total-chess-world-championship-tour-pilot-2026/",
+     "published": "2026-11-21"
+    },
     {
      "name": "Alireza Firouzja wins Total Chess Budapest Pilot",
      "url": "https://www.fide.com/alireza-firouzja-wins-total-chess-budapest-pilot/",
@@ -1743,16 +1753,6 @@
      "name": "FIDE Council approves FIDE Athletes Commission composition for the 2026–2028 term",
      "url": "https://www.fide.com/fide-council-approves-fide-athletes-commission-composition-for-the-2026-2028-term/",
      "published": "2026-11-17"
-    },
-    {
-     "name": "FIDE World Rapid & Blitz Championships 2026: Registration now open",
-     "url": "https://www.fide.com/registration-for-the-fide-world-rapid-blitz-championships-2026-now-open/",
-     "published": "2026-11-17"
-    },
-    {
-     "name": "Firouzja, Caruana, Giri and Vachier-Lagrave win groups in Budapest",
-     "url": "https://www.fide.com/firouzja-caruana-giri-and-vachier-lagrave-win-groups-in-budapest/",
-     "published": "2026-11-15"
     }
    ]
   }
