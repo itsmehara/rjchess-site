@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-22T01:54:06.807Z",
+ "generatedAt": "2026-11-23T02:13:32.134Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-22T01:54:06.807Z",
+   "checkedAt": "2026-11-23T02:13:32.134Z",
    "ok": true,
    "items": [
     {
@@ -104,7 +104,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-22T01:54:06.807Z",
+   "checkedAt": "2026-11-23T02:13:32.134Z",
    "ok": true,
    "items": [
     {
@@ -1595,7 +1595,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-22T01:54:06.807Z",
+   "checkedAt": "2026-11-23T02:13:32.134Z",
    "ok": true,
    "items": [
     {
@@ -1701,9 +1701,19 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-22T01:54:06.807Z",
+   "checkedAt": "2026-11-23T02:13:32.134Z",
    "ok": true,
    "items": [
+    {
+     "name": "World Championship Match 2026 opens in Geneva at a historic venue",
+     "url": "https://www.fide.com/world-championship-match-2026-opens-in-geneva-at-a-historic-venue/",
+     "published": "2026-11-22"
+    },
+    {
+     "name": "The two World Championship contenders open up to the media",
+     "url": "https://www.fide.com/the-two-world-championship-contenders-open-up-to-the-media/",
+     "published": "2026-11-22"
+    },
     {
      "name": "Asian Amateur Championships 2026: Bekbol and Borisova claim blitz titles in Bangkok",
      "url": "https://www.fide.com/asian-amateur-chess-championships-2026-bekbol-and-borisova-claim-blitz-titles-in-bangkok/",
@@ -1743,16 +1753,6 @@
      "name": "Anish Giri and Alireza Firouzja reach Total Chess Final",
      "url": "https://www.fide.com/anish-giri-and-alireza-firouzja-reach-total-chess-final/",
      "published": "2026-11-18"
-    },
-    {
-     "name": "Giri and Firouzja take first-day leads in Total Chess Semifinals",
-     "url": "https://www.fide.com/giri-and-firouzja-take-first-day-leads-in-total-chess-semifinals/",
-     "published": "2026-11-17"
-    },
-    {
-     "name": "FIDE Council approves FIDE Athletes Commission composition for the 2026–2028 term",
-     "url": "https://www.fide.com/fide-council-approves-fide-athletes-commission-composition-for-the-2026-2028-term/",
-     "published": "2026-11-17"
     }
    ]
   }
