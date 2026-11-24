@@ -1,23 +1,15 @@
 {
- "generatedAt": "2026-11-23T02:13:32.134Z",
+ "generatedAt": "2026-11-24T05:44:18.208Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-23T02:13:32.134Z",
+   "checkedAt": "2026-11-24T05:44:18.208Z",
    "ok": true,
    "items": [
     {
-     "name": "SMT JANAKAMMALU 7TH MEMORIAL STATE OPEN CHESS TOURNAMENT 2026",
-     "start": "2026-11-22",
-     "url": "https://apchess.org/event-details/details/all/1816",
-     "brochure": "https://apchess.org/assets/events/brochures/1793295341_9369.pdf",
-     "register": "https://apchess.org/signin",
-     "completed": false
-    },
-    {
-     "name": "SCOTSPINE'S ANDHRA PRADESH STATE OPEN RAPID CHESS TOURNAMENT - 2026",
+     "name": "GREEN SCHOOL ANDHRA PRADESH STATE OPEN RAPID CHESS TOURNAMENT - 2026",
      "start": "2026-11-29",
      "url": "https://apchess.org/event-details/details/all/1819",
-     "brochure": "https://apchess.org/assets/events/brochures/1794239738_8850.pdf",
+     "brochure": "https://apchess.org/assets/events/brochures/1795407386_3927.pdf",
      "register": "https://apchess.org/signin",
      "completed": false
     },
@@ -104,7 +96,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-23T02:13:32.134Z",
+   "checkedAt": "2026-11-24T05:44:18.208Z",
    "ok": true,
    "items": [
     {
@@ -123,14 +115,6 @@
      "end": "2026-10-11",
      "place": "Delhi",
      "brochure": "https://aicf.in/wp-content/uploads/2026/08/NexChess-International-Open-Final-Brochure.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Grandeur 10 – International Open FIDE Blitz Rating Chess Tournament, Vadodara 2026",
-     "code": "487596",
-     "start": "2026-10-09",
-     "end": "2026-10-09",
-     "place": "Gujarat",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -875,7 +859,7 @@
      "start": "2026-12-04",
      "end": "2026-12-06",
      "place": "Tirupattur DT, Tamil Nadu",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/11/Tirupattur_Prospectus.pdf",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/Tirupattur_Prospectus_Combined_2_Pages_2MB.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -912,6 +896,15 @@
      "end": "2026-12-06",
      "place": "Coimbatore",
      "brochure": "https://aicf.in/wp-content/uploads/2026/11/CDCA-1st-Rapid-Fide-Prospectus-1_compressed.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "playu – 3 rd International FIDE Rapid Rated Open Chess Tournament 2026",
+     "code": "507988",
+     "start": "2026-12-06",
+     "end": "2026-12-06",
+     "place": "Tamil Nadu",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/Playu-3rd-Open-Chess-Tournament-A4-01.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1166,6 +1159,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "1st CLOUD LABS INTERNATIONAL OPEN FIDE RAPID RATING CHESS TOURNAMENT",
+     "code": "509586",
+     "start": "2026-12-27",
+     "end": "2026-12-27",
+     "place": "Gujarat",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/FIDE-Rapid-@-Bilimora.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "5th Late Shri. Shankar Shet Memorial 1st Open FIDE Rated Rapid Chess Tournament 2026",
      "code": "501321",
      "start": "2026-12-27",
@@ -1287,6 +1289,15 @@
      "end": "2027-01-10",
      "place": "Maharashtra",
      "brochure": "https://aicf.in/wp-content/uploads/2026/11/Shegaon-Brochure.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "Eight Square Chess Academy – 4th International FIDE Rated Rapid Chess Tournament – 2027",
+     "code": "486710",
+     "start": "2027-01-10",
+     "end": "2027-01-10",
+     "place": "Tamil Nadu",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/ECA_Rapid_Jan_2027_Prospectus.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1595,7 +1606,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-23T02:13:32.134Z",
+   "checkedAt": "2026-11-24T05:44:18.208Z",
    "ok": true,
    "items": [
     {
@@ -1701,9 +1712,14 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-23T02:13:32.134Z",
+   "checkedAt": "2026-11-24T05:44:18.208Z",
    "ok": true,
    "items": [
+    {
+     "name": "FIDE World Rapid & Blitz Championships 2026: Media accreditation now open",
+     "url": "https://www.fide.com/fide-world-rapid-blitz-championships-2026-media-accreditation-now-open/",
+     "published": "2026-11-23"
+    },
     {
      "name": "World Championship Match 2026 opens in Geneva at a historic venue",
      "url": "https://www.fide.com/world-championship-match-2026-opens-in-geneva-at-a-historic-venue/",
@@ -1748,11 +1764,6 @@
      "name": "Chess by the Numbers: Explore a Decade of FIDE Data, powered by Salesforce Agentforce",
      "url": "https://www.fide.com/chess-by-the-numbers-explore-a-decade-of-fide-data-powered-by-salesforce-agentforce/",
      "published": "2026-11-19"
-    },
-    {
-     "name": "Anish Giri and Alireza Firouzja reach Total Chess Final",
-     "url": "https://www.fide.com/anish-giri-and-alireza-firouzja-reach-total-chess-final/",
-     "published": "2026-11-18"
     }
    ]
   }
