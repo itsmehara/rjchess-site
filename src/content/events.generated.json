@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-24T05:44:18.208Z",
+ "generatedAt": "2026-11-25T04:46:40.909Z",
  "sources": {
   "ap": {
    "checkedAt": "2026-11-24T05:44:18.208Z",
-   "ok": true,
+   "ok": false,
    "items": [
     {
      "name": "GREEN SCHOOL ANDHRA PRADESH STATE OPEN RAPID CHESS TOURNAMENT - 2026",
@@ -93,10 +93,12 @@
      "url": "https://apchess.org/event-details/details/all/1794",
      "completed": true
     }
-   ]
+   ],
+   "error": "fetch failed",
+   "failedAt": "2026-11-25T04:46:40.909Z"
   },
   "aicf": {
-   "checkedAt": "2026-11-24T05:44:18.208Z",
+   "checkedAt": "2026-11-25T04:46:40.909Z",
    "ok": true,
    "items": [
     {
@@ -465,14 +467,6 @@
      "end": "2026-11-08",
      "place": "Tripura",
      "brochure": "https://aicf.in/wp-content/uploads/2026/09/2nd-Shafali-Rapid-Prospuctus.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "1st T-RERA International Open FIDE Rating Blitz Chess Tournament, 2026",
-     "code": "499401",
-     "start": "2026-11-10",
-     "place": "Tripura",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/10/T-Rera-Blitz_2026.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1606,7 +1600,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-24T05:44:18.208Z",
+   "checkedAt": "2026-11-25T04:46:40.909Z",
    "ok": true,
    "items": [
     {
@@ -1712,9 +1706,19 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-24T05:44:18.208Z",
+   "checkedAt": "2026-11-25T04:46:40.909Z",
    "ok": true,
    "items": [
+    {
+     "name": "Salesforce FIDE World Championship Match: A draw in the opening game",
+     "url": "https://www.fide.com/salesforce-fide-world-championship-match-a-draw-in-the-opening-game/",
+     "published": "2026-11-24"
+    },
+    {
+     "name": "World Junior Championship U20 Championship 2026 at midpoint: India tops the standings in both sections",
+     "url": "https://www.fide.com/world-junior-championship-u20-championship-2026-at-midpoint-india-tops-the-standings-in-both-sections/",
+     "published": "2026-11-24"
+    },
     {
      "name": "FIDE World Rapid & Blitz Championships 2026: Media accreditation now open",
      "url": "https://www.fide.com/fide-world-rapid-blitz-championships-2026-media-accreditation-now-open/",
@@ -1753,16 +1757,6 @@
     {
      "name": "World Junior U20 Chess Championship 2026 begins in Caracas, Venezuela",
      "url": "https://www.fide.com/world-junior-u20-chess-championship-2026-begins-in-caracas-venezuela/",
-     "published": "2026-11-19"
-    },
-    {
-     "name": "Gukesh and Sindarov set for World Championship showdown",
-     "url": "https://www.fide.com/gukesh-and-sindarov-set-for-world-championship-showdown/",
-     "published": "2026-11-19"
-    },
-    {
-     "name": "Chess by the Numbers: Explore a Decade of FIDE Data, powered by Salesforce Agentforce",
-     "url": "https://www.fide.com/chess-by-the-numbers-explore-a-decade-of-fide-data-powered-by-salesforce-agentforce/",
      "published": "2026-11-19"
     }
    ]
