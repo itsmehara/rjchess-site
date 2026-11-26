@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-25T04:46:40.909Z",
+ "generatedAt": "2026-11-26T03:56:48.413Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-24T05:44:18.208Z",
-   "ok": false,
+   "checkedAt": "2026-11-26T03:56:48.413Z",
+   "ok": true,
    "items": [
     {
      "name": "GREEN SCHOOL ANDHRA PRADESH STATE OPEN RAPID CHESS TOURNAMENT - 2026",
@@ -93,67 +93,12 @@
      "url": "https://apchess.org/event-details/details/all/1794",
      "completed": true
     }
-   ],
-   "error": "fetch failed",
-   "failedAt": "2026-11-25T04:46:40.909Z"
+   ]
   },
   "aicf": {
-   "checkedAt": "2026-11-25T04:46:40.909Z",
+   "checkedAt": "2026-11-26T03:56:48.413Z",
    "ok": true,
    "items": [
-    {
-     "name": "Eight Square Chess Academy – 3rd International FIDE Rated Open Chess Tournament – 2026",
-     "code": "485051",
-     "start": "2026-10-07",
-     "end": "2026-10-11",
-     "place": "Chennai",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/07/ECA_OPEN_Prospectus_Oct2026.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Nexchess International Open Fide Rating Chess tournament",
-     "code": "492654",
-     "start": "2026-10-07",
-     "end": "2026-10-11",
-     "place": "Delhi",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/NexChess-International-Open-Final-Brochure.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Grandeur 10 – International Open FIDE Rapid Rating Chess Tournament, Vadodara 2026",
-     "code": "487595",
-     "start": "2026-10-10",
-     "end": "2026-10-11",
-     "place": "Gujarat",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/Grandeur-10-by-Dhruvik-Chess-Academy.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "1st CHESS – TITANS FIDE RATED RAPID CHESS TOURNAMENT",
-     "code": "494630",
-     "start": "2026-10-11",
-     "end": "2026-10-11",
-     "place": "Bangalore, Karnataka",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/1st-Chess-Titans-FIDE-Rated-Rapid-Chess-Tournament-AICF.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "Bhadra Chess Academy All India Open FIDE Rated Rapid Chess Tournament",
-     "code": "495345",
-     "start": "2026-10-11",
-     "end": "2026-10-11",
-     "place": "Karnataka",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "GKCA & MMCA 1st International Open FIDE Rating Rapid Chess Tournament 2026",
-     "code": "491332",
-     "start": "2026-10-11",
-     "end": "2026-10-11",
-     "place": "Chengalpattu, Tamil Nadu",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/09/GKCA_MMCA_Prospectus_491332.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
     {
      "name": "National Under 15",
      "code": "487696/487697",
@@ -1135,6 +1080,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "1st Vedic Dehradun International Open FIDE Rated Rapid Chess Tournament 2026",
+     "code": "512596",
+     "start": "2026-12-26",
+     "end": "2026-12-27",
+     "place": "Dehradun, Uttarakhand",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/255935.png",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "Athens of the East 6th International Grandmaster Open Chess Tournament (Category – D Below 1800)",
      "code": "482569",
      "start": "2026-12-26",
@@ -1375,6 +1329,24 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "The Heritage School Chaturanga Rapid Rating Chess Tournament 2027",
+     "code": "511499",
+     "start": "2027-01-23",
+     "end": "2027-01-24",
+     "place": "West Bengal",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/Chess-brochure-2.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
+     "name": "The Heritage School Chaturanga Blitz Rating 2027",
+     "code": "511500",
+     "start": "2027-01-24",
+     "end": "2027-01-24",
+     "place": "West Bengal",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/Chess-brochure-2.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "1st Pixel All India Open FIDE rated Rapid Tournament",
      "code": "506782",
      "start": "2027-01-24",
@@ -1600,7 +1572,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-25T04:46:40.909Z",
+   "checkedAt": "2026-11-26T03:56:48.413Z",
    "ok": true,
    "items": [
     {
@@ -1706,9 +1678,19 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-25T04:46:40.909Z",
+   "checkedAt": "2026-11-26T03:56:48.413Z",
    "ok": true,
    "items": [
+    {
+     "name": "Salesforce FIDE World Championship Match: Gukesh and Sindarov size each other up",
+     "url": "https://www.fide.com/salesforce-fide-world-championship-match-gukesh-and-sindarov-size-each-other-up/",
+     "published": "2026-11-25"
+    },
+    {
+     "name": "2026 FIDE General Assembly: Minutes",
+     "url": "https://www.fide.com/2025-fide-online-general-assembly-minutes-copy/",
+     "published": "2026-11-25"
+    },
     {
      "name": "Salesforce FIDE World Championship Match: A draw in the opening game",
      "url": "https://www.fide.com/salesforce-fide-world-championship-match-a-draw-in-the-opening-game/",
@@ -1748,16 +1730,6 @@
      "name": "Alireza Firouzja wins Total Chess Budapest Pilot",
      "url": "https://www.fide.com/alireza-firouzja-wins-total-chess-budapest-pilot/",
      "published": "2026-11-20"
-    },
-    {
-     "name": "Giri takes the lead in Total Chess Final",
-     "url": "https://www.fide.com/giri-takes-the-lead-in-total-chess-final/",
-     "published": "2026-11-19"
-    },
-    {
-     "name": "World Junior U20 Chess Championship 2026 begins in Caracas, Venezuela",
-     "url": "https://www.fide.com/world-junior-u20-chess-championship-2026-begins-in-caracas-venezuela/",
-     "published": "2026-11-19"
     }
    ]
   }
