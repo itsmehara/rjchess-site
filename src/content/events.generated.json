@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-26T03:56:48.413Z",
+ "generatedAt": "2026-11-27T03:56:23.986Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-26T03:56:48.413Z",
+   "checkedAt": "2026-11-27T03:56:23.986Z",
    "ok": true,
    "items": [
     {
@@ -96,7 +96,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-26T03:56:48.413Z",
+   "checkedAt": "2026-11-27T03:56:23.986Z",
    "ok": true,
    "items": [
     {
@@ -825,7 +825,7 @@
      "start": "2026-12-06",
      "end": "2026-12-06",
      "place": "Karnataka",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/11/Chadurangotsava-rapid-rating.pdf",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/Chadurangotsava-rapid-rating-2.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1572,7 +1572,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-26T03:56:48.413Z",
+   "checkedAt": "2026-11-27T03:56:23.986Z",
    "ok": true,
    "items": [
     {
@@ -1678,9 +1678,19 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-26T03:56:48.413Z",
+   "checkedAt": "2026-11-27T03:56:23.986Z",
    "ok": true,
    "items": [
+    {
+     "name": "Salesforce FIDE World Championship, Game 3: A tense fight ends in a draw",
+     "url": "https://www.fide.com/salesforce-fide-world-championship-game-3-a-tense-fight-ends-in-a-draw/",
+     "published": "2026-11-26"
+    },
+    {
+     "name": "World-сlass commentary meets cutting-edge technology at the Salesforce FIDE World Championship Match 2026",
+     "url": "https://www.fide.com/world-%d1%81lass-commentary-meets-cutting-edge-technology-at-the-salesforce-fide-world-championship-match-2026/",
+     "published": "2026-11-26"
+    },
     {
      "name": "Salesforce FIDE World Championship Match: Gukesh and Sindarov size each other up",
      "url": "https://www.fide.com/salesforce-fide-world-championship-match-gukesh-and-sindarov-size-each-other-up/",
@@ -1720,16 +1730,6 @@
      "name": "Asian Amateur Championships 2026: Bekbol and Borisova claim blitz titles in Bangkok",
      "url": "https://www.fide.com/asian-amateur-chess-championships-2026-bekbol-and-borisova-claim-blitz-titles-in-bangkok/",
      "published": "2026-11-21"
-    },
-    {
-     "name": "FIDE Statement on the Conclusion of the Total Chess World Championship Tour Pilot 2026",
-     "url": "https://www.fide.com/fide-statement-on-the-conclusion-of-the-total-chess-world-championship-tour-pilot-2026/",
-     "published": "2026-11-21"
-    },
-    {
-     "name": "Alireza Firouzja wins Total Chess Budapest Pilot",
-     "url": "https://www.fide.com/alireza-firouzja-wins-total-chess-budapest-pilot/",
-     "published": "2026-11-20"
     }
    ]
   }
