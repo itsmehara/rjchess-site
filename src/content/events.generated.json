@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-27T03:56:23.986Z",
+ "generatedAt": "2026-11-28T03:43:03.251Z",
  "sources": {
   "ap": {
-   "checkedAt": "2026-11-27T03:56:23.986Z",
+   "checkedAt": "2026-11-28T03:43:03.251Z",
    "ok": true,
    "items": [
     {
@@ -96,7 +96,7 @@
    ]
   },
   "aicf": {
-   "checkedAt": "2026-11-27T03:56:23.986Z",
+   "checkedAt": "2026-11-28T03:43:03.251Z",
    "ok": true,
    "items": [
     {
@@ -730,6 +730,15 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "1st RIMS International FIDE Rapid Rating Open chess tournament-2026",
+     "code": "504583",
+     "start": "2026-11-29",
+     "end": "2026-11-29",
+     "place": "Tamil Nadu",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/504583R2026.pdf",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "Khannur Rapid Rated Chess Tournament – Bengaluru",
      "code": "501318",
      "start": "2026-11-29",
@@ -1211,7 +1220,7 @@
      "start": "2027-01-09",
      "end": "2027-01-10",
      "place": "Jabalpur",
-     "brochure": "https://aicf.in/wp-content/uploads/2026/08/4TH-JABALPUR-INTERNATIONAL-OPEN-FIDE-RAPID-RATING-CHESS-TOURNAMENT-2027_.pdf",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/UPDATED-4TH-JABALPUR-INTERNATIONAL-OPEN-FIDE-RAPID-RATING-CHESS-TOURNAMENT-JANUARY_2027-1.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1347,6 +1356,14 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "3rd DNC Memorial FIDE Rapid Rating Open chess tournament Dharmapuri 2027",
+     "code": "506124",
+     "start": "2027-01-24",
+     "end": "2027-01-24",
+     "place": "Tamil Nadu",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "1st Pixel All India Open FIDE rated Rapid Tournament",
      "code": "506782",
      "start": "2027-01-24",
@@ -1400,20 +1417,20 @@
      "url": "https://aicf.in/all-events/"
     },
     {
+     "name": "SportsCentric FIDE Rated Chess Tournament",
+     "code": "503923",
+     "start": "2027-01-31",
+     "end": "2027-01-31",
+     "place": "Karnataka",
+     "url": "https://aicf.in/all-events/"
+    },
+    {
      "name": "Late Shri Manohar Parrikar” Goa Below 1700 Chess Tournament 2027 (Cat “C”)",
      "code": "505086",
      "start": "2027-02-03",
      "end": "2027-02-06",
      "place": "Goa",
      "brochure": "https://aicf.in/wp-content/uploads/2026/11/2027-Goa-GM.pdf",
-     "url": "https://aicf.in/all-events/"
-    },
-    {
-     "name": "SportsCentric FIDE Rated Chess Tournament",
-     "code": "503923",
-     "start": "2027-01-31",
-     "end": "2027-01-31",
-     "place": "Karnataka",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1484,6 +1501,7 @@
      "start": "2027-02-09",
      "end": "2027-02-15",
      "place": "Haryana",
+     "brochure": "https://aicf.in/wp-content/uploads/2026/11/NT.pdf",
      "url": "https://aicf.in/all-events/"
     },
     {
@@ -1572,7 +1590,7 @@
    ]
   },
   "ts": {
-   "checkedAt": "2026-11-27T03:56:23.986Z",
+   "checkedAt": "2026-11-28T03:43:03.251Z",
    "ok": true,
    "items": [
     {
@@ -1678,9 +1696,19 @@
    ]
   },
   "fide": {
-   "checkedAt": "2026-11-27T03:56:23.986Z",
+   "checkedAt": "2026-11-28T03:43:03.251Z",
    "ok": true,
    "items": [
+    {
+     "name": "Agenda for FIDE Extraordinary General Assembly",
+     "url": "https://www.fide.com/agenda-for-fide-extraordinary-general-assembly-december-27-2026/",
+     "published": "2026-11-27"
+    },
+    {
+     "name": "4th FIDE Council meeting 24 November, 2026: List of decisions",
+     "url": "https://www.fide.com/4th-fide-council-meeting-24-november-2026-list-of-decisions/",
+     "published": "2026-11-27"
+    },
     {
      "name": "Salesforce FIDE World Championship, Game 3: A tense fight ends in a draw",
      "url": "https://www.fide.com/salesforce-fide-world-championship-game-3-a-tense-fight-ends-in-a-draw/",
@@ -1720,16 +1748,6 @@
      "name": "World Championship Match 2026 opens in Geneva at a historic venue",
      "url": "https://www.fide.com/world-championship-match-2026-opens-in-geneva-at-a-historic-venue/",
      "published": "2026-11-22"
-    },
-    {
-     "name": "The two World Championship contenders open up to the media",
-     "url": "https://www.fide.com/the-two-world-championship-contenders-open-up-to-the-media/",
-     "published": "2026-11-22"
-    },
-    {
-     "name": "Asian Amateur Championships 2026: Bekbol and Borisova claim blitz titles in Bangkok",
-     "url": "https://www.fide.com/asian-amateur-chess-championships-2026-bekbol-and-borisova-claim-blitz-titles-in-bangkok/",
-     "published": "2026-11-21"
     }
    ]
   }
